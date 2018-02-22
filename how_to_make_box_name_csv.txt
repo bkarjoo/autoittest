@@ -1,0 +1,16 @@
+The making of the box_loc.csv file
+
+Copy from blackbox tree into excel.
+Delete all columns except box Name.
+Create 3 columns before box name column.
+
+Columns :
+1 - quant number (1 or 2)
+2 - folder number
+3 - box number within the foler
+4 - box name
+
+Each time a change is made such as boxes being moved around, there must be an adjustment
+to the box_name.csv as well.
+
+Exclude archived boxes. You don't want them to be used for back tests. 

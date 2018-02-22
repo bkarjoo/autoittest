@@ -2,6 +2,7 @@ import pyautogui
 import time
 from pixel_color import *
 import keyboard
+from box_name_importer import *
 
 def move_mouse(p):
     pyautogui.moveTo(p[0],p[1])
@@ -260,4 +261,4 @@ def change_backtesting_date(date):
 # open_box(folder,box)
 # time.sleep(.1)
 # run_back_test()
-change_backtesting_date('2011-04-22')
+# change_backtesting_date('2011-04-22')
