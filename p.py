@@ -4,6 +4,7 @@ from pixel_color import *
 import keyboard
 from box_name_importer import *
 
+#hi
 def move_mouse(p):
     pyautogui.moveTo(p[0],p[1])
 
