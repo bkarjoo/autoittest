@@ -251,6 +251,17 @@ def change_backtesting_date(date):
     single_click(save_button)
     pass
 
+
+def run_tests(live_runs):
+    # takes csv list with two columns date, box_name_importer
+    # TODO Read List
+    # TODO Load box mapping
+    # TODO loop through live run_tests
+    # TODO find the backtest
+    # TODO set the date (if necessary)
+    # TODO run the test
+    pass
+
 # launcher_corner = get_window_corner(get_first_windows_point())
 # launcher_open_button = get_launcher_button(launcher_corner, 2)
 #
