@@ -47,15 +47,15 @@ def get_row_count():
 def get_box_address(box_name, quant):
     q = "SELECT folder, box FROM box_loc WHERE box_name = '{}' and quant = {}".format(box_name, quant)
     res = execute_inmem_query(q)
-    print res
+    # print res
     try:
         return res[0]
     except:
         return None
 
-#create_in_mem_db()
-#create_box_loc_table()
-#load_box_loc_csv()
+# create_in_mem_db()
+# create_box_loc_table()
+# load_box_loc_csv()
 #print get_row_count()
 #print get_box_address('OPG MR_Ratings MR_S_200_Sankalp Krishnan',2)
 #

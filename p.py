@@ -3,7 +3,9 @@ import time
 from pixel_color import *
 import keyboard
 from box_name_importer import *
+import csv
 
+long_delay = 2
 #hi
 def move_mouse(p):
     pyautogui.moveTo(p[0],p[1])
@@ -42,14 +44,11 @@ def get_window_corner(p):
             if get_color(p) == 0: return (p[0],p[1]+1)
             if p[1] == 0: return (p[0],1)
 
-
 def get_launcher_button_level(corner):
     # find the first window point
     p = corner
     button_level = (p[0]+30,p[1]+50)
     return button_level
-
-
 
 def get_launcher_button(corner, which_button):
     p = get_launcher_button_level(corner)
@@ -69,7 +68,9 @@ def single_click(point):
 
 def double_click(point):
     move_mouse(point)
-    pyautogui.click(clicks=2)
+    pyautogui.click(clicks=1)
+    time.sleep(.1)
+    pyautogui.click(clicks=1)
 
 def find_window_edge():
     for x in range(1,1000,10):
@@ -111,24 +112,66 @@ def get_open_button(upper_corner):
     return (upper_corner[0]+1075,upper_corner[1]+712)
 
 def open_box(folder,box):
+    print 'open_box', folder, box
     launcher_corner = get_window_corner(get_first_windows_point())
     launcher_open_button = get_launcher_button(launcher_corner, 2)
+    print 'opening tree -- long delay', long_delay
+    time.sleep(long_delay)
     double_click(launcher_open_button)
-    time.sleep(.1)
+    time.sleep(.25)
     open_dialog_edge = find_window_edge()
     open_dialog_corner = get_upper_corner(open_dialog_edge)
+
+    print 'foldering down -- long delay', long_delay
+    time.sleep(long_delay)
     for i in range(0,folder-1):
         keyboard.press_and_release('down')
-        time.sleep(.01)
+        time.sleep(.075)
+    time.sleep(.05)
     keyboard.press_and_release('tab')
+    time.sleep(.05)
     keyboard.press_and_release('tab')
+    time.sleep(.05)
+
+    print 'boxing down -- long delay', long_delay
+    time.sleep(long_delay)
     for i in range(0,box-1):
         keyboard.press_and_release('down')
-        time.sleep(.01)
+        time.sleep(.075)
+    time.sleep(.05)
+
+    print 'opening box -- long delay', long_delay
+    time.sleep(long_delay)
     open_button = get_open_button(open_dialog_corner)
+
     double_click(open_button)
-    time.sleep(.1)
+
+    print 'closing box -- long delay', long_delay
+    time.sleep(long_delay)
+    move_mouse((200,940))
+    time.sleep(.05)
+    pyautogui.click()
+    time.sleep(.05)
     keyboard.press_and_release('space')
+
+    time.sleep(.1)
+    i = 1
+
+    print 'making sure box closed -- long delay', long_delay
+    time.sleep(long_delay)
+    while True:
+        print ('waiting 142')
+        if is_clear: break
+        i += 1
+        if i > 10:
+            move_mouse((200,940))
+            pyautogui.click()
+            keyboard.press_and_release('space')
+            break
+        time.sleep(.1)
+
+
+    # TODO : Confirm it's cosed by looking for black space under launcher
 
 def run_back_test():
     launcher_corner = get_window_corner(get_first_windows_point())
@@ -251,13 +294,96 @@ def change_backtesting_date(date):
     single_click(save_button)
     pass
 
+def load_live_runs():
+    try:
+        with open('live_runs.csv') as csvDataFile:
+            csvReader = csv.reader(csvDataFile)
+            for row in csvReader:
+                print row[0],row[1]
+    except Exception as e:
+        print e
 
-def run_tests(live_runs):
-    # takes csv list with two columns date, box_name_importer
-    # TODO Read List
+def is_clear():
+    # returns true if there's no open windows under the launcher, false otherwise
+
+    for x in range(10,600,50):
+        for y in range (300, 900, 50):
+            p = (x,y)
+            if get_color(p) != 0: return False
+
+    return True
+
+def run_tests(whichQuant = 1):
+    # takes csv list with two columns date, box_name
     # TODO Load box mapping
-    # TODO loop through live run_tests
-    # TODO find the backtest
+    create_in_mem_db()
+    create_box_loc_table()
+    load_box_loc_csv()
+    # TODO Read List
+    theDate = ''
+
+    with open('live_runs.csv') as csvDataFile:
+        csvReader = csv.reader(csvDataFile)
+        for row in csvReader:
+            try:
+                print 'looking for box -- long delay', long_delay
+                time.sleep(long_delay)
+                # x = raw_input('fetching box details for box {} in quant {}'.format(row[1], whichQuant))
+                box_add = get_box_address(row[1],whichQuant)
+                print row[1], box_add
+
+                print row[0]
+                if row[0] != theDate:
+                    print 'setting date -- long delay', long_delay
+                    time.sleep(long_delay)
+                    # x = raw_input('setting date to {}'.format(row[0]))
+                    theDate = row[0]
+                    change_backtesting_date(theDate)
+                    while not is_clear():
+                        time.sleep(.1)
+
+                # x = raw_input('opening box')
+                print 'calling open_box'
+                open_box(box_add[0],box_add[1])
+
+
+                i = 1
+                while True:
+                    print 'waiting 314'
+                    if is_clear(): break
+                    i += 1
+                    if i > 10: break
+                    time.sleep(.1)
+
+                # x = raw_input('running back test')
+                print 'running back test -- long delay', long_delay
+                time.sleep(long_delay)
+                run_back_test()
+                time.sleep(.2)
+
+
+                print 'closing small window -- long delay', long_delay
+                time.sleep(long_delay)
+                i = 1
+                while True:
+                    print ('waiting 324')
+                    if is_clear(): break
+                    keyboard.press_and_release('space')
+                    i += 1
+                    if i > 10: break
+                    time.sleep(.1)
+                # x = raw_input('done')
+
+                # x = raw_input('continue (y/n)')
+                # if x == 'n':
+                #     break
+            except Exception as e:
+                print 'Error', e
+                x = raw_input('press a key to continue')
+
+
+
+
     # TODO set the date (if necessary)
     # TODO run the test
     pass
@@ -265,12 +391,13 @@ def run_tests(live_runs):
 # launcher_corner = get_window_corner(get_first_windows_point())
 # launcher_open_button = get_launcher_button(launcher_corner, 2)
 #
-#
-#
-#
 # folder = 40
 # box = 88
 # open_box(folder,box)
 # time.sleep(.1)
 # run_back_test()
 # change_backtesting_date('2011-04-22')
+
+run_tests()
+
+# print is_clear()
