@@ -1,48 +1,79 @@
 import pyautogui
 import time
-from pixel_color import *
 import keyboard
 from box_name_importer import *
 import csv
+import ImageGrab
 
-long_delay = 2
+long_delay = .1
+debug_print = True
 #hi
 def move_mouse(p):
-    pyautogui.moveTo(p[0],p[1])
+    if p[0] > 0 and p[1] > 0:
+        pyautogui.moveTo(p[0],p[1])
+
+
+def get_color(p,image):
+    p = (p[0]-1,p[1]-1)
+    return image.getpixel(p)
+
 
 def get_first_windows_point():
+    # comes down from 1,1 diagonally, assumes the first window is in its diagonal path
+    if debug_print: print 'debug:','get_first_windows_point'
+    i = ImageGrab.grab()
     for x in range(1,1000):
         p = (x,x)
-        if get_color(p) != 0: return p
+        if get_color(p,i) != (0,0,0): return p
 
-def is_top_of_window(p):
+
+def is_top_of_window(p, i):
     # it's top if left and right are not 0 and above is 0
-    above = (p[0],p[1]-1)
-    left = (p[0]-1,p[1])
-    right = (p[0]+1,p[1])
-    if p[1] == 1 and p[0] == 1:
-        return get_color((1,1)) != 0
+    if debug_print: print 'debug:','is_top_of_window'
+
+
+    # get above left and rigt
+    if p[1] > 1:
+        above = (p[0],p[1]-1)
+    if p[0] > 1:
+        left = (p[0]-1,p[1])
+    if p[0] < i.size[0]:
+        right = (p[0]+1,p[1])
+    if p == (1, 1):
+        # can't go left or up
+        return get_color(p,i) != (0,0,0) and get_color(right,i) != (0,0,0)
     elif p[1] == 1:
-        return get_color(left) != 0 and get_color(right) != 0
+        # can't go any higher, but we can go left and right
+        return get_color(left,i) != (0,0,0) and get_color(right,i) != (0,0,0)
     elif p[0] == 1:
-        return get_color(above) == 0
+        # can't go any more left, but can go up and right
+        return get_color(above,i) != (0,0,0) and get_color(right,i) != (0,0,0)
     else:
-        return get_color(above) == 0 and get_color(left) != 0 and get_color(right) != 0
+        # we can go left, right, and up
+        return get_color(right,i) != (0,0,0) and get_color(left,i) != (0,0,0) and get_color(above,i) == (0,0,0)
+
 
 def get_window_corner(p):
-    if is_top_of_window(p):
-        # loop left
-        #print 1
+    # assumes you're at the edge, either top, or left side
+    if debug_print: print 'debug:','get_window_corner'
+    i = ImageGrab.grab()
+    if is_top_of_window(p,i):
+        # loop left to get to edge
         while True:
+            if p[0] <= 1: return (1, p[1])
             p = (p[0]-1,p[1])
-            if get_color(p) == 0: return (p[0]+1,p[1])
-            if p[0] == 0: return (1,p[1])
+            if get_color(p,i) == (0,0,0):
+                # retract one pixel to get back on the window
+                return (p[0]+1,p[1])
     else:
         # loop up
         while True:
-            p = (p[0],p[1]-1)
-            if get_color(p) == 0: return (p[0],p[1]+1)
-            if p[1] == 0: return (p[0],1)
+            if p[1] <= 1: return (p[0], 1)
+            p = (p[0], p[1]-1)
+            if get_color(p,i) == (0,0,0):
+                # retract one pixel to get back on the window
+                return (p[0],p[1]+1)
+
 
 def get_launcher_button_level(corner):
     # find the first window point
@@ -50,10 +81,12 @@ def get_launcher_button_level(corner):
     button_level = (p[0]+30,p[1]+50)
     return button_level
 
+
 def get_launcher_button(corner, which_button):
     p = get_launcher_button_level(corner)
     offset = (which_button-1) * 55
     return (p[0] + offset, p[1])
+
 
 def loop_through_buttons(corner):
     p = get_launcher_button_level(corner)
@@ -62,9 +95,11 @@ def loop_through_buttons(corner):
         move_mouse(p)
         time.sleep(.5)
 
+
 def single_click(point):
     move_mouse(point)
     pyautogui.click()
+
 
 def double_click(point):
     move_mouse(point)
@@ -72,53 +107,67 @@ def double_click(point):
     time.sleep(.1)
     pyautogui.click(clicks=1)
 
+
 def find_window_edge():
+    image = ImageGrab.grab()
     for x in range(1,1000,10):
-        if get_color((x,500)) != 0: break
+        if get_color((x,500),image) != (0,0,0): break
     for i in range(x,0,-1):
-        if get_color((i,500)) == 0: return (i+1,500)
+        if get_color((i,500),image) == (0,0,0): return (i+1,500)
     # finds first window from mid screen
 
+
 def get_corner_from_edge(edge):
+    if debug_print: print 'debug:','get_corner_from_edge'
+    image = ImageGrab.grab()
     p = edge
-    ini_color = get_color(p)
+    ini_color = get_color(p, image)
     #print p, ini_color
     while True:
         p = (p[0],p[1]-1)
         if p[1] == 0: return p(p[0],1)
-        if get_color(p) != ini_color: return (p[0], p[1]+1)
+        if get_color(p, image) != ini_color: return (p[0], p[1]+1)
+
 
 def get_lower_corner(edge):
+    if debug_print: print 'debug:','get_lower_corner'
     p = edge
-    ini_color = get_color(p)
+    image = ImageGrab.grab()
+    ini_color = get_color(p,image)
     while True:
         p = (p[0],p[1]+50)
         if p[1] > 1000: return (p[0],1000)
-        if get_color(p) == 0: break
+        if get_color(p,image) == (0,0,0): break
     while True:
         p = (p[0],p[1]-10)
-        if get_color(p) != 0: break
+        if get_color(p,image) != (0,0,0): break
     while True:
         p = (p[0],p[1]+1)
         if p[1] > 1000: return (p[0],1000)
-        if get_color(p) == 0: break
+        if get_color(p,image) == (0,0,0): break
     return (p[0],p[1]-1)
 
+
 def get_upper_corner(edge):
+    if debug_print: print 'debug:','get_upper_corner'
     p = get_lower_corner(edge)
     return (p[0],p[1]-743)
+
 
 def get_open_button(upper_corner):
     return (upper_corner[0]+1075,upper_corner[1]+712)
 
+
 def open_box(folder,box):
+    if debug_print: print 'debug:','open_box'
     print 'open_box', folder, box
     launcher_corner = get_window_corner(get_first_windows_point())
     launcher_open_button = get_launcher_button(launcher_corner, 2)
     print 'opening tree -- long delay', long_delay
     time.sleep(long_delay)
-    double_click(launcher_open_button)
-    time.sleep(.25)
+    while is_clear():
+        double_click(launcher_open_button)
+        time.sleep(.25)
     open_dialog_edge = find_window_edge()
     open_dialog_corner = get_upper_corner(open_dialog_edge)
 
@@ -173,58 +222,70 @@ def open_box(folder,box):
 
     # TODO : Confirm it's cosed by looking for black space under launcher
 
+
 def run_back_test():
     launcher_corner = get_window_corner(get_first_windows_point())
     play_button = get_launcher_button(launcher_corner, 6)
     double_click(play_button)
     time.sleep(.1)
 
+
 def confirm_windows_closed():
     # windows is closed if the desktop is black upto 1000
     pass
 
+
 def open_setting_window():
+    if debug_print: print 'debug:','open_setting_window'
     launcher_corner = get_window_corner(get_first_windows_point())
     setting_button = get_launcher_button(launcher_corner, 10)
     double_click(setting_button)
     time.sleep(.1)
 
+
 def find_setting_window_corner():
+    image = ImageGrab.grab()
+    if debug_print: print 'debug:','find_setting_window_corner'
     # get lower edge of launcher_corner
     launcher_corner = get_window_corner(get_first_windows_point())
     p = (launcher_corner[0],launcher_corner[1]+300)
     # horizantal scan
     while True:
         p = (p[0]+10,p[1])
-        if get_color(p) != 0: break
+        if get_color(p,image) != (0,0,0): break
     while True:
         p = (p[0]-1,p[1])
-        if get_color(p) == 0: break
+        if get_color(p,image) == (0,0,0): break
     p = (p[0]+1,p[1])
 
     # vertical scan
-    edge_color = get_color(p)
+    edge_color = get_color(p,image)
     while True:
         p = (p[0],p[1]-10)
         if p[1] < 1: break
-        if get_color(p) != edge_color: break
+        if get_color(p,image) != edge_color: break
     while True:
         p = (p[0],p[1]+1)
-        if get_color(p) == edge_color:break
+        if get_color(p,image) == edge_color:break
     return p
+
 
 def get_backtesting_tab(setting_window_corner):
     # given upper left corner offsets to backtesting tab
     return (setting_window_corner[0]+350,setting_window_corner[1]+45)
 
+
 def get_one_day_radio_button(setting_window_corner):
     return (setting_window_corner[0]+30,setting_window_corner[1]+75)
+
 
 def get_date_drop_down_button(setting_window_corner):
     return (setting_window_corner[0]+297,setting_window_corner[1]+75)
 
+
 def get_date_picker(setting_window_corner):
     return (setting_window_corner[0]+197,setting_window_corner[1]+100)
+
 
 def get_month_point(setting_window_corner, month):
     edge = setting_window_corner[0]
@@ -251,6 +312,7 @@ def get_month_point(setting_window_corner, month):
         y += month_column_step * 3
 
     return (y,x)
+
 
 def change_backtesting_date(date):
     # date in yyyy-mm-dd format
@@ -294,6 +356,7 @@ def change_backtesting_date(date):
     single_click(save_button)
     pass
 
+
 def load_live_runs():
     try:
         with open('live_runs.csv') as csvDataFile:
@@ -303,15 +366,29 @@ def load_live_runs():
     except Exception as e:
         print e
 
-def is_clear():
-    # returns true if there's no open windows under the launcher, false otherwise
 
+def is_clear():
+    if debug_print: print 'debug:','is_clear'
+    # returns true if there's no open windows under the launcher, false otherwise
+    image = ImageGrab.grab()
     for x in range(10,600,50):
         for y in range (300, 900, 50):
             p = (x,y)
-            if get_color(p) != 0: return False
+            c = get_color(p,image)
+            # print i,
+            # if i == -1:
+            #     time.sleep(1)
+            #     keyboard.press_and_release('space')
+            #     time.sleep(1)
+            #     a = raw_input('whats going on?')
+            #     return True
+            if not c== (0,0,0):
+                print ''
+                return False
 
+    print ''
     return True
+
 
 def run_tests(whichQuant = 1):
     # takes csv list with two columns date, box_name
