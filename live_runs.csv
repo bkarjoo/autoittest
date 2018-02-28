@@ -1,7 +1,2471 @@
-2018-01-23,MR_Sweep Non News RB_L_600_Sankalp Krishnan
-2018-01-23,MR_Sweep Non-News_L_300_Charles Zhou
-2018-01-19,OPG MR_Earnings MR OPG_S_200_House (TEST)
-2018-01-19,OPG MM_Earnings MM OPG_S_600_Sankalp Krishnan (TEST 200)
-2018-01-19,OPG MR_Earnings MR OPG_L_400_House (TEST 200)
-2018-01-19,OPG MM_Earnings MM OPG_L_800_Sankalp Krishnan (TEST 200)
+2018-02-27,ALL SWEEP TRIGGER OPEN HALF
+2018-02-27,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
+2018-02-27,MR_EOD Sweep_L_4500_RosG
+2018-02-27,QS_Earnings MR QS (ERM)_S_400_Behrooz Karjoo
+2018-02-27,MM_Earnings Conference Call_S_300_House
+2018-02-27,MM_Earnings Conference Call_L_300_House
+2018-02-27,MM_Earnings MM Breakout_L_600_RosG
+2018-02-27,MM_Earnings Conference Call_L_300_RosG
+2018-02-27,MR_Sweep Non-News_L_6000_RosG
+2018-02-27,MM_Earnings MM Breakout_S_600_RosG
+2018-02-27,MR_Sweep CEF_L_20000_RosG
+2018-02-27,MM_Earnings Conference Call_S_300_RosG
+2018-02-27,MR_QS_S_400_RosG
+2018-02-27,MR_Earnings Right-Side Breakout_S_300_RosG
+2018-02-27,SW_Earnings MR Sweep_S_600_RosG
+2018-02-27,MR_QS_L_400_RosG
+2018-02-27,MR_QS SP500_S_200_WW
+2018-02-27,MM_Earnings Conference Call_S_300_Sankalp Krishnan
+2018-02-27,SW_Earnings MR Sweep_S_400_Norraphon Dejruksavattana
+2018-02-27,MR_QS_L_600_Sankalp Krishnan
+2018-02-27,MR_QS_L_600_Norraphon Dejruksavattana
+2018-02-27,MR_QS_L_600_Behrooz Karjoo
+2018-02-27,MR_QS_L_200_Norraphon Dejruksavattana_v3
+2018-02-27,MR_QS_L_200_Norraphon Dejruksavattana_v2
+2018-02-27,MR_QS SP500_L_800_Behrooz Karjoo
+2018-02-27,MR_QS SP500_L_200_WW
+2018-02-27,MR_QS News_L_200_Sankalp Krishnan
+2018-02-27,MR_QS LowVol_L_400_Behrooz Karjoo
+2018-02-27,MM_Earnings MM Breakout_L_400_Behrooz Karjoo
+2018-02-27,MM_Earnings MM Breakout_L_300_Charles Zhou
+2018-02-27,MM_Earnings MM Breakout_L_800_Norraphon Dejruksavattana
+2018-02-27,MM_Earnings MM Breakout_L_600_Sankalp Krishnan
+2018-02-27,QS_Earnings MR QS_L_200_Sankalp Krishnan
+2018-02-27,MR_Earnings Right-Side Reversion_L_400_Behrooz Karjoo
+2018-02-27,QS_Earnings MR QS (ERM)_L_600_Behrooz Karjoo
+2018-02-27,QS_Earnings MR QS (ERT)_L_400_Behrooz Karjoo
+2018-02-27,QS_Earnings MR QS_L_1200_Behrooz Karjoo
+2018-02-27,QS_Earnings MR QS_L_600_Charles Zhou
+2018-02-27,SW_Earnings MR Sweep_L_400_Norraphon Dejruksavattana
+2018-02-27,MM_Earnings Conference Call_L_300_Behrooz Karjoo
+2018-02-27,MM_Earnings Conference Call_L_300_Sankalp Krishnan
+2018-02-27,MM_Earnings MM Breakout_S_300_Sankalp Krishnan
+2018-02-27,MM_Earnings Conference Call_L_200_Charles Zhou
+2018-02-27,MM_Earnings MM Breakout Gap Up Early 1.2_S_100_Sankalp Krishnan
+2018-02-27,MR_Sweep Non News RB_L_600_Sankalp Krishnan
+2018-02-27,MR_QS_S_600_Sankalp Krishnan
+2018-02-27,MR_QS News_S_200_Sankalp Krishnan
+2018-02-27,MR_QS_S_200_Norraphon Dejruksavattana_v3
+2018-02-27,MM_Earnings MM Breakout_S_600_Norraphon Dejruksavattana
+2018-02-27,MM_Earnings MM Breakout Gap Up 4.2_S_100_Sankalp Krishnan
+2018-02-27,MM_Earnings MM Breakout Gap Down 5.2_S_100_Sankalp Krishnan
+2018-02-27,MM_Earnings MM Breakout Gap Up Early 2.1_S_100_Sankalp Krishnan
+2018-02-27,QS_Earnings MR QS_S_400_Charles Zhou
+2018-02-27,MR_QS_S_600_Norraphon Dejruksavattana
+2018-02-27,MM_Earnings MM Breakout Gap Up Early 2.2_S_100_Sankalp Krishnan
+2018-02-27,QS_Earnings MR QS (ERT)_S_400_Behrooz Karjoo
+2018-02-27,MM_Earnings Right-Side Breakout_S_400_Sankalp Krishnan
+2018-02-27,QS_Earnings MR QS_S_1200_Behrooz Karjoo
+2018-02-27,QS_Earnings MR QS_S_200_Sankalp Krishnan
+2018-02-27,MM_Earnings Conference Call_S_200_Behrooz Karjoo
+2018-02-27,MM_Earnings Conference Call_S_300_Charles Zhou
+2018-02-27,MR_QS_S_200_Norraphon Dejruksavattana_v2
+2018-02-27,MM_Earnings MM Breakout_S_400_Behrooz Karjoo
+2018-02-27,MM_Earnings MM Breakout Gap Up 3.1_S_100_Sankalp Krishnan
+2018-02-27,MR_QS_L_600_Maxim Kim
+2018-02-27,MM_Earnings MM Breakout Gap Up 7.1_L_100_Sankalp Krishnan
+2018-02-27,MM_Earnings MM Breakout_S_400_Charles Zhou
+2018-02-27,MM_Earnings MM Breakout_S_800_House
+2018-02-27,SW_Earnings MR Sweep_S_200_Sankalp Krishnan
+2018-02-27,MM_Post Halt _L_500_Maxim Kim
+2018-02-27,OPG MM_Arb Hang Seng_S_200_Maxim Kim
+2018-02-26,ALL SWEEP TRIGGER OPEN HALF
+2018-02-26,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
+2018-02-26,QS_Earnings MR QS (ERM)_S_400_Behrooz Karjoo
+2018-02-26,MR_EOD Sweep_L_4500_RosG
+2018-02-26,MM_Earnings Conference Call_S_300_House
+2018-02-26,MM_Earnings Conference Call_L_300_House
+2018-02-26,MM_Earnings MM Breakout_L_600_RosG
+2018-02-26,MM_Earnings Conference Call_L_300_RosG
+2018-02-26,MM_Earnings MM Breakout_S_600_RosG
+2018-02-26,MR_Sweep Non-News_L_6000_RosG
+2018-02-26,MM_Earnings Conference Call_S_300_RosG
+2018-02-26,MR_Sweep CEF_L_20000_RosG
+2018-02-26,MR_QS_S_400_RosG
+2018-02-26,MR_Earnings Right-Side Breakout_S_300_RosG
+2018-02-26,MR_QS_L_400_RosG
+2018-02-26,SW_Earnings MR Sweep_S_600_RosG
+2018-02-26,MR_QS SP500_S_200_WW
+2018-02-26,MM_Earnings Conference Call_S_300_Sankalp Krishnan
+2018-02-26,SW_Earnings MR Sweep_S_400_Norraphon Dejruksavattana
+2018-02-26,MR_QS_L_600_Sankalp Krishnan
+2018-02-26,MR_QS_L_600_Norraphon Dejruksavattana
+2018-02-26,MR_QS_L_600_Behrooz Karjoo
+2018-02-26,MR_QS_L_200_Norraphon Dejruksavattana_v3
+2018-02-26,MR_QS_L_200_Norraphon Dejruksavattana_v2
+2018-02-26,MR_QS SP500_L_800_Behrooz Karjoo
+2018-02-26,MR_QS SP500_L_200_WW
+2018-02-26,MR_QS News_L_200_Sankalp Krishnan
+2018-02-26,MR_QS LowVol_L_400_Behrooz Karjoo
+2018-02-26,MM_Earnings MM Breakout_L_400_Behrooz Karjoo
+2018-02-26,MM_Earnings MM Breakout_L_300_Charles Zhou
+2018-02-26,MM_Earnings MM Breakout_L_800_Norraphon Dejruksavattana
+2018-02-26,MM_Earnings MM Breakout_L_600_Sankalp Krishnan
+2018-02-26,QS_Earnings MR QS_L_200_Sankalp Krishnan
+2018-02-26,MR_Earnings Right-Side Reversion_L_400_Behrooz Karjoo
+2018-02-26,QS_Earnings MR QS (ERM)_L_600_Behrooz Karjoo
+2018-02-26,QS_Earnings MR QS (ERT)_L_400_Behrooz Karjoo
+2018-02-26,QS_Earnings MR QS_L_1200_Behrooz Karjoo
+2018-02-26,QS_Earnings MR QS_L_600_Charles Zhou
+2018-02-26,SW_Earnings MR Sweep_L_400_Norraphon Dejruksavattana
+2018-02-26,MM_Earnings Conference Call_L_300_Behrooz Karjoo
+2018-02-26,MM_Earnings MM Breakout_S_300_Sankalp Krishnan
+2018-02-26,MM_Earnings Conference Call_L_300_Sankalp Krishnan
+2018-02-26,MM_Earnings Conference Call_L_200_Charles Zhou
+2018-02-26,MM_Earnings MM Breakout Gap Up Early 1.2_S_100_Sankalp Krishnan
+2018-02-26,MR_Sweep Non News RB_L_600_Sankalp Krishnan
+2018-02-26,MR_QS_S_600_Sankalp Krishnan
+2018-02-26,MR_QS News_S_200_Sankalp Krishnan
+2018-02-26,MR_QS_S_200_Norraphon Dejruksavattana_v3
+2018-02-26,MM_Earnings MM Breakout_S_600_Norraphon Dejruksavattana
+2018-02-26,MM_Earnings MM Breakout Gap Up 4.2_S_100_Sankalp Krishnan
+2018-02-26,MM_Earnings MM Breakout Gap Down 5.2_S_100_Sankalp Krishnan
+2018-02-26,MM_Earnings MM Breakout Gap Up Early 2.1_S_100_Sankalp Krishnan
+2018-02-26,QS_Earnings MR QS_S_400_Charles Zhou
+2018-02-26,MR_QS_S_600_Norraphon Dejruksavattana
+2018-02-26,MM_Earnings MM Breakout Gap Up Early 2.2_S_100_Sankalp Krishnan
+2018-02-26,QS_Earnings MR QS (ERT)_S_400_Behrooz Karjoo
+2018-02-26,MM_Earnings Right-Side Breakout_S_400_Sankalp Krishnan
+2018-02-26,QS_Earnings MR QS_S_1200_Behrooz Karjoo
+2018-02-26,QS_Earnings MR QS_S_200_Sankalp Krishnan
+2018-02-26,MM_Earnings Conference Call_S_200_Behrooz Karjoo
+2018-02-26,MM_Earnings Conference Call_S_300_Charles Zhou
+2018-02-26,MR_QS_S_200_Norraphon Dejruksavattana_v2
+2018-02-26,MM_Earnings MM Breakout_S_400_Behrooz Karjoo
+2018-02-26,MM_Earnings MM Breakout Gap Up 3.1_S_100_Sankalp Krishnan
+2018-02-26,MR_QS_L_600_Maxim Kim
+2018-02-26,MM_Earnings MM Breakout Gap Up 7.1_L_100_Sankalp Krishnan
+2018-02-26,MM_Earnings MM Breakout_S_400_Charles Zhou
+2018-02-26,MM_Post Halt _L_500_Maxim Kim
+2018-02-26,MM_Earnings MM Breakout_S_800_House
+2018-02-26,SW_Earnings MR Sweep_S_200_Sankalp Krishnan
+2018-02-23,ALL SWEEP TRIGGER OPEN HALF
+2018-02-23,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
+2018-02-23,QS_Earnings MR QS (ERM)_S_400_Behrooz Karjoo
+2018-02-23,MR_EOD Sweep_L_4500_RosG
+2018-02-23,MM_Earnings Conference Call_L_300_House
+2018-02-23,MM_Earnings Conference Call_S_300_House
+2018-02-23,MM_Earnings MM Breakout_L_600_RosG
+2018-02-23,MM_Earnings Conference Call_L_300_RosG
+2018-02-23,MM_Earnings MM Breakout_S_600_RosG
+2018-02-23,MR_Sweep Non-News_L_6000_RosG
+2018-02-23,MM_Earnings Conference Call_S_300_RosG
+2018-02-23,MR_Sweep CEF_L_20000_RosG
+2018-02-23,MR_QS_S_400_RosG
+2018-02-23,MR_Earnings Right-Side Breakout_S_300_RosG
+2018-02-23,SW_Earnings MR Sweep_S_600_RosG
+2018-02-23,MR_QS_L_400_RosG
+2018-02-23,MR_QS SP500_S_200_WW
+2018-02-23,MM_Earnings Conference Call_S_300_Sankalp Krishnan
+2018-02-23,SW_Earnings MR Sweep_S_400_Norraphon Dejruksavattana
+2018-02-23,MR_QS_L_600_Sankalp Krishnan
+2018-02-23,MR_QS_L_600_Norraphon Dejruksavattana
+2018-02-23,MR_QS_L_600_Behrooz Karjoo
+2018-02-23,MR_QS_L_200_Norraphon Dejruksavattana_v3
+2018-02-23,MR_QS_L_200_Norraphon Dejruksavattana_v2
+2018-02-23,MR_QS SP500_L_800_Behrooz Karjoo
+2018-02-23,MR_QS SP500_L_200_WW
+2018-02-23,MR_QS News_L_200_Sankalp Krishnan
+2018-02-23,MR_QS LowVol_L_400_Behrooz Karjoo
+2018-02-23,MM_Earnings MM Breakout_L_400_Behrooz Karjoo
+2018-02-23,MM_Earnings MM Breakout_L_300_Charles Zhou
+2018-02-23,MM_Earnings MM Breakout_L_800_Norraphon Dejruksavattana
+2018-02-23,MM_Earnings MM Breakout_L_600_Sankalp Krishnan
+2018-02-23,QS_Earnings MR QS_L_200_Sankalp Krishnan
+2018-02-23,MR_Earnings Right-Side Reversion_L_400_Behrooz Karjoo
+2018-02-23,QS_Earnings MR QS (ERM)_L_600_Behrooz Karjoo
+2018-02-23,QS_Earnings MR QS (ERT)_L_400_Behrooz Karjoo
+2018-02-23,QS_Earnings MR QS_L_1200_Behrooz Karjoo
+2018-02-23,QS_Earnings MR QS_L_600_Charles Zhou
+2018-02-23,SW_Earnings MR Sweep_L_400_Norraphon Dejruksavattana
+2018-02-23,MM_Earnings Conference Call_L_300_Behrooz Karjoo
+2018-02-23,MM_Earnings Conference Call_L_300_Sankalp Krishnan
+2018-02-23,MM_Earnings MM Breakout_S_300_Sankalp Krishnan
+2018-02-23,MM_Earnings Conference Call_L_200_Charles Zhou
+2018-02-23,MM_Earnings MM Breakout Gap Up Early 1.2_S_100_Sankalp Krishnan
+2018-02-23,MR_Sweep Non News RB_L_600_Sankalp Krishnan
+2018-02-23,MR_QS_S_600_Sankalp Krishnan
+2018-02-23,MR_QS News_S_200_Sankalp Krishnan
+2018-02-23,MR_QS_S_200_Norraphon Dejruksavattana_v3
+2018-02-23,MM_Earnings MM Breakout_S_600_Norraphon Dejruksavattana
+2018-02-23,MM_Earnings MM Breakout Gap Up 4.2_S_100_Sankalp Krishnan
+2018-02-23,MM_Earnings MM Breakout Gap Down 5.2_S_100_Sankalp Krishnan
+2018-02-23,MM_Earnings MM Breakout Gap Up Early 2.1_S_100_Sankalp Krishnan
+2018-02-23,QS_Earnings MR QS_S_400_Charles Zhou
+2018-02-23,MR_QS_S_600_Norraphon Dejruksavattana
+2018-02-23,MM_Earnings MM Breakout Gap Up Early 2.2_S_100_Sankalp Krishnan
+2018-02-23,QS_Earnings MR QS (ERT)_S_400_Behrooz Karjoo
+2018-02-23,MM_Earnings Right-Side Breakout_S_400_Sankalp Krishnan
+2018-02-23,QS_Earnings MR QS_S_1200_Behrooz Karjoo
+2018-02-23,QS_Earnings MR QS_S_200_Sankalp Krishnan
+2018-02-23,MM_Earnings Conference Call_S_200_Behrooz Karjoo
+2018-02-23,MM_Earnings Conference Call_S_300_Charles Zhou
+2018-02-23,MR_QS_S_200_Norraphon Dejruksavattana_v2
+2018-02-23,MM_Earnings MM Breakout_S_400_Behrooz Karjoo
+2018-02-23,MM_Earnings MM Breakout Gap Up 3.1_S_100_Sankalp Krishnan
+2018-02-23,MR_QS_L_600_Maxim Kim
+2018-02-23,MM_Earnings MM Breakout Gap Up 7.1_L_100_Sankalp Krishnan
+2018-02-23,MM_Earnings MM Breakout_S_400_Charles Zhou
+2018-02-23,MM_Earnings MM Breakout_S_800_House
+2018-02-23,MM_Post Halt _L_500_Maxim Kim
+2018-02-23,SW_Earnings MR Sweep_S_200_Sankalp Krishnan
+2018-02-23,OPG MM_Arb Macau_L_200_Maxim Kim
+2018-02-22,ALL SWEEP TRIGGER OPEN HALF
+2018-02-22,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
+2018-02-22,QS_Earnings MR QS (ERM)_S_400_Behrooz Karjoo
+2018-02-22,MR_EOD Sweep_L_4500_RosG
+2018-02-22,MM_Earnings Conference Call_L_300_House
+2018-02-22,MM_Earnings Conference Call_S_300_House
+2018-02-22,MM_Earnings MM Breakout_L_600_RosG
+2018-02-22,MM_Earnings Conference Call_L_300_RosG
+2018-02-22,MR_Sweep Non-News_L_6000_RosG
+2018-02-22,MR_Sweep CEF_L_20000_RosG
+2018-02-22,MM_Earnings MM Breakout_S_600_RosG
+2018-02-22,MM_Earnings Conference Call_S_300_RosG
+2018-02-22,MR_QS_S_400_RosG
+2018-02-22,MR_Earnings Right-Side Breakout_S_300_RosG
+2018-02-22,MR_QS_L_400_RosG
+2018-02-22,SW_Earnings MR Sweep_S_600_RosG
+2018-02-22,MR_QS SP500_S_200_WW
+2018-02-22,MM_Earnings Conference Call_S_300_Sankalp Krishnan
+2018-02-22,SW_Earnings MR Sweep_S_400_Norraphon Dejruksavattana
+2018-02-22,MR_QS_L_600_Sankalp Krishnan
+2018-02-22,MR_QS_L_600_Norraphon Dejruksavattana
+2018-02-22,MR_QS_L_600_Behrooz Karjoo
+2018-02-22,MR_QS_L_200_Norraphon Dejruksavattana_v3
+2018-02-22,MR_QS_L_200_Norraphon Dejruksavattana_v2
+2018-02-22,MR_QS SP500_L_800_Behrooz Karjoo
+2018-02-22,MR_QS SP500_L_200_WW
+2018-02-22,MR_QS News_L_200_Sankalp Krishnan
+2018-02-22,MR_QS LowVol_L_400_Behrooz Karjoo
+2018-02-22,MM_Earnings MM Breakout_L_400_Behrooz Karjoo
+2018-02-22,MM_Earnings MM Breakout_L_300_Charles Zhou
+2018-02-22,MM_Earnings MM Breakout_L_800_Norraphon Dejruksavattana
+2018-02-22,MM_Earnings MM Breakout_L_600_Sankalp Krishnan
+2018-02-22,QS_Earnings MR QS_L_200_Sankalp Krishnan
+2018-02-22,MR_Earnings Right-Side Reversion_L_400_Behrooz Karjoo
+2018-02-22,QS_Earnings MR QS (ERM)_L_600_Behrooz Karjoo
+2018-02-22,QS_Earnings MR QS (ERT)_L_400_Behrooz Karjoo
+2018-02-22,QS_Earnings MR QS_L_1200_Behrooz Karjoo
+2018-02-22,QS_Earnings MR QS_L_600_Charles Zhou
+2018-02-22,SW_Earnings MR Sweep_L_400_Norraphon Dejruksavattana
+2018-02-22,MM_Earnings Conference Call_L_300_Behrooz Karjoo
+2018-02-22,MM_Earnings Conference Call_L_300_Sankalp Krishnan
+2018-02-22,MM_Earnings Conference Call_L_200_Charles Zhou
+2018-02-22,MM_Earnings MM Breakout_S_300_Sankalp Krishnan
+2018-02-22,MR_Sweep Non News RB_L_600_Sankalp Krishnan
+2018-02-22,MM_Earnings MM Breakout Gap Up Early 1.2_S_100_Sankalp Krishnan
+2018-02-22,MR_QS_S_600_Sankalp Krishnan
+2018-02-22,MR_QS News_S_200_Sankalp Krishnan
+2018-02-22,MR_QS_S_200_Norraphon Dejruksavattana_v3
+2018-02-22,MM_Earnings MM Breakout_S_600_Norraphon Dejruksavattana
+2018-02-22,MM_Earnings MM Breakout Gap Up 4.2_S_100_Sankalp Krishnan
+2018-02-22,MM_Earnings MM Breakout Gap Down 5.2_S_100_Sankalp Krishnan
+2018-02-22,MM_Earnings MM Breakout Gap Up Early 2.1_S_100_Sankalp Krishnan
+2018-02-22,QS_Earnings MR QS_S_400_Charles Zhou
+2018-02-22,MR_QS_S_600_Norraphon Dejruksavattana
+2018-02-22,MM_Earnings MM Breakout Gap Up Early 2.2_S_100_Sankalp Krishnan
+2018-02-22,QS_Earnings MR QS (ERT)_S_400_Behrooz Karjoo
+2018-02-22,MM_Earnings Right-Side Breakout_S_400_Sankalp Krishnan
+2018-02-22,QS_Earnings MR QS_S_1200_Behrooz Karjoo
+2018-02-22,QS_Earnings MR QS_S_200_Sankalp Krishnan
+2018-02-22,MM_Earnings Conference Call_S_200_Behrooz Karjoo
+2018-02-22,MM_Earnings Conference Call_S_300_Charles Zhou
+2018-02-22,MR_QS_S_200_Norraphon Dejruksavattana_v2
+2018-02-22,MM_Earnings MM Breakout_S_400_Behrooz Karjoo
+2018-02-22,MM_Earnings MM Breakout Gap Up 3.1_S_100_Sankalp Krishnan
+2018-02-22,MR_QS_L_600_Maxim Kim
+2018-02-22,MM_Earnings MM Breakout Gap Up 7.1_L_100_Sankalp Krishnan
+2018-02-22,MM_Earnings MM Breakout_S_400_Charles Zhou
+2018-02-22,MM_Earnings MM Breakout_S_800_House
+2018-02-22,MM_Post Halt _L_500_Maxim Kim
+2018-02-22,SW_Earnings MR Sweep_S_200_Sankalp Krishnan
+2018-02-21,ALL SWEEP TRIGGER OPEN HALF
+2018-02-21,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
+2018-02-21,MR_EOD Sweep_L_4500_RosG
+2018-02-21,QS_Earnings MR QS (ERM)_S_400_Behrooz Karjoo
+2018-02-21,MM_Earnings Conference Call_S_300_House
+2018-02-21,MM_Earnings Conference Call_L_300_House
+2018-02-21,MM_Earnings MM Breakout_L_600_RosG
+2018-02-21,MM_Earnings Conference Call_L_300_RosG
+2018-02-21,MM_Earnings MM Breakout_S_600_RosG
+2018-02-21,MR_Sweep Non-News_L_6000_RosG
+2018-02-21,MM_Earnings Conference Call_S_300_RosG
+2018-02-21,MR_Sweep CEF_L_20000_RosG
+2018-02-21,MR_QS_S_400_RosG
+2018-02-21,MR_Earnings Right-Side Breakout_S_300_RosG
+2018-02-21,MR_QS_L_400_RosG
+2018-02-21,SW_Earnings MR Sweep_S_600_RosG
+2018-02-21,MR_QS SP500_S_200_WW
+2018-02-21,MM_Earnings Conference Call_S_300_Sankalp Krishnan
+2018-02-21,SW_Earnings MR Sweep_S_400_Norraphon Dejruksavattana
+2018-02-21,MR_QS_L_600_Sankalp Krishnan
+2018-02-21,MR_QS_L_600_Norraphon Dejruksavattana
+2018-02-21,MR_QS_L_600_Behrooz Karjoo
+2018-02-21,MR_QS_L_200_Norraphon Dejruksavattana_v3
+2018-02-21,MR_QS_L_200_Norraphon Dejruksavattana_v2
+2018-02-21,MR_QS SP500_L_800_Behrooz Karjoo
+2018-02-21,MR_QS SP500_L_200_WW
+2018-02-21,MR_QS News_L_200_Sankalp Krishnan
+2018-02-21,MR_QS LowVol_L_400_Behrooz Karjoo
+2018-02-21,MM_Earnings MM Breakout_L_400_Behrooz Karjoo
+2018-02-21,MM_Earnings MM Breakout_L_300_Charles Zhou
+2018-02-21,MM_Earnings MM Breakout_L_800_Norraphon Dejruksavattana
+2018-02-21,MM_Earnings MM Breakout_L_600_Sankalp Krishnan
+2018-02-21,QS_Earnings MR QS_L_200_Sankalp Krishnan
+2018-02-21,MR_Earnings Right-Side Reversion_L_400_Behrooz Karjoo
+2018-02-21,QS_Earnings MR QS (ERM)_L_600_Behrooz Karjoo
+2018-02-21,QS_Earnings MR QS (ERT)_L_400_Behrooz Karjoo
+2018-02-21,QS_Earnings MR QS_L_1200_Behrooz Karjoo
+2018-02-21,QS_Earnings MR QS_L_600_Charles Zhou
+2018-02-21,SW_Earnings MR Sweep_L_400_Norraphon Dejruksavattana
+2018-02-21,MM_Earnings Conference Call_L_300_Behrooz Karjoo
+2018-02-21,MM_Earnings Conference Call_L_300_Sankalp Krishnan
+2018-02-21,MM_Earnings Conference Call_L_200_Charles Zhou
+2018-02-21,MR_Sweep Non News RB_L_600_Sankalp Krishnan
+2018-02-21,MM_Earnings MM Breakout_S_300_Sankalp Krishnan
+2018-02-21,MM_Earnings MM Breakout Gap Up Early 1.2_S_100_Sankalp Krishnan
+2018-02-21,MR_QS_S_600_Sankalp Krishnan
+2018-02-21,MR_QS News_S_200_Sankalp Krishnan
+2018-02-21,MR_QS_S_200_Norraphon Dejruksavattana_v3
+2018-02-21,MM_Earnings MM Breakout_S_600_Norraphon Dejruksavattana
+2018-02-21,MM_Earnings MM Breakout Gap Up 4.2_S_100_Sankalp Krishnan
+2018-02-21,MM_Earnings MM Breakout Gap Down 5.2_S_100_Sankalp Krishnan
+2018-02-21,MM_Earnings MM Breakout Gap Up Early 2.1_S_100_Sankalp Krishnan
+2018-02-21,QS_Earnings MR QS_S_400_Charles Zhou
+2018-02-21,MR_QS_S_600_Norraphon Dejruksavattana
+2018-02-21,MM_Earnings MM Breakout Gap Up Early 2.2_S_100_Sankalp Krishnan
+2018-02-21,QS_Earnings MR QS (ERT)_S_400_Behrooz Karjoo
+2018-02-21,MM_Earnings Right-Side Breakout_S_400_Sankalp Krishnan
+2018-02-21,QS_Earnings MR QS_S_1200_Behrooz Karjoo
+2018-02-21,QS_Earnings MR QS_S_200_Sankalp Krishnan
+2018-02-21,MM_Earnings Conference Call_S_200_Behrooz Karjoo
+2018-02-21,MM_Earnings Conference Call_S_300_Charles Zhou
+2018-02-21,MR_QS_S_200_Norraphon Dejruksavattana_v2
+2018-02-21,MM_Earnings MM Breakout_S_400_Behrooz Karjoo
+2018-02-21,MM_Earnings MM Breakout Gap Up 3.1_S_100_Sankalp Krishnan
+2018-02-21,MR_QS_L_600_Maxim Kim
+2018-02-21,MM_Earnings MM Breakout Gap Up 7.1_L_100_Sankalp Krishnan
+2018-02-21,MM_Earnings MM Breakout_S_400_Charles Zhou
+2018-02-21,MM_Post Halt _L_500_Maxim Kim
+2018-02-21,MM_Earnings MM Breakout_S_800_House
+2018-02-21,OPG MM_Arb Hang Seng_L_200_Maxim Kim
+2018-02-21,SW_Earnings MR Sweep_S_200_Sankalp Krishnan
+2018-02-20,ALL SWEEP TRIGGER OPEN HALF
+2018-02-20,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
+2018-02-20,MR_EOD Sweep_L_4500_RosG
+2018-02-20,QS_Earnings MR QS (ERM)_S_400_Behrooz Karjoo
+2018-02-20,MM_Earnings Conference Call_S_300_House
+2018-02-20,MM_Earnings Conference Call_L_300_House
+2018-02-20,MM_Earnings MM Breakout_L_600_RosG
+2018-02-20,MM_Earnings Conference Call_L_300_RosG
+2018-02-20,MM_Earnings MM Breakout_S_600_RosG
+2018-02-20,MM_Earnings Conference Call_S_300_RosG
+2018-02-20,MR_Sweep Non-News_L_6000_RosG
+2018-02-20,MR_Sweep CEF_L_20000_RosG
+2018-02-20,MR_QS_S_400_RosG
+2018-02-20,MR_Earnings Right-Side Breakout_S_300_RosG
+2018-02-20,MR_QS_L_400_RosG
+2018-02-20,SW_Earnings MR Sweep_S_600_RosG
+2018-02-20,MR_QS SP500_S_200_WW
+2018-02-20,MM_Earnings Conference Call_S_300_Sankalp Krishnan
+2018-02-20,SW_Earnings MR Sweep_S_400_Norraphon Dejruksavattana
+2018-02-20,MR_QS_L_600_Sankalp Krishnan
+2018-02-20,MR_QS_L_600_Norraphon Dejruksavattana
+2018-02-20,MR_QS_L_600_Behrooz Karjoo
+2018-02-20,MR_QS_L_200_Norraphon Dejruksavattana_v3
+2018-02-20,MR_QS_L_200_Norraphon Dejruksavattana_v2
+2018-02-20,MR_QS SP500_L_800_Behrooz Karjoo
+2018-02-20,MR_QS SP500_L_200_WW
+2018-02-20,MR_QS News_L_200_Sankalp Krishnan
+2018-02-20,MR_QS LowVol_L_400_Behrooz Karjoo
+2018-02-20,MM_Earnings MM Breakout_L_400_Behrooz Karjoo
+2018-02-20,MM_Earnings MM Breakout_L_300_Charles Zhou
+2018-02-20,MM_Earnings MM Breakout_L_800_Norraphon Dejruksavattana
+2018-02-20,MM_Earnings MM Breakout_L_600_Sankalp Krishnan
+2018-02-20,QS_Earnings MR QS_L_200_Sankalp Krishnan
+2018-02-20,MR_Earnings Right-Side Reversion_L_400_Behrooz Karjoo
+2018-02-20,QS_Earnings MR QS (ERM)_L_600_Behrooz Karjoo
+2018-02-20,QS_Earnings MR QS (ERT)_L_400_Behrooz Karjoo
+2018-02-20,QS_Earnings MR QS_L_1200_Behrooz Karjoo
+2018-02-20,QS_Earnings MR QS_L_600_Charles Zhou
+2018-02-20,SW_Earnings MR Sweep_L_400_Norraphon Dejruksavattana
+2018-02-20,MM_Earnings Conference Call_L_300_Behrooz Karjoo
+2018-02-20,MM_Earnings Conference Call_L_300_Sankalp Krishnan
+2018-02-20,MM_Earnings Conference Call_L_200_Charles Zhou
+2018-02-20,MM_Earnings MM Breakout_S_300_Sankalp Krishnan
+2018-02-20,MR_Sweep Non News RB_L_600_Sankalp Krishnan
+2018-02-20,MM_Earnings MM Breakout Gap Up Early 1.2_S_100_Sankalp Krishnan
+2018-02-20,MR_QS_S_600_Sankalp Krishnan
+2018-02-20,MR_QS News_S_200_Sankalp Krishnan
+2018-02-20,MR_QS_S_200_Norraphon Dejruksavattana_v3
+2018-02-20,MM_Earnings MM Breakout_S_600_Norraphon Dejruksavattana
+2018-02-20,MM_Earnings MM Breakout Gap Up 4.2_S_100_Sankalp Krishnan
+2018-02-20,MM_Earnings MM Breakout Gap Down 5.2_S_100_Sankalp Krishnan
+2018-02-20,MM_Earnings MM Breakout Gap Up Early 2.1_S_100_Sankalp Krishnan
+2018-02-20,QS_Earnings MR QS_S_400_Charles Zhou
+2018-02-20,MR_QS_S_600_Norraphon Dejruksavattana
+2018-02-20,MM_Earnings MM Breakout Gap Up Early 2.2_S_100_Sankalp Krishnan
+2018-02-20,QS_Earnings MR QS (ERT)_S_400_Behrooz Karjoo
+2018-02-20,MM_Earnings Right-Side Breakout_S_400_Sankalp Krishnan
+2018-02-20,QS_Earnings MR QS_S_1200_Behrooz Karjoo
+2018-02-20,QS_Earnings MR QS_S_200_Sankalp Krishnan
+2018-02-20,MM_Earnings Conference Call_S_200_Behrooz Karjoo
+2018-02-20,MM_Earnings Conference Call_S_300_Charles Zhou
+2018-02-20,MR_QS_S_200_Norraphon Dejruksavattana_v2
+2018-02-20,MM_Earnings MM Breakout_S_400_Behrooz Karjoo
+2018-02-20,MM_Earnings MM Breakout Gap Up 3.1_S_100_Sankalp Krishnan
+2018-02-20,MR_QS_L_600_Maxim Kim
+2018-02-20,MM_Earnings MM Breakout Gap Up 7.1_L_100_Sankalp Krishnan
+2018-02-20,MM_Earnings MM Breakout_S_400_Charles Zhou
+2018-02-20,MM_Earnings MM Breakout_S_800_House
+2018-02-20,SW_Earnings MR Sweep_S_200_Sankalp Krishnan
+2018-02-20,MM_Post Halt _L_500_Maxim Kim
+2018-02-20,OPG MM_Arb Hang Seng_S_200_Maxim Kim
+2018-02-20,OPG MM_Arb Macau_L_200_Maxim Kim
+2018-02-16,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
+2018-02-16,ALL SWEEP TRIGGER OPEN HALF
+2018-02-16,QS_Earnings MR QS (ERM)_S_400_Behrooz Karjoo
+2018-02-16,MR_EOD Sweep_L_4500_RosG
+2018-02-16,MM_Earnings Conference Call_S_300_House
+2018-02-16,MM_Earnings Conference Call_L_300_House
+2018-02-16,MM_Earnings MM Breakout_L_600_RosG
+2018-02-16,MM_Earnings Conference Call_L_300_RosG
+2018-02-16,MR_Sweep Non-News_L_6000_RosG
+2018-02-16,MM_Earnings MM Breakout_S_600_RosG
+2018-02-16,MM_Earnings Conference Call_S_300_RosG
+2018-02-16,MR_Sweep CEF_L_20000_RosG
+2018-02-16,MR_QS_S_400_RosG
+2018-02-16,MR_Earnings Right-Side Breakout_S_300_RosG
+2018-02-16,SW_Earnings MR Sweep_S_600_RosG
+2018-02-16,MR_QS_L_400_RosG
+2018-02-16,MR_QS SP500_S_200_WW
+2018-02-16,MM_Earnings Conference Call_S_300_Sankalp Krishnan
+2018-02-16,SW_Earnings MR Sweep_S_400_Norraphon Dejruksavattana
+2018-02-16,MR_QS_L_600_Sankalp Krishnan
+2018-02-16,MR_QS_L_600_Norraphon Dejruksavattana
+2018-02-16,MR_QS_L_600_Behrooz Karjoo
+2018-02-16,MR_QS_L_200_Norraphon Dejruksavattana_v3
+2018-02-16,MR_QS_L_200_Norraphon Dejruksavattana_v2
+2018-02-16,MR_QS SP500_L_800_Behrooz Karjoo
+2018-02-16,MR_QS SP500_L_200_WW
+2018-02-16,MR_QS News_L_200_Sankalp Krishnan
+2018-02-16,MR_QS LowVol_L_400_Behrooz Karjoo
+2018-02-16,MM_Earnings MM Breakout_L_400_Behrooz Karjoo
+2018-02-16,MM_Earnings MM Breakout_L_300_Charles Zhou
+2018-02-16,MM_Earnings MM Breakout_L_800_Norraphon Dejruksavattana
+2018-02-16,MM_Earnings MM Breakout_L_600_Sankalp Krishnan
+2018-02-16,QS_Earnings MR QS_L_200_Sankalp Krishnan
+2018-02-16,MR_Earnings Right-Side Reversion_L_400_Behrooz Karjoo
+2018-02-16,QS_Earnings MR QS (ERM)_L_600_Behrooz Karjoo
+2018-02-16,QS_Earnings MR QS (ERT)_L_400_Behrooz Karjoo
+2018-02-16,QS_Earnings MR QS_L_1200_Behrooz Karjoo
+2018-02-16,QS_Earnings MR QS_L_600_Charles Zhou
+2018-02-16,SW_Earnings MR Sweep_L_400_Norraphon Dejruksavattana
+2018-02-16,MM_Earnings Conference Call_L_300_Behrooz Karjoo
+2018-02-16,MM_Earnings Conference Call_L_300_Sankalp Krishnan
+2018-02-16,MM_Earnings MM Breakout_S_300_Sankalp Krishnan
+2018-02-16,MM_Earnings Conference Call_L_200_Charles Zhou
+2018-02-16,MM_Earnings MM Breakout Gap Up Early 1.2_S_100_Sankalp Krishnan
+2018-02-16,MR_Sweep Non News RB_L_600_Sankalp Krishnan
+2018-02-16,OPG MR_OpEx NSDQ_S_600_WW
+2018-02-16,402430 L NOPX Behrooz
+2018-02-16,OPG MR_OpEx NYSE_S_200_WW
+2018-02-16,403350 S NOPX Behrooz
+2018-02-16,MR_QS_S_600_Sankalp Krishnan
+2018-02-16,MR_QS News_S_200_Sankalp Krishnan
+2018-02-16,MR_QS_S_200_Norraphon Dejruksavattana_v3
+2018-02-16,MM_Earnings MM Breakout_S_600_Norraphon Dejruksavattana
+2018-02-16,MM_Earnings MM Breakout Gap Up 4.2_S_100_Sankalp Krishnan
+2018-02-16,MM_Earnings MM Breakout Gap Down 5.2_S_100_Sankalp Krishnan
+2018-02-16,MM_Earnings MM Breakout Gap Up Early 2.1_S_100_Sankalp Krishnan
+2018-02-16,QS_Earnings MR QS_S_400_Charles Zhou
+2018-02-16,MR_QS_S_600_Norraphon Dejruksavattana
+2018-02-16,MM_Earnings MM Breakout Gap Up Early 2.2_S_100_Sankalp Krishnan
+2018-02-16,QS_Earnings MR QS (ERT)_S_400_Behrooz Karjoo
+2018-02-16,MM_Earnings Right-Side Breakout_S_400_Sankalp Krishnan
+2018-02-16,QS_Earnings MR QS_S_1200_Behrooz Karjoo
+2018-02-16,QS_Earnings MR QS_S_200_Sankalp Krishnan
+2018-02-16,MM_Earnings Conference Call_S_200_Behrooz Karjoo
+2018-02-16,MM_Earnings Conference Call_S_300_Charles Zhou
+2018-02-16,MR_QS_S_200_Norraphon Dejruksavattana_v2
+2018-02-16,MM_Earnings MM Breakout_S_400_Behrooz Karjoo
+2018-02-16,MM_Earnings MM Breakout Gap Up 3.1_S_100_Sankalp Krishnan
+2018-02-16,MR_QS_L_600_Maxim Kim
+2018-02-16,MM_Earnings MM Breakout Gap Up 7.1_L_100_Sankalp Krishnan
+2018-02-16,MM_Earnings MM Breakout_S_400_Charles Zhou
+2018-02-16,MM_Earnings MM Breakout_S_800_House
+2018-02-16,SW_Earnings MR Sweep_S_200_Sankalp Krishnan
+2018-02-16,MM_Post Halt _L_500_Maxim Kim
+2018-02-15,ALL SWEEP TRIGGER OPEN HALF
+2018-02-15,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
+2018-02-15,MR_EOD Sweep_L_4500_RosG
+2018-02-15,QS_Earnings MR QS (ERM)_S_400_Behrooz Karjoo
+2018-02-15,MM_Earnings Conference Call_S_300_House
+2018-02-15,MM_Earnings Conference Call_L_300_House
+2018-02-15,MM_Earnings MM Breakout_L_600_RosG
+2018-02-15,MM_Earnings Conference Call_L_300_RosG
+2018-02-15,MM_Earnings MM Breakout_S_600_RosG
+2018-02-15,MR_Sweep Non-News_L_6000_RosG
+2018-02-15,MM_Earnings Conference Call_S_300_RosG
+2018-02-15,MR_Sweep CEF_L_20000_RosG
+2018-02-15,MR_QS_S_400_RosG
+2018-02-15,MR_Earnings Right-Side Breakout_S_300_RosG
+2018-02-15,MR_QS_L_400_RosG
+2018-02-15,SW_Earnings MR Sweep_S_600_RosG
+2018-02-15,MR_QS SP500_S_200_WW
+2018-02-15,MM_Earnings Conference Call_S_300_Sankalp Krishnan
+2018-02-15,SW_Earnings MR Sweep_S_400_Norraphon Dejruksavattana
+2018-02-15,MR_QS_L_600_Sankalp Krishnan
+2018-02-15,MR_QS_L_600_Norraphon Dejruksavattana
+2018-02-15,MR_QS_L_600_Behrooz Karjoo
+2018-02-15,MR_QS_L_200_Norraphon Dejruksavattana_v3
+2018-02-15,MR_QS_L_200_Norraphon Dejruksavattana_v2
+2018-02-15,MR_QS SP500_L_800_Behrooz Karjoo
+2018-02-15,MR_QS SP500_L_200_WW
+2018-02-15,MR_QS News_L_200_Sankalp Krishnan
+2018-02-15,MR_QS LowVol_L_400_Behrooz Karjoo
+2018-02-15,MM_Earnings MM Breakout_L_400_Behrooz Karjoo
+2018-02-15,MM_Earnings MM Breakout_L_300_Charles Zhou
+2018-02-15,MM_Earnings MM Breakout_L_800_Norraphon Dejruksavattana
+2018-02-15,MM_Earnings MM Breakout_L_600_Sankalp Krishnan
+2018-02-15,QS_Earnings MR QS_L_200_Sankalp Krishnan
+2018-02-15,MR_Earnings Right-Side Reversion_L_400_Behrooz Karjoo
+2018-02-15,QS_Earnings MR QS (ERM)_L_600_Behrooz Karjoo
+2018-02-15,QS_Earnings MR QS (ERT)_L_400_Behrooz Karjoo
+2018-02-15,QS_Earnings MR QS_L_1200_Behrooz Karjoo
+2018-02-15,QS_Earnings MR QS_L_600_Charles Zhou
+2018-02-15,SW_Earnings MR Sweep_L_400_Norraphon Dejruksavattana
+2018-02-15,MM_Earnings Conference Call_L_300_Behrooz Karjoo
+2018-02-15,MM_Earnings Conference Call_L_300_Sankalp Krishnan
+2018-02-15,MM_Earnings Conference Call_L_200_Charles Zhou
+2018-02-15,MM_Earnings MM Breakout_S_300_Sankalp Krishnan
+2018-02-15,MR_Sweep Non News RB_L_600_Sankalp Krishnan
+2018-02-15,MM_Earnings MM Breakout Gap Up Early 1.2_S_100_Sankalp Krishnan
+2018-02-15,MR_QS_S_600_Sankalp Krishnan
+2018-02-15,MR_QS News_S_200_Sankalp Krishnan
+2018-02-15,MR_QS_S_200_Norraphon Dejruksavattana_v3
+2018-02-15,MM_Earnings MM Breakout_S_600_Norraphon Dejruksavattana
+2018-02-15,MM_Earnings MM Breakout Gap Up 4.2_S_100_Sankalp Krishnan
+2018-02-15,MM_Earnings MM Breakout Gap Down 5.2_S_100_Sankalp Krishnan
+2018-02-15,MM_Earnings MM Breakout Gap Up Early 2.1_S_100_Sankalp Krishnan
+2018-02-15,QS_Earnings MR QS_S_400_Charles Zhou
+2018-02-15,MR_QS_S_600_Norraphon Dejruksavattana
+2018-02-15,MM_Earnings MM Breakout Gap Up Early 2.2_S_100_Sankalp Krishnan
+2018-02-15,QS_Earnings MR QS (ERT)_S_400_Behrooz Karjoo
+2018-02-15,MM_Earnings Right-Side Breakout_S_400_Sankalp Krishnan
+2018-02-15,QS_Earnings MR QS_S_1200_Behrooz Karjoo
+2018-02-15,QS_Earnings MR QS_S_200_Sankalp Krishnan
+2018-02-15,MM_Earnings Conference Call_S_200_Behrooz Karjoo
+2018-02-15,MM_Earnings Conference Call_S_300_Charles Zhou
+2018-02-15,MR_QS_S_200_Norraphon Dejruksavattana_v2
+2018-02-15,MM_Earnings MM Breakout_S_400_Behrooz Karjoo
+2018-02-15,MM_Earnings MM Breakout Gap Up 3.1_S_100_Sankalp Krishnan
+2018-02-15,MR_QS_L_600_Maxim Kim
+2018-02-15,MM_Earnings MM Breakout Gap Up 7.1_L_100_Sankalp Krishnan
+2018-02-15,MM_Earnings MM Breakout_S_400_Charles Zhou
+2018-02-15,MM_Earnings MM Breakout_S_800_House
+2018-02-15,SW_Earnings MR Sweep_S_200_Sankalp Krishnan
+2018-02-15,MM_Post Halt _L_500_Maxim Kim
+2018-02-15,OPG MM_Arb Hang Seng_L_200_Maxim Kim
+2018-02-15,OPG MM_Arb Macau_L_200_Maxim Kim
+2018-02-14,ALL SWEEP TRIGGER OPEN HALF
+2018-02-14,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
+2018-02-14,MR_EOD Sweep_L_4500_RosG
+2018-02-14,QS_Earnings MR QS (ERM)_S_400_Behrooz Karjoo
+2018-02-14,MM_Earnings Conference Call_L_300_House
+2018-02-14,MM_Earnings Conference Call_S_300_House
+2018-02-14,MM_Earnings MM Breakout_L_600_RosG
+2018-02-14,MM_Earnings Conference Call_L_300_RosG
+2018-02-14,MR_Sweep Non-News_L_6000_RosG
+2018-02-14,MM_Earnings MM Breakout_S_600_RosG
+2018-02-14,MR_Sweep CEF_L_20000_RosG
+2018-02-14,MM_Earnings Conference Call_S_300_RosG
+2018-02-14,MR_QS_S_400_RosG
+2018-02-14,MR_Earnings Right-Side Breakout_S_300_RosG
+2018-02-14,MR_QS_L_400_RosG
+2018-02-14,SW_Earnings MR Sweep_S_600_RosG
+2018-02-14,MR_QS SP500_S_200_WW
+2018-02-14,MM_Earnings Conference Call_S_300_Sankalp Krishnan
+2018-02-14,SW_Earnings MR Sweep_S_400_Norraphon Dejruksavattana
+2018-02-14,MR_QS_L_600_Sankalp Krishnan
+2018-02-14,MR_QS_L_600_Norraphon Dejruksavattana
+2018-02-14,MR_QS_L_600_Behrooz Karjoo
+2018-02-14,MR_QS_L_200_Norraphon Dejruksavattana_v3
+2018-02-14,MR_QS_L_200_Norraphon Dejruksavattana_v2
+2018-02-14,MR_QS SP500_L_800_Behrooz Karjoo
+2018-02-14,MR_QS SP500_L_200_WW
+2018-02-14,MR_QS News_L_200_Sankalp Krishnan
+2018-02-14,MR_QS LowVol_L_400_Behrooz Karjoo
+2018-02-14,MM_Earnings MM Breakout_L_400_Behrooz Karjoo
+2018-02-14,MM_Earnings MM Breakout_L_300_Charles Zhou
+2018-02-14,MM_Earnings MM Breakout_L_800_Norraphon Dejruksavattana
+2018-02-14,MM_Earnings MM Breakout_L_600_Sankalp Krishnan
+2018-02-14,QS_Earnings MR QS_L_200_Sankalp Krishnan
+2018-02-14,MR_Earnings Right-Side Reversion_L_400_Behrooz Karjoo
+2018-02-14,QS_Earnings MR QS (ERM)_L_600_Behrooz Karjoo
+2018-02-14,QS_Earnings MR QS (ERT)_L_400_Behrooz Karjoo
+2018-02-14,QS_Earnings MR QS_L_1200_Behrooz Karjoo
+2018-02-14,QS_Earnings MR QS_L_600_Charles Zhou
+2018-02-14,SW_Earnings MR Sweep_L_400_Norraphon Dejruksavattana
+2018-02-14,MM_Earnings Conference Call_L_300_Behrooz Karjoo
+2018-02-14,MM_Earnings Conference Call_L_300_Sankalp Krishnan
+2018-02-14,MM_Earnings Conference Call_L_200_Charles Zhou
+2018-02-14,MM_Earnings MM Breakout_S_300_Sankalp Krishnan
+2018-02-14,MR_Sweep Non News RB_L_600_Sankalp Krishnan
+2018-02-14,MM_Earnings MM Breakout Gap Up Early 1.2_S_100_Sankalp Krishnan
+2018-02-14,MR_QS_S_600_Sankalp Krishnan
+2018-02-14,MR_QS News_S_200_Sankalp Krishnan
+2018-02-14,MR_QS_S_200_Norraphon Dejruksavattana_v3
+2018-02-14,MM_Earnings MM Breakout_S_600_Norraphon Dejruksavattana
+2018-02-14,MM_Earnings MM Breakout Gap Up 4.2_S_100_Sankalp Krishnan
+2018-02-14,MM_Earnings MM Breakout Gap Down 5.2_S_100_Sankalp Krishnan
+2018-02-14,MM_Earnings MM Breakout Gap Up Early 2.1_S_100_Sankalp Krishnan
+2018-02-14,QS_Earnings MR QS_S_400_Charles Zhou
+2018-02-14,MR_QS_S_600_Norraphon Dejruksavattana
+2018-02-14,MM_Earnings MM Breakout Gap Up Early 2.2_S_100_Sankalp Krishnan
+2018-02-14,QS_Earnings MR QS (ERT)_S_400_Behrooz Karjoo
+2018-02-14,MM_Earnings Right-Side Breakout_S_400_Sankalp Krishnan
+2018-02-14,QS_Earnings MR QS_S_1200_Behrooz Karjoo
+2018-02-14,QS_Earnings MR QS_S_200_Sankalp Krishnan
+2018-02-14,MM_Earnings Conference Call_S_200_Behrooz Karjoo
+2018-02-14,MM_Earnings Conference Call_S_300_Charles Zhou
+2018-02-14,MR_QS_S_200_Norraphon Dejruksavattana_v2
+2018-02-14,MM_Earnings MM Breakout_S_400_Behrooz Karjoo
+2018-02-14,MM_Earnings MM Breakout Gap Up 3.1_S_100_Sankalp Krishnan
+2018-02-14,MR_QS_L_600_Maxim Kim
+2018-02-14,MM_Earnings MM Breakout Gap Up 7.1_L_100_Sankalp Krishnan
+2018-02-14,MM_Earnings MM Breakout_S_400_Charles Zhou
+2018-02-14,MM_Earnings MM Breakout_S_800_House
+2018-02-14,MM_Post Halt _L_500_Maxim Kim
+2018-02-14,SW_Earnings MR Sweep_S_200_Sankalp Krishnan
+2018-02-13,ALL SWEEP TRIGGER OPEN HALF
+2018-02-13,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
+2018-02-13,QS_Earnings MR QS (ERM)_S_400_Behrooz Karjoo
+2018-02-13,MR_EOD Sweep_L_4500_RosG
+2018-02-13,MM_Earnings Conference Call_S_300_House
+2018-02-13,MM_Earnings Conference Call_L_300_House
+2018-02-13,MM_Earnings MM Breakout_L_600_RosG
+2018-02-13,MM_Earnings Conference Call_L_300_RosG
+2018-02-13,MM_Earnings MM Breakout_S_600_RosG
+2018-02-13,MR_Sweep Non-News_L_6000_RosG
+2018-02-13,MM_Earnings Conference Call_S_300_RosG
+2018-02-13,MR_Sweep CEF_L_20000_RosG
+2018-02-13,MR_QS_S_400_RosG
+2018-02-13,MR_Earnings Right-Side Breakout_S_300_RosG
+2018-02-13,SW_Earnings MR Sweep_S_600_RosG
+2018-02-13,MR_QS_L_400_RosG
+2018-02-13,MR_QS SP500_S_200_WW
+2018-02-13,MM_Earnings Conference Call_S_300_Sankalp Krishnan
+2018-02-13,SW_Earnings MR Sweep_S_400_Norraphon Dejruksavattana
+2018-02-13,MR_QS_L_600_Sankalp Krishnan
+2018-02-13,MR_QS_L_600_Norraphon Dejruksavattana
+2018-02-13,MR_QS_L_600_Behrooz Karjoo
+2018-02-13,MR_QS_L_200_Norraphon Dejruksavattana_v3
+2018-02-13,MR_QS_L_200_Norraphon Dejruksavattana_v2
+2018-02-13,MR_QS SP500_L_800_Behrooz Karjoo
+2018-02-13,MR_QS SP500_L_200_WW
+2018-02-13,MR_QS News_L_200_Sankalp Krishnan
+2018-02-13,MR_QS LowVol_L_400_Behrooz Karjoo
+2018-02-13,MM_Earnings MM Breakout_L_400_Behrooz Karjoo
+2018-02-13,MM_Earnings MM Breakout_L_300_Charles Zhou
+2018-02-13,MM_Earnings MM Breakout_L_800_Norraphon Dejruksavattana
+2018-02-13,MM_Earnings MM Breakout_L_600_Sankalp Krishnan
+2018-02-13,QS_Earnings MR QS_L_200_Sankalp Krishnan
+2018-02-13,MR_Earnings Right-Side Reversion_L_400_Behrooz Karjoo
+2018-02-13,QS_Earnings MR QS (ERM)_L_600_Behrooz Karjoo
+2018-02-13,QS_Earnings MR QS (ERT)_L_400_Behrooz Karjoo
+2018-02-13,QS_Earnings MR QS_L_1200_Behrooz Karjoo
+2018-02-13,QS_Earnings MR QS_L_600_Charles Zhou
+2018-02-13,SW_Earnings MR Sweep_L_400_Norraphon Dejruksavattana
+2018-02-13,MM_Earnings Conference Call_L_300_Behrooz Karjoo
+2018-02-13,MM_Earnings Conference Call_L_300_Sankalp Krishnan
+2018-02-13,MM_Earnings MM Breakout_S_300_Sankalp Krishnan
+2018-02-13,MM_Earnings Conference Call_L_200_Charles Zhou
+2018-02-13,MM_Earnings MM Breakout Gap Up Early 1.2_S_100_Sankalp Krishnan
+2018-02-13,MR_Sweep Non News RB_L_600_Sankalp Krishnan
+2018-02-13,MR_QS_S_600_Sankalp Krishnan
+2018-02-13,MR_QS News_S_200_Sankalp Krishnan
+2018-02-13,MR_QS_S_200_Norraphon Dejruksavattana_v3
+2018-02-13,MM_Earnings MM Breakout_S_600_Norraphon Dejruksavattana
+2018-02-13,MM_Earnings MM Breakout Gap Up 4.2_S_100_Sankalp Krishnan
+2018-02-13,MM_Earnings MM Breakout Gap Down 5.2_S_100_Sankalp Krishnan
+2018-02-13,MM_Earnings MM Breakout Gap Up Early 2.1_S_100_Sankalp Krishnan
+2018-02-13,QS_Earnings MR QS_S_400_Charles Zhou
+2018-02-13,MR_QS_S_600_Norraphon Dejruksavattana
+2018-02-13,MM_Earnings MM Breakout Gap Up Early 2.2_S_100_Sankalp Krishnan
+2018-02-13,QS_Earnings MR QS (ERT)_S_400_Behrooz Karjoo
+2018-02-13,MM_Earnings Right-Side Breakout_S_400_Sankalp Krishnan
+2018-02-13,QS_Earnings MR QS_S_1200_Behrooz Karjoo
+2018-02-13,QS_Earnings MR QS_S_200_Sankalp Krishnan
+2018-02-13,MM_Earnings Conference Call_S_200_Behrooz Karjoo
+2018-02-13,MM_Earnings Conference Call_S_300_Charles Zhou
+2018-02-13,MR_QS_S_200_Norraphon Dejruksavattana_v2
+2018-02-13,MM_Earnings MM Breakout_S_400_Behrooz Karjoo
+2018-02-13,MM_Earnings MM Breakout Gap Up 3.1_S_100_Sankalp Krishnan
+2018-02-13,MM_Earnings MM Breakout Gap Up 7.1_L_100_Sankalp Krishnan
+2018-02-13,MM_Earnings MM Breakout_S_400_Charles Zhou
+2018-02-13,MM_Earnings MM Breakout_S_800_House
+2018-02-13,MM_Post Halt _L_500_Maxim Kim
+2018-02-13,SW_Earnings MR Sweep_S_200_Sankalp Krishnan
+2018-02-13,MR_QS_L_600_Maxim Kim
+2018-02-12,ALL SWEEP TRIGGER OPEN HALF
+2018-02-12,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
+2018-02-12,MR_EOD Sweep_L_4500_RosG
+2018-02-12,QS_Earnings MR QS (ERM)_S_400_Behrooz Karjoo
+2018-02-12,MM_Earnings Conference Call_S_300_House
+2018-02-12,MM_Earnings Conference Call_L_300_House
+2018-02-12,MM_Earnings MM Breakout_L_600_RosG
+2018-02-12,MM_Earnings Conference Call_L_300_RosG
+2018-02-12,MR_Sweep Non-News_L_6000_RosG
+2018-02-12,MM_Earnings MM Breakout_S_600_RosG
+2018-02-12,MM_Earnings Conference Call_S_300_RosG
+2018-02-12,MR_Sweep CEF_L_20000_RosG
+2018-02-12,MR_QS_S_400_RosG
+2018-02-12,MR_Earnings Right-Side Breakout_S_300_RosG
+2018-02-12,SW_Earnings MR Sweep_S_600_RosG
+2018-02-12,MR_QS_L_400_RosG
+2018-02-12,MR_QS SP500_S_200_WW
+2018-02-12,MM_Earnings Conference Call_S_300_Sankalp Krishnan
+2018-02-12,SW_Earnings MR Sweep_S_400_Norraphon Dejruksavattana
+2018-02-12,MR_QS_L_600_Sankalp Krishnan
+2018-02-12,MR_QS_L_600_Norraphon Dejruksavattana
+2018-02-12,MR_QS_L_600_Behrooz Karjoo
+2018-02-12,MR_QS_L_200_Norraphon Dejruksavattana_v3
+2018-02-12,MR_QS_L_200_Norraphon Dejruksavattana_v2
+2018-02-12,MR_QS SP500_L_800_Behrooz Karjoo
+2018-02-12,MR_QS SP500_L_200_WW
+2018-02-12,MR_QS News_L_200_Sankalp Krishnan
+2018-02-12,MR_QS LowVol_L_400_Behrooz Karjoo
+2018-02-12,MM_Earnings MM Breakout_L_400_Behrooz Karjoo
+2018-02-12,MM_Earnings MM Breakout_L_300_Charles Zhou
+2018-02-12,MM_Earnings MM Breakout_L_800_Norraphon Dejruksavattana
+2018-02-12,MM_Earnings MM Breakout_L_600_Sankalp Krishnan
+2018-02-12,QS_Earnings MR QS_L_200_Sankalp Krishnan
+2018-02-12,MR_Earnings Right-Side Reversion_L_400_Behrooz Karjoo
+2018-02-12,QS_Earnings MR QS (ERM)_L_600_Behrooz Karjoo
+2018-02-12,QS_Earnings MR QS (ERT)_L_400_Behrooz Karjoo
+2018-02-12,QS_Earnings MR QS_L_1200_Behrooz Karjoo
+2018-02-12,QS_Earnings MR QS_L_600_Charles Zhou
+2018-02-12,SW_Earnings MR Sweep_L_400_Norraphon Dejruksavattana
+2018-02-12,MM_Earnings Conference Call_L_300_Behrooz Karjoo
+2018-02-12,MM_Earnings Conference Call_L_300_Sankalp Krishnan
+2018-02-12,MM_Earnings Conference Call_L_200_Charles Zhou
+2018-02-12,MM_Earnings MM Breakout_S_300_Sankalp Krishnan
+2018-02-12,MM_Earnings MM Breakout Gap Up Early 1.2_S_100_Sankalp Krishnan
+2018-02-12,MR_Sweep Non News RB_L_600_Sankalp Krishnan
+2018-02-12,MR_QS_S_600_Sankalp Krishnan
+2018-02-12,MR_QS News_S_200_Sankalp Krishnan
+2018-02-12,MR_QS_S_200_Norraphon Dejruksavattana_v3
+2018-02-12,MM_Earnings MM Breakout_S_600_Norraphon Dejruksavattana
+2018-02-12,MM_Earnings MM Breakout Gap Up 4.2_S_100_Sankalp Krishnan
+2018-02-12,MM_Earnings MM Breakout Gap Down 5.2_S_100_Sankalp Krishnan
+2018-02-12,MM_Earnings MM Breakout Gap Up Early 2.1_S_100_Sankalp Krishnan
+2018-02-12,QS_Earnings MR QS_S_400_Charles Zhou
+2018-02-12,MR_QS_S_600_Norraphon Dejruksavattana
+2018-02-12,MM_Earnings MM Breakout Gap Up Early 2.2_S_100_Sankalp Krishnan
+2018-02-12,QS_Earnings MR QS (ERT)_S_400_Behrooz Karjoo
+2018-02-12,MM_Earnings Right-Side Breakout_S_400_Sankalp Krishnan
+2018-02-12,QS_Earnings MR QS_S_1200_Behrooz Karjoo
+2018-02-12,QS_Earnings MR QS_S_200_Sankalp Krishnan
+2018-02-12,MM_Earnings Conference Call_S_200_Behrooz Karjoo
+2018-02-12,MM_Earnings Conference Call_S_300_Charles Zhou
+2018-02-12,MR_QS_S_200_Norraphon Dejruksavattana_v2
+2018-02-12,MM_Earnings MM Breakout_S_400_Behrooz Karjoo
+2018-02-12,MM_Earnings MM Breakout Gap Up 3.1_S_100_Sankalp Krishnan
+2018-02-12,MR_QS_L_600_Maxim Kim
+2018-02-12,MM_Earnings MM Breakout Gap Up 7.1_L_100_Sankalp Krishnan
+2018-02-12,MM_Earnings MM Breakout_S_400_Charles Zhou
+2018-02-12,MM_Earnings MM Breakout_S_800_House
+2018-02-12,SW_Earnings MR Sweep_S_200_Sankalp Krishnan
+2018-02-12,MM_Post Halt _L_500_Maxim Kim
+2018-02-09,ALL SWEEP TRIGGER OPEN HALF
+2018-02-09,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
+2018-02-09,MR_EOD Sweep_L_4500_RosG
+2018-02-09,QS_Earnings MR QS (ERM)_S_400_Behrooz Karjoo
+2018-02-09,MM_Earnings Conference Call_S_300_House
+2018-02-09,MM_Earnings Conference Call_L_300_House
+2018-02-09,MM_Earnings MM Breakout_L_600_RosG
+2018-02-09,MM_Earnings Conference Call_L_300_RosG
+2018-02-09,MM_Earnings MM Breakout_S_600_RosG
+2018-02-09,MR_Sweep Non-News_L_6000_RosG
+2018-02-09,MM_Earnings Conference Call_S_300_RosG
+2018-02-09,MR_Sweep CEF_L_20000_RosG
+2018-02-09,MR_QS_S_400_RosG
+2018-02-09,MR_Earnings Right-Side Breakout_S_300_RosG
+2018-02-09,MR_QS_L_400_RosG
+2018-02-09,SW_Earnings MR Sweep_S_600_RosG
+2018-02-09,MR_QS SP500_S_200_WW
+2018-02-09,MM_Earnings Conference Call_S_300_Sankalp Krishnan
+2018-02-09,SW_Earnings MR Sweep_S_400_Norraphon Dejruksavattana
+2018-02-09,MR_QS_L_600_Sankalp Krishnan
+2018-02-09,MR_QS_L_600_Norraphon Dejruksavattana
+2018-02-09,MR_QS_L_600_Behrooz Karjoo
+2018-02-09,MR_QS_L_200_Norraphon Dejruksavattana_v3
+2018-02-09,MR_QS_L_200_Norraphon Dejruksavattana_v2
+2018-02-09,MR_QS SP500_L_800_Behrooz Karjoo
+2018-02-09,MR_QS SP500_L_200_WW
+2018-02-09,MR_QS News_L_200_Sankalp Krishnan
+2018-02-09,MR_QS LowVol_L_400_Behrooz Karjoo
+2018-02-09,MM_Earnings MM Breakout_L_400_Behrooz Karjoo
+2018-02-09,MM_Earnings MM Breakout_L_300_Charles Zhou
+2018-02-09,MM_Earnings MM Breakout_L_800_Norraphon Dejruksavattana
+2018-02-09,MM_Earnings MM Breakout_L_600_Sankalp Krishnan
+2018-02-09,QS_Earnings MR QS_L_200_Sankalp Krishnan
+2018-02-09,MR_Earnings Right-Side Reversion_L_400_Behrooz Karjoo
+2018-02-09,QS_Earnings MR QS (ERM)_L_600_Behrooz Karjoo
+2018-02-09,QS_Earnings MR QS (ERT)_L_400_Behrooz Karjoo
+2018-02-09,QS_Earnings MR QS_L_1200_Behrooz Karjoo
+2018-02-09,QS_Earnings MR QS_L_600_Charles Zhou
+2018-02-09,SW_Earnings MR Sweep_L_400_Norraphon Dejruksavattana
+2018-02-09,MM_Earnings Conference Call_L_300_Behrooz Karjoo
+2018-02-09,MM_Earnings Conference Call_L_300_Sankalp Krishnan
+2018-02-09,MM_Earnings Conference Call_L_200_Charles Zhou
+2018-02-09,MR_Sweep Non News RB_L_600_Sankalp Krishnan
+2018-02-09,MM_Earnings MM Breakout_S_300_Sankalp Krishnan
+2018-02-09,MM_Earnings MM Breakout Gap Up Early 1.2_S_100_Sankalp Krishnan
+2018-02-09,MR_QS_S_600_Sankalp Krishnan
+2018-02-09,MR_QS News_S_200_Sankalp Krishnan
+2018-02-09,MR_QS_S_200_Norraphon Dejruksavattana_v3
+2018-02-09,MM_Earnings MM Breakout_S_600_Norraphon Dejruksavattana
+2018-02-09,MM_Earnings MM Breakout Gap Up 4.2_S_100_Sankalp Krishnan
+2018-02-09,MM_Earnings MM Breakout Gap Down 5.2_S_100_Sankalp Krishnan
+2018-02-09,MM_Earnings MM Breakout Gap Up Early 2.1_S_100_Sankalp Krishnan
+2018-02-09,QS_Earnings MR QS_S_400_Charles Zhou
+2018-02-09,MR_QS_S_600_Norraphon Dejruksavattana
+2018-02-09,MM_Earnings MM Breakout Gap Up Early 2.2_S_100_Sankalp Krishnan
+2018-02-09,QS_Earnings MR QS (ERT)_S_400_Behrooz Karjoo
+2018-02-09,MM_Earnings Right-Side Breakout_S_400_Sankalp Krishnan
+2018-02-09,QS_Earnings MR QS_S_1200_Behrooz Karjoo
+2018-02-09,QS_Earnings MR QS_S_200_Sankalp Krishnan
+2018-02-09,MM_Earnings Conference Call_S_200_Behrooz Karjoo
+2018-02-09,MM_Earnings Conference Call_S_300_Charles Zhou
+2018-02-09,MR_QS_S_200_Norraphon Dejruksavattana_v2
+2018-02-09,MM_Earnings MM Breakout_S_400_Behrooz Karjoo
+2018-02-09,MM_Earnings MM Breakout Gap Up 3.1_S_100_Sankalp Krishnan
+2018-02-09,MR_QS_L_600_Maxim Kim
+2018-02-09,MM_Earnings MM Breakout Gap Up 7.1_L_100_Sankalp Krishnan
+2018-02-09,MM_Earnings MM Breakout_S_400_Charles Zhou
+2018-02-09,MM_Earnings MM Breakout_S_800_House
+2018-02-09,SW_Earnings MR Sweep_S_200_Sankalp Krishnan
+2018-02-09,MM_Post Halt _L_500_Maxim Kim
+2018-02-08,ALL SWEEP TRIGGER OPEN HALF
+2018-02-08,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
+2018-02-08,MR_EOD Sweep_L_4500_RosG
+2018-02-08,QS_Earnings MR QS (ERM)_S_400_Behrooz Karjoo
+2018-02-08,MM_Earnings Conference Call_S_300_House
+2018-02-08,MM_Earnings Conference Call_L_300_House
+2018-02-08,MM_Earnings MM Breakout_L_600_RosG
+2018-02-08,MM_Earnings Conference Call_L_300_RosG
+2018-02-08,MR_Sweep CEF_L_20000_RosG
+2018-02-08,MM_Earnings MM Breakout_S_600_RosG
+2018-02-08,MM_Earnings Conference Call_S_300_RosG
+2018-02-08,MR_Sweep Non-News_L_6000_RosG
+2018-02-08,MR_QS_S_400_RosG
+2018-02-08,MR_Earnings Right-Side Breakout_S_300_RosG
+2018-02-08,SW_Earnings MR Sweep_S_600_RosG
+2018-02-08,MR_QS_L_400_RosG
+2018-02-08,MR_QS SP500_S_200_WW
+2018-02-08,MM_Earnings Conference Call_S_300_Sankalp Krishnan
+2018-02-08,SW_Earnings MR Sweep_S_400_Norraphon Dejruksavattana
+2018-02-08,MR_QS_L_600_Sankalp Krishnan
+2018-02-08,MR_QS_L_600_Norraphon Dejruksavattana
+2018-02-08,MR_QS_L_600_Behrooz Karjoo
+2018-02-08,MR_QS_L_200_Norraphon Dejruksavattana_v3
+2018-02-08,MR_QS_L_200_Norraphon Dejruksavattana_v2
+2018-02-08,MR_QS SP500_L_800_Behrooz Karjoo
+2018-02-08,MR_QS SP500_L_200_WW
+2018-02-08,MR_QS News_L_200_Sankalp Krishnan
+2018-02-08,MR_QS LowVol_L_400_Behrooz Karjoo
+2018-02-08,MM_Earnings MM Breakout_L_400_Behrooz Karjoo
+2018-02-08,MM_Earnings MM Breakout_L_300_Charles Zhou
+2018-02-08,MM_Earnings MM Breakout_L_800_Norraphon Dejruksavattana
+2018-02-08,MM_Earnings MM Breakout_L_600_Sankalp Krishnan
+2018-02-08,QS_Earnings MR QS_L_200_Sankalp Krishnan
+2018-02-08,MR_Earnings Right-Side Reversion_L_400_Behrooz Karjoo
+2018-02-08,QS_Earnings MR QS (ERM)_L_600_Behrooz Karjoo
+2018-02-08,QS_Earnings MR QS (ERT)_L_400_Behrooz Karjoo
+2018-02-08,QS_Earnings MR QS_L_1200_Behrooz Karjoo
+2018-02-08,QS_Earnings MR QS_L_600_Charles Zhou
+2018-02-08,SW_Earnings MR Sweep_L_400_Norraphon Dejruksavattana
+2018-02-08,MM_Earnings Conference Call_L_300_Behrooz Karjoo
+2018-02-08,MM_Earnings Conference Call_L_300_Sankalp Krishnan
+2018-02-08,MM_Earnings Conference Call_L_200_Charles Zhou
+2018-02-08,MR_Sweep Non News RB_L_600_Sankalp Krishnan
+2018-02-08,MM_Earnings MM Breakout_S_300_Sankalp Krishnan
+2018-02-08,MM_Earnings MM Breakout Gap Up Early 1.2_S_100_Sankalp Krishnan
+2018-02-08,MR_QS_S_600_Sankalp Krishnan
+2018-02-08,MR_QS News_S_200_Sankalp Krishnan
+2018-02-08,MR_QS_S_200_Norraphon Dejruksavattana_v3
+2018-02-08,MM_Earnings MM Breakout_S_600_Norraphon Dejruksavattana
+2018-02-08,MM_Earnings MM Breakout Gap Up 4.2_S_100_Sankalp Krishnan
+2018-02-08,MM_Earnings MM Breakout Gap Down 5.2_S_100_Sankalp Krishnan
+2018-02-08,MM_Earnings MM Breakout Gap Up Early 2.1_S_100_Sankalp Krishnan
+2018-02-08,QS_Earnings MR QS_S_400_Charles Zhou
+2018-02-08,MR_QS_S_600_Norraphon Dejruksavattana
+2018-02-08,MM_Earnings MM Breakout Gap Up Early 2.2_S_100_Sankalp Krishnan
+2018-02-08,QS_Earnings MR QS (ERT)_S_400_Behrooz Karjoo
+2018-02-08,MM_Earnings Right-Side Breakout_S_400_Sankalp Krishnan
+2018-02-08,QS_Earnings MR QS_S_1200_Behrooz Karjoo
+2018-02-08,QS_Earnings MR QS_S_200_Sankalp Krishnan
+2018-02-08,MM_Earnings Conference Call_S_200_Behrooz Karjoo
+2018-02-08,MM_Earnings Conference Call_S_300_Charles Zhou
+2018-02-08,MR_QS_S_200_Norraphon Dejruksavattana_v2
+2018-02-08,MM_Earnings MM Breakout_S_400_Behrooz Karjoo
+2018-02-08,MM_Earnings MM Breakout Gap Up 3.1_S_100_Sankalp Krishnan
+2018-02-08,MR_QS_L_600_Maxim Kim
+2018-02-08,MM_Earnings MM Breakout Gap Up 7.1_L_100_Sankalp Krishnan
+2018-02-08,MM_Earnings MM Breakout_S_400_Charles Zhou
+2018-02-08,MM_Earnings MM Breakout_S_800_House
+2018-02-08,SW_Earnings MR Sweep_S_200_Sankalp Krishnan
+2018-02-08,MM_Post Halt _L_500_Maxim Kim
+2018-02-07,ALL SWEEP TRIGGER OPEN HALF
+2018-02-07,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
+2018-02-07,QS_Earnings MR QS (ERM)_S_400_Behrooz Karjoo
+2018-02-07,MR_EOD Sweep_L_4500_RosG
+2018-02-07,MM_Earnings Conference Call_L_300_House
+2018-02-07,MM_Earnings Conference Call_S_300_House
+2018-02-07,MM_Earnings MM Breakout_L_600_RosG
+2018-02-07,MM_Earnings Conference Call_L_300_RosG
+2018-02-07,MR_Sweep CEF_L_20000_RosG
+2018-02-07,MM_Earnings MM Breakout_S_600_RosG
+2018-02-07,MR_Sweep Non-News_L_6000_RosG
+2018-02-07,MM_Earnings Conference Call_S_300_RosG
+2018-02-07,MR_QS_S_400_RosG
+2018-02-07,MR_Earnings Right-Side Breakout_S_300_RosG
+2018-02-07,MR_QS_L_400_RosG
+2018-02-07,SW_Earnings MR Sweep_S_600_RosG
+2018-02-07,MR_QS SP500_S_200_WW
+2018-02-07,MM_Earnings Conference Call_S_300_Sankalp Krishnan
+2018-02-07,SW_Earnings MR Sweep_S_400_Norraphon Dejruksavattana
+2018-02-07,MR_QS_L_600_Sankalp Krishnan
+2018-02-07,MR_QS_L_600_Norraphon Dejruksavattana
+2018-02-07,MR_QS_L_600_Behrooz Karjoo
+2018-02-07,MR_QS_L_200_Norraphon Dejruksavattana_v3
+2018-02-07,MR_QS_L_200_Norraphon Dejruksavattana_v2
+2018-02-07,MR_QS SP500_L_800_Behrooz Karjoo
+2018-02-07,MR_QS SP500_L_200_WW
+2018-02-07,MR_QS News_L_200_Sankalp Krishnan
+2018-02-07,MR_QS LowVol_L_400_Behrooz Karjoo
+2018-02-07,MM_Earnings MM Breakout_L_400_Behrooz Karjoo
+2018-02-07,MM_Earnings MM Breakout_L_300_Charles Zhou
+2018-02-07,MM_Earnings MM Breakout_L_800_Norraphon Dejruksavattana
+2018-02-07,MM_Earnings MM Breakout_L_600_Sankalp Krishnan
+2018-02-07,QS_Earnings MR QS_L_200_Sankalp Krishnan
+2018-02-07,MR_Earnings Right-Side Reversion_L_400_Behrooz Karjoo
+2018-02-07,QS_Earnings MR QS (ERM)_L_600_Behrooz Karjoo
+2018-02-07,QS_Earnings MR QS (ERT)_L_400_Behrooz Karjoo
+2018-02-07,QS_Earnings MR QS_L_1200_Behrooz Karjoo
+2018-02-07,QS_Earnings MR QS_L_600_Charles Zhou
+2018-02-07,SW_Earnings MR Sweep_L_400_Norraphon Dejruksavattana
+2018-02-07,MM_Earnings Conference Call_L_300_Behrooz Karjoo
+2018-02-07,MM_Earnings Conference Call_L_300_Sankalp Krishnan
+2018-02-07,MM_Earnings MM Breakout_S_300_Sankalp Krishnan
+2018-02-07,MM_Earnings Conference Call_L_200_Charles Zhou
+2018-02-07,MM_Earnings MM Breakout Gap Up Early 1.2_S_100_Sankalp Krishnan
+2018-02-07,MR_Sweep Non News RB_L_600_Sankalp Krishnan
+2018-02-07,MR_QS_S_600_Sankalp Krishnan
+2018-02-07,MR_QS News_S_200_Sankalp Krishnan
+2018-02-07,MR_QS_S_200_Norraphon Dejruksavattana_v3
+2018-02-07,MM_Earnings MM Breakout_S_600_Norraphon Dejruksavattana
+2018-02-07,MM_Earnings MM Breakout Gap Up 4.2_S_100_Sankalp Krishnan
+2018-02-07,MM_Earnings MM Breakout Gap Down 5.2_S_100_Sankalp Krishnan
+2018-02-07,MM_Earnings MM Breakout Gap Up Early 2.1_S_100_Sankalp Krishnan
+2018-02-07,QS_Earnings MR QS_S_400_Charles Zhou
+2018-02-07,MR_QS_S_600_Norraphon Dejruksavattana
+2018-02-07,MM_Earnings MM Breakout Gap Up Early 2.2_S_100_Sankalp Krishnan
+2018-02-07,QS_Earnings MR QS (ERT)_S_400_Behrooz Karjoo
+2018-02-07,MM_Earnings Right-Side Breakout_S_400_Sankalp Krishnan
+2018-02-07,QS_Earnings MR QS_S_1200_Behrooz Karjoo
+2018-02-07,QS_Earnings MR QS_S_200_Sankalp Krishnan
+2018-02-07,MM_Earnings Conference Call_S_200_Behrooz Karjoo
+2018-02-07,MM_Earnings Conference Call_S_300_Charles Zhou
+2018-02-07,MR_QS_S_200_Norraphon Dejruksavattana_v2
+2018-02-07,MM_Earnings MM Breakout_S_400_Behrooz Karjoo
+2018-02-07,MM_Earnings MM Breakout Gap Up 3.1_S_100_Sankalp Krishnan
+2018-02-07,MR_QS_L_600_Maxim Kim
+2018-02-07,MM_Earnings MM Breakout Gap Up 7.1_L_100_Sankalp Krishnan
+2018-02-07,MM_Earnings MM Breakout_S_400_Charles Zhou
+2018-02-07,MM_Earnings MM Breakout_S_800_House
+2018-02-07,SW_Earnings MR Sweep_S_200_Sankalp Krishnan
+2018-02-07,MM_Post Halt _L_500_Maxim Kim
+2018-02-06,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
+2018-02-06,MR_Sweep Non-News ETF_L_2400_Behrooz Karjoo
+2018-02-06,MR_Sweep Non-News_L_6000_RosG
+2018-02-06,MR_Sweep CEF_L_20000_RosG
+2018-02-06,MR_Sweep Non-News_L_300_Charles Zhou
+2018-02-06,MR_Sweep Non News RB_L_600_Sankalp Krishnan
+2018-02-06,ALL SWEEP TRIGGER OPEN HALF
+2018-02-05,MR_EOD Sweep_L_4500_RosG
+2018-02-05,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
+2018-02-05,MR_Sweep Non-News_L_6000_RosG
+2018-02-05,MR_Sweep Non News RB_L_600_Sankalp Krishnan
+2018-02-05,MR_Sweep Non-News_L_300_Charles Zhou
+2018-02-05,MR_Sweep Non-News_L_6000_RosG
+2018-02-05,MR_Sweep CEF_L_20000_RosG
+2018-02-05,MR_EOD Sweep_L_4500_RosG
+2018-02-05,MR_Sweep Non-News_L_300_Charles Zhou
+2018-02-05,MR_Sweep Non News RB_L_600_Sankalp Krishnan
+2018-02-05,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
+2018-02-05,MR_QS_L_600_Sankalp Krishnan
+2018-02-05,MR_QS_L_600_Norraphon Dejruksavattana
+2018-02-05,MR_QS_L_600_Maxim Kim
+2018-02-05,MR_QS_L_600_Behrooz Karjoo
+2018-02-05,MR_QS_L_400_RosG
+2018-02-05,MR_QS_L_200_Norraphon Dejruksavattana_v3
+2018-02-05,MR_QS_L_200_Norraphon Dejruksavattana_v2
+2018-02-05,MR_QS SP500_L_800_Behrooz Karjoo
+2018-02-05,MR_QS News_L_200_Sankalp Krishnan
+2018-02-05,MR_QS LowVol_L_400_Behrooz Karjoo
+2018-02-05,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
+2018-02-05,MM_Earnings MM Breakout Gap Up 7.1_L_100_Sankalp Krishnan
+2018-02-05,MM_Earnings MM Breakout_L_400_Behrooz Karjoo
+2018-02-05,MM_Earnings MM Breakout_L_300_Charles Zhou
+2018-02-05,MM_Earnings MM Breakout_L_600_RosG
+2018-02-05,MM_Earnings MM Breakout_L_600_Sankalp Krishnan
+2018-02-05,MR_Sweep Non News RB_L_600_Sankalp Krishnan
+2018-02-05,QS_Earnings MR QS_L_200_Sankalp Krishnan
+2018-02-05,MR_Earnings Right-Side Reversion_L_400_Behrooz Karjoo
+2018-02-05,QS_Earnings MR QS (ERM)_L_600_Behrooz Karjoo
+2018-02-05,QS_Earnings MR QS (ERT)_L_400_Behrooz Karjoo
+2018-02-05,QS_Earnings MR QS_L_1200_Behrooz Karjoo
+2018-02-05,QS_Earnings MR QS_L_600_Charles Zhou
+2018-02-05,SW_Earnings MR Sweep_L_400_Norraphon Dejruksavattana
+2018-02-05,MM_Earnings Conference Call_L_300_Behrooz Karjoo
+2018-02-05,MM_Earnings Conference Call_L_300_House
+2018-02-05,MM_Earnings Conference Call_L_300_RosG
+2018-02-05,MM_Earnings Conference Call_L_300_Sankalp Krishnan
+2018-02-05,MM_Earnings Conference Call_L_200_Charles Zhou
+2018-02-05,MM_Post Halt _L_500_Maxim Kim
+2018-02-05,MR_EOD Sweep_L_4500_RosG
+2018-02-05,MR_Sweep CEF_L_20000_RosG
+2018-02-05,MR_Sweep Non-News_L_6000_RosG
+2018-02-05,MR_QS News_S_200_Sankalp Krishnan
+2018-02-05,MR_QS SP500_S_200_WW
+2018-02-05,MR_QS_S_200_Norraphon Dejruksavattana_v2
+2018-02-05,MR_QS_S_200_Norraphon Dejruksavattana_v3
+2018-02-05,MR_QS_S_400_RosG
+2018-02-05,MR_QS_S_600_Sankalp Krishnan
+2018-02-05,MR_QS_S_600_Norraphon Dejruksavattana
+2018-02-05,MM_Earnings MM Breakout_S_400_Behrooz Karjoo
+2018-02-05,MM_Earnings MM Breakout_S_400_Charles Zhou
+2018-02-05,MM_Earnings MM Breakout_S_800_House
+2018-02-05,MM_Earnings MM Breakout_S_600_Norraphon Dejruksavattana
+2018-02-05,MM_Earnings MM Breakout_S_600_RosG
+2018-02-05,MM_Earnings Right-Side Breakout_S_400_Sankalp Krishnan
+2018-02-05,MM_Earnings MM Breakout_S_300_Sankalp Krishnan
+2018-02-05,MM_Earnings MM Breakout Gap Up Early 1.2_S_100_Sankalp Krishnan
+2018-02-05,MM_Earnings MM Breakout Gap Up 4.2_S_100_Sankalp Krishnan
+2018-02-05,MM_Earnings MM Breakout Gap Up 3.1_S_100_Sankalp Krishnan
+2018-02-05,MM_Earnings MM Breakout Gap Down 5.2_S_100_Sankalp Krishnan
+2018-02-05,MM_Earnings MM Breakout Gap Up Early 2.2_S_100_Sankalp Krishnan
+2018-02-05,MM_Earnings MM Breakout Gap Up Early 2.1_S_100_Sankalp Krishnan
+2018-02-05,QS_Earnings MR QS_S_200_Sankalp Krishnan
+2018-02-05,SW_Earnings MR Sweep_S_200_Sankalp Krishnan
+2018-02-05,QS_Earnings MR QS (ERM)_S_400_Behrooz Karjoo
+2018-02-05,QS_Earnings MR QS (ERT)_S_400_Behrooz Karjoo
+2018-02-05,QS_Earnings MR QS_S_1200_Behrooz Karjoo
+2018-02-05,QS_Earnings MR QS_S_400_Charles Zhou
+2018-02-05,SW_Earnings MR Sweep_S_600_RosG
+2018-02-05,MM_Earnings Conference Call_S_200_Behrooz Karjoo
+2018-02-05,MM_Earnings Conference Call_S_300_Charles Zhou
+2018-02-05,MM_Earnings Conference Call_S_300_House
+2018-02-05,MM_Earnings Conference Call_S_300_RosG
+2018-02-05,MM_Earnings Conference Call_S_300_Sankalp Krishnan
+2018-02-05,SW_Earnings MR Sweep_S_400_Norraphon Dejruksavattana
+2018-02-05,MR_Earnings Right-Side Breakout_S_300_RosG
+2018-02-05,MM_Earnings MM Breakout_L_800_Norraphon Dejruksavattana
+2018-02-02,MR_EOD Sweep_L_4500_RosG
+2018-02-02,QS_Earnings MR QS (ERM)_S_400_Behrooz Karjoo
+2018-02-02,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
+2018-02-02,MM_Earnings Conference Call_S_300_House
+2018-02-02,MR_Sweep Non-News_L_6000_RosG
+2018-02-02,MM_Earnings MM Breakout_S_600_RosG
+2018-02-02,MM_Earnings Conference Call_S_300_RosG
+2018-02-02,MR_Sweep CEF_L_20000_RosG
+2018-02-02,OPG MM_NFP Utilities_S_100_RosG
+2018-02-02,OPG MM_NFP REITs_S_100_RosG
+2018-02-02,OPG MM_NFP Gold_S_300_RosG
+2018-02-02,MR_QS_S_400_RosG
+2018-02-02,MR_Earnings Right-Side Breakout_S_300_RosG
+2018-02-02,MR_Sweep Non News RB_L_600_Sankalp Krishnan
+2018-02-02,SW_Earnings MR Sweep_S_600_RosG
+2018-02-02,MR_QS SP500_S_200_WW
+2018-02-02,MM_Earnings Conference Call_S_300_Sankalp Krishnan
+2018-02-02,SW_Earnings MR Sweep_S_400_Norraphon Dejruksavattana
+2018-02-02,OPG MM_NFP Financial_S_100_Sankalp Krishnan
+2018-02-02,OPG MM_NFP Utilities_S_100_Norraphon Dejruksavattana
+2018-02-02,OPG MM_NFP REITs_S_100_Norraphon Dejruksavattana
+2018-02-02,OPG MM_NFP Gold_S_100_Norraphon Dejruksavattana
+2018-02-02,OPG MM_NFP REITs Utilities_S_100_Sankalp Krishnan
+2018-02-02,OPG MM_NFP Financials_S_100_Norraphon Dejruksavattana
+2018-02-02,MM_Earnings MM Breakout_S_300_Sankalp Krishnan
+2018-02-02,MM_Earnings MM Breakout Gap Up Early 1.2_S_100_Sankalp Krishnan
+2018-02-02,MR_Sweep Non-News_L_300_Charles Zhou
+2018-02-02,MR_QS_S_600_Sankalp Krishnan
+2018-02-02,MR_QS News_S_200_Sankalp Krishnan
+2018-02-02,MR_QS_S_200_Norraphon Dejruksavattana_v3
+2018-02-02,MM_Earnings MM Breakout_S_600_Norraphon Dejruksavattana
+2018-02-02,MM_Earnings MM Breakout Gap Up 4.2_S_100_Sankalp Krishnan
+2018-02-02,MM_Earnings MM Breakout Gap Down 5.2_S_100_Sankalp Krishnan
+2018-02-02,MM_Earnings MM Breakout Gap Up Early 2.1_S_100_Sankalp Krishnan
+2018-02-02,QS_Earnings MR QS_S_400_Charles Zhou
+2018-02-02,MR_QS_S_600_Norraphon Dejruksavattana
+2018-02-02,MM_Earnings MM Breakout Gap Up Early 2.2_S_100_Sankalp Krishnan
+2018-02-02,QS_Earnings MR QS (ERT)_S_400_Behrooz Karjoo
+2018-02-02,MM_Earnings Right-Side Breakout_S_400_Sankalp Krishnan
+2018-02-02,QS_Earnings MR QS_S_1200_Behrooz Karjoo
+2018-02-02,QS_Earnings MR QS_S_200_Sankalp Krishnan
+2018-02-02,MM_Earnings Conference Call_S_200_Behrooz Karjoo
+2018-02-02,MM_Earnings Conference Call_S_300_Charles Zhou
+2018-02-02,MR_QS_S_200_Norraphon Dejruksavattana_v2
+2018-02-02,MM_Earnings MM Breakout_S_400_Behrooz Karjoo
+2018-02-02,MM_Earnings MM Breakout Gap Up 3.1_S_100_Sankalp Krishnan
+2018-02-02,MM_Earnings MM Breakout_S_400_Charles Zhou
+2018-02-02,MM_Earnings MM Breakout_S_800_House
+2018-02-02,SW_Earnings MR Sweep_S_200_Sankalp Krishnan
+2018-02-02,MR_AAPL Suppliers OPG_S_200_Maxim Kim
+2018-02-02,MR_Sweep Non-News ETF_L_2400_Behrooz Karjoo
+2018-02-02,OPG MM_NFP Gold_L_200_RosG
+2018-02-02,OPG MM_NFP Financial_L_100_Sankalp Krishnan
+2018-02-02,OPG MM_NFP Gold_L_100_Sankalp Krishnan
+2018-02-02,OPG MM_NFP Financials_L_100_Norraphon Dejruksavattana
+2018-02-02,MR_QS_L_600_Sankalp Krishnan
+2018-02-02,MR_QS_L_600_Norraphon Dejruksavattana
+2018-02-02,MR_QS_L_600_Maxim Kim
+2018-02-02,MR_QS_L_600_Behrooz Karjoo
+2018-02-02,MR_QS_L_400_RosG
+2018-02-02,MR_QS_L_200_Norraphon Dejruksavattana_v3
+2018-02-02,MR_QS_L_200_Norraphon Dejruksavattana_v2
+2018-02-02,MR_QS SP500_L_800_Behrooz Karjoo
+2018-02-02,MR_QS SP500_L_200_WW
+2018-02-02,MR_QS News_L_200_Sankalp Krishnan
+2018-02-02,MR_QS LowVol_L_400_Behrooz Karjoo
+2018-02-02,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
+2018-02-02,MM_Earnings MM Breakout Gap Up 7.1_L_100_Sankalp Krishnan
+2018-02-02,MM_Earnings MM Breakout_L_400_Behrooz Karjoo
+2018-02-02,MM_Earnings MM Breakout_L_300_Charles Zhou
+2018-02-02,MM_Earnings MM Breakout_L_800_Norraphon Dejruksavattana
+2018-02-02,MM_Earnings MM Breakout_L_600_RosG
+2018-02-02,MM_Earnings MM Breakout_L_600_Sankalp Krishnan
+2018-02-02,MR_Sweep Non News RB_L_600_Sankalp Krishnan
+2018-02-02,QS_Earnings MR QS_L_200_Sankalp Krishnan
+2018-02-02,MR_Earnings Right-Side Reversion_L_400_Behrooz Karjoo
+2018-02-02,QS_Earnings MR QS (ERM)_L_600_Behrooz Karjoo
+2018-02-02,QS_Earnings MR QS (ERT)_L_400_Behrooz Karjoo
+2018-02-02,QS_Earnings MR QS_L_1200_Behrooz Karjoo
+2018-02-02,QS_Earnings MR QS_L_600_Charles Zhou
+2018-02-02,SW_Earnings MR Sweep_L_400_Norraphon Dejruksavattana
+2018-02-02,MM_Earnings Conference Call_L_300_Behrooz Karjoo
+2018-02-02,MM_Earnings Conference Call_L_300_House
+2018-02-02,MM_Earnings Conference Call_L_300_RosG
+2018-02-02,MM_Earnings Conference Call_L_300_Sankalp Krishnan
+2018-02-02,MM_Earnings Conference Call_L_200_Charles Zhou
+2018-02-02,MM_Post Halt _L_500_Maxim Kim
+2018-02-02,MR_EOD Sweep_L_4500_RosG
+2018-02-02,MR_Sweep CEF_L_20000_RosG
+2018-02-02,MR_Sweep Non-News_L_6000_RosG
+2018-02-01,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
+2018-02-01,MR_Sweep Non-News ETF_L_2400_Behrooz Karjoo
+2018-02-01,QS_Earnings MR QS (ERM)_S_400_Behrooz Karjoo
+2018-02-01,MR_EOD Sweep_L_4500_RosG
+2018-02-01,MM_Earnings Conference Call_L_300_House
+2018-02-01,MM_Earnings Conference Call_S_300_House
+2018-02-01,MM_Earnings MM Breakout_L_600_RosG
+2018-02-01,MM_Earnings Conference Call_L_300_RosG
+2018-02-01,MR_Sweep CEF_L_20000_RosG
+2018-02-01,MM_Earnings MM Breakout_S_600_RosG
+2018-02-01,MR_Sweep Non-News_L_6000_RosG
+2018-02-01,MM_Earnings Conference Call_S_300_RosG
+2018-02-01,MR_QS_S_400_RosG
+2018-02-01,MR_Earnings Right-Side Breakout_S_300_RosG
+2018-02-01,MR_QS_L_400_RosG
+2018-02-01,SW_Earnings MR Sweep_S_600_RosG
+2018-02-01,MR_QS SP500_S_200_WW
+2018-02-01,MM_Earnings Conference Call_S_300_Sankalp Krishnan
+2018-02-01,SW_Earnings MR Sweep_S_400_Norraphon Dejruksavattana
+2018-02-01,MR_QS_L_600_Sankalp Krishnan
+2018-02-01,MR_QS_L_600_Norraphon Dejruksavattana
+2018-02-01,MR_QS_L_600_Behrooz Karjoo
+2018-02-01,MR_QS_L_200_Norraphon Dejruksavattana_v3
+2018-02-01,MR_QS_L_200_Norraphon Dejruksavattana_v2
+2018-02-01,MR_QS SP500_L_800_Behrooz Karjoo
+2018-02-01,MR_QS SP500_L_200_WW
+2018-02-01,MR_QS News_L_200_Sankalp Krishnan
+2018-02-01,MR_QS LowVol_L_400_Behrooz Karjoo
+2018-02-01,MM_Earnings MM Breakout_L_400_Behrooz Karjoo
+2018-02-01,MM_Earnings MM Breakout_L_300_Charles Zhou
+2018-02-01,MM_Earnings MM Breakout_L_800_Norraphon Dejruksavattana
+2018-02-01,MM_Earnings MM Breakout_L_600_Sankalp Krishnan
+2018-02-01,MR_Sweep Non News RB_L_600_Sankalp Krishnan
+2018-02-01,QS_Earnings MR QS_L_200_Sankalp Krishnan
+2018-02-01,MR_Earnings Right-Side Reversion_L_400_Behrooz Karjoo
+2018-02-01,QS_Earnings MR QS (ERM)_L_600_Behrooz Karjoo
+2018-02-01,QS_Earnings MR QS (ERT)_L_400_Behrooz Karjoo
+2018-02-01,QS_Earnings MR QS_L_1200_Behrooz Karjoo
+2018-02-01,QS_Earnings MR QS_L_600_Charles Zhou
+2018-02-01,SW_Earnings MR Sweep_L_400_Norraphon Dejruksavattana
+2018-02-01,MM_Earnings Conference Call_L_300_Behrooz Karjoo
+2018-02-01,MM_Earnings MM Breakout_S_300_Sankalp Krishnan
+2018-02-01,MM_Earnings Conference Call_L_300_Sankalp Krishnan
+2018-02-01,MM_Earnings MM Breakout Gap Up Early 1.2_S_100_Sankalp Krishnan
+2018-02-01,MM_Earnings Conference Call_L_200_Charles Zhou
+2018-02-01,MR_QS_S_600_Sankalp Krishnan
+2018-02-01,MR_QS News_S_200_Sankalp Krishnan
+2018-02-01,MR_QS_S_200_Norraphon Dejruksavattana_v3
+2018-02-01,MM_Earnings MM Breakout_S_600_Norraphon Dejruksavattana
+2018-02-01,MM_Earnings MM Breakout Gap Up 4.2_S_100_Sankalp Krishnan
+2018-02-01,MM_Earnings MM Breakout Gap Down 5.2_S_100_Sankalp Krishnan
+2018-02-01,MM_Earnings MM Breakout Gap Up Early 2.1_S_100_Sankalp Krishnan
+2018-02-01,QS_Earnings MR QS_S_400_Charles Zhou
+2018-02-01,MR_QS_S_600_Norraphon Dejruksavattana
+2018-02-01,MM_Earnings MM Breakout Gap Up Early 2.2_S_100_Sankalp Krishnan
+2018-02-01,QS_Earnings MR QS (ERT)_S_400_Behrooz Karjoo
+2018-02-01,MM_Earnings Right-Side Breakout_S_400_Sankalp Krishnan
+2018-02-01,QS_Earnings MR QS_S_1200_Behrooz Karjoo
+2018-02-01,QS_Earnings MR QS_S_200_Sankalp Krishnan
+2018-02-01,MM_Earnings Conference Call_S_200_Behrooz Karjoo
+2018-02-01,MM_Earnings Conference Call_S_300_Charles Zhou
+2018-02-01,MR_QS_S_200_Norraphon Dejruksavattana_v2
+2018-02-01,MM_Earnings MM Breakout_S_400_Behrooz Karjoo
+2018-02-01,MM_Earnings MM Breakout Gap Up 3.1_S_100_Sankalp Krishnan
+2018-02-01,MR_QS_L_600_Maxim Kim
+2018-02-01,MM_Earnings MM Breakout Gap Up 7.1_L_100_Sankalp Krishnan
+2018-02-01,MM_Earnings MM Breakout_S_400_Charles Zhou
+2018-02-01,MM_Earnings MM Breakout_S_800_House
+2018-02-01,MM_Post Halt _L_500_Maxim Kim
+2018-02-01,SW_Earnings MR Sweep_S_200_Sankalp Krishnan
+2018-02-01,OPG MM_Arb Hang Seng_S_200_Maxim Kim
+2018-02-01,OPG MM_Arb Macau_S_200_Maxim Kim
+2018-01-31,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
+2018-01-31,MR_Sweep Non-News ETF_L_2400_Behrooz Karjoo
+2018-01-31,QS_Earnings MR QS (ERM)_S_400_Behrooz Karjoo
+2018-01-31,MR_EOD Sweep_L_4500_RosG
+2018-01-31,MM_Earnings Conference Call_L_300_House
+2018-01-31,MM_Earnings Conference Call_S_300_House
+2018-01-31,MM_Earnings MM Breakout_L_600_RosG
+2018-01-31,MM_Earnings Conference Call_L_300_RosG
+2018-01-31,MR_Sweep CEF_L_20000_RosG
+2018-01-31,MM_Earnings MM Breakout_S_600_RosG
+2018-01-31,MR_Sweep Non-News_L_6000_RosG
+2018-01-31,MM_Earnings Conference Call_S_300_RosG
+2018-01-31,MR_QS_S_400_RosG
+2018-01-31,MR_Earnings Right-Side Breakout_S_300_RosG
+2018-01-31,SW_Earnings MR Sweep_S_600_RosG
+2018-01-31,MR_QS_L_400_RosG
+2018-01-31,MR_QS SP500_S_200_WW
+2018-01-31,MM_Earnings Conference Call_S_300_Sankalp Krishnan
+2018-01-31,SW_Earnings MR Sweep_S_400_Norraphon Dejruksavattana
+2018-01-31,MR_QS_L_600_Sankalp Krishnan
+2018-01-31,MR_QS_L_600_Norraphon Dejruksavattana
+2018-01-31,MR_QS_L_600_Behrooz Karjoo
+2018-01-31,MR_QS_L_200_Norraphon Dejruksavattana_v3
+2018-01-31,MR_QS_L_200_Norraphon Dejruksavattana_v2
+2018-01-31,MR_QS SP500_L_800_Behrooz Karjoo
+2018-01-31,MR_QS SP500_L_200_WW
+2018-01-31,MR_QS News_L_200_Sankalp Krishnan
+2018-01-31,MR_QS LowVol_L_400_Behrooz Karjoo
+2018-01-31,MM_Earnings MM Breakout_L_400_Behrooz Karjoo
+2018-01-31,MM_Earnings MM Breakout_L_300_Charles Zhou
+2018-01-31,MM_Earnings MM Breakout_L_800_Norraphon Dejruksavattana
+2018-01-31,MM_Earnings MM Breakout_L_600_Sankalp Krishnan
+2018-01-31,MR_Sweep Non News RB_L_600_Sankalp Krishnan
+2018-01-31,QS_Earnings MR QS_L_200_Sankalp Krishnan
+2018-01-31,MR_Earnings Right-Side Reversion_L_400_Behrooz Karjoo
+2018-01-31,QS_Earnings MR QS (ERM)_L_600_Behrooz Karjoo
+2018-01-31,QS_Earnings MR QS (ERT)_L_400_Behrooz Karjoo
+2018-01-31,QS_Earnings MR QS_L_1200_Behrooz Karjoo
+2018-01-31,MM_Earnings MM Breakout_S_300_Sankalp Krishnan
+2018-01-31,QS_Earnings MR QS_L_600_Charles Zhou
+2018-01-31,SW_Earnings MR Sweep_L_400_Norraphon Dejruksavattana
+2018-01-31,MM_Earnings MM Breakout Gap Up Early 1.2_S_100_Sankalp Krishnan
+2018-01-31,MM_Earnings Conference Call_L_300_Behrooz Karjoo
+2018-01-31,MM_Earnings Conference Call_L_300_Sankalp Krishnan
+2018-01-31,MM_Earnings Conference Call_L_200_Charles Zhou
+2018-01-31,MR_QS_S_600_Sankalp Krishnan
+2018-01-31,MR_QS News_S_200_Sankalp Krishnan
+2018-01-31,MR_QS_S_200_Norraphon Dejruksavattana_v3
+2018-01-31,MM_Earnings MM Breakout_S_600_Norraphon Dejruksavattana
+2018-01-31,MM_Earnings MM Breakout Gap Up 4.2_S_100_Sankalp Krishnan
+2018-01-31,MM_Earnings MM Breakout Gap Down 5.2_S_100_Sankalp Krishnan
+2018-01-31,MM_Earnings MM Breakout Gap Up Early 2.1_S_100_Sankalp Krishnan
+2018-01-31,QS_Earnings MR QS_S_400_Charles Zhou
+2018-01-31,MR_QS_S_600_Norraphon Dejruksavattana
+2018-01-31,MM_Earnings MM Breakout Gap Up Early 2.2_S_100_Sankalp Krishnan
+2018-01-31,QS_Earnings MR QS (ERT)_S_400_Behrooz Karjoo
+2018-01-31,MM_Earnings Right-Side Breakout_S_400_Sankalp Krishnan
+2018-01-31,QS_Earnings MR QS_S_1200_Behrooz Karjoo
+2018-01-31,QS_Earnings MR QS_S_200_Sankalp Krishnan
+2018-01-31,MM_Earnings Conference Call_S_200_Behrooz Karjoo
+2018-01-31,MM_Earnings Conference Call_S_300_Charles Zhou
+2018-01-31,MR_QS_S_200_Norraphon Dejruksavattana_v2
+2018-01-31,MM_Earnings MM Breakout_S_400_Behrooz Karjoo
+2018-01-31,MM_Earnings MM Breakout Gap Up 3.1_S_100_Sankalp Krishnan
+2018-01-31,MR_QS_L_600_Maxim Kim
+2018-01-31,MM_Earnings MM Breakout Gap Up 7.1_L_100_Sankalp Krishnan
+2018-01-31,MM_Post Halt _L_500_Maxim Kim
+2018-01-31,MM_Earnings MM Breakout_S_400_Charles Zhou
+2018-01-31,OPG MM_Arb Hang Seng_L_200_Maxim Kim
+2018-01-31,MM_Earnings MM Breakout_S_800_House
+2018-01-31,SW_Earnings MR Sweep_S_200_Sankalp Krishnan
+2018-01-31,MM_FED ETF Bear_L_300_Maxim Kim
+2018-01-31,MM_FED ETF Bull_L_300_Maxim Kim
+2018-01-31,MM_FED Gold_L_500_Maxim Kim
+2018-01-31,OPG MM_Arb Macau_L_200_Maxim Kim
+2018-01-31,MM_FED Gold_S_500_Maxim Kim
+2018-01-30,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
+2018-01-30,MR_Sweep Non-News ETF_L_2400_Behrooz Karjoo
+2018-01-30,QS_Earnings MR QS (ERM)_S_400_Behrooz Karjoo
+2018-01-30,MR_EOD Sweep_L_4500_RosG
+2018-01-30,MM_Earnings Conference Call_S_300_House
+2018-01-30,MM_Earnings Conference Call_L_300_House
+2018-01-30,MM_Earnings MM Breakout_L_600_RosG
+2018-01-30,MR_Sweep Non-News_L_2000_RosG
+2018-01-30,MM_Earnings Conference Call_L_300_RosG
+2018-01-30,MM_Earnings MM Breakout_S_600_RosG
+2018-01-30,MM_Earnings Conference Call_S_300_RosG
+2018-01-30,MR_Sweep CEF_L_10000_RosG
+2018-01-30,MR_QS_S_200_RosG
+2018-01-30,MR_Earnings Right-Side Breakout_S_300_RosG
+2018-01-30,SW_Earnings MR Sweep_S_600_RosG
+2018-01-30,MR_QS_L_200_RosG
+2018-01-30,MR_QS SP500_S_100_WW
+2018-01-30,MM_Earnings Conference Call_S_300_Sankalp Krishnan
+2018-01-30,SW_Earnings MR Sweep_S_400_Norraphon Dejruksavattana
+2018-01-30,MR_QS SP500_L_400_Behrooz Karjoo
+2018-01-30,MR_QS_L_300_Behrooz Karjoo
+2018-01-30,MR_QS LowVol_L_200_Behrooz Karjoo
+2018-01-30,MM_Earnings MM Breakout_L_400_Behrooz Karjoo
+2018-01-30,MM_Earnings MM Breakout_L_300_Charles Zhou
+2018-01-30,MM_Earnings MM Breakout_L_800_Norraphon Dejruksavattana
+2018-01-30,MM_Earnings MM Breakout_L_600_Sankalp Krishnan
+2018-01-30,MR_QS_L_300_Sankalp Krishnan
+2018-01-30,MR_QS News_L_100_Sankalp Krishnan
+2018-01-30,MR_QS_L_300_Norraphon Dejruksavattana
+2018-01-30,MR_QS_L_100_Norraphon Dejruksavattana_v3
+2018-01-30,MR_QS_L_100_Norraphon Dejruksavattana_v2
+2018-01-30,MR_Sweep Non News RB_L_600_Sankalp Krishnan
+2018-01-30,MR_QS SP500_L_100_WW
+2018-01-30,QS_Earnings MR QS_L_200_Sankalp Krishnan
+2018-01-30,MR_Earnings Right-Side Reversion_L_400_Behrooz Karjoo
+2018-01-30,QS_Earnings MR QS (ERM)_L_600_Behrooz Karjoo
+2018-01-30,QS_Earnings MR QS (ERT)_L_400_Behrooz Karjoo
+2018-01-30,QS_Earnings MR QS_L_1200_Behrooz Karjoo
+2018-01-30,QS_Earnings MR QS_L_600_Charles Zhou
+2018-01-30,SW_Earnings MR Sweep_L_400_Norraphon Dejruksavattana
+2018-01-30,MM_Earnings Conference Call_L_300_Behrooz Karjoo
+2018-01-30,MM_Earnings MM Breakout_S_300_Sankalp Krishnan
+2018-01-30,MM_Earnings Conference Call_L_300_Sankalp Krishnan
+2018-01-30,MM_Earnings MM Breakout Gap Up Early 1.2_S_100_Sankalp Krishnan
+2018-01-30,MM_Earnings Conference Call_L_200_Charles Zhou
+2018-01-30,MR_QS_S_300_Sankalp Krishnan
+2018-01-30,MM_Earnings MM Breakout_S_600_Norraphon Dejruksavattana
+2018-01-30,MR_QS News_S_100_Sankalp Krishnan
+2018-01-30,MR_QS_S_100_Norraphon Dejruksavattana_v3
+2018-01-30,MM_Earnings MM Breakout Gap Up 4.2_S_100_Sankalp Krishnan
+2018-01-30,MM_Earnings MM Breakout Gap Down 5.2_S_100_Sankalp Krishnan
+2018-01-30,MM_Earnings MM Breakout Gap Up Early 2.1_S_100_Sankalp Krishnan
+2018-01-30,QS_Earnings MR QS_S_400_Charles Zhou
+2018-01-30,MR_QS_S_300_Norraphon Dejruksavattana
+2018-01-30,MM_Earnings MM Breakout Gap Up Early 2.2_S_100_Sankalp Krishnan
+2018-01-30,QS_Earnings MR QS (ERT)_S_400_Behrooz Karjoo
+2018-01-30,MM_Earnings Right-Side Breakout_S_400_Sankalp Krishnan
+2018-01-30,QS_Earnings MR QS_S_1200_Behrooz Karjoo
+2018-01-30,QS_Earnings MR QS_S_200_Sankalp Krishnan
+2018-01-30,MM_Earnings Conference Call_S_200_Behrooz Karjoo
+2018-01-30,MM_Earnings Conference Call_S_300_Charles Zhou
+2018-01-30,MR_QS_S_100_Norraphon Dejruksavattana_v2
+2018-01-30,MM_Earnings MM Breakout_S_400_Behrooz Karjoo
+2018-01-30,MM_Earnings MM Breakout Gap Up 3.1_S_100_Sankalp Krishnan
+2018-01-30,MM_Earnings MM Breakout Gap Up 7.1_L_100_Sankalp Krishnan
+2018-01-30,MR_QS_L_300_Maxim Kim
+2018-01-30,MM_Earnings MM Breakout_S_400_Charles Zhou
+2018-01-30,MM_Earnings MM Breakout_S_800_House
+2018-01-30,SW_Earnings MR Sweep_S_200_Sankalp Krishnan
+2018-01-30,OPG MM_Arb Hang Seng_S_200_Maxim Kim
+2018-01-30,MM_Post Halt _L_500_Maxim Kim
+2018-01-29,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
+2018-01-29,MR_Sweep Non-News ETF_L_2400_Behrooz Karjoo
+2018-01-29,MR_EOD Sweep_L_4500_RosG
+2018-01-29,QS_Earnings MR QS (ERM)_S_400_Behrooz Karjoo
+2018-01-29,MM_Earnings Conference Call_L_300_House
+2018-01-29,MM_Earnings Conference Call_S_300_House
+2018-01-29,MM_Earnings MM Breakout_L_600_RosG
+2018-01-29,MR_Sweep Non-News_L_2000_RosG
+2018-01-29,MM_Earnings MM Breakout_S_600_RosG
+2018-01-29,MM_Earnings Conference Call_L_300_RosG
+2018-01-29,MM_Earnings Conference Call_S_300_RosG
+2018-01-29,MR_Sweep CEF_L_10000_RosG
+2018-01-29,MR_QS_S_200_RosG
+2018-01-29,MR_Earnings Right-Side Breakout_S_300_RosG
+2018-01-29,MR_QS_L_200_RosG
+2018-01-29,SW_Earnings MR Sweep_S_600_RosG
+2018-01-29,MR_QS SP500_S_100_WW
+2018-01-29,MM_Earnings Conference Call_S_300_Sankalp Krishnan
+2018-01-29,SW_Earnings MR Sweep_S_400_Norraphon Dejruksavattana
+2018-01-29,MR_QS SP500_L_400_Behrooz Karjoo
+2018-01-29,MR_QS_L_300_Behrooz Karjoo
+2018-01-29,MM_Earnings MM Breakout_L_400_Behrooz Karjoo
+2018-01-29,MM_Earnings MM Breakout_L_300_Charles Zhou
+2018-01-29,MM_Earnings MM Breakout_L_800_Norraphon Dejruksavattana
+2018-01-29,MM_Earnings MM Breakout_L_600_Sankalp Krishnan
+2018-01-29,MR_QS_L_300_Sankalp Krishnan
+2018-01-29,MR_QS News_L_100_Sankalp Krishnan
+2018-01-29,MR_QS_L_300_Norraphon Dejruksavattana
+2018-01-29,MR_QS_L_100_Norraphon Dejruksavattana_v3
+2018-01-29,MR_QS_L_100_Norraphon Dejruksavattana_v2
+2018-01-29,MR_Sweep Non News RB_L_600_Sankalp Krishnan
+2018-01-29,MR_QS SP500_L_100_WW
+2018-01-29,QS_Earnings MR QS_L_200_Sankalp Krishnan
+2018-01-29,MR_Earnings Right-Side Reversion_L_400_Behrooz Karjoo
+2018-01-29,QS_Earnings MR QS (ERM)_L_600_Behrooz Karjoo
+2018-01-29,QS_Earnings MR QS (ERT)_L_400_Behrooz Karjoo
+2018-01-29,QS_Earnings MR QS_L_1200_Behrooz Karjoo
+2018-01-29,QS_Earnings MR QS_L_600_Charles Zhou
+2018-01-29,SW_Earnings MR Sweep_L_400_Norraphon Dejruksavattana
+2018-01-29,MM_Earnings Conference Call_L_300_Behrooz Karjoo
+2018-01-29,MM_Earnings Conference Call_L_300_Sankalp Krishnan
+2018-01-29,MM_Earnings Conference Call_L_200_Charles Zhou
+2018-01-29,MM_Earnings MM Breakout_S_300_Sankalp Krishnan
+2018-01-29,MM_Earnings MM Breakout Gap Up Early 1.2_S_100_Sankalp Krishnan
+2018-01-29,MR_QS_S_300_Sankalp Krishnan
+2018-01-29,MM_Earnings MM Breakout_S_600_Norraphon Dejruksavattana
+2018-01-29,MR_QS News_S_100_Sankalp Krishnan
+2018-01-29,MR_QS_S_100_Norraphon Dejruksavattana_v3
+2018-01-29,MM_Earnings MM Breakout Gap Up 4.2_S_100_Sankalp Krishnan
+2018-01-29,MM_Earnings MM Breakout Gap Down 5.2_S_100_Sankalp Krishnan
+2018-01-29,MM_Earnings MM Breakout Gap Up Early 2.1_S_100_Sankalp Krishnan
+2018-01-29,QS_Earnings MR QS_S_400_Charles Zhou
+2018-01-29,MR_QS_S_300_Norraphon Dejruksavattana
+2018-01-29,MM_Earnings MM Breakout Gap Up Early 2.2_S_100_Sankalp Krishnan
+2018-01-29,QS_Earnings MR QS (ERT)_S_400_Behrooz Karjoo
+2018-01-29,MM_Earnings Right-Side Breakout_S_400_Sankalp Krishnan
+2018-01-29,QS_Earnings MR QS_S_1200_Behrooz Karjoo
+2018-01-29,QS_Earnings MR QS_S_200_Sankalp Krishnan
+2018-01-29,MM_Earnings Conference Call_S_200_Behrooz Karjoo
+2018-01-29,MM_Earnings Conference Call_S_300_Charles Zhou
+2018-01-29,MR_QS_S_100_Norraphon Dejruksavattana_v2
+2018-01-29,MM_Earnings MM Breakout_S_400_Behrooz Karjoo
+2018-01-29,MM_Earnings MM Breakout Gap Up 3.1_S_100_Sankalp Krishnan
+2018-01-29,MM_Earnings MM Breakout Gap Up 7.1_L_100_Sankalp Krishnan
+2018-01-29,MR_QS_L_300_Maxim Kim
+2018-01-29,MM_Earnings MM Breakout_S_400_Charles Zhou
+2018-01-29,MM_Earnings MM Breakout_S_800_House
+2018-01-29,SW_Earnings MR Sweep_S_200_Sankalp Krishnan
+2018-01-29,MM_Post Halt _L_500_Maxim Kim
+2018-01-29,OPG MM_Arb Hang Seng_S_200_Maxim Kim
+2018-01-29,MR_QS LowVol_L_200_Behrooz Karjoo
+2018-01-26,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
+2018-01-26,MR_Sweep Non-News ETF_L_2400_Behrooz Karjoo
+2018-01-26,QS_Earnings MR QS (ERM)_S_400_Behrooz Karjoo
+2018-01-26,MR_EOD Sweep_L_4500_RosG
+2018-01-26,MM_Earnings Conference Call_L_300_House
+2018-01-26,MM_Earnings Conference Call_S_300_House
+2018-01-26,MM_Earnings MM Breakout_L_600_RosG
+2018-01-26,MR_Sweep Non-News_L_2000_RosG
+2018-01-26,MM_Earnings Conference Call_L_300_RosG
+2018-01-26,MM_Earnings MM Breakout_S_600_RosG
+2018-01-26,MM_Earnings Conference Call_S_300_RosG
+2018-01-26,MR_Sweep CEF_L_10000_RosG
+2018-01-26,MR_QS_S_200_RosG
+2018-01-26,MR_Earnings Right-Side Breakout_S_300_RosG
+2018-01-26,SW_Earnings MR Sweep_S_600_RosG
+2018-01-26,MR_QS_L_200_RosG
+2018-01-26,MR_QS SP500_S_100_WW
+2018-01-26,MM_Earnings Conference Call_S_300_Sankalp Krishnan
+2018-01-26,SW_Earnings MR Sweep_S_400_Norraphon Dejruksavattana
+2018-01-26,MR_QS SP500_L_400_Behrooz Karjoo
+2018-01-26,MR_QS_L_300_Behrooz Karjoo
+2018-01-26,MR_QS LowVol_L_200_Behrooz Karjoo
+2018-01-26,MM_Earnings MM Breakout_L_400_Behrooz Karjoo
+2018-01-26,MM_Earnings MM Breakout_L_300_Charles Zhou
+2018-01-26,MM_Earnings MM Breakout_L_800_Norraphon Dejruksavattana
+2018-01-26,MM_Earnings MM Breakout_L_600_Sankalp Krishnan
+2018-01-26,MR_QS_L_300_Sankalp Krishnan
+2018-01-26,MR_QS News_L_100_Sankalp Krishnan
+2018-01-26,MR_QS_L_300_Norraphon Dejruksavattana
+2018-01-26,MR_QS_L_100_Norraphon Dejruksavattana_v3
+2018-01-26,MR_QS_L_100_Norraphon Dejruksavattana_v2
+2018-01-26,MR_Sweep Non News RB_L_600_Sankalp Krishnan
+2018-01-26,MR_QS SP500_L_100_WW
+2018-01-26,QS_Earnings MR QS_L_200_Sankalp Krishnan
+2018-01-26,MR_Earnings Right-Side Reversion_L_400_Behrooz Karjoo
+2018-01-26,QS_Earnings MR QS (ERM)_L_600_Behrooz Karjoo
+2018-01-26,QS_Earnings MR QS (ERT)_L_400_Behrooz Karjoo
+2018-01-26,QS_Earnings MR QS_L_1200_Behrooz Karjoo
+2018-01-26,QS_Earnings MR QS_L_600_Charles Zhou
+2018-01-26,SW_Earnings MR Sweep_L_400_Norraphon Dejruksavattana
+2018-01-26,MM_Earnings Conference Call_L_300_Behrooz Karjoo
+2018-01-26,MM_Earnings Conference Call_L_300_Sankalp Krishnan
+2018-01-26,MM_Earnings MM Breakout_S_300_Sankalp Krishnan
+2018-01-26,MM_Earnings Conference Call_L_200_Charles Zhou
+2018-01-26,MM_Earnings MM Breakout Gap Up Early 1.2_S_100_Sankalp Krishnan
+2018-01-26,MR_QS_S_300_Sankalp Krishnan
+2018-01-26,MM_Earnings MM Breakout_S_600_Norraphon Dejruksavattana
+2018-01-26,MR_QS News_S_100_Sankalp Krishnan
+2018-01-26,MR_QS_S_100_Norraphon Dejruksavattana_v3
+2018-01-26,MM_Earnings MM Breakout Gap Up 4.2_S_100_Sankalp Krishnan
+2018-01-26,MM_Earnings MM Breakout Gap Down 5.2_S_100_Sankalp Krishnan
+2018-01-26,MM_Earnings MM Breakout Gap Up Early 2.1_S_100_Sankalp Krishnan
+2018-01-26,QS_Earnings MR QS_S_400_Charles Zhou
+2018-01-26,MR_QS_S_300_Norraphon Dejruksavattana
+2018-01-26,MM_Earnings MM Breakout Gap Up Early 2.2_S_100_Sankalp Krishnan
+2018-01-26,QS_Earnings MR QS (ERT)_S_400_Behrooz Karjoo
+2018-01-26,MM_Earnings Right-Side Breakout_S_400_Sankalp Krishnan
+2018-01-26,QS_Earnings MR QS_S_1200_Behrooz Karjoo
+2018-01-26,QS_Earnings MR QS_S_200_Sankalp Krishnan
+2018-01-26,MM_Earnings Conference Call_S_200_Behrooz Karjoo
+2018-01-26,MM_Earnings Conference Call_S_300_Charles Zhou
+2018-01-26,MR_QS_S_100_Norraphon Dejruksavattana_v2
+2018-01-26,MM_Earnings MM Breakout_S_400_Behrooz Karjoo
+2018-01-26,MM_Earnings MM Breakout Gap Up 3.1_S_100_Sankalp Krishnan
+2018-01-26,OPG MM_Fly Rec_L_400_Maxim Kim
+2018-01-26,MM_Earnings MM Breakout Gap Up 7.1_L_100_Sankalp Krishnan
+2018-01-26,MR_QS_L_300_Maxim Kim
+2018-01-26,MM_Earnings MM Breakout_S_400_Charles Zhou
+2018-01-26,MM_Earnings MM Breakout_S_800_House
+2018-01-26,MM_Post Halt _L_500_Maxim Kim
+2018-01-26,SW_Earnings MR Sweep_S_200_Sankalp Krishnan
+2018-01-26,OPG MM_Arb Hang Seng_L_200_Maxim Kim
+2018-01-26,OPG MM_Arb Macau_L_200_Maxim Kim
+2018-01-25,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
+2018-01-25,MR_Sweep Non-News ETF_L_2400_Behrooz Karjoo
+2018-01-25,MR_EOD Sweep_L_4500_RosG
+2018-01-25,QS_Earnings MR QS (ERM)_S_400_Behrooz Karjoo
+2018-01-25,MM_Earnings Conference Call_S_300_House
+2018-01-25,MM_Earnings Conference Call_L_300_House
+2018-01-25,MM_Earnings MM Breakout_L_600_RosG
+2018-01-25,MR_Sweep Non-News_L_2000_RosG
+2018-01-25,MR_Sweep CEF_L_10000_RosG
+2018-01-25,MM_Earnings MM Breakout_S_600_RosG
+2018-01-25,MM_Earnings Conference Call_S_300_RosG
+2018-01-25,MM_Earnings Conference Call_L_300_RosG
+2018-01-25,MR_QS_S_200_RosG
+2018-01-25,MR_Earnings Right-Side Breakout_S_300_RosG
+2018-01-25,MR_QS_L_200_RosG
+2018-01-25,SW_Earnings MR Sweep_S_600_RosG
+2018-01-25,MR_QS SP500_S_100_WW
+2018-01-25,MM_Earnings Conference Call_S_300_Sankalp Krishnan
+2018-01-25,SW_Earnings MR Sweep_S_400_Norraphon Dejruksavattana
+2018-01-25,MR_QS SP500_L_400_Behrooz Karjoo
+2018-01-25,MR_QS_L_300_Behrooz Karjoo
+2018-01-25,MR_QS LowVol_L_200_Behrooz Karjoo
+2018-01-25,MM_Earnings MM Breakout_L_400_Behrooz Karjoo
+2018-01-25,MM_Earnings MM Breakout_L_300_Charles Zhou
+2018-01-25,MM_Earnings MM Breakout_L_800_Norraphon Dejruksavattana
+2018-01-25,MM_Earnings MM Breakout_L_600_Sankalp Krishnan
+2018-01-25,MR_QS_L_300_Sankalp Krishnan
+2018-01-25,MR_QS News_L_100_Sankalp Krishnan
+2018-01-25,MR_QS_L_300_Norraphon Dejruksavattana
+2018-01-25,MR_QS_L_100_Norraphon Dejruksavattana_v3
+2018-01-25,MR_QS_L_100_Norraphon Dejruksavattana_v2
+2018-01-25,MR_Sweep Non News RB_L_600_Sankalp Krishnan
+2018-01-25,MR_QS SP500_L_100_WW
+2018-01-25,QS_Earnings MR QS_L_200_Sankalp Krishnan
+2018-01-25,MR_Earnings Right-Side Reversion_L_400_Behrooz Karjoo
+2018-01-25,QS_Earnings MR QS (ERM)_L_600_Behrooz Karjoo
+2018-01-25,QS_Earnings MR QS (ERT)_L_400_Behrooz Karjoo
+2018-01-25,QS_Earnings MR QS_L_1200_Behrooz Karjoo
+2018-01-25,QS_Earnings MR QS_L_600_Charles Zhou
+2018-01-25,SW_Earnings MR Sweep_L_400_Norraphon Dejruksavattana
+2018-01-25,MM_Earnings Conference Call_L_300_Behrooz Karjoo
+2018-01-25,MM_Earnings Conference Call_L_300_Sankalp Krishnan
+2018-01-25,MM_Earnings MM Breakout_S_300_Sankalp Krishnan
+2018-01-25,MM_Earnings Conference Call_L_200_Charles Zhou
+2018-01-25,MM_Earnings MM Breakout Gap Up Early 1.2_S_100_Sankalp Krishnan
+2018-01-25,MR_QS_S_300_Sankalp Krishnan
+2018-01-25,MM_Earnings MM Breakout_S_600_Norraphon Dejruksavattana
+2018-01-25,MR_QS News_S_100_Sankalp Krishnan
+2018-01-25,MR_QS_S_100_Norraphon Dejruksavattana_v3
+2018-01-25,MM_Earnings MM Breakout Gap Up 4.2_S_100_Sankalp Krishnan
+2018-01-25,MM_Earnings MM Breakout Gap Down 5.2_S_100_Sankalp Krishnan
+2018-01-25,MM_Earnings MM Breakout Gap Up Early 2.1_S_100_Sankalp Krishnan
+2018-01-25,QS_Earnings MR QS_S_400_Charles Zhou
+2018-01-25,MR_QS_S_300_Norraphon Dejruksavattana
+2018-01-25,MM_Earnings MM Breakout Gap Up Early 2.2_S_100_Sankalp Krishnan
+2018-01-25,QS_Earnings MR QS (ERT)_S_400_Behrooz Karjoo
+2018-01-25,MM_Earnings Right-Side Breakout_S_400_Sankalp Krishnan
+2018-01-25,QS_Earnings MR QS_S_1200_Behrooz Karjoo
+2018-01-25,QS_Earnings MR QS_S_200_Sankalp Krishnan
+2018-01-25,MM_Earnings Conference Call_S_200_Behrooz Karjoo
+2018-01-25,MM_Earnings Conference Call_S_300_Charles Zhou
+2018-01-25,MR_QS_S_100_Norraphon Dejruksavattana_v2
+2018-01-25,MM_Earnings MM Breakout_S_400_Behrooz Karjoo
+2018-01-25,MM_Earnings MM Breakout Gap Up 3.1_S_100_Sankalp Krishnan
+2018-01-25,MM_Earnings MM Breakout Gap Up 7.1_L_100_Sankalp Krishnan
+2018-01-25,MM_Earnings MM Breakout_S_400_Charles Zhou
+2018-01-25,MM_Earnings MM Breakout_S_800_House
+2018-01-25,SW_Earnings MR Sweep_S_200_Sankalp Krishnan
+2018-01-25,MM_Post Halt _L_500_Maxim Kim
+2018-01-25,OPG MM_Arb Hang Seng_S_200_Maxim Kim
+2018-01-25,MR_QS_L_300_Maxim Kim
+2018-01-24,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
+2018-01-24,MR_Sweep Non-News ETF_L_2400_Behrooz Karjoo
+2018-01-24,MR_EOD Sweep_L_4500_RosG
+2018-01-24,QS_Earnings MR QS (ERM)_S_400_Behrooz Karjoo
+2018-01-24,MM_Earnings Conference Call_L_300_House
+2018-01-24,MM_Earnings Conference Call_S_300_House
+2018-01-24,MM_Earnings MM Breakout_L_600_RosG
+2018-01-24,MR_Sweep Non-News_L_2000_RosG
+2018-01-24,MR_Sweep CEF_L_10000_RosG
+2018-01-24,MM_Earnings Conference Call_L_300_RosG
+2018-01-24,MM_Earnings MM Breakout_S_600_RosG
+2018-01-24,MM_Earnings Conference Call_S_300_RosG
+2018-01-24,MR_QS_S_200_RosG
+2018-01-24,MR_Earnings Right-Side Breakout_S_300_RosG
+2018-01-24,MR_QS_L_200_RosG
+2018-01-24,SW_Earnings MR Sweep_S_600_RosG
+2018-01-24,MR_QS SP500_S_100_WW
+2018-01-24,MM_Earnings Conference Call_S_300_Sankalp Krishnan
+2018-01-24,SW_Earnings MR Sweep_S_400_Norraphon Dejruksavattana
+2018-01-24,MR_QS SP500_L_400_Behrooz Karjoo
+2018-01-24,MR_QS_L_300_Behrooz Karjoo
+2018-01-24,MR_QS LowVol_L_200_Behrooz Karjoo
+2018-01-24,MM_Earnings MM Breakout_L_400_Behrooz Karjoo
+2018-01-24,MM_Earnings MM Breakout_L_300_Charles Zhou
+2018-01-24,MM_Earnings MM Breakout_L_800_Norraphon Dejruksavattana
+2018-01-24,MM_Earnings MM Breakout_L_600_Sankalp Krishnan
+2018-01-24,MR_QS_L_300_Sankalp Krishnan
+2018-01-24,MR_QS News_L_100_Sankalp Krishnan
+2018-01-24,MR_QS_L_300_Norraphon Dejruksavattana
+2018-01-24,MR_QS_L_100_Norraphon Dejruksavattana_v3
+2018-01-24,MR_QS_L_100_Norraphon Dejruksavattana_v2
+2018-01-24,MR_Sweep Non News RB_L_600_Sankalp Krishnan
+2018-01-24,MR_QS SP500_L_100_WW
+2018-01-24,QS_Earnings MR QS_L_200_Sankalp Krishnan
+2018-01-24,MR_Earnings Right-Side Reversion_L_400_Behrooz Karjoo
+2018-01-24,QS_Earnings MR QS (ERM)_L_600_Behrooz Karjoo
+2018-01-24,QS_Earnings MR QS (ERT)_L_400_Behrooz Karjoo
+2018-01-24,QS_Earnings MR QS_L_1200_Behrooz Karjoo
+2018-01-24,QS_Earnings MR QS_L_600_Charles Zhou
+2018-01-24,SW_Earnings MR Sweep_L_400_Norraphon Dejruksavattana
+2018-01-24,MM_Earnings Conference Call_L_300_Behrooz Karjoo
+2018-01-24,MM_Earnings MM Breakout_S_300_Sankalp Krishnan
+2018-01-24,MM_Earnings Conference Call_L_300_Sankalp Krishnan
+2018-01-24,MM_Earnings MM Breakout Gap Up Early 1.2_S_100_Sankalp Krishnan
+2018-01-24,MM_Earnings Conference Call_L_200_Charles Zhou
+2018-01-24,MR_QS_S_300_Sankalp Krishnan
+2018-01-24,MM_Earnings MM Breakout_S_600_Norraphon Dejruksavattana
+2018-01-24,MR_QS News_S_100_Sankalp Krishnan
+2018-01-24,MR_QS_S_100_Norraphon Dejruksavattana_v3
+2018-01-24,MM_Earnings MM Breakout Gap Up 4.2_S_100_Sankalp Krishnan
+2018-01-24,MM_Earnings MM Breakout Gap Down 5.2_S_100_Sankalp Krishnan
+2018-01-24,MM_Earnings MM Breakout Gap Up Early 2.1_S_100_Sankalp Krishnan
+2018-01-24,QS_Earnings MR QS_S_400_Charles Zhou
+2018-01-24,MR_QS_S_300_Norraphon Dejruksavattana
+2018-01-24,MM_Earnings MM Breakout Gap Up Early 2.2_S_100_Sankalp Krishnan
+2018-01-24,QS_Earnings MR QS (ERT)_S_400_Behrooz Karjoo
+2018-01-24,MM_Earnings Right-Side Breakout_S_400_Sankalp Krishnan
+2018-01-24,QS_Earnings MR QS_S_1200_Behrooz Karjoo
+2018-01-24,QS_Earnings MR QS_S_200_Sankalp Krishnan
+2018-01-24,MM_Earnings Conference Call_S_200_Behrooz Karjoo
+2018-01-24,MM_Earnings Conference Call_S_300_Charles Zhou
+2018-01-24,MR_QS_S_100_Norraphon Dejruksavattana_v2
+2018-01-24,MM_Earnings MM Breakout_S_400_Behrooz Karjoo
+2018-01-24,MM_Earnings MM Breakout Gap Up 3.1_S_100_Sankalp Krishnan
+2018-01-24,MM_Earnings MM Breakout Gap Up 7.1_L_100_Sankalp Krishnan
+2018-01-24,MM_Earnings MM Breakout_S_400_Charles Zhou
+2018-01-24,MM_Post Halt _L_500_Maxim Kim
+2018-01-24,MM_Earnings MM Breakout_S_800_House
+2018-01-24,SW_Earnings MR Sweep_S_200_Sankalp Krishnan
+2018-01-24,MR_QS_L_300_Maxim Kim
+2018-01-23,OPG MM_XLF-GDX Arb_S_500_CharlesZhou
+2018-01-23,OPG MR_Ratings MR_S_400_RosG
+2018-01-23,MR_QS_S_200_RosG
+2018-01-23,MR_QS SP500_S_100_WW
+2018-01-23,OPG MR_Ratings MR_S_400_Behrooz Karjoo
+2018-01-23,OPG MR_Ratings MR_S_400_Sankalp Krishnan
+2018-01-23,OPG MR_Ratings MR_S_400_Norraphon Dejruksavattana
+2018-01-23,OPG MR_Ratings MR_S_400_Charles Zhou
+2018-01-23,OPG MM_News OPG MM_S_200_Sankalp Krishnan
+2018-01-23,OPG MM_GDX-XLF Arb_S_100_Norraphon Dejruksavattana
+2018-01-23,OPG MM_IBB Arb_S_100_Charles Zhou
+2018-01-23,OPG MM_Standing News OPG MM_S_200_Sankalp Krishnan
+2018-01-23,OPG MR_GDX Sector Arb_S_300_Charles Zhou
+2018-01-23,OPG MM_No News OPG MM_S_100_Sankalp Krishnan
+2018-01-23,OPG MR_Non-News_S_100_Sankalp Krishnan
+2018-01-23,OPG MR_Nasdaq No News_S_100_Behrooz Karjoo
+2018-01-23,OPG MR_CableTV No News_S_200_Behrooz Karjoo
+2018-01-23,OPG MM_News OPG MM 2_S_100_Sankalp Krishnan
+2018-01-23,OPG MR_Biotech No News_S_200_Behrooz Karjoo
+2018-01-23,OPG RATINGS SHORT 400
+2018-01-23,OPG MR_Nasdaq No News_S_100_Behrooz Karjoo AEL Version
+2018-01-23,OPG MR_Biotech No News_S_200_Behrooz Karjoo AEL Version
+2018-01-23,OPG MR_IPO Gap Up_S_100_Behrooz Karjoo
+2018-01-23,MR_QS_S_300_Sankalp Krishnan
+2018-01-23,MR_QS News_S_100_Sankalp Krishnan
+2018-01-23,MR_QS_S_100_Norraphon Dejruksavattana_v3
+2018-01-23,MM_Earnings MM Breakout_S_200_TEST_Norraphon Dejruksavattana
+2018-01-23,MR_QS_S_300_Norraphon Dejruksavattana
+2018-01-23,QS_Earnings MR QS_S_400_TEST_Behrooz Karjoo
+2018-01-23,MR_QS_S_100_Norraphon Dejruksavattana_v2
+2018-01-23,OPG MR_Ratings MR_S_400_Maxim Kim
+2018-01-23,OPG MM_Arb Nat Gas_S_400_Maxim Kim
+2018-01-23,OPG MR_Ratings MR_L_400_Behrooz Karjoo
+2018-01-23,OPG MR_Ratings MR_L_400_Sankalp Krishnan
+2018-01-23,OPG Ratings MM_Standing_L_200_Norraphon Dejruksavattana
+2018-01-23,OPG MR_Ratings MR_L_600_RosG
+2018-01-23,OPG MR_Ratings MR_L_600_Norraphon Dejruksavattana
+2018-01-23,OPG MM_News OPG MM_L_200_Sankalp Krishnan
+2018-01-23,OPG MM_GDX-XLF Arb_L_100_Norraphon Dejruksavattana
+2018-01-23,OPG MM_IBB Arb_L_100_Charles Zhou
+2018-01-23,OPG MR_GDX Sector Arb_L_300_Charles Zhou
+2018-01-23,OPG MM_No News OPG MM_L_100_Sankalp Krishnan
+2018-01-23,OPG MM_XLF-GDX Arb_L_500_CharlesZhou
+2018-01-23,OPG MR_Non-News_L_100_Sankalp Krishnan
+2018-01-23,OPG MR_Nasdaq No News_L_100_Behrooz Karjoo
+2018-01-23,OPG MR_CableTV No News_L_200_Behrooz Karjoo
+2018-01-23,OPG MM_News OPG MM 2_L_100_Sankalp Krishnan
+2018-01-23,OPG MR_Biotech No News_L_200_Behrooz Karjoo
 2018-01-23,MR_Sweep Non-News_L_2000_RosG
+2018-01-23,MR_Sweep Non-News_L_300_Charles Zhou
+2018-01-23,MR_Sweep Non News RB_L_600_Sankalp Krishnan
+2018-01-23,MR_Sweep Non-News ETF_L_2400_Behrooz Karjoo
+2018-01-23,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
+2018-01-23,MR_EOD Sweep_L_4500_RosG
+2018-01-23,MR_QS SP500_L_100_WW
+2018-01-23,MR_QS_L_300_Sankalp Krishnan
+2018-01-23,MR_QS News_L_100_Sankalp Krishnan
+2018-01-23,MR_QS_L_300_Norraphon Dejruksavattana
+2018-01-23,MR_QS_L_100_Norraphon Dejruksavattana_v3
+2018-01-23,MR_QS_L_100_Norraphon Dejruksavattana_v2
+2018-01-23,MR_QS SP500_L_400_Behrooz Karjoo
+2018-01-23,MR_QS LowVol_L_200_Behrooz Karjoo
+2018-01-23,MR_QS_L_300_Behrooz Karjoo
+2018-01-23,MR_QS_L_200_RosG
+2018-01-23,OPG RATINGS LONG Index 600
+2018-01-23,OPG MR_Biotech No News_L_200_Behrooz Karjoo AEL VERSION
+2018-01-23,OPG MM_Arb Nat Gas_L_400_Maxim Kim
+2018-01-23,OPG MR_Ratings MR_L_400_Maxim Kim
+2018-01-23,MR_QS_L_300_Maxim Kim
+2018-01-23,MR_Sweep CEF_L_10000_RosG
+2018-01-23,MM_Post Halt _L_500_Maxim Kim
+2018-01-23,QS_Earnings MR QS_L_400_TEST_Behrooz Karjoo
+2018-01-23,MM_Earnings MM Breakout_L_200_TEST_Norraphon Dejruksavattana
+2018-01-23,OPG MR_Nasdaq No News_L_100_Behrooz Karjoo AEL Version
+2018-01-22,MR_Sweep Non-News ETF_L_2400_Behrooz Karjoo
+2018-01-22,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
+2018-01-22,MR_EOD Sweep_L_4500_RosG
+2018-01-22,OPG MM_XLF-GDX Arb_L_500_CharlesZhou
+2018-01-22,OPG MM_XLF-GDX Arb_S_500_CharlesZhou
+2018-01-22,MR_Sweep Non-News_L_2000_RosG
+2018-01-22,MR_Sweep CEF_L_10000_RosG
+2018-01-22,OPG MR_Ratings MR_S_400_RosG
+2018-01-22,OPG MR_Ratings MR_L_600_RosG
+2018-01-22,MR_QS_S_200_RosG
+2018-01-22,MR_QS_L_200_RosG
+2018-01-22,MR_QS SP500_S_100_WW
+2018-01-22,OPG MR_Ratings MR_L_400_Behrooz Karjoo
+2018-01-22,OPG MR_Ratings MR_L_400_Sankalp Krishnan
+2018-01-22,OPG Ratings MM_Standing_L_200_Norraphon Dejruksavattana
+2018-01-22,OPG MR_Ratings MR_L_600_Norraphon Dejruksavattana
+2018-01-22,OPG MM_News OPG MM_L_200_Sankalp Krishnan
+2018-01-22,OPG MM_GDX-XLF Arb_L_100_Norraphon Dejruksavattana
+2018-01-22,OPG MM_IBB Arb_L_100_Charles Zhou
+2018-01-22,OPG MR_GDX Sector Arb_L_300_Charles Zhou
+2018-01-22,OPG MM_No News OPG MM_L_100_Sankalp Krishnan
+2018-01-22,OPG MR_Non-News_L_100_Sankalp Krishnan
+2018-01-22,OPG MR_Nasdaq No News_L_100_Behrooz Karjoo
+2018-01-22,OPG MR_CableTV No News_L_200_Behrooz Karjoo
+2018-01-22,OPG MM_News OPG MM 2_L_100_Sankalp Krishnan
+2018-01-22,OPG MR_Biotech No News_L_200_Behrooz Karjoo
+2018-01-22,MR_Sweep Non-News_L_300_Charles Zhou
+2018-01-22,OPG MR_Ratings MR_S_400_Behrooz Karjoo
+2018-01-22,MR_Sweep Non News RB_L_600_Sankalp Krishnan
+2018-01-22,MR_QS SP500_L_100_WW
+2018-01-22,OPG MR_Ratings MR_S_400_Sankalp Krishnan
+2018-01-22,OPG MR_Ratings MR_S_400_Norraphon Dejruksavattana
+2018-01-22,OPG MR_Ratings MR_S_400_Charles Zhou
+2018-01-22,OPG MM_News OPG MM_S_200_Sankalp Krishnan
+2018-01-22,MR_QS_L_300_Sankalp Krishnan
+2018-01-22,OPG MM_GDX-XLF Arb_S_100_Norraphon Dejruksavattana
+2018-01-22,MR_QS News_L_100_Sankalp Krishnan
+2018-01-22,OPG MM_IBB Arb_S_100_Charles Zhou
+2018-01-22,OPG MM_Standing News OPG MM_S_200_Sankalp Krishnan
+2018-01-22,OPG MR_GDX Sector Arb_S_300_Charles Zhou
+2018-01-22,MR_QS_L_300_Norraphon Dejruksavattana
+2018-01-22,MR_QS_L_100_Norraphon Dejruksavattana_v3
+2018-01-22,OPG MM_No News OPG MM_S_100_Sankalp Krishnan
+2018-01-22,MR_QS_L_100_Norraphon Dejruksavattana_v2
+2018-01-22,OPG MR_Non-News_S_100_Sankalp Krishnan
+2018-01-22,MR_QS SP500_L_400_Behrooz Karjoo
+2018-01-22,OPG MR_Nasdaq No News_S_100_Behrooz Karjoo
+2018-01-22,OPG MR_CableTV No News_S_200_Behrooz Karjoo
+2018-01-22,OPG MM_News OPG MM 2_S_100_Sankalp Krishnan
+2018-01-22,OPG MR_Biotech No News_S_200_Behrooz Karjoo
+2018-01-22,MR_QS LowVol_L_200_Behrooz Karjoo
+2018-01-22,OPG RATINGS SHORT 400
+2018-01-22,OPG MR_Nasdaq No News_S_100_Behrooz Karjoo AEL Version
+2018-01-22,MR_QS_L_300_Behrooz Karjoo
+2018-01-22,OPG MR_Biotech No News_S_200_Behrooz Karjoo AEL Version
+2018-01-22,OPG MR_IPO Gap Up_S_100_Behrooz Karjoo
+2018-01-22,OPG RATINGS LONG Index 600
+2018-01-22,OPG MR_Biotech No News_L_200_Behrooz Karjoo AEL VERSION
+2018-01-22,OPG MR_Nasdaq No News_L_100_Behrooz Karjoo AEL Version
+2018-01-22,MR_QS_S_300_Sankalp Krishnan
+2018-01-22,MR_QS News_S_100_Sankalp Krishnan
+2018-01-22,MR_QS_S_100_Norraphon Dejruksavattana_v3
+2018-01-22,MM_Earnings MM Breakout_S_200_TEST_Norraphon Dejruksavattana
+2018-01-22,MR_QS_S_300_Norraphon Dejruksavattana
+2018-01-22,QS_Earnings MR QS_S_400_TEST_Behrooz Karjoo
+2018-01-22,MR_QS_S_100_Norraphon Dejruksavattana_v2
+2018-01-22,OPG MM_Arb Nat Gas_L_400_Maxim Kim
+2018-01-22,MR_QS_L_300_Maxim Kim
+2018-01-22,OPG MR_Ratings MR_L_400_Maxim Kim
+2018-01-22,OPG MR_Ratings MR_S_400_Maxim Kim
+2018-01-22,MM_Post Halt _L_500_Maxim Kim
+2018-01-22,QS_Earnings MR QS_L_400_TEST_Behrooz Karjoo
+2018-01-22,MM_Earnings MM Breakout_L_200_TEST_Norraphon Dejruksavattana
+2018-01-22,OPG MM_Arb Nat Gas_S_400_Maxim Kim
+2018-01-22,OPG MM_Arb Macau_L_200_Maxim Kim
+2018-01-19,MR_Sweep Non-News ETF_L_2400_Behrooz Karjoo
+2018-01-19,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
+2018-01-19,MR_EOD Sweep_L_4500_RosG
+2018-01-19,OPG MM_XLF-GDX Arb_L_500_CharlesZhou
+2018-01-19,OPG MM_XLF-GDX Arb_S_500_CharlesZhou
+2018-01-19,MR_Sweep Non-News_L_2000_RosG
+2018-01-19,MR_Sweep CEF_L_10000_RosG
+2018-01-19,OPG MR_Ratings MR_S_400_RosG
+2018-01-19,MR_QS_S_200_RosG
+2018-01-19,OPG MR_Ratings MR_L_600_RosG
+2018-01-19,MR_QS_L_200_RosG
+2018-01-19,MR_QS SP500_S_100_WW
+2018-01-19,OPG MR_Ratings MR_L_400_Behrooz Karjoo
+2018-01-19,OPG MR_Ratings MR_L_400_Sankalp Krishnan
+2018-01-19,OPG Ratings MM_Standing_L_200_Norraphon Dejruksavattana
+2018-01-19,OPG MR_Ratings MR_L_600_Norraphon Dejruksavattana
+2018-01-19,OPG MM_News OPG MM_L_200_Sankalp Krishnan
+2018-01-19,OPG MM_GDX-XLF Arb_L_100_Norraphon Dejruksavattana
+2018-01-19,OPG MM_IBB Arb_L_100_Charles Zhou
+2018-01-19,OPG MR_GDX Sector Arb_L_300_Charles Zhou
+2018-01-19,OPG MM_No News OPG MM_L_100_Sankalp Krishnan
+2018-01-19,OPG MR_Non-News_L_100_Sankalp Krishnan
+2018-01-19,OPG MR_Nasdaq No News_L_100_Behrooz Karjoo
+2018-01-19,OPG MR_CableTV No News_L_200_Behrooz Karjoo
+2018-01-19,OPG MM_News OPG MM 2_L_100_Sankalp Krishnan
+2018-01-19,OPG MR_Biotech No News_L_200_Behrooz Karjoo
+2018-01-19,MR_Sweep Non-News_L_300_Charles Zhou
+2018-01-19,MR_Sweep Non News RB_L_600_Sankalp Krishnan
+2018-01-19,OPG MR_Ratings MR_S_400_Behrooz Karjoo
+2018-01-19,MR_QS SP500_L_100_WW
+2018-01-19,OPG MR_Ratings MR_S_400_Sankalp Krishnan
+2018-01-19,OPG MR_Ratings MR_S_400_Norraphon Dejruksavattana
+2018-01-19,MR_QS_L_300_Sankalp Krishnan
+2018-01-19,OPG MR_Ratings MR_S_400_Charles Zhou
+2018-01-19,MR_QS News_L_100_Sankalp Krishnan
+2018-01-19,OPG MM_News OPG MM_S_200_Sankalp Krishnan
+2018-01-19,OPG MM_GDX-XLF Arb_S_100_Norraphon Dejruksavattana
+2018-01-19,OPG MM_IBB Arb_S_100_Charles Zhou
+2018-01-19,OPG MM_Standing News OPG MM_S_200_Sankalp Krishnan
+2018-01-19,MR_QS_L_300_Norraphon Dejruksavattana
+2018-01-19,OPG MR_GDX Sector Arb_S_300_Charles Zhou
+2018-01-19,MR_QS_L_100_Norraphon Dejruksavattana_v3
+2018-01-19,MR_QS_L_100_Norraphon Dejruksavattana_v2
+2018-01-19,OPG MM_No News OPG MM_S_100_Sankalp Krishnan
+2018-01-19,MR_QS SP500_L_400_Behrooz Karjoo
+2018-01-19,OPG MR_Non-News_S_100_Sankalp Krishnan
+2018-01-19,OPG MR_Nasdaq No News_S_100_Behrooz Karjoo
+2018-01-19,OPG MR_CableTV No News_S_200_Behrooz Karjoo
+2018-01-19,OPG MM_News OPG MM 2_S_100_Sankalp Krishnan
+2018-01-19,MR_QS LowVol_L_200_Behrooz Karjoo
+2018-01-19,OPG MR_Biotech No News_S_200_Behrooz Karjoo
+2018-01-19,MR_QS_L_300_Behrooz Karjoo
+2018-01-19,OPG RATINGS SHORT 400
+2018-01-19,OPG MR_Nasdaq No News_S_100_Behrooz Karjoo AEL Version
+2018-01-19,OPG RATINGS LONG Index 600
+2018-01-19,OPG MR_Biotech No News_S_200_Behrooz Karjoo AEL Version
+2018-01-19,OPG MR_IPO Gap Up_S_100_Behrooz Karjoo
+2018-01-19,OPG MR_Biotech No News_L_200_Behrooz Karjoo AEL VERSION
+2018-01-19,OPG MR_OpEx NYSE_S_200_WW
+2018-01-19,OPG MR_Nasdaq No News_L_100_Behrooz Karjoo AEL Version
+2018-01-19,OPG MR_OpEx NSDQ_S_600_WW
+2018-01-19,402430 L NOPX Behrooz
+2018-01-19,403350 S NOPX Behrooz
+2018-01-19,MR_QS_S_300_Sankalp Krishnan
+2018-01-19,MR_QS News_S_100_Sankalp Krishnan
+2018-01-19,MR_QS_S_100_Norraphon Dejruksavattana_v3
+2018-01-19,MM_Earnings MM Breakout_S_200_TEST_Norraphon Dejruksavattana
+2018-01-19,MR_QS_S_300_Norraphon Dejruksavattana
+2018-01-19,QS_Earnings MR QS_S_400_TEST_Behrooz Karjoo
+2018-01-19,MR_QS_S_100_Norraphon Dejruksavattana_v2
+2018-01-19,OPG MM_Arb Nat Gas_L_400_Maxim Kim
+2018-01-19,OPG MR_Ratings MR_L_400_Maxim Kim
+2018-01-19,MR_QS_L_300_Maxim Kim
+2018-01-19,OPG MR_Ratings MR_S_400_Maxim Kim
+2018-01-19,MM_Post Halt _L_500_Maxim Kim
+2018-01-19,QS_Earnings MR QS_L_400_TEST_Behrooz Karjoo
+2018-01-19,MM_Earnings MM Breakout_L_200_TEST_Norraphon Dejruksavattana
+2018-01-19,OPG MM_Arb Nat Gas_S_400_Maxim Kim
+2018-01-19,OPG MM_Arb Macau_L_200_Maxim Kim
+2018-01-18,MR_Sweep Non-News ETF_L_2400_Behrooz Karjoo
+2018-01-18,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
+2018-01-18,MR_EOD Sweep_L_4500_RosG
+2018-01-18,OPG MM_XLF-GDX Arb_S_500_CharlesZhou
+2018-01-18,OPG MM_XLF-GDX Arb_L_500_CharlesZhou
+2018-01-18,MR_Sweep Non-News_L_2000_RosG
+2018-01-18,MR_Sweep CEF_L_10000_RosG
+2018-01-18,OPG MR_Ratings MR_S_400_RosG
+2018-01-18,MR_QS_S_200_RosG
+2018-01-18,OPG MR_Ratings MR_L_600_RosG
+2018-01-18,MR_QS_L_200_RosG
+2018-01-18,MR_QS SP500_S_100_WW
+2018-01-18,OPG MR_Ratings MR_L_400_Behrooz Karjoo
+2018-01-18,OPG MR_Ratings MR_L_400_Sankalp Krishnan
+2018-01-18,OPG Ratings MM_Standing_L_200_Norraphon Dejruksavattana
+2018-01-18,OPG MR_Ratings MR_L_600_Norraphon Dejruksavattana
+2018-01-18,OPG MM_News OPG MM_L_200_Sankalp Krishnan
+2018-01-18,OPG MM_GDX-XLF Arb_L_100_Norraphon Dejruksavattana
+2018-01-18,OPG MM_IBB Arb_L_100_Charles Zhou
+2018-01-18,OPG MR_GDX Sector Arb_L_300_Charles Zhou
+2018-01-18,OPG MM_No News OPG MM_L_100_Sankalp Krishnan
+2018-01-18,OPG MR_Non-News_L_100_Sankalp Krishnan
+2018-01-18,OPG MR_Nasdaq No News_L_100_Behrooz Karjoo
+2018-01-18,OPG MR_CableTV No News_L_200_Behrooz Karjoo
+2018-01-18,OPG MM_News OPG MM 2_L_100_Sankalp Krishnan
+2018-01-18,OPG MR_Biotech No News_L_200_Behrooz Karjoo
+2018-01-18,MR_Sweep Non-News_L_300_Charles Zhou
+2018-01-18,OPG MR_Ratings MR_S_400_Behrooz Karjoo
+2018-01-18,MR_Sweep Non News RB_L_600_Sankalp Krishnan
+2018-01-18,OPG MR_Ratings MR_S_400_Sankalp Krishnan
+2018-01-18,MR_QS SP500_L_100_WW
+2018-01-18,OPG MR_Ratings MR_S_400_Norraphon Dejruksavattana
+2018-01-18,MR_QS_L_300_Sankalp Krishnan
+2018-01-18,OPG MR_Ratings MR_S_400_Charles Zhou
+2018-01-18,MR_QS News_L_100_Sankalp Krishnan
+2018-01-18,OPG MM_News OPG MM_S_200_Sankalp Krishnan
+2018-01-18,OPG MM_GDX-XLF Arb_S_100_Norraphon Dejruksavattana
+2018-01-18,OPG MM_IBB Arb_S_100_Charles Zhou
+2018-01-18,MR_QS_L_300_Norraphon Dejruksavattana
+2018-01-18,OPG MM_Standing News OPG MM_S_200_Sankalp Krishnan
+2018-01-18,OPG MR_GDX Sector Arb_S_300_Charles Zhou
+2018-01-18,MR_QS_L_100_Norraphon Dejruksavattana_v3
+2018-01-18,OPG MM_No News OPG MM_S_100_Sankalp Krishnan
+2018-01-18,MR_QS_L_100_Norraphon Dejruksavattana_v2
+2018-01-18,MR_QS SP500_L_400_Behrooz Karjoo
+2018-01-18,OPG MR_Non-News_S_100_Sankalp Krishnan
+2018-01-18,OPG MR_Nasdaq No News_S_100_Behrooz Karjoo
+2018-01-18,OPG MR_CableTV No News_S_200_Behrooz Karjoo
+2018-01-18,OPG MM_News OPG MM 2_S_100_Sankalp Krishnan
+2018-01-18,OPG MR_Biotech No News_S_200_Behrooz Karjoo
+2018-01-18,MR_QS LowVol_L_200_Behrooz Karjoo
+2018-01-18,MR_QS_L_300_Behrooz Karjoo
+2018-01-18,OPG RATINGS SHORT 400
+2018-01-18,OPG MR_Nasdaq No News_S_100_Behrooz Karjoo AEL Version
+2018-01-18,OPG RATINGS LONG Index 600
+2018-01-18,OPG MR_Biotech No News_S_200_Behrooz Karjoo AEL Version
+2018-01-18,OPG MR_IPO Gap Up_S_100_Behrooz Karjoo
+2018-01-18,OPG MR_Biotech No News_L_200_Behrooz Karjoo AEL VERSION
+2018-01-18,OPG MR_Nasdaq No News_L_100_Behrooz Karjoo AEL Version
+2018-01-18,MR_QS_S_300_Sankalp Krishnan
+2018-01-18,MR_QS News_S_100_Sankalp Krishnan
+2018-01-18,MR_QS_S_100_Norraphon Dejruksavattana_v3
+2018-01-18,MM_Earnings MM Breakout_S_200_TEST_Norraphon Dejruksavattana
+2018-01-18,MR_QS_S_300_Norraphon Dejruksavattana
+2018-01-18,QS_Earnings MR QS_S_400_TEST_Behrooz Karjoo
+2018-01-18,MR_QS_S_100_Norraphon Dejruksavattana_v2
+2018-01-18,OPG MM_Arb Nat Gas_L_400_Maxim Kim
+2018-01-18,OPG MR_Ratings MR_L_400_Maxim Kim
+2018-01-18,MR_QS_L_300_Maxim Kim
+2018-01-18,MM_Post Halt _L_500_Maxim Kim
+2018-01-18,QS_Earnings MR QS_L_400_TEST_Behrooz Karjoo
+2018-01-18,OPG MR_Ratings MR_S_400_Maxim Kim
+2018-01-18,MM_Earnings MM Breakout_L_200_TEST_Norraphon Dejruksavattana
+2018-01-18,OPG MM_Arb Nat Gas_S_400_Maxim Kim
+2018-01-17,MR_Sweep Non-News ETF_L_2400_Behrooz Karjoo
+2018-01-17,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
+2018-01-17,MR_EOD Sweep_L_4500_RosG
+2018-01-17,OPG MM_XLF-GDX Arb_L_500_CharlesZhou
+2018-01-17,OPG MM_XLF-GDX Arb_S_500_CharlesZhou
+2018-01-17,MR_Sweep Non-News_L_2000_RosG
+2018-01-17,MR_Sweep CEF_L_10000_RosG
+2018-01-17,OPG MR_Ratings MR_S_400_RosG
+2018-01-17,MR_QS_S_200_RosG
+2018-01-17,OPG MR_Ratings MR_L_600_RosG
+2018-01-17,MR_QS_L_200_RosG
+2018-01-17,MR_QS SP500_S_100_WW
+2018-01-17,OPG MR_Ratings MR_L_400_Behrooz Karjoo
+2018-01-17,OPG MR_Ratings MR_L_400_Sankalp Krishnan
+2018-01-17,OPG Ratings MM_Standing_L_200_Norraphon Dejruksavattana
+2018-01-17,OPG MR_Ratings MR_L_600_Norraphon Dejruksavattana
+2018-01-17,OPG MM_News OPG MM_L_200_Sankalp Krishnan
+2018-01-17,OPG MM_GDX-XLF Arb_L_100_Norraphon Dejruksavattana
+2018-01-17,OPG MM_IBB Arb_L_100_Charles Zhou
+2018-01-17,OPG MR_GDX Sector Arb_L_300_Charles Zhou
+2018-01-17,OPG MM_No News OPG MM_L_100_Sankalp Krishnan
+2018-01-17,OPG MR_Non-News_L_100_Sankalp Krishnan
+2018-01-17,OPG MR_Nasdaq No News_L_100_Behrooz Karjoo
+2018-01-17,OPG MR_CableTV No News_L_200_Behrooz Karjoo
+2018-01-17,OPG MM_News OPG MM 2_L_100_Sankalp Krishnan
+2018-01-17,OPG MR_Biotech No News_L_200_Behrooz Karjoo
+2018-01-17,MR_Sweep Non-News_L_300_Charles Zhou
+2018-01-17,MR_Sweep Non News RB_L_600_Sankalp Krishnan
+2018-01-17,MR_QS SP500_L_100_WW
+2018-01-17,OPG MR_Ratings MR_S_400_Behrooz Karjoo
+2018-01-17,MR_QS_L_300_Sankalp Krishnan
+2018-01-17,MR_QS News_L_100_Sankalp Krishnan
+2018-01-17,OPG MR_Ratings MR_S_400_Sankalp Krishnan
+2018-01-17,OPG MR_Ratings MR_S_400_Norraphon Dejruksavattana
+2018-01-17,OPG MR_Ratings MR_S_400_Charles Zhou
+2018-01-17,OPG MM_News OPG MM_S_200_Sankalp Krishnan
+2018-01-17,MR_QS_L_300_Norraphon Dejruksavattana
+2018-01-17,OPG MM_GDX-XLF Arb_S_100_Norraphon Dejruksavattana
+2018-01-17,OPG MM_IBB Arb_S_100_Charles Zhou
+2018-01-17,MR_QS_L_100_Norraphon Dejruksavattana_v3
+2018-01-17,OPG MM_Standing News OPG MM_S_200_Sankalp Krishnan
+2018-01-17,MR_QS_L_100_Norraphon Dejruksavattana_v2
+2018-01-17,OPG MR_GDX Sector Arb_S_300_Charles Zhou
+2018-01-17,MR_QS SP500_L_400_Behrooz Karjoo
+2018-01-17,OPG MM_No News OPG MM_S_100_Sankalp Krishnan
+2018-01-17,OPG MR_Non-News_S_100_Sankalp Krishnan
+2018-01-17,OPG MR_Nasdaq No News_S_100_Behrooz Karjoo
+2018-01-17,OPG MR_CableTV No News_S_200_Behrooz Karjoo
+2018-01-17,MR_QS LowVol_L_200_Behrooz Karjoo
+2018-01-17,OPG MM_News OPG MM 2_S_100_Sankalp Krishnan
+2018-01-17,OPG MR_Biotech No News_S_200_Behrooz Karjoo
+2018-01-17,MR_QS_L_300_Behrooz Karjoo
+2018-01-17,OPG RATINGS SHORT 400
+2018-01-17,OPG MR_Nasdaq No News_S_100_Behrooz Karjoo AEL Version
+2018-01-17,OPG RATINGS LONG Index 600
+2018-01-17,OPG MR_Biotech No News_S_200_Behrooz Karjoo AEL Version
+2018-01-17,OPG MR_Biotech No News_L_200_Behrooz Karjoo AEL VERSION
+2018-01-17,OPG MR_Nasdaq No News_L_100_Behrooz Karjoo AEL Version
+2018-01-17,OPG MR_IPO Gap Up_S_100_Behrooz Karjoo
+2018-01-17,MR_QS_S_300_Sankalp Krishnan
+2018-01-17,MR_QS News_S_100_Sankalp Krishnan
+2018-01-17,MR_QS_S_100_Norraphon Dejruksavattana_v3
+2018-01-17,MR_QS_S_300_Norraphon Dejruksavattana
+2018-01-17,MR_QS_S_100_Norraphon Dejruksavattana_v2
+2018-01-17,OPG MM_Arb Nat Gas_L_400_Maxim Kim
+2018-01-17,OPG MR_Ratings MR_L_400_Maxim Kim
+2018-01-17,MR_QS_L_300_Maxim Kim
+2018-01-17,OPG MR_Ratings MR_S_400_Maxim Kim
+2018-01-17,OPG MM_Arb Nat Gas_S_400_Maxim Kim
+2018-01-17,MM_Post Halt _L_500_Maxim Kim
+2018-01-17,OPG MM_Arb Macau_L_200_Maxim Kim
+2018-01-16,MR_Sweep Non-News ETF_L_2400_Behrooz Karjoo
+2018-01-16,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
+2018-01-16,MR_EOD Sweep_L_4500_RosG
+2018-01-16,OPG MM_XLF-GDX Arb_S_500_CharlesZhou
+2018-01-16,OPG MM_XLF-GDX Arb_L_500_CharlesZhou
+2018-01-16,MR_Sweep Non-News_L_2000_RosG
+2018-01-16,MR_Sweep CEF_L_10000_RosG
+2018-01-16,OPG MR_Ratings MR_S_400_RosG
+2018-01-16,MR_QS_S_200_RosG
+2018-01-16,OPG MR_Ratings MR_L_600_RosG
+2018-01-16,MR_QS_L_200_RosG
+2018-01-16,MR_QS SP500_S_100_WW
+2018-01-16,OPG MR_Ratings MR_L_400_Behrooz Karjoo
+2018-01-16,OPG MR_Ratings MR_L_400_Sankalp Krishnan
+2018-01-16,OPG Ratings MM_Standing_L_200_Norraphon Dejruksavattana
+2018-01-16,OPG MR_Ratings MR_L_600_Norraphon Dejruksavattana
+2018-01-16,OPG MM_News OPG MM_L_200_Sankalp Krishnan
+2018-01-16,OPG MM_GDX-XLF Arb_L_100_Norraphon Dejruksavattana
+2018-01-16,OPG MM_IBB Arb_L_100_Charles Zhou
+2018-01-16,OPG MR_GDX Sector Arb_L_300_Charles Zhou
+2018-01-16,OPG MM_No News OPG MM_L_100_Sankalp Krishnan
+2018-01-16,OPG MR_Non-News_L_100_Sankalp Krishnan
+2018-01-16,OPG MR_Nasdaq No News_L_100_Behrooz Karjoo
+2018-01-16,OPG MR_CableTV No News_L_200_Behrooz Karjoo
+2018-01-16,OPG MM_News OPG MM 2_L_100_Sankalp Krishnan
+2018-01-16,OPG MR_Biotech No News_L_200_Behrooz Karjoo
+2018-01-16,MR_Sweep Non-News_L_300_Charles Zhou
+2018-01-16,OPG MR_Ratings MR_S_400_Behrooz Karjoo
+2018-01-16,MR_Sweep Non News RB_L_600_Sankalp Krishnan
+2018-01-16,OPG MR_Ratings MR_S_400_Sankalp Krishnan
+2018-01-16,MR_QS SP500_L_100_WW
+2018-01-16,OPG MR_Ratings MR_S_400_Norraphon Dejruksavattana
+2018-01-16,MR_QS_L_300_Sankalp Krishnan
+2018-01-16,OPG MR_Ratings MR_S_400_Charles Zhou
+2018-01-16,MR_QS News_L_100_Sankalp Krishnan
+2018-01-16,OPG MM_News OPG MM_S_200_Sankalp Krishnan
+2018-01-16,OPG MM_GDX-XLF Arb_S_100_Norraphon Dejruksavattana
+2018-01-16,OPG MM_IBB Arb_S_100_Charles Zhou
+2018-01-16,OPG MM_Standing News OPG MM_S_200_Sankalp Krishnan
+2018-01-16,MR_QS_L_300_Norraphon Dejruksavattana
+2018-01-16,OPG MR_GDX Sector Arb_S_300_Charles Zhou
+2018-01-16,OPG MM_No News OPG MM_S_100_Sankalp Krishnan
+2018-01-16,MR_QS_L_100_Norraphon Dejruksavattana_v3
+2018-01-16,MR_QS_L_100_Norraphon Dejruksavattana_v2
+2018-01-16,OPG MR_Non-News_S_100_Sankalp Krishnan
+2018-01-16,MR_QS SP500_L_400_Behrooz Karjoo
+2018-01-16,OPG MR_Nasdaq No News_S_100_Behrooz Karjoo
+2018-01-16,OPG MR_CableTV No News_S_200_Behrooz Karjoo
+2018-01-16,OPG MM_News OPG MM 2_S_100_Sankalp Krishnan
+2018-01-16,OPG MR_Biotech No News_S_200_Behrooz Karjoo
+2018-01-16,MR_QS LowVol_L_200_Behrooz Karjoo
+2018-01-16,OPG RATINGS SHORT 400
+2018-01-16,MR_QS_L_300_Behrooz Karjoo
+2018-01-16,OPG MR_Nasdaq No News_S_100_Behrooz Karjoo AEL Version
+2018-01-16,OPG MR_Biotech No News_S_200_Behrooz Karjoo AEL Version
+2018-01-16,OPG RATINGS LONG Index 600
+2018-01-16,OPG MR_IPO Gap Up_S_100_Behrooz Karjoo
+2018-01-16,OPG MR_Biotech No News_L_200_Behrooz Karjoo AEL VERSION
+2018-01-16,OPG MR_Nasdaq No News_L_100_Behrooz Karjoo AEL Version
+2018-01-16,MR_QS_S_300_Sankalp Krishnan
+2018-01-16,MR_QS News_S_100_Sankalp Krishnan
+2018-01-16,MR_QS_S_100_Norraphon Dejruksavattana_v3
+2018-01-16,MR_QS_S_300_Norraphon Dejruksavattana
+2018-01-16,MR_QS_S_100_Norraphon Dejruksavattana_v2
+2018-01-16,OPG MM_Arb Nat Gas_L_400_Maxim Kim
+2018-01-16,OPG MR_Ratings MR_L_400_Maxim Kim
+2018-01-16,MR_QS_L_300_Maxim Kim
+2018-01-16,OPG MR_Ratings MR_S_400_Maxim Kim
+2018-01-16,MM_Post Halt _L_500_Maxim Kim
+2018-01-16,OPG MM_Arb Nat Gas_S_400_Maxim Kim
+2018-01-16,OPG MM_Arb Macau_L_200_Maxim Kim
+2018-01-12,MR_Sweep Non-News ETF_L_2400_Behrooz Karjoo
+2018-01-12,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
+2018-01-12,MR_EOD Sweep_L_4500_RosG
+2018-01-12,OPG MM_XLF-GDX Arb_L_500_CharlesZhou
+2018-01-12,OPG MM_XLF-GDX Arb_S_500_CharlesZhou
+2018-01-12,MR_Sweep Non-News_L_2000_RosG
+2018-01-12,MR_Sweep CEF_L_10000_RosG
+2018-01-12,OPG MR_Ratings MR_S_400_RosG
+2018-01-12,OPG MR_Ratings MR_L_600_RosG
+2018-01-12,MR_QS_S_200_RosG
+2018-01-12,MR_QS_L_200_RosG
+2018-01-12,MR_QS SP500_S_100_WW
+2018-01-12,OPG MR_Ratings MR_L_400_Behrooz Karjoo
+2018-01-12,OPG MR_Ratings MR_L_400_Sankalp Krishnan
+2018-01-12,OPG Ratings MM_Standing_L_200_Norraphon Dejruksavattana
+2018-01-12,OPG MR_Ratings MR_L_600_Norraphon Dejruksavattana
+2018-01-12,OPG MM_News OPG MM_L_200_Sankalp Krishnan
+2018-01-12,OPG MM_GDX-XLF Arb_L_100_Norraphon Dejruksavattana
+2018-01-12,OPG MM_IBB Arb_L_100_Charles Zhou
+2018-01-12,OPG MR_GDX Sector Arb_L_300_Charles Zhou
+2018-01-12,OPG MM_No News OPG MM_L_100_Sankalp Krishnan
+2018-01-12,OPG MR_Non-News_L_100_Sankalp Krishnan
+2018-01-12,OPG MR_Nasdaq No News_L_100_Behrooz Karjoo
+2018-01-12,OPG MR_CableTV No News_L_200_Behrooz Karjoo
+2018-01-12,OPG MM_News OPG MM 2_L_100_Sankalp Krishnan
+2018-01-12,OPG MR_Biotech No News_L_200_Behrooz Karjoo
+2018-01-12,OPG MR_Ratings MR_S_400_Behrooz Karjoo
+2018-01-12,MR_Sweep Non-News_L_300_Charles Zhou
+2018-01-12,MR_Sweep Non News RB_L_600_Sankalp Krishnan
+2018-01-12,OPG MR_Ratings MR_S_400_Sankalp Krishnan
+2018-01-12,OPG MR_Ratings MR_S_400_Norraphon Dejruksavattana
+2018-01-12,MR_QS SP500_L_100_WW
+2018-01-12,OPG MR_Ratings MR_S_400_Charles Zhou
+2018-01-12,MR_QS_L_300_Sankalp Krishnan
+2018-01-12,OPG MM_News OPG MM_S_200_Sankalp Krishnan
+2018-01-12,OPG MM_GDX-XLF Arb_S_100_Norraphon Dejruksavattana
+2018-01-12,MR_QS News_L_100_Sankalp Krishnan
+2018-01-12,OPG MM_IBB Arb_S_100_Charles Zhou
+2018-01-12,OPG MM_Standing News OPG MM_S_200_Sankalp Krishnan
+2018-01-12,OPG MR_GDX Sector Arb_S_300_Charles Zhou
+2018-01-12,MR_QS_L_300_Norraphon Dejruksavattana
+2018-01-12,OPG MM_No News OPG MM_S_100_Sankalp Krishnan
+2018-01-12,MR_QS_L_100_Norraphon Dejruksavattana_v3
+2018-01-12,MR_QS_L_100_Norraphon Dejruksavattana_v2
+2018-01-12,OPG MR_Non-News_S_100_Sankalp Krishnan
+2018-01-12,MR_QS SP500_L_400_Behrooz Karjoo
+2018-01-12,OPG MR_Nasdaq No News_S_100_Behrooz Karjoo
+2018-01-12,OPG MR_CableTV No News_S_200_Behrooz Karjoo
+2018-01-12,OPG MM_News OPG MM 2_S_100_Sankalp Krishnan
+2018-01-12,OPG MR_Biotech No News_S_200_Behrooz Karjoo
+2018-01-12,MR_QS LowVol_L_200_Behrooz Karjoo
+2018-01-12,OPG RATINGS SHORT 400
+2018-01-12,MR_QS_L_300_Behrooz Karjoo
+2018-01-12,OPG MR_Nasdaq No News_S_100_Behrooz Karjoo AEL Version
+2018-01-12,OPG MR_Biotech No News_S_200_Behrooz Karjoo AEL Version
+2018-01-12,OPG RATINGS LONG Index 600
+2018-01-12,OPG MR_IPO Gap Up_S_100_Behrooz Karjoo
+2018-01-12,OPG MR_Biotech No News_L_200_Behrooz Karjoo AEL VERSION
+2018-01-12,OPG MR_Nasdaq No News_L_100_Behrooz Karjoo AEL Version
+2018-01-12,MR_QS_S_300_Sankalp Krishnan
+2018-01-12,MR_QS News_S_100_Sankalp Krishnan
+2018-01-12,MR_QS_S_100_Norraphon Dejruksavattana_v3
+2018-01-12,MR_QS_S_300_Norraphon Dejruksavattana
+2018-01-12,MR_QS_S_100_Norraphon Dejruksavattana_v2
+2018-01-12,OPG MR_Ratings MR_S_400_Maxim Kim
+2018-01-12,OPG MM_Arb Nat Gas_L_400_Maxim Kim
+2018-01-12,OPG MR_Ratings MR_L_400_Maxim Kim
+2018-01-12,MR_QS_L_300_Maxim Kim
+2018-01-12,MM_Post Halt _L_500_Maxim Kim
+2018-01-12,OPG MM_Arb Nat Gas_S_400_Maxim Kim
+2018-01-12,MM_Crop Report Breakout_L_300_Nor
+2018-01-12,MM_Crop Report Breakout_S_300_Nor
+2018-01-11,MR_Sweep Non-News ETF_L_2400_Behrooz Karjoo
+2018-01-11,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
+2018-01-11,MR_EOD Sweep_L_4500_RosG
+2018-01-11,OPG MM_XLF-GDX Arb_S_500_CharlesZhou
+2018-01-11,OPG MM_XLF-GDX Arb_L_500_CharlesZhou
+2018-01-11,MR_Sweep Non-News_L_2000_RosG
+2018-01-11,MR_Sweep CEF_L_10000_RosG
+2018-01-11,OPG MR_Ratings MR_S_400_RosG
+2018-01-11,MR_QS_S_200_RosG
+2018-01-11,OPG MR_Ratings MR_L_600_RosG
+2018-01-11,MR_QS_L_200_RosG
+2018-01-11,MR_QS SP500_S_100_WW
+2018-01-11,OPG MR_Ratings MR_L_400_Behrooz Karjoo
+2018-01-11,OPG MR_Ratings MR_L_400_Sankalp Krishnan
+2018-01-11,OPG Ratings MM_Standing_L_200_Norraphon Dejruksavattana
+2018-01-11,OPG MR_Ratings MR_L_600_Norraphon Dejruksavattana
+2018-01-11,OPG MM_News OPG MM_L_200_Sankalp Krishnan
+2018-01-11,OPG MM_GDX-XLF Arb_L_100_Norraphon Dejruksavattana
+2018-01-11,OPG MM_IBB Arb_L_100_Charles Zhou
+2018-01-11,OPG MR_GDX Sector Arb_L_300_Charles Zhou
+2018-01-11,OPG MM_No News OPG MM_L_100_Sankalp Krishnan
+2018-01-11,OPG MR_Non-News_L_100_Sankalp Krishnan
+2018-01-11,OPG MR_Nasdaq No News_L_100_Behrooz Karjoo
+2018-01-11,OPG MR_CableTV No News_L_200_Behrooz Karjoo
+2018-01-11,OPG MM_News OPG MM 2_L_100_Sankalp Krishnan
+2018-01-11,OPG MR_Biotech No News_L_200_Behrooz Karjoo
+2018-01-11,MR_Sweep Non-News_L_300_Charles Zhou
+2018-01-11,MR_Sweep Non News RB_L_600_Sankalp Krishnan
+2018-01-11,OPG MR_Ratings MR_S_400_Behrooz Karjoo
+2018-01-11,MR_QS SP500_L_100_WW
+2018-01-11,OPG MR_Ratings MR_S_400_Sankalp Krishnan
+2018-01-11,MR_QS_L_300_Sankalp Krishnan
+2018-01-11,OPG MR_Ratings MR_S_400_Norraphon Dejruksavattana
+2018-01-11,OPG MR_Ratings MR_S_400_Charles Zhou
+2018-01-11,MR_QS News_L_100_Sankalp Krishnan
+2018-01-11,OPG MM_News OPG MM_S_200_Sankalp Krishnan
+2018-01-11,OPG MM_GDX-XLF Arb_S_100_Norraphon Dejruksavattana
+2018-01-11,OPG MM_IBB Arb_S_100_Charles Zhou
+2018-01-11,OPG MM_Standing News OPG MM_S_200_Sankalp Krishnan
+2018-01-11,MR_QS_L_300_Norraphon Dejruksavattana
+2018-01-11,OPG MR_GDX Sector Arb_S_300_Charles Zhou
+2018-01-11,MR_QS_L_100_Norraphon Dejruksavattana_v3
+2018-01-11,OPG MM_No News OPG MM_S_100_Sankalp Krishnan
+2018-01-11,MR_QS_L_100_Norraphon Dejruksavattana_v2
+2018-01-11,OPG MR_Non-News_S_100_Sankalp Krishnan
+2018-01-11,MR_QS SP500_L_400_Behrooz Karjoo
+2018-01-11,OPG MR_Nasdaq No News_S_100_Behrooz Karjoo
+2018-01-11,OPG MR_CableTV No News_S_200_Behrooz Karjoo
+2018-01-11,OPG MM_News OPG MM 2_S_100_Sankalp Krishnan
+2018-01-11,MR_QS LowVol_L_200_Behrooz Karjoo
+2018-01-11,OPG MR_Biotech No News_S_200_Behrooz Karjoo
+2018-01-11,OPG RATINGS SHORT 400
+2018-01-11,MR_QS_L_300_Behrooz Karjoo
+2018-01-11,OPG MR_Nasdaq No News_S_100_Behrooz Karjoo AEL Version
+2018-01-11,OPG MR_Biotech No News_S_200_Behrooz Karjoo AEL Version
+2018-01-11,OPG RATINGS LONG Index 600
+2018-01-11,OPG MR_IPO Gap Up_S_100_Behrooz Karjoo
+2018-01-11,OPG MR_Biotech No News_L_200_Behrooz Karjoo AEL VERSION
+2018-01-11,OPG MR_Nasdaq No News_L_100_Behrooz Karjoo AEL Version
+2018-01-11,MR_QS_S_300_Sankalp Krishnan
+2018-01-11,MR_QS News_S_100_Sankalp Krishnan
+2018-01-11,MR_QS_S_100_Norraphon Dejruksavattana_v3
+2018-01-11,MR_QS_S_300_Norraphon Dejruksavattana
+2018-01-11,MR_QS_S_100_Norraphon Dejruksavattana_v2
+2018-01-11,OPG MM_Arb Nat Gas_L_400_Maxim Kim
+2018-01-11,OPG MR_Ratings MR_L_400_Maxim Kim
+2018-01-11,MR_QS_L_300_Maxim Kim
+2018-01-11,MM_Post Halt _L_500_Maxim Kim
+2018-01-11,OPG MR_Ratings MR_S_400_Maxim Kim
+2018-01-11,OPG MM_Arb Nat Gas_S_400_Maxim Kim
+2018-01-11,OPG MM_Arb Macau_S_200_Maxim Kim
+2018-01-10,MR_Sweep Non-News ETF_L_2400_Behrooz Karjoo
+2018-01-10,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
+2018-01-10,MR_EOD Sweep_L_4500_RosG
+2018-01-10,OPG MM_XLF-GDX Arb_S_500_CharlesZhou
+2018-01-10,OPG MM_XLF-GDX Arb_L_500_CharlesZhou
+2018-01-10,MR_Sweep Non-News_L_2000_RosG
+2018-01-10,MR_Sweep CEF_L_10000_RosG
+2018-01-10,OPG MR_Ratings MR_S_400_RosG
+2018-01-10,MR_QS_S_200_RosG
+2018-01-10,OPG MR_Ratings MR_L_600_RosG
+2018-01-10,MR_QS_L_200_RosG
+2018-01-10,MR_QS SP500_S_100_WW
+2018-01-10,OPG MR_Ratings MR_L_400_Behrooz Karjoo
+2018-01-10,OPG MR_Ratings MR_L_400_Sankalp Krishnan
+2018-01-10,OPG Ratings MM_Standing_L_200_Norraphon Dejruksavattana
+2018-01-10,OPG MR_Ratings MR_L_600_Norraphon Dejruksavattana
+2018-01-10,OPG MM_News OPG MM_L_200_Sankalp Krishnan
+2018-01-10,OPG MM_GDX-XLF Arb_L_100_Norraphon Dejruksavattana
+2018-01-10,OPG MM_IBB Arb_L_100_Charles Zhou
+2018-01-10,OPG MR_GDX Sector Arb_L_300_Charles Zhou
+2018-01-10,OPG MM_No News OPG MM_L_100_Sankalp Krishnan
+2018-01-10,OPG MR_Non-News_L_100_Sankalp Krishnan
+2018-01-10,OPG MR_Nasdaq No News_L_100_Behrooz Karjoo
+2018-01-10,OPG MR_CableTV No News_L_200_Behrooz Karjoo
+2018-01-10,OPG MM_News OPG MM 2_L_100_Sankalp Krishnan
+2018-01-10,OPG MR_Biotech No News_L_200_Behrooz Karjoo
+2018-01-10,MR_Sweep Non-News_L_300_Charles Zhou
+2018-01-10,MR_Sweep Non News RB_L_600_Sankalp Krishnan
+2018-01-10,MR_QS SP500_L_100_WW
+2018-01-10,MR_QS_L_300_Sankalp Krishnan
+2018-01-10,OPG MR_Ratings MR_S_400_Behrooz Karjoo
+2018-01-10,MR_QS News_L_100_Sankalp Krishnan
+2018-01-10,OPG MR_Ratings MR_S_400_Sankalp Krishnan
+2018-01-10,OPG MR_Ratings MR_S_400_Norraphon Dejruksavattana
+2018-01-10,OPG MR_Ratings MR_S_400_Charles Zhou
+2018-01-10,OPG MM_News OPG MM_S_200_Sankalp Krishnan
+2018-01-10,OPG MM_GDX-XLF Arb_S_100_Norraphon Dejruksavattana
+2018-01-10,OPG MM_IBB Arb_S_100_Charles Zhou
+2018-01-10,OPG MM_Standing News OPG MM_S_200_Sankalp Krishnan
+2018-01-10,MR_QS_L_300_Norraphon Dejruksavattana
+2018-01-10,OPG MR_GDX Sector Arb_S_300_Charles Zhou
+2018-01-10,MR_QS_L_100_Norraphon Dejruksavattana_v3
+2018-01-10,OPG MM_No News OPG MM_S_100_Sankalp Krishnan
+2018-01-10,MR_QS_L_100_Norraphon Dejruksavattana_v2
+2018-01-10,MR_QS SP500_L_400_Behrooz Karjoo
+2018-01-10,OPG MR_Non-News_S_100_Sankalp Krishnan
+2018-01-10,OPG MR_Nasdaq No News_S_100_Behrooz Karjoo
+2018-01-10,OPG MR_CableTV No News_S_200_Behrooz Karjoo
+2018-01-10,OPG MM_News OPG MM 2_S_100_Sankalp Krishnan
+2018-01-10,MR_QS LowVol_L_200_Behrooz Karjoo
+2018-01-10,OPG MR_Biotech No News_S_200_Behrooz Karjoo
+2018-01-10,OPG RATINGS SHORT 400
+2018-01-10,MR_QS_L_300_Behrooz Karjoo
+2018-01-10,OPG MR_Nasdaq No News_S_100_Behrooz Karjoo AEL Version
+2018-01-10,OPG MR_Biotech No News_S_200_Behrooz Karjoo AEL Version
+2018-01-10,OPG RATINGS LONG Index 600
+2018-01-10,OPG MR_IPO Gap Up_S_100_Behrooz Karjoo
+2018-01-10,OPG MR_Biotech No News_L_200_Behrooz Karjoo AEL VERSION
+2018-01-10,OPG MR_Nasdaq No News_L_100_Behrooz Karjoo AEL Version
+2018-01-10,MR_QS_S_300_Sankalp Krishnan
+2018-01-10,MR_QS News_S_100_Sankalp Krishnan
+2018-01-10,MR_QS_S_100_Norraphon Dejruksavattana_v3
+2018-01-10,MR_QS_S_300_Norraphon Dejruksavattana
+2018-01-10,MR_QS_S_100_Norraphon Dejruksavattana_v2
+2018-01-10,OPG MM_Arb Nat Gas_L_400_Maxim Kim
+2018-01-10,OPG MR_Ratings MR_L_400_Maxim Kim
+2018-01-10,MR_QS_L_300_Maxim Kim
+2018-01-10,MM_Post Halt _L_500_Maxim Kim
+2018-01-10,OPG MR_Ratings MR_S_400_Maxim Kim
+2018-01-10,OPG MM_Arb Nat Gas_S_400_Maxim Kim
+2018-01-10,OPG MM_Arb Macau_S_200_Maxim Kim
+2018-01-09,MR_Sweep Non-News ETF_L_2400_Behrooz Karjoo
+2018-01-09,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
+2018-01-09,MR_EOD Sweep_L_4500_RosG
+2018-01-09,OPG MM_XLF-GDX Arb_S_500_CharlesZhou
+2018-01-09,OPG MM_XLF-GDX Arb_L_500_CharlesZhou
+2018-01-09,MR_Sweep Non-News_L_2000_RosG
+2018-01-09,MR_Sweep CEF_L_10000_RosG
+2018-01-09,OPG MR_Ratings MR_S_400_RosG
+2018-01-09,MR_QS_S_200_RosG
+2018-01-09,OPG MR_Ratings MR_L_600_RosG
+2018-01-09,MR_QS_L_200_RosG
+2018-01-09,MR_QS SP500_S_100_WW
+2018-01-09,OPG MR_Ratings MR_L_400_Behrooz Karjoo
+2018-01-09,OPG MR_Ratings MR_L_400_Sankalp Krishnan
+2018-01-09,OPG Ratings MM_Standing_L_200_Norraphon Dejruksavattana
+2018-01-09,OPG MR_Ratings MR_L_600_Norraphon Dejruksavattana
+2018-01-09,OPG MM_News OPG MM_L_200_Sankalp Krishnan
+2018-01-09,OPG MM_GDX-XLF Arb_L_100_Norraphon Dejruksavattana
+2018-01-09,OPG MM_IBB Arb_L_100_Charles Zhou
+2018-01-09,OPG MR_GDX Sector Arb_L_300_Charles Zhou
+2018-01-09,OPG MM_No News OPG MM_L_100_Sankalp Krishnan
+2018-01-09,OPG MR_Non-News_L_100_Sankalp Krishnan
+2018-01-09,OPG MR_Nasdaq No News_L_100_Behrooz Karjoo
+2018-01-09,OPG MR_CableTV No News_L_200_Behrooz Karjoo
+2018-01-09,OPG MM_News OPG MM 2_L_100_Sankalp Krishnan
+2018-01-09,OPG MR_Biotech No News_L_200_Behrooz Karjoo
+2018-01-09,MR_Sweep Non-News_L_300_Charles Zhou
+2018-01-09,MR_Sweep Non News RB_L_600_Sankalp Krishnan
+2018-01-09,MR_QS SP500_L_100_WW
+2018-01-09,OPG MR_Ratings MR_S_400_Behrooz Karjoo
+2018-01-09,OPG MR_Ratings MR_S_400_Sankalp Krishnan
+2018-01-09,MR_QS_L_300_Sankalp Krishnan
+2018-01-09,OPG MR_Ratings MR_S_400_Norraphon Dejruksavattana
+2018-01-09,MR_QS News_L_100_Sankalp Krishnan
+2018-01-09,OPG MR_Ratings MR_S_400_Charles Zhou
+2018-01-09,OPG MM_News OPG MM_S_200_Sankalp Krishnan
+2018-01-09,OPG MM_GDX-XLF Arb_S_100_Norraphon Dejruksavattana
+2018-01-09,MR_QS_L_300_Norraphon Dejruksavattana
+2018-01-09,OPG MM_IBB Arb_S_100_Charles Zhou
+2018-01-09,OPG MM_Standing News OPG MM_S_200_Sankalp Krishnan
+2018-01-09,MR_QS_L_100_Norraphon Dejruksavattana_v3
+2018-01-09,OPG MR_GDX Sector Arb_S_300_Charles Zhou
+2018-01-09,MR_QS_L_100_Norraphon Dejruksavattana_v2
+2018-01-09,OPG MM_No News OPG MM_S_100_Sankalp Krishnan
+2018-01-09,MR_QS SP500_L_400_Behrooz Karjoo
+2018-01-09,OPG MR_Non-News_S_100_Sankalp Krishnan
+2018-01-09,OPG MR_Nasdaq No News_S_100_Behrooz Karjoo
+2018-01-09,OPG MR_CableTV No News_S_200_Behrooz Karjoo
+2018-01-09,MR_QS LowVol_L_200_Behrooz Karjoo
+2018-01-09,OPG MM_News OPG MM 2_S_100_Sankalp Krishnan
+2018-01-09,OPG MR_Biotech No News_S_200_Behrooz Karjoo
+2018-01-09,MR_QS_L_300_Behrooz Karjoo
+2018-01-09,OPG RATINGS SHORT 400
+2018-01-09,OPG RATINGS LONG Index 600
+2018-01-09,OPG MR_Nasdaq No News_S_100_Behrooz Karjoo AEL Version
+2018-01-09,OPG MR_Biotech No News_L_200_Behrooz Karjoo AEL VERSION
+2018-01-09,OPG MR_Biotech No News_S_200_Behrooz Karjoo AEL Version
+2018-01-09,OPG MR_Nasdaq No News_L_100_Behrooz Karjoo AEL Version
+2018-01-09,OPG MR_IPO Gap Up_S_100_Behrooz Karjoo
+2018-01-09,MR_QS_S_300_Sankalp Krishnan
+2018-01-09,MR_QS News_S_100_Sankalp Krishnan
+2018-01-09,MR_QS_S_100_Norraphon Dejruksavattana_v3
+2018-01-09,MR_QS_S_300_Norraphon Dejruksavattana
+2018-01-09,MR_QS_S_100_Norraphon Dejruksavattana_v2
+2018-01-09,OPG MM_Arb Nat Gas_L_400_Maxim Kim
+2018-01-09,OPG MR_Ratings MR_L_400_Maxim Kim
+2018-01-09,MR_QS_L_300_Maxim Kim
+2018-01-09,OPG MR_Ratings MR_S_400_Maxim Kim
+2018-01-09,MM_Post Halt _L_500_Maxim Kim
+2018-01-09,OPG MM_Arb Nat Gas_S_400_Maxim Kim
+2018-01-09,OPG MM_Arb Macau_L_200_Maxim Kim
+2018-01-08,MR_Sweep Non-News ETF_L_2400_Behrooz Karjoo
+2018-01-08,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
+2018-01-08,MR_EOD Sweep_L_4500_RosG
+2018-01-08,OPG MM_XLF-GDX Arb_L_500_CharlesZhou
+2018-01-08,OPG MM_XLF-GDX Arb_S_500_CharlesZhou
+2018-01-08,MR_Sweep Non-News_L_2000_RosG
+2018-01-08,MR_Sweep CEF_L_10000_RosG
+2018-01-08,OPG MR_Ratings MR_S_400_RosG
+2018-01-08,OPG MR_Ratings MR_L_600_RosG
+2018-01-08,MR_QS_S_200_RosG
+2018-01-08,MR_QS_L_200_RosG
+2018-01-08,MR_QS SP500_S_100_WW
+2018-01-08,OPG MR_Ratings MR_L_400_Behrooz Karjoo
+2018-01-08,OPG MR_Ratings MR_L_400_Sankalp Krishnan
+2018-01-08,OPG Ratings MM_Standing_L_200_Norraphon Dejruksavattana
+2018-01-08,OPG MR_Ratings MR_L_600_Norraphon Dejruksavattana
+2018-01-08,OPG MM_News OPG MM_L_200_Sankalp Krishnan
+2018-01-08,OPG MM_GDX-XLF Arb_L_100_Norraphon Dejruksavattana
+2018-01-08,OPG MM_IBB Arb_L_100_Charles Zhou
+2018-01-08,OPG MR_GDX Sector Arb_L_300_Charles Zhou
+2018-01-08,OPG MM_No News OPG MM_L_100_Sankalp Krishnan
+2018-01-08,OPG MR_Non-News_L_100_Sankalp Krishnan
+2018-01-08,OPG MR_Nasdaq No News_L_100_Behrooz Karjoo
+2018-01-08,OPG MR_CableTV No News_L_200_Behrooz Karjoo
+2018-01-08,OPG MM_News OPG MM 2_L_100_Sankalp Krishnan
+2018-01-08,OPG MR_Biotech No News_L_200_Behrooz Karjoo
+2018-01-08,MR_Sweep Non-News_L_300_Charles Zhou
+2018-01-08,OPG MR_Ratings MR_S_400_Behrooz Karjoo
+2018-01-08,MR_Sweep Non News RB_L_600_Sankalp Krishnan
+2018-01-08,OPG MR_Ratings MR_S_400_Sankalp Krishnan
+2018-01-08,MR_QS SP500_L_100_WW
+2018-01-08,OPG MR_Ratings MR_S_400_Norraphon Dejruksavattana
+2018-01-08,MR_QS_L_300_Sankalp Krishnan
+2018-01-08,OPG MR_Ratings MR_S_400_Charles Zhou
+2018-01-08,MR_QS News_L_100_Sankalp Krishnan
+2018-01-08,OPG MM_News OPG MM_S_200_Sankalp Krishnan
+2018-01-08,OPG MM_GDX-XLF Arb_S_100_Norraphon Dejruksavattana
+2018-01-08,OPG MM_IBB Arb_S_100_Charles Zhou
+2018-01-08,OPG MM_Standing News OPG MM_S_200_Sankalp Krishnan
+2018-01-08,MR_QS_L_300_Norraphon Dejruksavattana
+2018-01-08,OPG MR_GDX Sector Arb_S_300_Charles Zhou
+2018-01-08,OPG MM_No News OPG MM_S_100_Sankalp Krishnan
+2018-01-08,MR_QS_L_100_Norraphon Dejruksavattana_v3
+2018-01-08,MR_QS_L_100_Norraphon Dejruksavattana_v2
+2018-01-08,OPG MR_Non-News_S_100_Sankalp Krishnan
+2018-01-08,MR_QS SP500_L_400_Behrooz Karjoo
+2018-01-08,OPG MR_Nasdaq No News_S_100_Behrooz Karjoo
+2018-01-08,OPG MR_CableTV No News_S_200_Behrooz Karjoo
+2018-01-08,OPG MM_News OPG MM 2_S_100_Sankalp Krishnan
+2018-01-08,MR_QS LowVol_L_200_Behrooz Karjoo
+2018-01-08,OPG MR_Biotech No News_S_200_Behrooz Karjoo
+2018-01-08,OPG RATINGS SHORT 400
+2018-01-08,MR_QS_L_300_Behrooz Karjoo
+2018-01-08,OPG MR_Nasdaq No News_S_100_Behrooz Karjoo AEL Version
+2018-01-08,OPG MR_Biotech No News_S_200_Behrooz Karjoo AEL Version
+2018-01-08,OPG RATINGS LONG Index 600
+2018-01-08,OPG MR_IPO Gap Up_S_100_Behrooz Karjoo
+2018-01-08,OPG MR_Biotech No News_L_200_Behrooz Karjoo AEL VERSION
+2018-01-08,OPG MR_Nasdaq No News_L_100_Behrooz Karjoo AEL Version
+2018-01-08,MR_QS_S_300_Sankalp Krishnan
+2018-01-08,MR_QS News_S_100_Sankalp Krishnan
+2018-01-08,MR_QS_S_100_Norraphon Dejruksavattana_v3
+2018-01-08,MR_QS_S_300_Norraphon Dejruksavattana
+2018-01-08,MR_QS_S_100_Norraphon Dejruksavattana_v2
+2018-01-08,OPG MM_Arb Nat Gas_L_400_Maxim Kim
+2018-01-08,OPG MR_Ratings MR_L_400_Maxim Kim
+2018-01-08,MR_QS_L_300_Maxim Kim
+2018-01-08,OPG MR_Ratings MR_S_400_Maxim Kim
+2018-01-08,MM_Post Halt _L_500_Maxim Kim
+2018-01-08,OPG MM_Arb Nat Gas_S_400_Maxim Kim
+2018-01-08,OPG MM_Arb Macau_L_200_Maxim Kim
