@@ -165,16 +165,25 @@ def open_box(folder,box):
     launcher_open_button = get_launcher_button(launcher_corner, 2)
     print 'opening tree -- long delay', long_delay
     time.sleep(long_delay)
-    while is_clear():
+
+    i = 0
+    while (is_clear()):
+        i += 0;
+        if i == 10:
+            raise
         double_click(launcher_open_button)
-        time.sleep(.25)
+        time.sleep(.1)
+
     open_dialog_edge = find_window_edge()
     open_dialog_corner = get_upper_corner(open_dialog_edge)
+
+
 
     print 'foldering down -- long delay', long_delay
     time.sleep(long_delay)
     for i in range(0,folder-1):
         keyboard.press_and_release('down')
+        if is_clear(): raise
         time.sleep(.075)
     time.sleep(.05)
     keyboard.press_and_release('tab')
@@ -185,6 +194,7 @@ def open_box(folder,box):
     print 'boxing down -- long delay', long_delay
     time.sleep(long_delay)
     for i in range(0,box-1):
+        if is_clear(): raise
         keyboard.press_and_release('down')
         time.sleep(.075)
     time.sleep(.05)
@@ -194,30 +204,41 @@ def open_box(folder,box):
     open_button = get_open_button(open_dialog_corner)
 
     double_click(open_button)
+    if is_clear(): raise
 
     print 'closing box -- long delay', long_delay
     time.sleep(long_delay)
-    move_mouse((200,940))
-    time.sleep(.05)
-    pyautogui.click()
-    time.sleep(.05)
-    keyboard.press_and_release('space')
+    # move_mouse((200,940))
+    # time.sleep(.05)
+    # pyautogui.click()
+    # time.sleep(.05)
 
-    time.sleep(.1)
-    i = 1
-
-    print 'making sure box closed -- long delay', long_delay
-    time.sleep(long_delay)
-    while True:
-        print ('waiting 142')
-        if is_clear: break
-        i += 1
-        if i > 10:
-            move_mouse((200,940))
-            pyautogui.click()
-            keyboard.press_and_release('space')
+    i = 0
+    while not is_clear():
+        i += 0;
+        if i == 10:
+            raise
             break
-        time.sleep(.1)
+        move_mouse((200,940))
+        pyautogui.click()
+        time.sleep(.05)
+        keyboard.press_and_release('space')
+        time.sleep(.05)
+
+    # i = 1
+
+    # print 'making sure box closed -- long delay', long_delay
+    # time.sleep(long_delay)
+    # while True:
+    #     print ('waiting 142')
+    #     if is_clear: break
+    #     i += 1
+    #     if i > 10:
+    #         move_mouse((200,940))
+    #         pyautogui.click()
+    #         keyboard.press_and_release('space')
+    #         break
+    #     time.sleep(.1)
 
 
     # TODO : Confirm it's cosed by looking for black space under launcher
@@ -238,9 +259,18 @@ def confirm_windows_closed():
 def open_setting_window():
     if debug_print: print 'debug:','open_setting_window'
     launcher_corner = get_window_corner(get_first_windows_point())
+    time.sleep(.1)
     setting_button = get_launcher_button(launcher_corner, 10)
+    time.sleep(.1)
     double_click(setting_button)
     time.sleep(.1)
+    i = 0
+    while (is_clear()):
+        i += 0;
+        if i == 10:
+            raise
+        double_click(setting_button)
+        time.sleep(.1)
 
 
 def find_setting_window_corner():
@@ -319,6 +349,8 @@ def change_backtesting_date(date):
     # open backtesting window
     open_setting_window()
     time.sleep(.01)
+
+
     corner = find_setting_window_corner()
     # open backtesting tab
     backtesting_tab = get_backtesting_tab(corner)
@@ -371,7 +403,7 @@ def is_clear():
     if debug_print: print 'debug:','is_clear'
     # returns true if there's no open windows under the launcher, false otherwise
     image = ImageGrab.grab()
-    for x in range(10,600,50):
+    for x in range(10,800,50):
         for y in range (300, 900, 50):
             p = (x,y)
             c = get_color(p,image)
@@ -429,7 +461,7 @@ def run_tests(whichQuant = 1):
                     print 'waiting 314'
                     if is_clear(): break
                     i += 1
-                    if i > 10: break
+                    if i > 10: raise
                     time.sleep(.1)
 
                 # x = raw_input('running back test')
@@ -447,7 +479,7 @@ def run_tests(whichQuant = 1):
                     if is_clear(): break
                     keyboard.press_and_release('space')
                     i += 1
-                    if i > 10: break
+                    if i > 10: raise
                     time.sleep(.1)
                 # x = raw_input('done')
 
@@ -456,7 +488,7 @@ def run_tests(whichQuant = 1):
                 #     break
             except Exception as e:
                 print 'Error', e
-                x = raw_input('press a key to continue')
+                break
 
 
 
@@ -475,6 +507,6 @@ def run_tests(whichQuant = 1):
 # run_back_test()
 # change_backtesting_date('2011-04-22')
 
-run_tests()
+run_tests(2)
 
 # print is_clear()
