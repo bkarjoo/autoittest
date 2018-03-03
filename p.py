@@ -4,6 +4,7 @@ import keyboard
 from box_name_importer import *
 import csv
 import ImageGrab
+import sys
 
 long_delay = .1
 debug_print = False
@@ -575,6 +576,7 @@ def run_tests(whichQuant = 1):
                 break
 
 
-
-
-run_tests(2)
+which_quant = 1
+if len(sys.argv) > 1:
+    if sys.argv[1] == '2': which_quant = 2
+run_tests(which_quant)
