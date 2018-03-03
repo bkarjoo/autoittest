@@ -6,16 +6,20 @@ import csv
 import ImageGrab
 
 long_delay = .1
-debug_print = True
+debug_print = False
 #hi
 def move_mouse(p):
+    if p == None: return
     if p[0] > 0 and p[1] > 0:
         pyautogui.moveTo(p[0],p[1])
 
 
 def get_color(p,image):
-    p = (p[0]-1,p[1]-1)
-    return image.getpixel(p)
+    try:
+        p = (p[0]-1,p[1]-1)
+        return image.getpixel(p)
+    except:
+        return (-1,-1,-1)
 
 
 def get_first_windows_point():
@@ -117,22 +121,15 @@ def double_click(point):
 
 def find_window_edge():
     image = ImageGrab.grab()
-    for x in range(1,1000,10):
-        if get_color((x,500),image) != (0,0,0): break
-    for i in range(x,0,-1):
-        if get_color((i,500),image) == (0,0,0): return (i+1,500)
-    # finds first window from mid screen
+
+    for y in range(300,800,50):
+        for x in range(1,1000,1):
+            if get_color((x,y),image) != (0,0,0):
+                return (x,y)
+    return None
 
 
-p = find_window_edge()
-time.sleep(.1)
-move_mouse(p)
-time.sleep(.1)
-move_mouse(p)
-time.sleep(1)
-single_click(p)
 
-print p
 
 
 def get_corner_from_edge(edge):
@@ -143,8 +140,51 @@ def get_corner_from_edge(edge):
     #print p, ini_color
     while True:
         p = (p[0],p[1]-1)
-        if p[1] == 0: return p(p[0],1)
+        if p[1] == 0: return (p[0],1)
         if get_color(p, image) != ini_color: return (p[0], p[1]+1)
+
+
+def get_open_window_height(corner):
+    image = ImageGrab.grab()
+    height = 0
+    while get_color((corner[0],corner[1] + height), image) != (0,0,0):
+        height += 1
+    print 'height:', height
+
+
+def is_job_successfully_added_windows(corner):
+    # this is the smallest window
+    # it is 145 pixels tall
+    # so 145 pixels lower than it's corner should be black
+    image = ImageGrab.grab()
+    height = 146
+    return get_color((corner[0],corner[1]+ height), image) == (0,0,0)
+
+
+def is_settings_window(corner):
+    image = ImageGrab.grab()
+    height = 484
+    move_mouse((corner[0],corner[1] + height))
+    if debug_print: print 'color',get_color((corner[0],corner[1] + height), image)
+    return get_color((corner[0],corner[1] + height), image) == (0,0,0) \
+        and not is_job_successfully_added_windows(corner)
+
+
+def is_open_blackbox_window(corner):
+    image = ImageGrab.grab()
+    height = 746
+    return get_color((corner[0],corner[1] + height), image) == (0,0,0) \
+        and not is_job_successfully_added_windows(corner) \
+        and not is_settings_window(corner)
+
+
+def is_blackbox_definition_windows(corner):
+    image = ImageGrab.grab()
+    height = 968
+    return get_color((corner[0],corner[1] + height), image) == (0,0,0)  \
+        and not is_job_successfully_added_windows(corner) \
+        and not is_settings_window(corner) \
+        and not is_open_blackbox_window(corner)
 
 
 def get_lower_corner(edge):
@@ -175,13 +215,33 @@ def get_upper_corner(edge):
 def get_open_button(upper_corner):
     return (upper_corner[0]+1075,upper_corner[1]+712)
 
+def is_clear():
+    if debug_print: print 'debug:','is_clear'
+    # returns true if there's no open windows under the launcher, false otherwise
+    image = ImageGrab.grab()
+    for x in range(10,800,50):
+        for y in range (300, 750, 50):
+            p = (x,y)
+            c = get_color(p,image)
+            # print i,
+            # if i == -1:
+            #     time.sleep(1)
+            #     keyboard.press_and_release('space')
+            #     time.sleep(1)
+            #     a = raw_input('whats going on?')
+            #     return True
+            if not c == (0,0,0):
+                return False
+
+    return True
+
 
 def open_box(folder,box):
     if debug_print: print 'debug:','open_box'
-    print 'open_box', folder, box
+    if debug_print: print 'open_box', folder, box
     launcher_corner = get_window_corner(get_first_windows_point())
     launcher_open_button = get_launcher_button(launcher_corner, 2)
-    print 'opening tree -- long delay', long_delay
+    if debug_print: print 'opening tree -- long delay', long_delay
     time.sleep(long_delay)
 
     i = 0
@@ -195,9 +255,15 @@ def open_box(folder,box):
     open_dialog_edge = find_window_edge()
     open_dialog_corner = get_upper_corner(open_dialog_edge)
 
+    verify = is_open_blackbox_window(open_dialog_corner)
+    if verify:
+        if debug_print: print "Open Black Box Tree is Open."
+    else:
+        x = raw_input("Open blackbox tree failed to open.")
 
 
-    print 'foldering down -- long delay', long_delay
+
+    if debug_print: print 'foldering down -- long delay', long_delay
     time.sleep(long_delay)
     for i in range(0,folder-1):
         keyboard.press_and_release('down')
@@ -209,7 +275,7 @@ def open_box(folder,box):
     keyboard.press_and_release('tab')
     time.sleep(.05)
 
-    print 'boxing down -- long delay', long_delay
+    if debug_print: print 'boxing down -- long delay', long_delay
     time.sleep(long_delay)
     for i in range(0,box-1):
         if is_clear(): raise
@@ -217,14 +283,29 @@ def open_box(folder,box):
         time.sleep(.075)
     time.sleep(.05)
 
-    print 'opening box -- long delay', long_delay
+    if debug_print: print 'opening box -- long delay', long_delay
     time.sleep(long_delay)
     open_button = get_open_button(open_dialog_corner)
 
-    double_click(open_button)
-    if is_clear(): raise
 
-    print 'closing box -- long delay', long_delay
+    double_click(open_button)
+
+    blackbox_edge = None
+    i = 0
+    while blackbox_edge == None:
+        blackbox_edge = find_window_edge()
+        time.sleep(.1)
+        i += 1
+        if i >= 10:
+            x = raw_input("can't find blackbox edge")
+    blackbox_corner = get_corner_from_edge(blackbox_edge)
+    verify = is_blackbox_definition_windows(blackbox_corner)
+    if verify:
+        if debug_print: print "blackbox is Open."
+    else:
+        x = raw_input("Blackbox failed to open.")
+
+    if debug_print: print 'closing box -- long delay', long_delay
     time.sleep(long_delay)
     # move_mouse((200,940))
     # time.sleep(.05)
@@ -237,29 +318,12 @@ def open_box(folder,box):
         if i == 10:
             raise
             break
-        move_mouse((200,940))
+        move_mouse((blackbox_corner[0]+60,blackbox_corner[1]+940))
         pyautogui.click()
-        time.sleep(.05)
-        keyboard.press_and_release('space')
-        time.sleep(.05)
-
-    # i = 1
-
-    # print 'making sure box closed -- long delay', long_delay
-    # time.sleep(long_delay)
-    # while True:
-    #     print ('waiting 142')
-    #     if is_clear: break
-    #     i += 1
-    #     if i > 10:
-    #         move_mouse((200,940))
-    #         pyautogui.click()
-    #         keyboard.press_and_release('space')
-    #         break
-    #     time.sleep(.1)
+        time.sleep(.1)
 
 
-    # TODO : Confirm it's cosed by looking for black space under launcher
+
 
 
 def run_back_test():
@@ -277,18 +341,27 @@ def confirm_windows_closed():
 def open_setting_window():
     if debug_print: print 'debug:','open_setting_window'
     launcher_corner = get_window_corner(get_first_windows_point())
-    time.sleep(.1)
     setting_button = get_launcher_button(launcher_corner, 10)
-    time.sleep(.1)
     double_click(setting_button)
     time.sleep(.1)
     i = 0
     while (is_clear()):
         i += 0;
         if i == 10:
-            raise
+            x = raw_input("Settings window didn't open")
         double_click(setting_button)
         time.sleep(.1)
+
+    if debug_print: print 'checking if settings window is open'
+    edge = find_window_edge()
+    corner = get_corner_from_edge(edge)
+    verify = is_settings_window(corner)
+    if (verify):
+        if debug_print: print 'settings window is open'
+    else:
+        x = raw_input("There's an open window but it's not settings window")
+    return corner
+
 
 
 def find_setting_window_corner():
@@ -365,26 +438,24 @@ def get_month_point(setting_window_corner, month):
 def change_backtesting_date(date):
     # date in yyyy-mm-dd format
     # open backtesting window
-    open_setting_window()
-    time.sleep(.01)
-
-
-    corner = find_setting_window_corner()
+    corner = open_setting_window()
     # open backtesting tab
+
     backtesting_tab = get_backtesting_tab(corner)
     double_click(backtesting_tab)
-    time.sleep(.01)
+    time.sleep(.1)
     # choose one day radio button
     radio_button = get_one_day_radio_button(corner)
     double_click(radio_button)
-    time.sleep(.01)
+    time.sleep(.1)
     # click down arrow
     drop_down = get_date_drop_down_button(corner)
     single_click(drop_down)
-    time.sleep(.01)
+    time.sleep(.1)
     # year range pick
     date_picker = get_date_picker(corner)
     single_click(date_picker)
+    time.sleep(.1)
     # prep the date str
     the_date = date.split('-')
     year = the_date[0]
@@ -393,18 +464,25 @@ def change_backtesting_date(date):
     # month pick
     month_point = get_month_point(corner, month)
     single_click(month_point)
+    time.sleep(.1)
     # day pick
     day_point = (corner[0]+220,corner[1]+78)
     double_click(day_point)
+    time.sleep(.1)
     keyboard.write(day)
+    time.sleep(.1)
     # year pick
     year_point = (corner[0]+245,corner[1]+78)
     single_click(year_point)
+    time.sleep(.1)
     keyboard.write(year)
+    time.sleep(.1)
     # save
     save_button = (corner[0]+515, corner[1]+458)
-    single_click(save_button)
-    pass
+
+    while not is_clear():
+        single_click(save_button)
+        time.sleep(.1)
 
 
 def load_live_runs():
@@ -417,29 +495,6 @@ def load_live_runs():
         print e
 
 
-def is_clear():
-    if debug_print: print 'debug:','is_clear'
-    # returns true if there's no open windows under the launcher, false otherwise
-    image = ImageGrab.grab()
-    for x in range(10,800,50):
-        for y in range (300, 900, 50):
-            p = (x,y)
-            c = get_color(p,image)
-            # print i,
-            # if i == -1:
-            #     time.sleep(1)
-            #     keyboard.press_and_release('space')
-            #     time.sleep(1)
-            #     a = raw_input('whats going on?')
-            #     return True
-            if not c== (0,0,0):
-                print ''
-                return False
-
-    print ''
-    return True
-
-
 def run_tests(whichQuant = 1):
     # takes csv list with two columns date, box_name
     # TODO Load box mapping
@@ -449,61 +504,72 @@ def run_tests(whichQuant = 1):
     # TODO Read List
     theDate = ''
 
-    with open('live_runs.csv') as csvDataFile:
-        csvReader = csv.reader(csvDataFile)
-        for row in csvReader:
+    with open('live_runs.csv') as liveRunFile:
+        liveRunRows = csv.reader(liveRunFile)
+        for row in liveRunRows:
             try:
-                print 'looking for box -- long delay', long_delay
+                if debug_print: print 'looking for box -- long delay', long_delay
                 time.sleep(long_delay)
                 # x = raw_input('fetching box details for box {} in quant {}'.format(row[1], whichQuant))
                 box_add = get_box_address(row[1],whichQuant)
-                print row[1], box_add
+                if debug_print: print row[1], box_add
 
-                print row[0]
+                if debug_print: print row[0]
+
+                print 'starting date: ', row[0], 'box: ', row[1]
                 if row[0] != theDate:
-                    print 'setting date -- long delay', long_delay
+                    if debug_print: print 'setting date to', row[0]
                     time.sleep(long_delay)
                     # x = raw_input('setting date to {}'.format(row[0]))
                     theDate = row[0]
                     change_backtesting_date(theDate)
-                    while not is_clear():
-                        time.sleep(.1)
 
                 # x = raw_input('opening box')
-                print 'calling open_box'
+                if debug_print: print 'calling open_box'
                 open_box(box_add[0],box_add[1])
 
 
                 i = 1
                 while True:
-                    print 'waiting 314'
                     if is_clear(): break
                     i += 1
-                    if i > 10: raise
+                    if i > 10:
+                        x = raw_input('black box didnt close.')
                     time.sleep(.1)
 
                 # x = raw_input('running back test')
-                print 'running back test -- long delay', long_delay
+                if debug_print: print 'running back test -- long delay', long_delay
                 time.sleep(long_delay)
                 run_back_test()
-                time.sleep(.2)
+                time.sleep(.1)
 
 
-                print 'closing small window -- long delay', long_delay
+                # verify job_successfully_added_window is open
+                i = 1
+                while is_clear():
+                    time.sleep(.1)
+                    i+=1
+                    if i == 10:
+                        x = raw_input("small window didn't open")
+
+                job_successfully_added_window_edge = find_window_edge()
+                jsaw_corner = get_corner_from_edge(job_successfully_added_window_edge)
+                verify = is_job_successfully_added_windows(jsaw_corner)
+                if verify:
+                    if debug_print: print 'small window open'
+                else:
+                    x = raw_input("small window didn't open")
+
+                if debug_print: print 'closing small window -- long delay', long_delay
                 time.sleep(long_delay)
                 i = 1
-                while True:
-                    print ('waiting 324')
-                    if is_clear(): break
-                    keyboard.press_and_release('space')
+                while not is_clear():
+                    double_click((jsaw_corner[0]+260, jsaw_corner[1]+120))
                     i += 1
-                    if i > 10: raise
+                    if i > 10:
+                        x = raw_input('small window didnt close.')
                     time.sleep(.1)
-                # x = raw_input('done')
 
-                # x = raw_input('continue (y/n)')
-                # if x == 'n':
-                #     break
             except Exception as e:
                 print 'Error', e
                 break
@@ -511,20 +577,4 @@ def run_tests(whichQuant = 1):
 
 
 
-    # TODO set the date (if necessary)
-    # TODO run the test
-    pass
-
-# launcher_corner = get_window_corner(get_first_windows_point())
-# launcher_open_button = get_launcher_button(launcher_corner, 2)
-#
-# folder = 40
-# box = 88
-# open_box(folder,box)
-# time.sleep(.1)
-# run_back_test()
-# change_backtesting_date('2011-04-22')
-
-# run_tests(2)
-
-# print is_clear()
+run_tests(2)
