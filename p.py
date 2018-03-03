@@ -76,6 +76,7 @@ def get_window_corner(p):
 
 
 def get_launcher_button_level(corner):
+    # finds the middle of the launcher's button row
     # find the first window point
     p = corner
     button_level = (p[0]+30,p[1]+50)
@@ -83,12 +84,15 @@ def get_launcher_button_level(corner):
 
 
 def get_launcher_button(corner, which_button):
+    # takes the corner of the launcher windows
+    # which_button is the button number, 1 being leftmost button
     p = get_launcher_button_level(corner)
     offset = (which_button-1) * 55
     return (p[0] + offset, p[1])
 
 
-def loop_through_buttons(corner):
+def test_loop_through_buttons(corner):
+    # for testing only
     p = get_launcher_button_level(corner)
     for r in range(0,12):
         p = (p[0] + 55, p[1])
@@ -97,11 +101,14 @@ def loop_through_buttons(corner):
 
 
 def single_click(point):
+    # move mouse to the point first then click
     move_mouse(point)
     pyautogui.click()
 
 
 def double_click(point):
+    # two single clicks with delay in between is more accurate
+    # than requesting pyautogui clicks=2
     move_mouse(point)
     pyautogui.click(clicks=1)
     time.sleep(.1)
@@ -115,6 +122,17 @@ def find_window_edge():
     for i in range(x,0,-1):
         if get_color((i,500),image) == (0,0,0): return (i+1,500)
     # finds first window from mid screen
+
+
+p = find_window_edge()
+time.sleep(.1)
+move_mouse(p)
+time.sleep(.1)
+move_mouse(p)
+time.sleep(1)
+single_click(p)
+
+print p
 
 
 def get_corner_from_edge(edge):
@@ -507,6 +525,6 @@ def run_tests(whichQuant = 1):
 # run_back_test()
 # change_backtesting_date('2011-04-22')
 
-run_tests(2)
+# run_tests(2)
 
 # print is_clear()
