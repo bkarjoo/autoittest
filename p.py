@@ -315,16 +315,22 @@ def open_box(folder,box, box_name):
         if i >= 10:
             x = raw_input("can't find blackbox edge")
     blackbox_corner = get_corner_from_edge(blackbox_edge)
+    time.sleep(.1)
     verify = is_blackbox_definition_windows(blackbox_corner)
     if verify:
         if debug_print: print "blackbox is Open."
     else:
-        x = raw_input("Blackbox failed to open.")
+        time.sleep(1)
+        if not is_blackbox_definition_windows(blackbox_corner):
+            x = raw_input("Blackbox failed to open.")
 
-    if get_open_box_name() != box_name:
-        print get_open_box_name()
+    found_name = get_open_box_name()
+    if found_name != box_name:
+        print found_name
         print box_name
-        x = raw_input("There's a box open but it's not {}.".format(box_name))
+        time.sleep(1)
+        if get_open_box_name() != box_name:
+            x = raw_input("There's a box open but it's not {}.".format(box_name))
 
     if debug_print: print 'closing box -- long delay', long_delay
     time.sleep(long_delay)
