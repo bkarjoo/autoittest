@@ -1,6 +1,7 @@
 import pyautogui
 import time
 import keyboard
+import pyperclip
 from box_name_importer import *
 import csv
 import ImageGrab
@@ -237,7 +238,21 @@ def is_clear():
     return True
 
 
-def open_box(folder,box):
+def get_open_box_name():
+    edge = find_window_edge()
+    corner = get_corner_from_edge(edge)
+    if not is_blackbox_definition_windows(corner):
+        x = raw_input("There's a window open but it's not a black box definition.")
+    black_box_name_textbox = (corner[0]+200, corner[1]+70)
+    single_click(black_box_name_textbox)
+    time.sleep(.1)
+    keyboard.press_and_release('ctrl+a')
+    keyboard.press_and_release('ctrl+c')
+    time.sleep(.05)
+    return pyperclip.paste()
+
+
+def open_box(folder,box, box_name):
     if debug_print: print 'debug:','open_box'
     if debug_print: print 'open_box', folder, box
     launcher_corner = get_window_corner(get_first_windows_point())
@@ -306,12 +321,13 @@ def open_box(folder,box):
     else:
         x = raw_input("Blackbox failed to open.")
 
+    if get_open_box_name() != box_name:
+        print get_open_box_name()
+        print box_name
+        x = raw_input("There's a box open but it's not {}.".format(box_name))
+
     if debug_print: print 'closing box -- long delay', long_delay
     time.sleep(long_delay)
-    # move_mouse((200,940))
-    # time.sleep(.05)
-    # pyautogui.click()
-    # time.sleep(.05)
 
     i = 0
     while not is_clear():
@@ -496,6 +512,7 @@ def load_live_runs():
         print e
 
 
+
 def run_tests(whichQuant = 1):
     # takes csv list with two columns date, box_name
     # TODO Load box mapping
@@ -527,7 +544,7 @@ def run_tests(whichQuant = 1):
 
                 # x = raw_input('opening box')
                 if debug_print: print 'calling open_box'
-                open_box(box_add[0],box_add[1])
+                open_box(box_add[0],box_add[1],row[1])
 
 
                 i = 1
