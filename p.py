@@ -321,7 +321,19 @@ def open_box(folder,box, box_name):
         if debug_print: print "blackbox is Open."
     else:
         time.sleep(1)
-        if not is_blackbox_definition_windows(blackbox_corner):
+        new_edge = find_window_edge()
+        print 'new_edge', new_edge
+        new_corener = get_corner_from_edge(new_edge)
+        print new_corener
+        new_is_open = is_blackbox_definition_windows(new_corener)
+        print new_is_open
+        if not new_is_open:
+            new_edge = find_window_edge()
+            print 'new_edge', new_edge
+            new_corener = get_corner_from_edge(new_edge)
+            print new_corener
+            new_is_open = is_blackbox_definition_windows(new_corener)
+            print new_is_open
             x = raw_input("Blackbox failed to open.")
 
     found_name = get_open_box_name()
