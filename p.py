@@ -8,7 +8,7 @@ import ImageGrab
 import sys
 
 long_delay = .1
-debug_print = False
+debug_print = True
 #hi
 def move_mouse(p):
     if p == None: return
@@ -515,9 +515,12 @@ def change_backtesting_date(date):
     # save
     save_button = (corner[0]+515, corner[1]+458)
 
+    i = 0
     while not is_clear():
         single_click(save_button)
         time.sleep(.1)
+        i += 1
+        if i >= 10: break
 
 
 def load_live_runs():
@@ -549,7 +552,6 @@ def run_tests(whichQuant = 1):
                 # x = raw_input('fetching box details for box {} in quant {}'.format(row[1], whichQuant))
                 box_add = get_box_address(row[1],whichQuant)
                 if debug_print: print row[1], box_add
-
                 if debug_print: print row[0]
 
                 print 'starting date: ', row[0], 'box: ', row[1]
@@ -562,6 +564,7 @@ def run_tests(whichQuant = 1):
 
                 # x = raw_input('opening box')
                 if debug_print: print 'calling open_box'
+
                 open_box(box_add[0],box_add[1],row[1])
 
 

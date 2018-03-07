@@ -56,6 +56,6 @@ def get_box_address(box_name, quant):
 # create_in_mem_db()
 # create_box_loc_table()
 # load_box_loc_csv()
-#print get_row_count()
-#print get_box_address('OPG MR_Ratings MR_S_200_Sankalp Krishnan',2)
+# print get_row_count()
+# print get_box_address('OPG MR_Ratings MR_S_200_Sankalp Krishnan',2)
 #
