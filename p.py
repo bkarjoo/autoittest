@@ -8,7 +8,8 @@ import ImageGrab
 import sys
 
 long_delay = .05
-debug_print = True
+debug_print = False
+debug_print_2 = True
 #hi
 def move_mouse(p):
     if debug_print: print 'moving mouse to: ', p
@@ -257,11 +258,12 @@ def open_box(folder,box, box_name):
     if debug_print: print 'opening tree -- long delay', long_delay
     time.sleep(long_delay)
 
+    if debug_print_2: print '--opening tree'
     i = 0
     while (is_clear()):
         i += 0;
         if i == 10:
-            raise
+            x = raw_input("ERROR : Tree didn't open")
         double_click(launcher_open_button)
         time.sleep(.1)
 
@@ -273,31 +275,30 @@ def open_box(folder,box, box_name):
         if debug_print: print "Open Black Box Tree is Open."
     else:
         x = raw_input("Open blackbox tree failed to open.")
-
+    if debug_print_2: print '--tree opened'
 
 
     if debug_print: print 'foldering down -- long delay', long_delay
     time.sleep(long_delay)
     for i in range(0,folder-1):
         keyboard.press_and_release('down')
-        if is_clear(): raise
         time.sleep(.075)
     time.sleep(.05)
     keyboard.press_and_release('tab')
     time.sleep(.05)
     keyboard.press_and_release('tab')
     time.sleep(.05)
-
+    if debug_print_2: print '--folder found'
     if debug_print: print 'boxing down -- long delay', long_delay
     time.sleep(long_delay)
     for i in range(0,box-1):
-        if is_clear(): raise
         keyboard.press_and_release('down')
         time.sleep(.075)
     time.sleep(.05)
-
+    if debug_print_2: print '--box found'
     if debug_print: print 'opening box -- long delay', long_delay
     time.sleep(long_delay)
+    if debug_print_2: print '--pressing open to open the box'
     open_button = get_open_button(open_dialog_corner)
 
 
@@ -317,6 +318,7 @@ def open_box(folder,box, box_name):
     if verify:
         if debug_print: print "blackbox is Open."
     else:
+        if debug_print_2: print '--attempt 2'
         time.sleep(1)
         new_edge = find_window_edge()
         print 'new_edge', new_edge
@@ -325,6 +327,7 @@ def open_box(folder,box, box_name):
         new_is_open = is_blackbox_definition_windows(new_corener)
         print new_is_open
         if not new_is_open:
+            if debug_print_2: print '--failed'
             new_edge = find_window_edge()
             print 'new_edge', new_edge
             new_corener = get_corner_from_edge(new_edge)
@@ -333,14 +336,17 @@ def open_box(folder,box, box_name):
             print new_is_open
             x = raw_input("Blackbox failed to open.")
 
+    if debug_print_2: print '--black box is opened'
     found_name = get_open_box_name()
     if found_name != box_name:
         print found_name
         print box_name
         time.sleep(1)
         if get_open_box_name() != box_name:
-            x = raw_input("There's a box open but it's not {}.".format(box_name))
+            x = raw_input("There's a box open but it's not {}. Exit and fix box_loc.csv.".format(box_name))
 
+    if debug_print_2: print '--verified box found: ', found_name
+    if debug_print_2: print '--closing box'
     if debug_print: print 'closing box -- long delay', long_delay
     time.sleep(long_delay)
 
@@ -348,22 +354,24 @@ def open_box(folder,box, box_name):
     while not is_clear():
         i += 0;
         if i == 10:
-            raise
+            x = raw_input("Box didn't close")
             break
         mouse_location = (blackbox_corner[0]+60,blackbox_corner[1]+940)
         move_mouse(mouse_location)
         pyautogui.click()
         time.sleep(.1)
-
+    if debug_print_2: print '--box closed'
 
 
 
 
 def run_back_test():
+    if debug_print_2: print '--pressing play'
     launcher_corner = get_window_corner(get_first_windows_point())
     play_button = get_launcher_button(launcher_corner, 6)
     double_click(play_button)
     time.sleep(.1)
+    if debug_print_2: print '--pressed play'
 
 
 def confirm_windows_closed():
@@ -544,16 +552,19 @@ def run_tests(whichQuant = 1):
     with open('live_runs.csv') as liveRunFile:
         liveRunRows = csv.reader(liveRunFile)
         for row in liveRunRows:
+            if debug_print_2: print row
             try:
                 if debug_print: print 'looking for box -- long delay', long_delay
                 time.sleep(long_delay)
                 # x = raw_input('fetching box details for box {} in quant {}'.format(row[1], whichQuant))
                 box_add = get_box_address(row[1],whichQuant)
+                if debug_print_2: print 'get_box_address results: ', box_add
                 if debug_print: print row[1], box_add
                 if debug_print: print row[0]
 
                 print 'starting date: ', row[0], 'box: ', row[1]
                 if row[0] != theDate:
+                    if debug_print_2: print 'set date to: ', row[0]
                     if debug_print: print 'setting date to', row[0]
                     time.sleep(long_delay)
                     # x = raw_input('setting date to {}'.format(row[0]))
@@ -562,10 +573,11 @@ def run_tests(whichQuant = 1):
 
                 # x = raw_input('opening box')
                 if debug_print: print 'calling open_box'
-
+                if debug_print_2: print 'open_box call'
                 open_box(box_add[0],box_add[1],row[1])
 
 
+                if debug_print_2: print 'makeing sure black box closed'
                 i = 1
                 while True:
                     if is_clear(): break
@@ -573,15 +585,18 @@ def run_tests(whichQuant = 1):
                     if i > 10:
                         x = raw_input('black box didnt close.')
                     time.sleep(.1)
+                if debug_print_2: print 'box closed'
 
                 # x = raw_input('running back test')
                 if debug_print: print 'running back test -- long delay', long_delay
                 time.sleep(long_delay)
+                if debug_print_2: print 'run_back_test call'
                 run_back_test()
                 time.sleep(.1)
 
 
                 # verify job_successfully_added_window is open
+                if debug_print_2: print 'check small window opened'
                 i = 1
                 while is_clear():
                     time.sleep(.1)
@@ -596,7 +611,8 @@ def run_tests(whichQuant = 1):
                     if debug_print: print 'small window open'
                 else:
                     x = raw_input("small window didn't open")
-
+                if debug_print_2: print 'small window opened'
+                if debug_print_2: print 'closing small window'
                 if debug_print: print 'closing small window -- long delay', long_delay
                 time.sleep(long_delay)
                 i = 1
@@ -606,7 +622,8 @@ def run_tests(whichQuant = 1):
                     if i > 10:
                         x = raw_input('small window didnt close.')
                     time.sleep(.1)
-
+                if debug_print_2: print 'small window closed'
+                if debug_print_2: print 'done with ', row
             except Exception as e:
                 print 'Error', e
                 break
