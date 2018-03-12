@@ -7,10 +7,11 @@ import csv
 import ImageGrab
 import sys
 
-long_delay = .1
+long_delay = .05
 debug_print = True
 #hi
 def move_mouse(p):
+    if debug_print: print 'moving mouse to: ', p
     if p == None: return
     if p[0] > 0 and p[1] > 0:
         pyautogui.moveTo(p[0],p[1])
@@ -218,20 +219,13 @@ def get_open_button(upper_corner):
     return (upper_corner[0]+1075,upper_corner[1]+712)
 
 def is_clear():
-    if debug_print: print 'debug:','is_clear'
+    # if debug_print: print 'debug:','is_clear'
     # returns true if there's no open windows under the launcher, false otherwise
     image = ImageGrab.grab()
     for x in range(10,800,50):
         for y in range (300, 750, 50):
             p = (x,y)
             c = get_color(p,image)
-            # print i,
-            # if i == -1:
-            #     time.sleep(1)
-            #     keyboard.press_and_release('space')
-            #     time.sleep(1)
-            #     a = raw_input('whats going on?')
-            #     return True
             if not c == (0,0,0):
                 return False
 
@@ -239,6 +233,7 @@ def is_clear():
 
 
 def get_open_box_name():
+    if debug_print: 'In get_open_box_name'
     edge = find_window_edge()
     corner = get_corner_from_edge(edge)
     if not is_blackbox_definition_windows(corner):
@@ -249,7 +244,9 @@ def get_open_box_name():
     keyboard.press_and_release('ctrl+a')
     keyboard.press_and_release('ctrl+c')
     time.sleep(.05)
-    return pyperclip.paste()
+    box_name = pyperclip.paste()
+    if debug_print: 'Exiting get_open_box_name', box_name
+    return box_name
 
 
 def open_box(folder,box, box_name):
@@ -353,7 +350,8 @@ def open_box(folder,box, box_name):
         if i == 10:
             raise
             break
-        move_mouse((blackbox_corner[0]+60,blackbox_corner[1]+940))
+        mouse_location = (blackbox_corner[0]+60,blackbox_corner[1]+940)
+        move_mouse(mouse_location)
         pyautogui.click()
         time.sleep(.1)
 
