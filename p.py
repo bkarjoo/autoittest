@@ -352,14 +352,16 @@ def open_box(folder,box, box_name):
 
     i = 0
     while not is_clear():
-        i += 0;
+        i += 1;
         if i == 10:
             x = raw_input("Box didn't close")
             break
         mouse_location = (blackbox_corner[0]+60,blackbox_corner[1]+940)
+        print 'potentially error causing coordinates: ', mouse_location
         move_mouse(mouse_location)
         pyautogui.click()
         time.sleep(.1)
+        
     if debug_print_2: print '--box closed'
 
 
