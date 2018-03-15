@@ -354,14 +354,17 @@ def open_box(folder,box, box_name):
     while not is_clear():
         i += 1;
         if i == 10:
-            x = raw_input("Box didn't close")
+            close_any_window()
+            time.sleep(.2)
+            if not is_clear():
+                x = raw_input("Box didn't close")
             break
         mouse_location = (blackbox_corner[0]+60,blackbox_corner[1]+940)
         print 'potentially error causing coordinates: ', mouse_location
         move_mouse(mouse_location)
         pyautogui.click()
         time.sleep(.1)
-        
+
     if debug_print_2: print '--box closed'
 
 
@@ -541,6 +544,42 @@ def load_live_runs():
         print e
 
 
+def close_any_window():
+    edge = find_window_edge()
+    single_click(edge) # so window comes to focus
+    time.sleep(.1)
+    image = ImageGrab.grab()
+    color = get_color(edge, image)
+
+    while True:
+        # go to corner
+        edge = (edge[0],edge[1]-1)
+        if edge[1] >= 0:
+            if get_color(edge, image) != color:
+                edge = (edge[0], edge[1]+1)
+
+                break # edge is now the corner
+        else:
+            # out of bounds
+            return
+
+
+    print get_color(edge, image)
+    while True:
+        # go to upper right corner
+        edge = (edge[0]+1,edge[1])
+        if edge[1] < 1280:
+            if get_color(edge, image) != color:
+                edge = (edge[0]-1, edge[1])
+                break # edge is now the upper corner
+        else:
+            # out of bounds
+            return
+    single_click((edge[0]-10,edge[1]+10))
+    time.sleep(.1)
+
+
+
 
 def run_tests(whichQuant = 1):
     # takes csv list with two columns date, box_name
@@ -579,13 +618,16 @@ def run_tests(whichQuant = 1):
                 open_box(box_add[0],box_add[1],row[1])
 
 
-                if debug_print_2: print 'makeing sure black box closed'
+                if debug_print_2: print 'making sure black box closed'
                 i = 1
                 while True:
                     if is_clear(): break
                     i += 1
                     if i > 10:
-                        x = raw_input('black box didnt close.')
+                        close_any_window()
+                        if not is_clear():
+                            x = raw_input('black box didnt close.')
+                        break
                     time.sleep(.1)
                 if debug_print_2: print 'box closed'
 
@@ -612,7 +654,8 @@ def run_tests(whichQuant = 1):
                 if verify:
                     if debug_print: print 'small window open'
                 else:
-                    x = raw_input("small window didn't open")
+                    x = raw_input("some window opened but small window didn't open")
+
                 if debug_print_2: print 'small window opened'
                 if debug_print_2: print 'closing small window'
                 if debug_print: print 'closing small window -- long delay', long_delay
@@ -622,14 +665,18 @@ def run_tests(whichQuant = 1):
                     double_click((jsaw_corner[0]+260, jsaw_corner[1]+120))
                     i += 1
                     if i > 10:
-                        x = raw_input('small window didnt close.')
+                        close_any_window()
+                        time.sleep(.2)
+                        if not is_clear():
+                            x = raw_input('small window didnt close.')
+                        break
                     time.sleep(.1)
                 if debug_print_2: print 'small window closed'
                 if debug_print_2: print 'done with ', row
             except Exception as e:
                 print 'Error', e
                 break
-
+        print "All Done."
 
 which_quant = 1
 if len(sys.argv) > 1:
