@@ -7,7 +7,7 @@ import csv
 import ImageGrab
 import sys
 
-long_delay = .05
+long_delay = .1
 debug_print = False
 debug_print_2 = True
 #hi
