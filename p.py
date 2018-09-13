@@ -184,7 +184,7 @@ def is_open_blackbox_window(corner):
 
 def is_blackbox_definition_windows(corner):
     image = ImageGrab.grab()
-    height = 968
+    height = 978
     return get_color((corner[0],corner[1] + height), image) == (0,0,0)  \
         and not is_job_successfully_added_windows(corner) \
         and not is_settings_window(corner) \
