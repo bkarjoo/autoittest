@@ -4,8 +4,10 @@ import keyboard
 import pyperclip
 from box_name_importer import *
 import csv
-import ImageGrab
+from PIL import ImageGrab
 import sys
+
+confirm = False
 
 long_delay = .1
 debug_print = False
@@ -490,18 +492,33 @@ def change_backtesting_date(date):
     backtesting_tab = get_backtesting_tab(corner)
     double_click(backtesting_tab)
     time.sleep(.1)
+
     # choose one day radio button
     radio_button = get_one_day_radio_button(corner)
     double_click(radio_button)
     time.sleep(.1)
+    if confirm:
+        print 'RADIO BUTTON'
+        time.sleep(1)
+
     # click down arrow
     drop_down = get_date_drop_down_button(corner)
     single_click(drop_down)
     time.sleep(.1)
+    if confirm:
+        print 'DOWN ARROW'
+        time.sleep(1)
+
     # year range pick
     date_picker = get_date_picker(corner)
     single_click(date_picker)
+
+
     time.sleep(.1)
+    if confirm:
+        print 'DATE PICKER'
+        time.sleep(1)
+
     # prep the date str
     the_date = date.split('-')
     year = the_date[0]
@@ -511,12 +528,29 @@ def change_backtesting_date(date):
     month_point = get_month_point(corner, month)
     single_click(month_point)
     time.sleep(.1)
+
+    if confirm:
+        print 'MONTH POINT'
+        time.sleep(1)
     # day pick
     day_point = (corner[0]+220,corner[1]+78)
     double_click(day_point)
     time.sleep(.1)
+
+    if confirm:
+        print 'MONTH POINT'
+        time.sleep(1)
+
     keyboard.write(day)
     time.sleep(.1)
+    keyboard.write(day)
+
+
+    if confirm:
+        print 'KEYBOARD WRITE DAY', day
+        input('type something')
+        time.sleep(1)
+
     # year pick
     year_point = (corner[0]+245,corner[1]+78)
     single_click(year_point)
@@ -582,6 +616,9 @@ def close_any_window():
 
 
 def run_tests(whichQuant = 1):
+
+
+
     # takes csv list with two columns date, box_name
     # TODO Load box mapping
     create_in_mem_db()
@@ -611,6 +648,10 @@ def run_tests(whichQuant = 1):
                     # x = raw_input('setting date to {}'.format(row[0]))
                     theDate = row[0]
                     change_backtesting_date(theDate)
+
+                    # prmpt = 'Was date set correctly? (y/n) to: {}'.format(theDate)
+                    raw_input('set date')
+
 
                 # x = raw_input('opening box')
                 if debug_print: print 'calling open_box'

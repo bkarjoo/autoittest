@@ -366,6 +366,239 @@
 1,58,10,OPG MM_Earnings ESPR_L_BK_DV1
 1,58,11,OPG MR_Earnings Standing_L_CZ_DV1
 1,58,12,OPG MR_Earnings Standing_L_BK_DV1
+2,6,1,MM_FED ETF Bear_L_MK_PS_20k
+2,6,2,MM_FED Gold_L_MK_DV1
+2,6,3,MM_FED Gold_S_MK_DV1
+2,6,4,MM_FED ETF Bull_L_MK_DV1
+2,6,5,MM_FED ETF Bear_L_MK_DV1
+2,67,6,OPG MR_OpEx NSDQ_S_WW_PS_30k
+2,18,1,MR_QS KC_S_SK_PS_40k
+2,18,2,MR_QS BB_S_SK_PS_40k
+2,18,3,MR_QS BB_S_SK_PS_40k (less BP)
+2,18,4,MR_QS KC_S_SK_PS_40k (less BP)
+2,18,5,MR_QS v3_S_ND_PS_100k (less BP)
+2,18,6,MR_QS v2_S_ND_PS_100k (less BP)
+2,18,7,MR_QS SP500_S_WW_PS_60k (less BP)
+2,18,8,MR_QS SP500_S_WW_PS_60k
+2,18,9,MR_QS v2_S_ND_PS_100k
+2,18,10,MR_QS v3_S_ND_PS_100k
+2,18,11,MR_Sweep CEF_L_20000_RosG
+2,14,1,MM_IPO Day1_L_RG_PS_10k
+2,14,2,MR_Sweep CEF O3_L_RG_PS_100k
+2,14,3,MR_Sweep CEF O2_L_RG_PS_100k
+2,14,4,MR_Sweep CEF O1_L_RG_PS_100k
+2,14,5,MR_Opening Sweep O3_L_WW_PS_120k
+2,14,6,MR_Opening Sweep O2_L_WW_PS_60k
+2,14,7,MR_Opening Sweep O1_L_WW_PS_30k
+2,14,8,MR_EOD Sweep_L_4500_RosG
+2,14,9,MR_Sweep ETP O2_L_RG_PS_200k_0.25adv
+2,14,10,MR_Sweep ETP O1_L_RG_PS_100k_0.25adv
+2,14,11,MM_Post Halt_L_MK_PS_20k
+2,14,12,MR_QS KC_L_SK_PS_10k (less BP)
+2,14,13,MR_QS BB_L_SK_PS_10k (less BP)
+2,14,14,MR_QS_L_SK_PS_10k (less BP)
+2,14,15,MR_QS SP500_L_BK_PS_90k (less BP)
+2,14,16,MR_QS_L_ND_PS_10k (less BP)
+2,14,17,MR_QS_L_MK_PS_50k (less BP)
+2,14,18,MR_QS_L_BK_PS_10k (less BP)
+2,14,19,MR_QS v3_L_ND_PS_10k (less BP)
+2,14,20,MR_QS v2_L_ND_PS_10k (less BP)
+2,14,21,MR_QS SP500_L_WW_PS_50k (less BP)
+2,14,22,MR_Sweep Non-News_L_6000_RosG
+2,14,23,MM_ETF Breakout_L_MK_PS_100k
+2,57,1,MR_QS BB_S_SK_PS_20k (less BP)
+2,57,2,MR_QS KC_S_SK_PS_20k (less BP)
+2,57,3,MR_QS v3_S_ND_PS_90k (less BP)
+2,57,4,MR_QS v2_S_ND_PS_90k (less BP)
+2,57,5,MR_QS SP500_S_WW_PS_40k (less BP)
+2,13,1,OPG MM_Secondary Priced v2_L_RG_PS_15k
+2,13,2,OPG MM_Secondary Priced v1_L_RG_PS_15k
+2,13,3,OPG_IPO Day1_L_RG_PS_1k test
+2,13,4,OPG MM_Arb Nat Gas_L_MK_PS_100k
+2,13,5,OPG MR_Ratings_L_RG_PS_100k
+2,13,6,OPG MR_Ratings_L_ND_PS_100k
+2,13,7,OPG MR_Ratings_L_WW_PS_100k
+2,13,8,OPG MM_Acquisitions_L_RG_PS_100k
+2,13,9,OPG MM_Multiple Upgrade_L_MK_PS_100k
+2,13,10,OPG MM_BuyBack_L_ND_PS_100k
+2,54,1,OPG MM_Earnings_S_ND_PS_10k
+2,54,2,OPG MR_PDUFA_S_ND_PS_10k
+2,54,3,OPG MR_Ratings_S_MK_PS_100k
+2,54,4,OPG MR_Ratings_S_RG_PS_100k
+2,54,5,OPG MR_Ratings_S_WW_PS_100k
+2,54,6,OPG MM_Arb Nat Gas_S_MK_PS_100k
+2,20,1,MR_QS KC_L_SK_PS_20k
+2,20,2,MR_QS BB_L_SK_PS_20k
+2,20,3,MR_QS_L_SK_PS_20k
+2,20,4,MR_QS BB_L_SK_PS_20k (less BP)
+2,20,5,MR_QS KC_L_SK_PS_20k (less BP)
+2,20,6,OPG MM_Secondary Priced v2_L_RG_PS_1k test
+2,20,7,OPG MM_Secondary Priced v1_L_RG_PS_1k test
+2,20,8,MR_QS SP500_L_WW_PS_60k (less BP)
+2,20,9,MR_QS SP500_L_BK_PS_100k (less BP)
+2,20,10,MR_QS_L_SK_PS_20k (less BP)
+2,20,11,MR_QS_L_ND_PS_20k (less BP)
+2,20,12,MR_QS_L_BK_PS_20k (less BP)
+2,20,13,MR_QS v3_L_ND_PS_20k (less BP)
+2,20,14,MR_QS v2_L_ND_PS_20k (less BP)
+2,20,15,MR_QS_L_MK_PS_60k (less BP)
+2,20,16,MR_QS_L_MK_PS_60k
+2,20,17,MR_QS v2_L_ND_PS_20k
+2,20,18,MR_QS v3_L_ND_PS_20k
+2,20,19,MR_QS_L_BK_PS_20k
+2,20,20,MR_QS_L_ND_PS_20k
+2,20,21,MR_QS SP500_L_BK_PS_100k
+2,20,22,MR_QS SP500_L_WW_PS_60k
+2,20,23,OPG MR_Ratings_S_RG_PS_10k
+2,20,24,OPG MR_Ratings_L_RG_PS_10k
+2,20,25,MR_QS KC_S_SK_PS_10k
+2,20,26,MR_QS_L_SK_PS_10k
+2,20,27,OPG MM_Multiple Upgrade_L_MK_DV5
+2,20,28,OPG MM_No News_L_SK_DV1
+2,20,29,OPG MM_No News_S_SK_DV1
+2,20,30,OPG MM_Acquisitions_L_RG_DV5
+2,20,31,OPG MM_OPEC Producers_S_MK_DV5
+2,20,32,OPG MM_News RSI a_S_SK_DV2
+2,20,33,OPG MM_News a_S_SK_DV3
+2,20,34,OPG MM_Arb Nat Gas_S_MK_DV5
+2,20,35,MM_Crop Report Breakout_S_ND_DV5
+2,20,36,OPG MR_Ratings_S_WW_DV5
+2,20,37,OPG MR_Ratings_S_RG_DV5
+2,20,38,OPG MR_Ratings_S_MK_DV5
+2,20,39,OPG MR_Ratings_L_MK_DV2
+2,20,40,OPG MR_Ratings_L_ND_DV5
+2,20,41,OPG MR_Ratings_L_WW_DV2
+2,20,42,OPG MM_OPEC Producers_L_MK_DV5
+2,20,43,OPG MM_BuyBack_L_ND_DV5
+2,20,44,OPG MM_Arb Nat Gas_L_MK_DV5
+2,20,45,OPG MR_Ratings_L_RG_DV5
+2,20,46,OPG MM_News a_S_SK_DV3
+2,20,47,MM_ETF Breakout_L_MK_DV5
+2,20,48,MM_Crop Report Breakout_L_ND_DV5
+2,20,49,MR_QS v3_S_ND_DV5
+2,20,50,MR_QS v2_S_ND_DV5
+2,20,51,MR_QS SP500_S_WW_DV3
+2,20,52,MR_QS KC_S_SK_DV2
+2,20,53,MR_QS BB_S_SK_DV2
+2,20,54,MR_QS_L_SK_DV1
+2,20,55,MR_QS_L_ND_DV1
+2,20,56,MR_QS_L_MK_DV3
+2,20,57,MR_QS_L_BK_DV1
+2,20,58,MR_QS v3_L_ND_DV1
+2,20,59,MR_QS v2_L_ND_DV1
+2,20,60,MR_QS SP500_L_WW_DV3
+2,20,61,MR_QS SP500_L_BK_DV5
+2,20,62,MR_QS BB_L_SK_DV1
+2,20,63,MR_QS KC_L_SK_DV1
+2,20,64,OPG MM_No News_S_SK_DV1
+2,20,65,OPG MM_No News_L_SK_DV1
+2,20,66,OPG MM_News RSI a_S_SK_DV1
+2,20,67,OPG MM_News a_S_SK_DV1
+2,20,68,OPG MM_Arb Nat Gas_S_MK_DV1
+2,20,69,OPG MM_Arb Nat Gas_L_MK_DV1
+2,20,70,OPG MR_Ratings_S_WW_DV1
+2,20,71,OPG MR_Ratings_S_RG_DV1
+2,20,72,OPG MR_Ratings_S_MK_DV1
+2,20,73,OPG MR_Ratings_L_RG_DV1
+2,20,74,OPG MR_Ratings_L_ND_DV1
+2,20,75,OPG MR_Ratings_L_MK_DV1
+2,20,76,OPG MR_Ratings_L_WW_DV1
+2,20,77,OPEC Producers MM Long_Maxim_Kim
+2,20,78,OPEC Producers MM Short_Maxim_Kim
+2,20,79,OPEC Refiners MR Long 500_Maxim_Kim
+2,20,80,OPEC Refiners MR Short 500_Maxim_Kim
+2,20,81,OPEC MLP MM Long 200_Maxim_Kim
+2,20,82,OPEC MLP MM Short 200_Maxim_Kim
+2,20,83,MM_Multiple_Upgrade_L_200_Maxim Kim
+2,20,84,OPG MM_BuyBack_L_1000_Norraphon Dejruksavattana
+2,20,85,OPG MM_Acquisitions_L_50k_RosG v0.7
+2,20,86,OPG MR_IPO Gap Up_S_300_Behrooz Karjoo
+2,20,87,OPG MM_Fly Rec_L_400_Maxim Kim
+2,20,88,OPG MR_IPO Gap Up_S_100_Behrooz Karjoo
+2,20,89,QS_Earnings MR QS_L_400_TEST_Behrooz Karjoo
+2,20,90,QS_Earnings MR QS_S_400_TEST_Behrooz Karjoo
+2,20,91,MM_Earnings MM Breakout_S_200_TEST_Norraphon Dejruksavattana
+2,20,92,MM_Earnings MM Breakout_L_200_TEST_Norraphon Dejruksavattana
+2,20,93,QS_Earnings MR QS_S_200_TEST_Behrooz Karjoo
+2,20,94,QS_Earnings MR QS_L_200_TEST_Behrooz Karjoo
+2,20,95,MM_Crop Report Breakout_L_300_Nor
+2,20,96,MM_Crop Report Breakout_S_300_Nor
+2,20,97,OPG MR_Ratings MR_L_400_Behrooz Karjoo
+2,20,98,OPG MR_Ratings MR_L_400_Sankalp Krishnan
+2,20,99,OPG RATINGS LONG Index 600
+2,20,100,OPG Ratings MM_Standing_L_200_Norraphon Dejruksavattana
+2,21,1,OPG MR_Ratings MR_L_600_RosG
+2,21,2,OPG MR_Ratings MR_L_600_Norraphon Dejruksavattana
+2,21,3,OPG MR_Ratings MR_L_400_Maxim Kim
+2,21,4,OPG MR_Ratings MR_S_400_Behrooz Karjoo
+2,21,5,OPG RATINGS SHORT 400
+2,21,6,OPG MR_Ratings MR_S_400_Sankalp Krishnan
+2,21,7,OPG MR_Ratings MR_S_400_RosG
+2,21,8,OPG MR_Ratings MR_S_400_Norraphon Dejruksavattana
+2,21,9,OPG MR_Ratings MR_S_400_Maxim Kim
+2,21,10,OPG MR_Ratings MR_S_400_Charles Zhou
+2,21,11,OPG MM_IBB Arb_L_100_Charles Zhou
+2,21,12,OPG MM_XLF-GDX Arb_L_500_CharlesZhou
+2,21,13,OPG MR_Biotech No News_L_200_Behrooz Karjoo AEL VERSION
+2,21,14,OPG MR_Nasdaq No News_L_100_Behrooz Karjoo AEL Version
+2,21,15,OPG MR_OpEx NYSE_S_100_WW
+2,21,16,OPG MR_OpEx NSDQ_S_300_WW
+2,21,17,OPG MM_News OPG MM_S_200_Sankalp Krishnan
+2,21,18,OPG MM_GDX-XLF Arb_S_100_Norraphon Dejruksavattana
+2,21,19,OPG MM_IBB Arb_S_100_Charles Zhou
+2,21,20,OPG MM_Standing News OPG MM_S_200_Sankalp Krishnan
+2,21,21,OPG MR_GDX Sector Arb_S_300_Charles Zhou
+2,21,22,OPG MM_Arb Nat Gas_S_400_Maxim Kim
+2,21,23,OPG MM_No News OPG MM_S_100_Sankalp Krishnan
+2,21,24,OPG MM_XLF-GDX Arb_S_500_CharlesZhou
+2,21,25,OPG MR_Non-News_S_100_Sankalp Krishnan
+2,21,26,OPG MR_Nasdaq No News_S_100_Behrooz Karjoo
+2,21,27,OPG MR_CableTV No News_S_200_Behrooz Karjoo
+2,21,28,OPG MR_Ratings MR_S_200_Behrooz Karjoo
+2,21,29,OPG RATINGS SHORT
+2,21,30,OPG MR_Ratings MR_S_200_Sankalp Krishnan
+2,21,31,OPG MR_Ratings MR_S_200_RosG
+2,21,32,OPG MR_Ratings MR_S_200_Norraphon Dejruksavattana
+2,21,33,OPG MR_Ratings MR_S_200_Maxim Kim
+2,21,34,OPG MR_Ratings MR_S_200_Charles Zhou
+2,21,35,OPG MM_News OPG MM 2_S_100_Sankalp Krishnan
+2,21,36,OPG MR_Nasdaq No News_S_100_Behrooz Karjoo AEL Version
+2,21,37,OPG MR_Biotech No News_S_200_Behrooz Karjoo AEL Version
+2,21,38,OPG MR_Biotech No News_S_200_Behrooz Karjoo
+2,21,39,OPG MM_News OPG MM_L_200_Sankalp Krishnan
+2,21,40,OPG MM_GDX-XLF Arb_L_100_Norraphon Dejruksavattana
+2,21,41,OPG MR_GDX Sector Arb_L_300_Charles Zhou
+2,21,42,OPG MM_Arb Nat Gas_L_400_Maxim Kim
+2,21,43,OPG MM_No News OPG MM_L_100_Sankalp Krishnan
+2,21,44,OPG MR_Non-News_L_100_Sankalp Krishnan
+2,21,45,OPG MR_Nasdaq No News_L_100_Behrooz Karjoo
+2,21,46,OPG MR_CableTV No News_L_200_Behrooz Karjoo
+2,21,47,OPG MR_Ratings MR_L_200_Behrooz Karjoo
+2,21,48,OPG MR_Ratings MR_L_200_Sankalp Krishnan
+2,21,49,OPG RATINGS LONG Index
+2,21,50,OPG Ratings MM_Standing_L_100_Norraphon Dejruksavattana
+2,21,51,OPG MR_Ratings MR_L_300_RosG
+2,21,52,OPG MR_Ratings MR_L_300_Norraphon Dejruksavattana
+2,21,53,OPG MR_Ratings MR_L_200_Maxim Kim
+2,21,54,OPG MM_News OPG MM 2_L_100_Sankalp Krishnan
+2,21,55,OPG MR_Biotech No News_L_200_Behrooz Karjoo
+2,21,56,MR_Sweep Non News MLP_L_600_Sankalp Krishnan
+2,21,57,MR_QS_L_200_RosG
+2,21,58,MR_QS_L_200_House
+2,21,59,MM_Earnings MM Breakout_S_300_Sankalp Krishnan_part2
+2,21,60,MR_QS_S_200_House
+2,21,61,MR_EOD Sweep_L_3000_RosG
+2,21,62,MR_Sweep Non-News RegBanks_S_900_House
+2,21,63,MR_Sweep Non-News MLP_S_900_House
+2,21,64,CLOSING SWEEPS
+2,21,65,OPG MM_Arb Macau_L_200_Maxim Kim
+2,21,66,OPG MM_Arb Hang Seng_L_200_Maxim Kim
+2,21,67,OPG MM_Arb FED SPY _L_1000_Maxim Kim
+2,21,68,MM_MnA Breakout (RAD)_S_5000_RosG v1
+2,21,69,MM_MnA Breakout (RAD)_L_5000_RosG
+2,21,70,OPG MM_Arb Macau_S_200_Maxim Kim
+2,21,71,MR_Sweep Non-News ETF_S_900_House
+2,21,72,Apple Suppliers (SWKS) Long 200
 2,1,1,ALL SWEEP TRIGGER OPEN HALF
 2,4,1,OPG MM_Arb Hang Seng_L_200_Maxim Kim
 2,4,2,OPG MM_Arb Hang Seng_S_200_Maxim Kim
