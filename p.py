@@ -650,7 +650,7 @@ def run_tests(whichQuant = 1):
                     change_backtesting_date(theDate)
 
                     # prmpt = 'Was date set correctly? (y/n) to: {}'.format(theDate)
-                    raw_input('set date')
+                    # raw_input('set date')
 
 
                 # x = raw_input('opening box')
