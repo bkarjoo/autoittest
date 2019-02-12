@@ -9,10 +9,12 @@ import sys
 
 confirm = False
 
-long_delay = .1
+long_delay = .6
+extra_delay = 8
 debug_print = False
 debug_print_2 = True
 #hi
+
 def move_mouse(p):
     if debug_print: print 'moving mouse to: ', p
     if p == None: return
@@ -40,7 +42,6 @@ def get_first_windows_point():
 def is_top_of_window(p, i):
     # it's top if left and right are not 0 and above is 0
     if debug_print: print 'debug:','is_top_of_window'
-
 
     # get above left and rigt
     if p[1] > 1:
@@ -135,9 +136,6 @@ def find_window_edge():
     return None
 
 
-
-
-
 def get_corner_from_edge(edge):
     if debug_print: print 'debug:','get_corner_from_edge'
     image = ImageGrab.grab()
@@ -225,7 +223,7 @@ def is_clear():
     # if debug_print: print 'debug:','is_clear'
     # returns true if there's no open windows under the launcher, false otherwise
     image = ImageGrab.grab()
-    for x in range(10,800,50):
+    for x in range(10,1280,50):
         for y in range (300, 750, 50):
             p = (x,y)
             c = get_color(p,image)
@@ -714,6 +712,8 @@ def run_tests(whichQuant = 1):
                     time.sleep(.1)
                 if debug_print_2: print 'small window closed'
                 if debug_print_2: print 'done with ', row
+
+                if extra_delay > 0: time.sleep(extra_delay)
             except Exception as e:
                 print 'Error', e
                 break
