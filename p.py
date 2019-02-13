@@ -682,7 +682,7 @@ def run_tests(whichQuant = 1):
                 if debug_print_2: print 'check small window opened'
                 i = 1
                 while is_clear():
-                    time.sleep(.1)
+                    time.sleep(.2)
                     i+=1
                     if i == 10:
                         x = raw_input("small window didn't open")
