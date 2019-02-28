@@ -10,7 +10,7 @@ import sys
 confirm = False
 
 long_delay = .6
-extra_delay = 8
+extra_delay = 16
 debug_print = False
 debug_print_2 = True
 #hi
