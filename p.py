@@ -9,11 +9,10 @@ import sys
 
 confirm = False
 
-long_delay = .6
-extra_delay = 16
+long_delay = 2.5
+extra_delay = 30
 debug_print = False
 debug_print_2 = True
-#hi
 
 def move_mouse(p):
     if debug_print: print 'moving mouse to: ', p
