@@ -25,3 +25,8 @@ def up_arrow():
 def down_arrow():
     keyboard.press_and_release('down')
     sleep(.05)
+
+
+def delete():
+    keyboard.press_and_release('delete')
+    sleep(.05)
