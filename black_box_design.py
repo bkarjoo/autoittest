@@ -5,6 +5,7 @@ from pixel_info import *
 from launcher import *
 from time import sleep
 from code_grab import *
+from file_reader import *
 import configparser
 
 black_box_design_corner = (0,0)
@@ -19,7 +20,7 @@ enter_on_bid_offset = (800,105)
 enter_on_ask_offset = (800,130)
 enter_on_snapshot_offset = (800,205)
 enter_on_new_minute_offset = (800,230)
-entry_trigger_text_box_offset = (400,410)
+entry_trigger_text_box_offset = (400,360)
 edit_entry_rule_button_offset = (900,310)
 first_entry_order_offset = (400,445)
 add_new_entry_order_offset = (920, 420)
@@ -56,7 +57,7 @@ ael_form_convert_to_stop_offset = (630,630)
 # stop form offset
 stop_form_common_order_tab_offset = (300,355)
 stop_form_primus_stop_order_offset = (450,355)
-stop_form_stop_price_edit_offset = (550,355)
+stop_form_stop_price_edit_offset = (750,470)
 stop_form_enable_trailing_check_box_offset = (300,460)
 stop_form_edit_trail_trigger_offset = (750,490)
 stop_form_edit_trail_how_offset = (750,560)
@@ -86,7 +87,8 @@ basket_manager_dynamic_rule_text_area_offset = (520,360)
 basket_manager_symbols_text_area_offset = (520,460)
 basket_manager_always_excluded_offset = (520,700)
 basket_manager_htb_allowed_offset = (520,800)
-basket_manager_save_button_offset = (900,140)
+basket_manager_save_button_offset = (980,140)
+basket_manager_ok_button_offset = (900,730)
 # options tab
 use_time_options_check_box_offset = (70,75)
 start_subscription_hour_offset = (175,110)
@@ -123,6 +125,9 @@ maximum_order_shares_text_box_offset = (190,630)
 enable_black_box_launch_rule_check_box_offset = (50,60)
 launch_rule_text_area_offset = (100,300)
 
+window_opening_wait_time = 1
+arrow_wait_time = .4
+
 
 def find_window_edge():
     set_image()
@@ -147,13 +152,17 @@ def get_corner_from_edge(edge):
 
 def open_black_box_design():
     open_new_box()
-    sleep(1)
+    sleep(window_opening_wait_time)
     edge = find_window_edge()
     corner = get_corner_from_edge(edge)
 
 
 def click_offset_from_design_corner(offset):
     mouse_click_at((black_box_design_corner[0] + offset[0], black_box_design_corner[1] + offset[1]))
+
+
+def double_click_offset_from_design_corner(offset):
+    mouse_double_click_at((black_box_design_corner[0] + offset[0], black_box_design_corner[1] + offset[1]))
 
 
 def cancel_black_box_design():
@@ -193,13 +202,10 @@ def edit_limit_price():
     click_offset_from_design_corner(edit_limit_price_offset)
 
 
-def click_expression_builder_formula_box():
-    click_offset_from_design_corner(expression_builder_formula_box_offset)
-
-
-def set_expression_builder_code(code):
-    click_expression_builder_formula_box()
-    set_clipboard_text(code)
+def set_expression_builder_code(rule_str):
+    click_offset_from_design_corner(expression_builder_clear_button_offset)
+    click_offset_from_design_corner(expression_builder_formula_text_area_offset)
+    set_clipboard_text(rule_str)
     control_v()
     click_offset_from_design_corner(expression_builder_ok_button_offset)
 
@@ -305,25 +311,26 @@ def set_main_black_box_settings():
 # all orders common -----------------------------------------------------------
 def set_order_type(type_str):
     # precondition: order form is open
-    t = .4
-    click_offset_from_design_corner(order_form_order_type_drop_down_offset)
-    up_arrow()
-    sleep(t)
-    click_offset_from_design_corner(order_form_order_type_drop_down_offset)
-    up_arrow()
-    sleep(t)
-    click_offset_from_design_corner(order_form_order_type_drop_down_offset)
-    up_arrow()
-    sleep(t)
-    click_offset_from_design_corner(order_form_order_type_drop_down_offset)
-    up_arrow()
-    sleep(t)
-    click_offset_from_design_corner(order_form_order_type_drop_down_offset)
-    up_arrow()
-    sleep(t)
-    click_offset_from_design_corner(order_form_order_type_drop_down_offset)
-    up_arrow()
-    sleep(t)
+    # do not use this for updating the order type
+    t = arrow_wait_time
+    # click_offset_from_design_corner(order_form_order_type_drop_down_offset)
+    # up_arrow()
+    # sleep(t)
+    # click_offset_from_design_corner(order_form_order_type_drop_down_offset)
+    # up_arrow()
+    # sleep(t)
+    # click_offset_from_design_corner(order_form_order_type_drop_down_offset)
+    # up_arrow()
+    # sleep(t)
+    # click_offset_from_design_corner(order_form_order_type_drop_down_offset)
+    # up_arrow()
+    # sleep(t)
+    # click_offset_from_design_corner(order_form_order_type_drop_down_offset)
+    # up_arrow()
+    # sleep(t)
+    # click_offset_from_design_corner(order_form_order_type_drop_down_offset)
+    # up_arrow()
+    # sleep(t)
     if type_str == 'LIMIT': return
     click_offset_from_design_corner(order_form_order_type_drop_down_offset)
     down_arrow()
@@ -403,7 +410,7 @@ def set_order_destination(destination_str):
 
 def set_order_size(size):
     click_offset_from_design_corner(order_form_size_offset)
-    sleep(1)
+    sleep(window_opening_wait_time)
     control_a()
     set_clipboard_text(size)
     control_v()
@@ -444,27 +451,42 @@ def set_order_tif_seconds(seconds):
 
 def set_order_limit_price(rule_str):
     click_offset_from_design_corner(order_form_edit_limit_price_offset)
-    sleep(1)
-    click_offset_from_design_corner(expression_builder_clear_button_offset)
-    click_offset_from_design_corner(expression_builder_formula_text_area_offset)
-    set_clipboard_text(rule_str)
-    control_v()
-    click_offset_from_design_corner(expression_builder_ok_button_offset)
+    sleep(window_opening_wait_time)
+    set_expression_builder_code(rule_str)
 
 
 def set_order_stop_price(rule_str):
     click_offset_from_design_corner(order_form_edit_stop_price_offset)
-    sleep(1)
-    click_offset_from_design_corner(expression_builder_clear_button_offset)
-    click_offset_from_design_corner(expression_builder_formula_text_area_offset)
-    set_clipboard_text(rule_str)
-    control_v()
-    click_offset_from_design_corner(expression_builder_ok_button_offset)
+    sleep(window_opening_wait_time)
+    set_expression_builder_code(rule_str)
 
+
+def set_ael_trigger_price(rule_str):
+    click_offset_from_design_corner(ael_form_edit_trigger_offset)
+    sleep(window_opening_wait_time)
+    set_expression_builder_code(rule_str)
+
+
+def set_ael_trail_how(rule_str):
+    click_offset_from_design_corner(ael_form_edit_trail_how_offset)
+    sleep(window_opening_wait_time)
+    set_expression_builder_code(rule_str)
+
+
+def set_ael_time_increment(rule_str):
+    click_offset_from_design_corner(ael_form_edit_time_increment_offset)
+    sleep(window_opening_wait_time)
+    set_expression_builder_code(rule_str)
+
+
+def set_ael_price_increment(rule_str):
+    click_offset_from_design_corner(ael_form_edit_price_increment_offset)
+    sleep(window_opening_wait_time)
+    set_expression_builder_code(rule_str)
 
 
 # entry -----------------------------------------------------------------------
-def set_entry_trigger_rule(rule_str):
+def set_entry_trigger_rule():
     # click edit entry rule button
     click_offset_from_design_corner(entry_trigger_text_box_offset)
     # clear the expression
@@ -472,7 +494,11 @@ def set_entry_trigger_rule(rule_str):
     # click text area
     delete()
     # paste rule_str
-    set_clipboard_text(rule_str)
+    code = grab_code('entry_trigger')
+
+    set_clipboard_text(code)
+
+    click_offset_from_design_corner(entry_trigger_text_box_offset)
     control_v()
 
 
@@ -480,76 +506,294 @@ def set_entry_trigger_rule(rule_str):
 # takes a properties class AKA traits class
 # takes a limit rule
 # takes an optional stop rule
-def add_new_edit_order(limit_rule, stop_rule = ''):
+def add_new_entry_order():
     # click add new order
     props = configparser.RawConfigParser()
     props.read('entry_order.properties')
     prop_dict = dict(props.items('main'))
 
+    limit_rule = grab_code('entry_order_limit')
+    stop_rule = grab_code('entry_order_stop')
+
     click_offset_from_design_corner(add_new_entry_order_offset)
-    sleep(1)
+    sleep(window_opening_wait_time)
     set_order_tif(prop_dict['tif'])
     sleep(.1)
     set_order_tif_seconds(prop_dict['tif_seconds'])
 
     set_order_limit_price(limit_rule)
-    sleep(1)
+    sleep(window_opening_wait_time)
 
     set_order_type(prop_dict['order_type'])
     set_order_side(prop_dict['order_side'])
     set_order_destination(prop_dict['destination'])
     set_order_size(prop_dict['size'])
 
-    if stop_rule != '': set_order_stop_price(stop_rule)
-    sleep(1)
+    if prop_dict['order_type'] == 'STOP_LIMIT': set_order_stop_price(stop_rule)
+    sleep(window_opening_wait_time)
     click_offset_from_design_corner(order_form_save_offset)
 
 
-def edit_existing_entry_order(limit_rule, stop_rule=''):
+def edit_existing_entry_order():
     # assumes only limit price will be changed
     # select the first order
     # click edit order
     # call set_entry_order_limit_price
-    click_offset_from_design_corner(first_entry_order_offset)
-    sleep(.1)
-    click_offset_from_design_corner(first_entry_order_offset)
+    props = configparser.RawConfigParser()
+    props.read('entry_order.properties')
+    prop_dict = dict(props.items('main'))
+    limit_rule = grab_code('entry_order_limit')
+    stop_rule = grab_code('entry_order_stop')
+
+    double_click_offset_from_design_corner(first_entry_order_offset)
     set_order_limit_price(limit_rule)
-    sleep(1)
-    set_order_stop_price(stop_rule)
-    sleep(1)
+    sleep(window_opening_wait_time)
+    if prop_dict['order_type'] == 'STOP_LIMIT':
+        set_order_stop_price(stop_rule)
+        sleep(window_opening_wait_time)
     click_offset_from_design_corner(order_form_save_offset)
 
 
 # target and ael -----------------------------------------------------------
-def add_new_exit_limit_order(limit_price):
-    click_offset_from_design_corner(add_new_exit_limit_order_offset)
-    sleep(1)
+def add_new_exit_limit_order():
+    props = configparser.RawConfigParser()
+    props.read('target_order.properties')
+    prop_dict = dict(props.items('main'))
 
-add_new_exit_limit_order()
+    limit_rule = grab_code('target_limit')
+
+    click_offset_from_design_corner(add_new_exit_limit_order_offset)
+    sleep(window_opening_wait_time)
+    set_order_side(prop_dict['order_side'])
+    set_order_destination(prop_dict['destination'])
+    set_order_size(prop_dict['size'])
+    set_order_limit_price(limit_rule)
+    sleep(window_opening_wait_time)
+    click_offset_from_design_corner(order_form_save_offset)
 
 
 def add_new_ael_order():
-    pass
+    props = configparser.RawConfigParser()
+    props.read('target_order.properties')
+    main_props = dict(props.items('main'))
+    props = configparser.RawConfigParser()
+    props.read('target_order.properties')
+    ael_props = dict(props.items('ael'))
+
+    trigger_code = grab_code('ael_trigger')
+    trail_how_code = grab_code('ael_price')
+    time_increment_code = grab_code('ael_time_increment')
+    price_increment_code = grab_code('ael_price_increment')
+
+    click_offset_from_design_corner(add_new_exit_limit_order_offset)
+    sleep(window_opening_wait_time)
+    set_order_type('PRIMUS_AEL')
+    set_order_side(main_props['order_side'])
+    set_order_destination(main_props['destination'])
+    set_order_size(main_props['size'])
+
+    set_ael_trigger_price(trigger_code)
+    set_ael_trail_how(trail_how_code)
+    set_ael_time_increment(time_increment_code)
+    set_ael_price_increment(price_increment_code)
+
+    print ael_props
+    if ael_props['on_last'] == 'TRUE':
+        click_offset_from_design_corner(ael_form_on_last_offset)
+    if ael_props['on_second'] == 'TRUE':
+        click_offset_from_design_corner(ael_form_on_second_offset)
+    if ael_props['on_bid_ask'] == 'TRUE':
+        click_offset_from_design_corner(ael_form_on_bid_ask_offset)
+    if ael_props['convert_to_stop'] == 'TRUE':
+        click_offset_from_design_corner(ael_form_convert_to_stop_offset)
+
+    click_offset_from_design_corner(order_form_save_offset)
 
 
 def edit_existing_limit_order():
-    pass
+    limit_rule = grab_code('target_limit')
+    double_click_offset_from_design_corner(first_exit_limit_order_offset)
+    sleep(window_opening_wait_time)
+    set_order_limit_price(limit_rule)
+    sleep(window_opening_wait_time)
+    click_offset_from_design_corner(order_form_save_offset)
 
 
 def edit_existing_ael_limit_order():
-    pass
+    trigger_code = grab_code('ael_trigger')
+    trail_how_code = grab_code('ael_price')
+    time_increment_code = grab_code('ael_time_increment')
+    price_increment_code = grab_code('ael_price_increment')
+
+    double_click_offset_from_design_corner(first_exit_limit_order_offset)
+    sleep(window_opening_wait_time)
+
+    set_ael_trigger_price(trigger_code)
+    set_ael_trail_how(trail_how_code)
+    set_ael_time_increment(time_increment_code)
+    set_ael_price_increment(price_increment_code)
+
+    click_offset_from_design_corner(order_form_save_offset)
+
 
 
 # stop loss order ----------------------------------------------------------
 def add_new_stop_loss_order():
-    pass
+
+    # stop order properties
+    props = configparser.RawConfigParser()
+    props.read('stop_order.properties')
+    main_props = dict(props.items('main'))
+
+
+    props = configparser.RawConfigParser()
+    props.read('stop_order.properties')
+    trail_props = dict(props.items('trail'))
+
+
+    # stop order rules.
+    trigger_rule = grab_code('trail_trigger')
+    how_rule = grab_code('trail_how')
+    increment = grab_code('trail_increment')
+    stop_price = grab_code('stop_price')
+
+    # open the window
+    click_offset_from_design_corner(add_new_exit_stop_order_offset)
+    set_order_side(main_props['order_side'])
+    set_order_type('PRIMUS_STOP')
+    set_order_size(main_props['size'])
+
+
+    # set trail if any
+    if trail_props['enable_trailing'] == 'TRUE':
+        click_offset_from_design_corner(stop_form_enable_trailing_check_box_offset)
+        click_offset_from_design_corner(stop_form_edit_trail_trigger_offset)
+        sleep(window_opening_wait_time)
+        set_expression_builder_code(trigger_rule)
+        click_offset_from_design_corner(stop_form_edit_trail_how_offset)
+        sleep(window_opening_wait_time)
+        set_expression_builder_code(how_rule)
+        click_offset_from_design_corner(stop_form_edit_increment_offset)
+        sleep(window_opening_wait_time)
+        set_expression_builder_code(increment)
+
+
+    # set hard stop
+    if stop_price != '':
+        click_offset_from_design_corner(stop_form_common_order_tab_offset)
+        click_offset_from_design_corner(stop_form_stop_price_edit_offset)
+        sleep(window_opening_wait_time)
+        set_expression_builder_code(stop_price)
+
+    click_offset_from_design_corner(order_form_save_offset)
+
 
 def edit_existing_stop_loss_order():
-    pass
+    props = configparser.RawConfigParser()
+    props.read('stop_order.properties')
+    trail_props = dict(props.items('trail'))
+
+    double_click_offset_from_design_corner(first_stop_order_offset)
+
+    # TODO detect what changed and only change that portion
+    # stop order rules.
+    trigger_rule = grab_code('trail_trigger')
+    how_rule = grab_code('trail_how')
+    increment = grab_code('trail_increment')
+    stop_price = grab_code('stop_price')
+
+    # set trail if any
+    if trail_props['enable_trailing'] == 'TRUE':
+        click_offset_from_design_corner(stop_form_edit_trail_trigger_offset)
+        sleep(window_opening_wait_time)
+        set_expression_builder_code(trigger_rule)
+        click_offset_from_design_corner(stop_form_edit_trail_how_offset)
+        sleep(window_opening_wait_time)
+        set_expression_builder_code(how_rule)
+        click_offset_from_design_corner(stop_form_edit_increment_offset)
+        sleep(window_opening_wait_time)
+        set_expression_builder_code(increment)
+
+
+    # set hard stop
+    if stop_price != '':
+        click_offset_from_design_corner(stop_form_common_order_tab_offset)
+        click_offset_from_design_corner(stop_form_stop_price_edit_offset)
+        sleep(window_opening_wait_time)
+        set_expression_builder_code(stop_price)
+
+    click_offset_from_design_corner(order_form_save_offset)
+
 
 # basket -------------------------------------------------------------------
 def create_basket():
-    pass
+    props = configparser.RawConfigParser()
+    props.read('symbol_basket.properties')
+    basket_props = dict(props.items('main'))
+
+    rules = grab_code('basket_rules')
+
+    click_offset_from_design_corner(symbol_tab_offset)
+    click_offset_from_design_corner(choose_basket_button_offset)
+    sleep(window_opening_wait_time+4)
+    click_offset_from_design_corner(basket_manager_private_tab_offset)
+    click_offset_from_design_corner(basket_manager_second_folder_offset)
+    move_mouse(basket_manager_right_click_point_offset)
+    mouse_right_click()
+    sleep(.1)
+    click_offset_from_design_corner(basket_manager_right_click_menu_new_offset)
+    sleep(window_opening_wait_time)
+
+    click_offset_from_design_corner(basket_manager_basket_name_text_box_offset)
+    control_a()
+    set_clipboard_text(basket_props['basket_name'])
+    control_v()
+
+    click_offset_from_design_corner(basket_manager_basket_description_text_box_offset)
+    control_a()
+    set_clipboard_text(basket_props['basket_description'])
+    control_v()
+
+    if basket_props['activate_dynamic_basket_rules'] == 'TRUE':
+        click_offset_from_design_corner(basket_manager_activate_dynamic_basket_rules_offset)
+    if basket_props['apply_dynamic_basket_rules_to_all_available_symbols'] == 'TRUE':
+        click_offset_from_design_corner(basket_manager_apply_dynamic_basket_to_all_symbols_offset)
+
+    click_offset_from_design_corner(basket_manager_dynamic_rule_text_area_offset)
+    control_a()
+    set_clipboard_text(rules)
+    control_v()
+
+    symbols = read_file(basket_props['symbols_file'])
+    always_excluded_symbols = read_file(basket_props['always_excluded_symbols'])
+    hard_to_borrow_allow = read_file(basket_props['hard_to_borrow_allow'])
+
+    if symbols != '':
+        click_offset_from_design_corner(basket_manager_symbols_text_area_offset)
+        control_a()
+        set_clipboard_text(symbols)
+        control_v()
+
+    if always_excluded_symbols != '':
+        click_offset_from_design_corner(basket_manager_always_excluded_offset)
+        control_a()
+        set_clipboard_text(always_excluded_symbols)
+        control_v()
+
+    if hard_to_borrow_allow != '':
+        click_offset_from_design_corner(basket_manager_htb_allowed_offset)
+        control_a()
+        set_clipboard_text(hard_to_borrow_allow)
+        control_v()
+
+    click_offset_from_design_corner(basket_manager_save_button_offset)
+    sleep(window_opening_wait_time)
+    click_offset_from_design_corner(basket_manager_ok_button_offset)
+
+
+
+create_basket()
+
 
 def edit_basket():
     pass

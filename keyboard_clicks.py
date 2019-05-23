@@ -2,15 +2,33 @@ import keyboard
 from time import sleep
 
 def control_a():
-    keyboard.press_and_release('ctrl+a')
+    sleep(.1)
+    keyboard.press('ctrl')
+    sleep(.1)
+    keyboard.press_and_release('a')
+    sleep(.1)
+    keyboard.release('ctrl')
+    sleep(.1)
 
 
 def control_c():
-    keyboard.press_and_release('ctrl+c')
+    sleep(.1)
+    keyboard.press('ctrl')
+    sleep(.1)
+    keyboard.press_and_release('c')
+    sleep(.1)
+    keyboard.release('ctrl')
+    sleep(.1)
 
 
 def control_v():
-    keyboard.press_and_release('ctrl+v')
+    sleep(.1)
+    keyboard.press('ctrl')
+    sleep(.1)
+    keyboard.press_and_release('v')
+    sleep(.1)
+    keyboard.release('ctrl')
+    sleep(.1)
 
 
 def write(some_string):
@@ -18,15 +36,15 @@ def write(some_string):
 
 
 def up_arrow():
-    keyboard.press_and_release('up')
+    keyboard.send('up')
     sleep(.05)
 
 
 def down_arrow():
-    keyboard.press_and_release('down')
+    keyboard.send('down')
     sleep(.05)
 
 
 def delete():
-    keyboard.press_and_release('delete')
+    keyboard.send('delete')
     sleep(.05)
