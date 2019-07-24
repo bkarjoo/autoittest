@@ -14,6 +14,7 @@ extra_delay = 30
 debug_print = False
 debug_print_2 = True
 
+
 def move_mouse(p):
     if debug_print: print 'moving mouse to: ', p
     if p == None: return
