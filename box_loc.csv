@@ -1,237 +1,38 @@
-2,3,1,MM_Earnings CC_S_QG_PS_2kr
-2,3,2,MR_QS Earnings_S_QG_PS_1kr
-2,3,3,MM_Earnings Breakout GU_S_SK_PS_1.25kr
-2,4,2,MR_QS v2_S_ND_PS_1kr
-2,4,3,MM_SPY 4wl_S_SK_PS_1.5kr
-2,5,1,OPG MM_NFP Financial_S_ND_PS_0.25kr_v2
-2,5,2,OPG MM_NFP REIT Utility_S_SK_PS_0.25kr_v2
-2,5,3,OPG MM_NFP Gold_S_ND_PS_0.25kr_v2
-2,5,4,OPG MM_NFP Gold_S_RG_PS_0.25kr_v2
-2,5,5,OPG MR_OpEx NSDQ_S_WW_PS_0.5kr v1.1
-2,7,1,MR_Sweep Preferred O1_L_ND_PS_40K
-2,7,2,MR_QS v2_L_ND_PS_0.625kr
-2,7,3,MR_Sweep CEF O1_L_RG_PS_100k_v2
-2,7,4,MR_Sweep CEF O3_L_RG_PS_100k_v2
-2,7,5,MR_Sweep CEF O2_L_RG_PS_100k_v2
-2,7,6,MR_Opening Sweep O3_L_WW_PS_120k_v2
-2,7,7,MR_Opening Sweep O1_L_WW_PS_30k_v2
-2,7,8,MR_Closing Sweep O1_L_RG_PS_50k_v2
-2,7,9,MR_Closing Sweep O2_L_RG_PS_50k_v2
-2,7,10,MM_IPO Day1 Breakout_L_RG_PS_20k
-2,7,11,MR_Sweep ETP O2_L_RG_PS_200k v2
-2,7,12,MR_Sweep ETP O1_L_RG_PS_100k v2
-2,8,1,OPG MM_NFP Financial_L_SK_PS_0.25kr_v2
-2,8,2,OPG MM_NFP REIT Utility_L_MK_PS_0.25kr_v2
-2,8,3,OPG MM_NFP Gold_L_RG_PS_0.5kr_v2
-2,9,1,MM_Earnings CC_L_SK_PS_2.5kr
-2,9,2,MR_Earnings Sweep O2_L_BK_PS_1.5kr
-2,9,3,MR_Earnings Sweep O1_L_BK_PS_0.75kr
-2,9,4,MM_Earnings Breakout GD_L_SK_PS_1.5kr
-2,22,1,OPG MM_Arb Nat Gas_L_MK_PS_1kr
-2,22,2,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr
-2,22,3,OPG MR_Ratings_L_WW_PS_0.5kr
-2,23,1,MR_Opening Sweep O2_L_WW_PS_60k_v2
-2,23,2,MR_QS ex-SP500 v4_L_ND_PS_0.5kr_v2
-2,23,3,MR_QS SP500_L_WW_PS_0.5kr (less BP)_v2
-2,26,1,MR_Earnings Sweep O2_L_BK_PS_1kr_v3
-2,26,2,MM_Earnings CC_L_RG_PS_1.5kr_v2
-2,26,3,MM_Earnings Breakout GD kc b_L_SK_PS_1.5kr_v2
-2,26,4,MR_Earnings Sweep O1_L_BK_PS_0.5kr
-2,27,1,MR_EOD Sweep_L_4500_RosG
-2,27,2,MR_Opening Sweep O3_L_WW_PS_120k
-2,27,3,MR_Closing Sweep O1_L_RG_PS_50k
-2,27,4,MR_Closing Sweep O2_L_RG_PS_50k
-2,27,5,MR_Sweep ETP O2_L_RG_PS_200k_0.25adv
-2,27,6,MR_Sweep ETP O1_L_RG_PS_100k_0.25adv
-2,27,7,MR_Sweep Non-News_L_6000_RosG
-2,27,8,MR_Opening Sweep O1_L_WW_PS_30k
-2,27,9,MR_Sweep CEF O3_L_RG_PS_100k
-2,27,10,MR_Sweep CEF O2_L_RG_PS_100k
-2,27,11,MR_Sweep CEF O1_L_RG_PS_100k
-2,27,12,MR_Opening Sweep O2_L_WW_PS_60k
-2,27,13,MR_Sweep Non-News O3_L_RG_PS_60k v2
-2,27,14,MR_Sweep Non-News O2_L_RG_PS_50k v2
-2,27,15,MR_Sweep Non-News O1_L_RG_PS_40k v2
-2,27,16,MM_MnA Breakout AKRX_S_10000 v0
-2,27,17,MM_MnA Breakout AKRX_L_10000 v0
-2,27,18,MR_Sweep Non-News_L_300_Charles Zhou
-2,27,19,MR_Sweep Non News RB_L_600_Sankalp Krishnan
-2,27,20,MR_Sweep Non-News MLP_L_2400_Behrooz Karjoo
-2,27,21,MR_Sweep Non-News ETF_L_2400_Behrooz Karjoo
-2,27,22,MR_Sweep Non-News_L_6000_RosG
-2,27,23,MR_Sweep CEF_L_20000_RosG
-2,27,24,MR_EOD Sweep_L_4500_RosG
-2,65,1,OPG MM_Arb Nat Gas_S_MK_PS_1kr
-2,65,2,OPG MR_Ratings_S_QG_PS_0.5kr
-2,65,3,OPG MR_General News MM_S_SK_PS_1.5kr
-2,68,1,MR_QS SP500_S_WW_PS_0.5kr (less BP)_v2
-2,81,1,MM_SPY BO morning_L_0.5kr_8
-2,81,2,MM_SPY BO morning_L_0.5kr_5
-2,81,3,MR_QS exSP500 v2_L_ND_PS_0.5kr
-2,81,4,MR_QS_L_SK_PS_0.5kr_3
-2,81,5,OPG MM_Index Add V3B_L_ND_PS
-2,81,6,MR_Sweep Non-News O3_L_RG_PS_60k v2
-2,81,7,MR_Sweep Non-News O2_L_RG_PS_50k v2
-2,81,8,MR_Sweep Non-News O1_L_RG_PS_40k v2
-2,81,9,OPG MM_OPEC Producers_L_MK_PS_100k
-2,82,1,MM_Earnings CC_S_RG_PS_1.5kr_v2
-2,82,2,MR_Earnings Sweep O1_S_RG_PS_0.5kr_v2
-2,82,3,MR_Earnings Sweep O2_S_RG_PS_0.75kr_v2
-2,82,4,MR_Earnings Sweep O3_S_RG_PS_1kr_v2
-2,82,5,MM_Earnings Breakout GU kc a_S_SK_PS_1.5kr_v2
-2,82,6,OPG MM_OPEC Producers_S_MK_PS_100k
-2,89,1,MR_Earnings Sweep O2_L_BK_PS_0.5kr
-2,89,2,MR_Earnings Sweep O1_L_BK_PS_0.5kr
-2,89,3,MM_Earnings CC_L_SK_PS_0.5kr
-2,89,4,MM_Earnings Breakout GD_L_SK_PS_0.5kr
-2,89,5,MR_QS v2_L_ND_PS_0.5kr
-2,89,6,MR_QS SP500_L_WW_PS_0.5kr (less BP)
-2,89,7,MR_QS ex-SP500 v4_L_ND_PS_0.5kr
-2,89,8,OPG MM_NFP Financial_L_SK_PS_0.5kr
-2,89,9,OPG MM_NFP Gold_L_RG_PS_0.5kr
-2,89,10,OPG MM_NFP REIT Utility_L_MK_PS_0.25kr
-2,89,11,MM_Earnings Breakout GD kc b_L_SK_PS_1.5kr
-2,89,12,MM_Earnings CC_L_RG_PS_1.5kr
-2,89,13,MR_Closing Sweep O2_L_RG_PS_50k
-2,89,14,MR_Closing Sweep O1_L_RG_PS_50k
-2,89,15,MR_Opening Sweep O1_L_WW_PS_30k
-2,89,16,MR_Sweep CEF O3_L_RG_PS_100k
-2,89,17,MR_Sweep CEF O2_L_RG_PS_100k
-2,89,18,MR_Sweep CEF O1_L_RG_PS_100k
-2,89,19,MR_Opening Sweep O3_L_WW_PS_120k
-2,89,20,MR_Opening Sweep O2_L_WW_PS_60k
-2,90,1,MM_Earnings Breakout GU_S_SK_PS_0.5kr
-2,90,2,MR_QS Earnings_S_QG_PS_0.5kr
-2,90,3,MM_Earnings CC_S_QG_PS_0.5kr
-2,90,4,MR_QS v2_S_ND_PS_0.75kr
-2,90,5,MR_QS v2_S_ND_PS_0.5kr
-2,90,6,MR_QS SP500_S_WW_PS_0.5kr (less BP)
-2,90,7,OPG MM_NFP Financial_S_ND_PS_0.5kr
-2,90,8,OPG MM_NFP Gold_S_RG_PS_0.25kr
-2,90,9,OPG MM_NFP Gold_S_ND_PS_0.25kr
-2,90,10,OPG MM_NFP REIT Utility_S_SK_PS_0.5kr
-2,90,11,MR_Earnings Sweep O3_S_RG_PS_1kr
-2,90,12,MR_Earnings Sweep O2_S_RG_PS_0.75kr
-2,90,13,MM_Earnings Breakout GU kc a_S_SK_PS_1.5kr
-2,90,14,MM_Earnings CC_S_RG_PS_1.5kr
-2,90,15,MR_Earnings Sweep O1_S_RG_PS_0.5kr
-1,3,1,OPG MR_Initiation_S_ND
-1,3,2,OPG MM_Ratings Downgrade_S_SK_PS_1kr_v3
-1,3,3,OPG MM_Guidance_S_SK_PS_1kr_v4
-1,3,4,OPG MR_Ratings_S_QG_PS_1kr_v6
-1,3,5,OPG MM_Arb Nat Gas_S_MK_PS_1.375kr
+1,3,1,OPG MM_Arb Nat Gas_S_MK_PS_1.5kr_v3
+1,3,2,OPG MM_Ratings Downgrade_S_SK_PS_1.5kr_v3
+1,3,3,OPG MR_FDA Roll_S_SK_PS_1.5kr
+1,3,4,OPG MR_Initiation_S_ND_PS_1.5kr_v3
+1,3,5,OPG MR_Ratings_S_QG_PS_1kr_v9
 1,3,6,OPG MR_Clear Price_S_MK_PS_0.25kr
-1,4,1,OPG MM_Airline Numbers_S_ND_PS_0.5kr
-1,4,2,MM_FED BO GLD_S_SK_PS_1kr
-1,4,3,MM_FED BO GDX_S_SK_PS_1kr
-1,4,4,OPG MR_OPEX Weekly_S_MK_PS_0.25kr
+1,4,1,OPG MR_OPEX Weekly_S_MK_PS_0.5kr
+1,4,2,MM_FED BO GDX_S_SK_PS_1kr
+1,4,3,MM_FED BO GLD_S_SK_PS_1kr
+1,4,4,OPG MM_Airline Numbers_S_ND_PS_0.5kr
 1,4,5,OPG MM_Macau_S_MK_PS_0.5kr
-1,5,1,OPG MM_Earnings_S_SK_PS_1.375kr_v2
-1,5,2,OPG MM_Earnings Rollover_S_SK_PS_1.25kr
-1,5,3,OPG MR_Earnings Gapping_S_SK_PS_1kr_v2
-1,9,1,OPG MM_Airline Numbers_L_ND_PS_0.5kr
-1,9,2,OPG MM_Macau_L_MK_PS_0.5kr
-1,9,3,MM_FED Gold_L_MK_PS_1kr
-1,9,4,OPG MR_OPEX Weekly_L_MK_PS_0.25kr
-1,10,1,OPG MM_Earnings_L_ND_PS_1kr
-1,10,2,OPG MR_Earnings Gapping_L_QG_PS_0.75kr
-1,11,1,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
-1,11,2,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr
-1,11,3,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v5
-1,11,4,OPG MM_Buyback_L_QG_PS_0.75kr_v3
-1,11,5,OPG MM_IPO Day1 Priced Above_L_MK_PS_2k
-1,11,6,OPG MM_Arb Nat Gas_L_MK_PS_1.375kr
-1,11,7,OPG MR_Clear Price_L_MK_PS_0.25kr
-1,34,1,OPG MM_Arb Nat Gas_L_MK_PS_1kr_temp
-1,34,2,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_temp_v2
-1,34,3,OPG MR_Ratings v3.3_L_WW_PS_0.5kr_temp_v2
-1,35,1,OPG_L_Arb_uE(KO)_Beverages-SD
-1,36,1,OPG MR_Earnings Gapping_L_RG_PS_0.5kr_temp_v2
-1,36,2,OPG MR_Earnings Standing_L_BK_PS_0.5kr_temp_v2
-1,36,3,OPG MR_Earnings_L_MK_PS_0.5kr_temp_v2
-1,36,4,OPG MM_Earnings V7_L_ND_PS_1kr_temp_v2
-1,37,1,OPG MR_Earnings Gapping_L_RG_PS_0.5kr
-1,37,2,OPG MM_Earnings V7_L_ND_PS_0.5kr
-1,37,3,OPG MR_Earnings_L_MK_PS_0.5kr
-1,37,4,OPG MR_Earnings Standing_L_BK_PS_0.5kr
-1,38,1,OPG MR_Earnings ESPR_L_BK_PS_10k (avoids crossing)
-1,38,2,OPG MM_Earnings V7_L_ND_PS_10k
-1,38,3,OPG MM_Earnings IBS a_L_SK_PS_10k
-1,38,4,OPG MR_Earnings Gapping_L_RG_PS_10k
-1,38,5,OPG MR_Earnings Standing_L_BK_PS_10k
-1,38,6,OPG MR_Earnings Standing_L_CZ_PS_10k
-1,38,7,OPG MR_Earnings_L_MK_PS_10k
-1,38,8,OPG MM_Earnings Big Gap_L_RG_PS_10k
-1,39,1,OPG MM_Arb Nat Gas_S_MK_PS_1kr_temp
-1,39,2,OPG MR_General News MM_S_SK_PS_0.5kr_v3
-1,39,3,OPG MR_Ratings_S_QG_PS_0.5kr_temp_v2
-1,40,1,OPG_S_Arb_dE(KO)_Beverages-SD
-1,41,1,OPG MM_Earnings_S_QG_PS_1.5kr_temp_v2
-1,41,2,OPG MR_Earnings ESPR_S_BK_PS_0.5kr_temp_v2
-1,41,3,OPG MR_Earnings Standing_S_CZ_PS_0.5kr_temp_v2
-1,42,1,OPG MM_Earnings_S_QG_PS_0.5kr
-1,42,2,OPG MR_Earnings Gapping_S_BK_PS_0.5kr
-1,42,3,OPG MR_Earnings Standing_S_CZ_PS_0.25kr
-1,42,4,OPG MR_Earnings ESPR_S_BK_PS_0.25kr
-1,43,1,OPG MM_Earnings IBS b_S_SK_PS_10k
-1,43,2,OPG MM_Earnings IBS a_S_SK_PS_10k
-1,43,3,OPG MM_Earnings ESPR_S_BK_PS_10k
-1,43,4,OPG MM_Earnings ENSR_S_BK_PS_10k
-1,43,5,OPG MM_Earnings Big Gap_S_RG_PS_10k
-1,43,6,OPG MR_Earnings Gapping_S_BK_PS_10k
-1,43,7,OPG MR_Earnings Standing_S_BK_PS_10k
-1,43,8,OPG MR_Earnings Standing_S_CZ_PS_10k
-1,43,9,OPG MR_Earnings_S_MK_PS_10k
-1,81,1,OPG MM_Reco Fav Analysts_L_0.75kr_v2
-1,81,2,OPG MM_Earnings_L_ND_PS_0.5kr
-1,81,3,OPG MR_Earnings Gapping_L_QG_PS_0.5kr
-1,81,4,OPG MR_Earnings Gapping_L_RG_PS_0.5kr
-1,81,5,OPG MM_Buyback_L_QG_PS_0.5kr_v3
-1,81,6,OPG MM_Reco Fav Analysts_L_0.5kr_v2
-1,81,7,OPG MR_Ratings_L_QG_PS_0.5kr_v1.1
-1,81,8,OPG MM_Buyback_L_QG_PS_0.5kr_v2
-1,81,9,OPG MM_Buyback_L_QG_PS_0.5kr
-1,81,10,OPG MM_Reco Fav Analysts_L_0.5kr
-1,81,11,OPG MM_Earnings V7_L_ND_PS_1kr_temp_v2
-1,81,12,OPG MR_Ratings_L_QG_PS_0.5kr
-1,81,13,OPG MM_Secondary Priced BC_L_SK_PS_0.5kr
-1,81,14,OPG MM_Arb Nat Gas_L_MK_PS_1kr_v5
-1,81,15,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_temp
-1,81,16,OPG MR_Ratings v3.3_L_WW_PS_0.5kr_temp
-1,81,17,OPG MR_Earnings Gapping_L_RG_PS_0.5kr_temp
-1,81,18,OPG MM_Earnings V7_L_ND_PS_1kr_temp
-1,81,19,OPG MR_Earnings Standing_L_BK_PS_0.5kr_temp
-1,81,20,OPG MR_Earnings_L_MK_PS_0.5kr_temp
-1,82,1,OPG MM_Earnings_S_SK_PS_0.5kr_v2
-1,82,2,OPG MM_Earnings Rollover_S_SK_PS_0.5kr
-1,82,3,OPG MR_Earnings Gapping_S_SK_PS_0.5kr_v2
-1,82,4,OPG MM_Ratings Downgrade_S_SK_PS_0.75kr_v3
-1,82,5,OPG MM_Guidance_S_SK_PS_0.75kr_v4
-1,82,6,OPG MM_Earnings_S_SK_PS_0.5kr
-1,82,7,OPG MR_Earnings Gapping_S_SK_PS_0.5kr
-1,82,8,OPG MR_Ratings_S_QG_PS_0.75kr_v6
-1,82,9,OPG MM_Ratings Downgrade_S_SK_PS_0.75kr_v3
-1,82,10,OPG MM_Guidance_S_SK_PS_0.75kr_v3
-1,82,11,OPG MR_Ratings_S_QG_PS_0.75kr_v5.1
-1,82,12,OPG MM_Ratings Downgrade_S_SK_PS_0.75kr_v2
-1,82,13,OPG MM_Guidance_S_SK_PS_0.75kr_v2
-1,82,14,OPG MM_Guidance_S_SK_PS_0.75kr
-1,82,15,OPG MM_Ratings Downgrade_S_SK_PS_0.75kr
-1,82,16,OPG MR_Ratings_S_QG_PS_0.5kr_v5.1
-1,82,17,OPG MM_Ratings Downgrade_S_SK_PS_0.5kr
-1,82,18,OPG MM_Guidance_S_SK_PS_0.5kr
-1,82,19,OPG MM_Arb Nat Gas_S_MK_PS_1kr_v5
-1,82,20,OPG MR_Ratings_S_QG_PS_0.5kr_v5
-1,82,21,OPG MR_General News MM_S_SK_PS_1.5kr_temp_v2
-1,82,22,OPG MR_General News MM_S_SK_PS_1.5kr_temp
-1,82,23,OPG MR_Ratings_S_QG_PS_0.5kr_temp
-1,82,24,OPG MM_Earnings_S_QG_PS_1.5kr_temp
-1,82,25,OPG MR_Earnings Standing_S_CZ_PS_0.5kr_temp
-1,82,26,OPG MR_Earnings ESPR_S_BK_PS_0.5kr_temp
-1,7,1,MR_Sweep ETP O2_L_RG_PS_200k v2
-1,7,2,MR_Sweep ETP O1_L_RG_PS_100k v2
-1,7,3,MR_Closing Sweep O1_L_RG_PS_50k_v2_Delay_Sub_Time
-1,7,4,MR_Closing Sweep O2_L_RG_PS_50k_v2_Delay_Sub_Time
-1,7,5,MR_Sweep CEF O3_L_RG_PS_100k_Delay_Sub_Time
-1,7,6,MR_Sweep CEF O1_L_RG_PS_100k_Delay_Sub_Time
-1,7,7,MR_Sweep CEF O2_L_RG_PS_100k_Delay_Sub_Time
+1,5,1,OPG MR_Earnings_S_SK_PS_1kr_NSDQ
+1,5,2,OPG MR_Earnings_S_SK_PS_1kr_NYSE
+1,5,3,OPG MM_Earnings Roll_S_SK_PS_1kr_NSDQ
+1,5,4,OPG MM_Earnings Roll_S_SK_PS_1kr_NYSE
+1,5,5,OPG MM_Earnings Day2_SK_PS_2kr
+1,5,6,OPG MM_Earnings Imbalance_S_MK_PS_0.8kr
+1,5,7,OPG MM_Earnings_S_SK_PS_0.85kr
+1,9,1,OPG MR_OPEX Weekly_L_MK_PS_0.5kr
+1,9,2,MM_FED Gold_L_MK_PS_1kr
+1,9,3,OPG MM_Airline Numbers_L_ND_PS_0.5kr
+1,9,4,OPG MM_Macau_L_MK_PS_0.5kr
+1,10,1,OPG MR_Earnings Gapping_L_QG_PS_1.4kr_v3_NSDQ
+1,10,2,OPG MR_Earnings Gapping_L_QG_PS_1.4kr_v3_NYSE
+1,10,3,OPG MR_Earnings Standing_L_MK_PS_1kr_v2_NYSE
+1,10,4,OPG MR_Earnings Standing_L_MK_PS_1kr_v2_NSDQ
+1,10,5,OPG MM_Earnings Day2_L_SK_PS_2kr
+1,10,6,OPG MM_Earnings Imbalance_L_MK_PS_0.85kr
+1,10,7,OPG MM_Earnings_L_ND_PS_0.65kr_v3
+1,11,1,OPG MM_Top Reco_L_MK_PS_1kr_v3
+1,11,2,OPG MM_Guidance_L_SK_PS_1.5kr_v3
+1,11,3,OPG MM_Buyback_L_QG_PS_1.5kr_v4
+1,11,4,OPG MM_Insider Trade_L_MK_PS_2kr_v3
+1,11,5,OPG MM_Syndicate Combo_L_QG_PS_1.25kr_v5
+1,11,6,OPG MR_Ratings_L_QG_PS_0.85kr_v3
+1,11,7,OPG MM_Arb Nat Gas_L_MK_PS_1.1kr_v2
+1,11,8,OPG MR_Clear Price_L_MK_PS_0.25kr
+1,11,9,OPG MM_IPO Day1 Priced Above_L_MK_PS_2.5k_v2
