@@ -791,16 +791,110 @@ def create_basket():
     click_offset_from_design_corner(basket_manager_ok_button_offset)
 
 
+def edit_basket(row_number = 0):
+    # has to find basket or you can tell it what basket to update in terms of row number
+    if row_number > 0:
+        props = configparser.RawConfigParser()
+        props.read('symbol_basket.properties')
+        basket_props = dict(props.items('main'))
 
-create_basket()
+        rules = grab_code('basket_rules')
+
+        click_offset_from_design_corner(symbol_tab_offset)
+        click_offset_from_design_corner(choose_basket_button_offset)
+        sleep(window_opening_wait_time+4)
+        click_offset_from_design_corner(basket_manager_private_tab_offset)
+        click_offset_from_design_corner(basket_manager_second_folder_offset)
+
+        #---------mouse location will change based on the row number ----------------
+
+        move_mouse((550,340+((row_number-1)*22)))
+        sleep(.1)
+        mouse_click()
+        sleep(.1)
+        mouse_right_click()
+        sleep(.1)
+        move_mouse((550+20,340+((row_number-1)*22)+35))
+        mouse_click()
+        sleep(window_opening_wait_time)
+
+        # make sure basket name is the same as the properties
+        # if it's not give error (if new basket is desired create should be called)
+        click_offset_from_design_corner(basket_manager_basket_name_text_box_offset)
+        control_a()
+        control_c()
+        name = paste()
+
+        # not allowed to change the name in edit (risks overwriting another box's basket)
+        if (name != basket_props['basket_name']):
+            print "ERROR: opened basket name doesn't equal basket name in properties."
+            print "Check the row number. To make a new basket call create basket."
+
+        # change description
+        click_offset_from_design_corner(basket_manager_basket_description_text_box_offset)
+        control_a()
+        set_clipboard_text(basket_props['basket_description'])
+        control_v()
+
+        click_offset_from_design_corner(basket_manager_dynamic_rule_text_area_offset)
+        control_a()
+        set_clipboard_text(rules)
+        control_v()
+
+        symbols = read_file(basket_props['symbols_file'])
+        always_excluded_symbols = read_file(basket_props['always_excluded_symbols'])
+        hard_to_borrow_allow = read_file(basket_props['hard_to_borrow_allow'])
+
+        if symbols != '':
+            click_offset_from_design_corner(basket_manager_symbols_text_area_offset)
+            control_a()
+            set_clipboard_text(symbols)
+            control_v()
+        else:
+            click_offset_from_design_corner(basket_manager_symbols_text_area_offset)
+            control_a()
+            delete()
 
 
-def edit_basket():
-    pass
+        if always_excluded_symbols != '':
+            click_offset_from_design_corner(basket_manager_always_excluded_offset)
+            control_a()
+            set_clipboard_text(always_excluded_symbols)
+            control_v()
+        else:
+            click_offset_from_design_corner(basket_manager_always_excluded_offset)
+            control_a()
+            delete()
+
+
+        if hard_to_borrow_allow != '':
+            click_offset_from_design_corner(basket_manager_htb_allowed_offset)
+            control_a()
+            set_clipboard_text(hard_to_borrow_allow)
+            control_v()
+        else:
+            click_offset_from_design_corner(basket_manager_htb_allowed_offset)
+            control_a()
+            delete()
+
+
+        click_offset_from_design_corner(basket_manager_save_button_offset)
+        sleep(window_opening_wait_time)
+        click_offset_from_design_corner(basket_manager_ok_button_offset)
+
+
 
 # time options ---------------------------------------------------------------
 def set_time_options():
+    # click the time option tab
+    # click_offset_from_design_corner(option_tab_offset)
+    # click_offset_from_design_corner(use_time_options_check_box_offset)
+    # sleep(window_opening_wait_time)
+    # click_offset_from_design_corner(start_subscription_hour_offset)
+    # sleep(1)
+    # write("10")
     pass
+
 
 # position sizing ----------------------------------------------------------
 def set_position_sizing():
@@ -813,3 +907,12 @@ def set_launch_rules():
     # another option for controlling back tests
     # although setting calendars is easier
     pass
+
+keyboard.send('win')
+sleep(1)
+keyboard.write('snipping tool')
+keyboard.send('enter')
+sleep(2)
+move_mouse((350,50))
+sleep(1)
+move_drag((1279,200))

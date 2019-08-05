@@ -48,3 +48,7 @@ def down_arrow():
 def delete():
     keyboard.send('delete')
     sleep(.05)
+
+
+def send_char(c):
+    keyboard.send(c)

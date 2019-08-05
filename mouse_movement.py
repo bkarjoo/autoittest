@@ -41,3 +41,7 @@ def mouse_double_click_at(point):
     pyautogui.click(clicks=1)
     time.sleep(.1)
     pyautogui.click(clicks=1)
+
+
+def mouse_drag(point):
+    pyautogui.dragTo(point[0], point[1], duration=1)

@@ -10,4 +10,4 @@ def set_clipboard_text(some_text):
 
 
 def paste():
-    pyperclip.paste()
+    return pyperclip.paste()
