@@ -10,7 +10,7 @@ import sys
 confirm = False
 
 long_delay = 2.5
-extra_delay = 30
+extra_delay = 1
 debug_print = False
 debug_print_2 = True
 
@@ -482,6 +482,9 @@ def get_month_point(setting_window_corner, month):
 
 
 def change_backtesting_date(date):
+    print date
+    x = raw_input("ctrl c, remove the runs btd, change date")
+    return
     # date in yyyy-mm-dd format
     # open backtesting window
     corner = open_setting_window()
