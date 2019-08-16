@@ -1,179 +1,1052 @@
-2019-08-01,OPG MM_Buyback_L_QG_PS_1.5kr_v4
-2019-08-01,OPG MM_Insider Trade_L_MK_PS_2kr_v3
-2019-08-01,OPG MM_Ratings Downgrade_S_SK_PS_1.5kr_v3
-2019-08-01,OPG MR_Ratings_L_QG_PS_0.85kr_v3
-2019-08-01,OPG MR_Ratings_S_QG_PS_1kr_v9
-2019-07-31,OPG MR_Earnings Standing_L_MK_PS_1kr_v2_NSDQ
-2019-07-31,OPG MR_Earnings Gapping_L_QG_PS_1.4kr_v3_NSDQ
-2019-07-31,OPG MR_Earnings Gapping_L_QG_PS_1.4kr_v3_NYSE
-2019-07-31,OPG MM_Earnings Roll_S_SK_PS_1kr_NSDQ
-2019-07-31,OPG MR_Earnings Standing_L_MK_PS_1kr_v2_NYSE
-2019-07-31,OPG MM_Earnings Roll_S_SK_PS_1kr_NYSE
-2019-07-31,OPG MM_Earnings Day2_L_SK_PS_2kr
-2019-07-31,OPG MR_Earnings_S_SK_PS_1kr_NSDQ
-2019-07-31,OPG MR_Earnings_S_SK_PS_1kr_NYSE
-2019-07-31,OPG MM_Earnings Imbalance_L_MK_PS_0.85kr
-2019-07-31,OPG MM_Earnings Imbalance_S_MK_PS_0.8kr
-2019-07-31,OPG MR_Clear Price_L_MK_PS_0.25kr
-2019-07-31,OPG MM_Earnings Day2_SK_PS_2kr
-2019-07-31,OPG MM_Syndicate Combo_L_QG_PS_1.25kr_v5
-2019-07-31,OPG MM_Earnings_S_SK_PS_0.85kr
-2019-07-31,OPG MM_Arb Nat Gas_L_MK_PS_1.1kr_v2
-2019-07-31,OPG MR_FDA Roll_S_SK_PS_1.5kr
-2019-07-31,OPG MM_IPO Day1 Priced Above_L_MK_PS_2.5k_v2
-2019-07-31,OPG MM_Arb Nat Gas_S_MK_PS_1.5kr_v3
-2019-07-31,OPG MM_Ratings Downgrade_S_SK_PS_1.5kr_v3
-2019-07-31,OPG MR_Initiation_S_ND_PS_1.5kr_v3
-2019-07-31,OPG MR_Clear Price_S_MK_PS_0.25kr
-2019-07-31,OPG MM_Earnings_L_ND_PS_0.65kr_v3
-2019-07-31,OPG MM_Top Reco_L_MK_PS_1kr_v3
-2019-07-31,OPG MM_Guidance_L_SK_PS_1.5kr_v3
-2019-07-31,OPG MM_Buyback_L_QG_PS_1.5kr_v4
-2019-07-31,OPG MM_Insider Trade_L_MK_PS_2kr_v3
-2019-07-31,OPG MR_Ratings_L_QG_PS_0.85kr_v3
-2019-07-31,OPG MR_Ratings_S_QG_PS_1kr_v9
-2019-07-30,OPG MM_Earnings Roll_S_SK_PS_1kr_NSDQ
-2019-07-30,OPG MM_Earnings Roll_S_SK_PS_1kr_NYSE
-2019-07-30,OPG MR_Earnings_S_SK_PS_1kr_NSDQ
-2019-07-30,OPG MR_Earnings_S_SK_PS_1kr_NYSE
-2019-07-30,OPG MM_Earnings Day2_SK_PS_2kr
-2019-07-30,OPG MM_Earnings_S_SK_PS_0.85kr
-2019-07-30,OPG MR_FDA Roll_S_SK_PS_1.5kr
-2019-07-30,OPG MM_Ratings Downgrade_S_SK_PS_1.5kr_v3
-2019-07-30,OPG MR_Initiation_S_ND_PS_1.5kr_v3
-2019-07-30,OPG MM_Earnings Imbalance_S_MK_PS_0.8kr
-2019-07-30,OPG MM_Arb Nat Gas_S_MK_PS_1.5kr_v3
-2019-07-30,OPG MR_Clear Price_S_MK_PS_0.25kr
-2019-07-30,OPG MR_Earnings Standing_L_MK_PS_1kr_v2_NSDQ
-2019-07-30,OPG MR_Earnings Gapping_L_QG_PS_1.4kr_v3_NSDQ
-2019-07-30,OPG MR_Earnings Gapping_L_QG_PS_1.4kr_v3_NYSE
-2019-07-30,OPG MR_Earnings Standing_L_MK_PS_1kr_v2_NYSE
-2019-07-30,OPG MM_Earnings Day2_L_SK_PS_2kr
-2019-07-30,OPG MM_Earnings Imbalance_L_MK_PS_0.85kr
-2019-07-30,OPG MR_Clear Price_L_MK_PS_0.25kr
-2019-07-30,OPG MM_Syndicate Combo_L_QG_PS_1.25kr_v5
-2019-07-30,OPG MM_Arb Nat Gas_L_MK_PS_1.1kr_v2
-2019-07-30,OPG MM_IPO Day1 Priced Above_L_MK_PS_2.5k_v2
-2019-07-30,OPG MM_Earnings_L_ND_PS_0.65kr_v3
-2019-07-30,OPG MM_Top Reco_L_MK_PS_1kr_v3
-2019-07-30,OPG MM_Guidance_L_SK_PS_1.5kr_v3
-2019-07-30,OPG MM_Buyback_L_QG_PS_1.5kr_v4
-2019-07-30,OPG MM_Insider Trade_L_MK_PS_2kr_v3
-2019-07-30,OPG MR_Ratings_L_QG_PS_0.85kr_v3
-2019-07-30,OPG MR_Ratings_S_QG_PS_1kr_v9
-2019-07-29,OPG MM_Earnings Roll_S_SK_PS_1kr_NSDQ
-2019-07-29,OPG MM_Earnings Roll_S_SK_PS_1kr_NYSE
-2019-07-29,OPG MR_Earnings_S_SK_PS_1kr_NSDQ
-2019-07-29,OPG MR_Earnings_S_SK_PS_1kr_NYSE
-2019-07-29,OPG MM_Earnings Day2_SK_PS_2kr
-2019-07-29,OPG MM_Earnings_S_SK_PS_0.85kr
-2019-07-29,OPG MR_FDA Roll_S_SK_PS_1.5kr
-2019-07-29,OPG MM_Ratings Downgrade_S_SK_PS_1.5kr_v3
-2019-07-29,OPG MR_Initiation_S_ND_PS_1.5kr_v3
-2019-07-29,OPG MM_Earnings Imbalance_S_MK_PS_0.8kr
-2019-07-29,OPG MM_Arb Nat Gas_S_MK_PS_1.5kr_v3
-2019-07-29,OPG MR_Ratings_S_QG_PS_1kr_v9
-2019-07-29,OPG MR_Earnings Standing_L_MK_PS_1kr_v2_NSDQ
-2019-07-29,OPG MR_Earnings Gapping_L_QG_PS_1.4kr_v3_NSDQ
-2019-07-29,OPG MR_Earnings Gapping_L_QG_PS_1.4kr_v3_NYSE
-2019-07-29,OPG MR_Earnings Standing_L_MK_PS_1kr_v2_NYSE
-2019-07-29,OPG MM_Earnings Day2_L_SK_PS_2kr
-2019-07-29,OPG MM_Earnings Imbalance_L_MK_PS_0.85kr
-2019-07-29,OPG MM_Earnings_L_ND_PS_0.65kr_v3
-2019-07-29,OPG MR_Clear Price_L_MK_PS_0.25kr
-2019-07-29,OPG MR_Ratings_L_QG_PS_0.85kr_v3
-2019-07-29,OPG MM_Arb Nat Gas_L_MK_PS_1.1kr_v2
-2019-07-29,OPG MM_IPO Day1 Priced Above_L_MK_PS_2.5k_v2
-2019-07-29,OPG MR_Clear Price_S_MK_PS_0.25kr
-2019-07-29,OPG MM_Top Reco_L_MK_PS_1kr_v3
-2019-07-29,OPG MM_Guidance_L_SK_PS_1.5kr_v3
-2019-07-29,OPG MM_Buyback_L_QG_PS_1.5kr_v4
-2019-07-29,OPG MM_Insider Trade_L_MK_PS_2kr_v3
-2019-07-29,OPG MM_Syndicate Combo_L_QG_PS_1.25kr_v5
-2019-07-26,OPG MM_IPO Day1 Priced Above_L_MK_PS_2.5k_v2
-2019-07-26,OPG MR_Earnings Gapping_L_QG_PS_1.4kr_v3_NSDQ
-2019-07-26,OPG MR_Earnings Gapping_L_QG_PS_1.4kr_v3_NYSE
-2019-07-26,OPG MM_Earnings Roll_S_SK_PS_1kr_NSDQ
-2019-07-26,OPG MM_Earnings Roll_S_SK_PS_1kr_NYSE
-2019-07-26,OPG MR_Earnings_S_SK_PS_1kr_NSDQ
-2019-07-26,OPG MR_Earnings_S_SK_PS_1kr_NYSE
-2019-07-26,OPG MM_Earnings Day2_SK_PS_2kr
-2019-07-26,OPG MM_Earnings_S_SK_PS_0.85kr
-2019-07-26,OPG MR_FDA Roll_S_SK_PS_1.5kr
-2019-07-26,OPG MM_Earnings Day2_L_SK_PS_2kr
-2019-07-26,OPG MM_Ratings Downgrade_S_SK_PS_1.5kr_v3
-2019-07-26,OPG MM_Earnings_L_ND_PS_0.65kr_v3
-2019-07-26,OPG MR_Initiation_S_ND_PS_1.5kr_v3
-2019-07-26,OPG MR_Earnings Standing_L_MK_PS_1kr_v2_NSDQ
-2019-07-26,OPG MR_Earnings Standing_L_MK_PS_1kr_v2_NYSE
-2019-07-26,OPG MM_Earnings Imbalance_L_MK_PS_0.85kr
-2019-07-26,OPG MR_Clear Price_L_MK_PS_0.25kr
-2019-07-26,OPG MM_Earnings Imbalance_S_MK_PS_0.8kr
-2019-07-26,OPG MM_Arb Nat Gas_S_MK_PS_1.5kr_v3
-2019-07-26,OPG MM_Syndicate Combo_L_QG_PS_1.25kr_v5
-2019-07-26,OPG MR_Clear Price_S_MK_PS_0.25kr
-2019-07-26,OPG MM_Arb Nat Gas_L_MK_PS_1.1kr_v2
-2019-07-26,OPG MM_Top Reco_L_MK_PS_1kr_v3
-2019-07-26,OPG MM_Guidance_L_SK_PS_1.5kr_v3
-2019-07-26,OPG MM_Buyback_L_QG_PS_1.5kr_v4
-2019-07-26,OPG MM_Insider Trade_L_MK_PS_2kr_v3
-2019-07-26,OPG MR_Ratings_L_QG_PS_0.85kr_v3
-2019-07-26,OPG MR_Ratings_S_QG_PS_1kr_v9
-2019-07-25,OPG MM_IPO Day1 Priced Above_L_MK_PS_2.5k_v2
-2019-07-25,OPG MR_Earnings Gapping_L_QG_PS_1.4kr_v3_NSDQ
-2019-07-25,OPG MR_Earnings Gapping_L_QG_PS_1.4kr_v3_NYSE
-2019-07-25,OPG MM_Earnings Roll_S_SK_PS_1kr_NSDQ
-2019-07-25,OPG MM_Earnings Roll_S_SK_PS_1kr_NYSE
-2019-07-25,OPG MR_Earnings_S_SK_PS_1kr_NSDQ
-2019-07-25,OPG MR_Earnings_S_SK_PS_1kr_NYSE
-2019-07-25,OPG MM_Earnings Day2_SK_PS_2kr
-2019-07-25,OPG MM_Earnings_S_SK_PS_0.85kr
-2019-07-25,OPG MR_FDA Roll_S_SK_PS_1.5kr
-2019-07-25,OPG MM_Ratings Downgrade_S_SK_PS_1.5kr_v3
-2019-07-25,OPG MM_Earnings Day2_L_SK_PS_2kr
-2019-07-25,OPG MR_Earnings Standing_L_MK_PS_1kr_v2_NSDQ
-2019-07-25,OPG MR_Earnings Standing_L_MK_PS_1kr_v2_NYSE
-2019-07-25,OPG MM_Earnings Imbalance_S_MK_PS_0.8kr
-2019-07-25,OPG MR_Clear Price_S_MK_PS_0.25kr
-2019-07-25,OPG MR_Clear Price_L_MK_PS_0.25kr
-2019-07-25,OPG MM_Earnings Imbalance_L_MK_PS_0.85kr
-2019-07-25,OPG MM_Earnings_L_ND_PS_0.65kr_v3
-2019-07-25,OPG MM_Top Reco_L_MK_PS_1kr_v3
-2019-07-25,OPG MM_Guidance_L_SK_PS_1.5kr_v3
-2019-07-25,OPG MM_Buyback_L_QG_PS_1.5kr_v4
-2019-07-25,OPG MM_Insider Trade_L_MK_PS_2kr_v3
-2019-07-25,OPG MM_Arb Nat Gas_S_MK_PS_1.5kr_v3
-2019-07-25,OPG MM_Syndicate Combo_L_QG_PS_1.25kr_v5
-2019-07-25,OPG MR_Initiation_S_ND_PS_1.5kr_v3
-2019-07-25,OPG MR_Ratings_L_QG_PS_0.85kr_v3
-2019-07-25,OPG MR_Ratings_S_QG_PS_1kr_v9
-2019-07-25,OPG MM_Arb Nat Gas_L_MK_PS_1.1kr_v2
-2019-07-24,OPG MR_Earnings Standing_L_MK_PS_1kr_v2_NSDQ
-2019-07-24,OPG MR_Earnings Gapping_L_QG_PS_1.4kr_v3_NSDQ
-2019-07-24,OPG MR_Earnings Gapping_L_QG_PS_1.4kr_v3_NYSE
-2019-07-24,OPG MR_Earnings Standing_L_MK_PS_1kr_v2_NYSE
-2019-07-24,OPG MM_Earnings Day2_L_SK_PS_2kr
-2019-07-24,OPG MM_Earnings Imbalance_L_MK_PS_0.85kr
-2019-07-24,OPG MM_Earnings_L_ND_PS_0.65kr_v3
-2019-07-24,OPG MR_Clear Price_L_MK_PS_0.25kr
-2019-07-24,OPG MM_Arb Nat Gas_L_MK_PS_1.1kr_v2
-2019-07-24,OPG MM_IPO Day1 Priced Above_L_MK_PS_2.5k_v2
-2019-07-24,OPG MM_Earnings Roll_S_SK_PS_1kr_NSDQ
-2019-07-24,OPG MM_Earnings Roll_S_SK_PS_1kr_NYSE
-2019-07-24,OPG MR_Earnings_S_SK_PS_1kr_NSDQ
-2019-07-24,OPG MR_Earnings_S_SK_PS_1kr_NYSE
-2019-07-24,OPG MM_Earnings Imbalance_S_MK_PS_0.8kr
-2019-07-24,OPG MM_Earnings Day2_SK_PS_2kr
-2019-07-24,OPG MM_Earnings_S_SK_PS_0.85kr
-2019-07-24,OPG MR_FDA Roll_S_SK_PS_1.5kr
-2019-07-24,OPG MM_Arb Nat Gas_S_MK_PS_1.5kr_v3
-2019-07-24,OPG MM_Ratings Downgrade_S_SK_PS_1.5kr_v3
-2019-07-24,OPG MR_Initiation_S_ND_PS_1.5kr_v3
-2019-07-24,OPG MR_Clear Price_S_MK_PS_0.25kr
-2019-07-24,OPG MM_Top Reco_L_MK_PS_1kr_v3
-2019-07-24,OPG MM_Guidance_L_SK_PS_1.5kr_v3
-2019-07-24,OPG MM_Buyback_L_QG_PS_1.5kr_v4
-2019-07-24,OPG MM_Insider Trade_L_MK_PS_2kr_v3
-2019-07-24,OPG MM_Syndicate Combo_L_QG_PS_1.25kr_v5
-2019-07-24,OPG MR_Ratings_L_QG_PS_0.85kr_v3
-2019-07-24,OPG MR_Ratings_S_QG_PS_1kr_v9
+2019-07-12,OPG MM_Airline Numbers_L_ND_PS_0.5kr
+2019-07-12,OPG MM_Airline Numbers_S_ND_PS_0.5kr
+2019-07-12,OPG MR_FDA Roll_S_SK_PS_0.25kr
+2019-07-12,OPG MR_Initiation_S_ND_PS_1.25kr_v2
+2019-07-12,OPG MR_Ratings_L_QG_PS_0.85kr_v3
+2019-07-12,OPG MM_Ratings Downgrade_S_SK_PS_1.5kr_v3
+2019-07-12,OPG MR_OPEX Weekly_L_MK_PS_0.5kr
+2019-07-12,OPG MM_Buyback_L_QG_PS_1.5kr_v3
+2019-07-12,OPG MM_Syndicate Combo_L_QG_PS_1.25kr_4
+2019-07-12,OPG MR_OPEX Weekly_S_MK_PS_0.5kr
+2019-07-12,OPG MM_Arb Nat Gas_L_MK_PS_1.1kr
+2019-07-12,OPG MM_Arb Nat Gas_S_MK_PS_1.5kr_v2
+2019-07-12,OPG MR_Ratings_S_QG_PS_1kr_v9
+2019-07-12,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-07-12,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-07-12,OPG MM_Earnings OE_L_ND_PS_1.5kr_2
+2019-07-12,OPG MM_Guidance_L_SK_PS_1kr_v2
+2019-07-12,OPG MM_Insider Trade_L_MK_PS_1.5kr_v2
+2019-07-12,OPG MM_IPO Day1 Priced Above_L_MK_PS_2.5k_v2
+2019-07-12,OPG MM_Earnings OE_S_ND_PS_1.5kr_v2
+2019-07-12,OPG MM_Top Reco_L_MK_PS_1kr_v3
+2019-07-11,OPG MM_Airline Numbers_S_ND_PS_0.5kr
+2019-07-11,OPG MR_FDA Roll_S_SK_PS_0.25kr
+2019-07-11,OPG MM_Airline Numbers_L_ND_PS_0.5kr
+2019-07-11,OPG MR_Initiation_S_ND_PS_1.25kr_v2
+2019-07-11,OPG MM_Earnings OE_S_ND_PS_1.5kr_v2
+2019-07-11,OPG MM_Ratings Downgrade_S_SK_PS_1.5kr_v3
+2019-07-11,OPG MR_Ratings_L_QG_PS_0.85kr_v3
+2019-07-11,OPG MR_OPEX Weekly_L_MK_PS_0.5kr
+2019-07-11,OPG MR_OPEX Weekly_S_MK_PS_0.5kr
+2019-07-11,OPG MM_Buyback_L_QG_PS_1.5kr_v3
+2019-07-11,OPG MR_Ratings_S_QG_PS_1kr_v9
+2019-07-11,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-07-11,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-07-11,OPG MM_Earnings OE_L_ND_PS_1.5kr_2
+2019-07-11,OPG MM_Guidance_L_SK_PS_1kr_v2
+2019-07-11,OPG MM_Insider Trade_L_MK_PS_1.5kr_v2
+2019-07-11,OPG MM_IPO Day1 Priced Above_L_MK_PS_2.5k_v2
+2019-07-11,OPG MM_Syndicate Combo_L_QG_PS_1.25kr_4
+2019-07-11,OPG MM_Top Reco_L_MK_PS_1kr_v3
+2019-07-11,OPG MM_Arb Nat Gas_S_MK_PS_1.5kr_v2
+2019-07-11,OPG MM_Arb Nat Gas_L_MK_PS_1.1kr
+2019-07-10,OPG MM_Guidance_L_SK_PS_1kr_v2
+2019-07-10,OPG MM_Earnings OE_S_ND_PS_1.5kr_v2
+2019-07-10,OPG MM_Ratings Downgrade_S_SK_PS_1.5kr_v2
+2019-07-10,OPG MR_Initiation_S_ND_PS_1.25kr_v2
+2019-07-10,OPG MR_FDA Roll_S_SK_PS_0.25kr
+2019-07-10,OPG MM_Buyback_L_QG_PS_1.5kr_v3
+2019-07-10,OPG MM_Arb Nat Gas_S_MK_PS_2kr
+2019-07-10,OPG MM_Arb Nat Gas_L_MK_PS_1.5kr
+2019-07-10,OPG MM_Syndicate Combo_L_QG_PS_1.5kr_v2
+2019-07-10,OPG MR_Ratings_S_QG_PS_1.25kr_v8
+2019-07-10,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-07-10,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-07-10,OPG MM_Airline Numbers_L_ND_PS_0.5kr
+2019-07-10,OPG MR_OPEX Weekly_L_MK_PS_0.5kr
+2019-07-10,OPG MM_IPO Day1 Priced Above_L_MK_PS_2.5k_v2
+2019-07-10,OPG MM_Insider Trade_L_MK_PS_1.5kr_v2
+2019-07-10,OPG MR_Ratings_L_QG_PS_1kr_v2
+2019-07-10,OPG MM_Airline Numbers_S_ND_PS_0.5kr
+2019-07-10,OPG MR_OPEX Weekly_S_MK_PS_0.5kr
+2019-07-10,OPG MM_Top Reco_L_MK_PS_1.5kr_v2
+2019-07-10,OPG MM_Earnings OE_L_ND_PS_1.5kr_2
+2019-07-09,OPG MM_Earnings OE_S_ND_PS_1.5kr_v2
+2019-07-09,OPG MM_Ratings Downgrade_S_SK_PS_1.5kr_v2
+2019-07-09,OPG MR_Initiation_S_ND_PS_1.25kr_v2
+2019-07-09,OPG MR_FDA Roll_S_SK_PS_0.25kr
+2019-07-09,OPG MM_Earnings OE_L_ND_PS_1.5kr_2
+2019-07-09,OPG MM_Syndicate Combo_L_QG_PS_1.5kr_v2
+2019-07-09,OPG MM_Arb Nat Gas_S_MK_PS_2kr
+2019-07-09,OPG MR_Ratings_S_QG_PS_1.25kr_v8
+2019-07-09,OPG MM_Buyback_L_QG_PS_1.5kr_v3
+2019-07-09,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-07-09,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-07-09,OPG MM_Arb Nat Gas_L_MK_PS_1.5kr
+2019-07-09,OPG MR_OPEX Weekly_L_MK_PS_0.5kr
+2019-07-09,OPG MM_Airline Numbers_L_ND_PS_0.5kr
+2019-07-09,OPG MM_IPO Day1 Priced Above_L_MK_PS_2.5k_v2
+2019-07-09,OPG MR_OPEX Weekly_S_MK_PS_0.5kr
+2019-07-09,OPG MM_Airline Numbers_S_ND_PS_0.5kr
+2019-07-09,OPG MM_Insider Trade_L_MK_PS_1.5kr_v2
+2019-07-09,OPG MR_Ratings_L_QG_PS_1kr_v2
+2019-07-09,OPG MM_Top Reco_L_MK_PS_1.5kr_v2
+2019-07-09,OPG MM_Guidance_L_SK_PS_1kr_v2
+2019-07-09,OPG MR_OPEX Weekly_S_MK_PS_0.5kr
+2019-07-09,OPG MM_Airline Numbers_S_ND_PS_0.5kr
+2019-07-09,OPG MM_Earnings OE_S_ND_PS_1.5kr_v2
+2019-07-09,OPG MM_Arb Nat Gas_S_MK_PS_2kr
+2019-07-09,OPG MR_Ratings_S_QG_PS_1.25kr_v8
+2019-07-09,OPG MM_Ratings Downgrade_S_SK_PS_1.5kr_v2
+2019-07-09,OPG MR_Initiation_S_ND_PS_1.25kr_v2
+2019-07-09,OPG MM_Guidance_S_SK_PS_1kr_v2
+2019-07-09,OPG MR_FDA Roll_S_SK_PS_0.25kr
+2019-07-09,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-07-08,OPG MM_Guidance_L_SK_PS_1kr_v2
+2019-07-08,OPG MM_Airline Numbers_S_ND_PS_0.5kr
+2019-07-08,OPG MM_Airline Numbers_L_ND_PS_0.5kr
+2019-07-08,OPG MM_Ratings Downgrade_S_SK_PS_1.5kr_v2
+2019-07-08,OPG MR_Initiation_S_ND_PS_1.25kr_v2
+2019-07-08,OPG MR_Ratings_L_QG_PS_1kr_v2
+2019-07-08,OPG MR_FDA Roll_S_SK_PS_0.25kr
+2019-07-08,OPG MM_Buyback_L_QG_PS_1.5kr_v3
+2019-07-08,OPG MM_Arb Nat Gas_S_MK_PS_2kr
+2019-07-08,OPG MR_Ratings_S_QG_PS_1.25kr_v8
+2019-07-08,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-07-08,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-07-08,OPG MR_OPEX Weekly_S_MK_PS_0.5kr
+2019-07-08,OPG MR_OPEX Weekly_L_MK_PS_0.5kr
+2019-07-08,OPG MM_Arb Nat Gas_L_MK_PS_1.5kr
+2019-07-08,OPG MM_IPO Day1 Priced Above_L_MK_PS_2.5k_v2
+2019-07-08,OPG MM_Insider Trade_L_MK_PS_1.5kr_v2
+2019-07-08,OPG MM_Earnings OE_S_ND_PS_1.5kr_v2
+2019-07-08,OPG MM_Top Reco_L_MK_PS_1.5kr_v2
+2019-07-08,OPG MM_Earnings OE_L_ND_PS_1.5kr_2
+2019-07-08,OPG MM_Syndicate Combo_L_QG_PS_1.5kr_v2
+2019-07-08,OPG MM_Guidance_S_SK_PS_1kr_v2
+2019-07-05,OPG MM_Airline Numbers_L_ND_PS_0.5kr
+2019-07-05,OPG MM_Airline Numbers_S_ND_PS_0.5kr
+2019-07-05,OPG MM_Buyback_L_QG_PS_1.5kr_v3
+2019-07-05,OPG MR_OPEX Weekly_S_MK_PS_0.5kr
+2019-07-05,OPG MR_OPEX Weekly_L_MK_PS_0.5kr
+2019-07-05,OPG MR_Ratings_S_QG_PS_1.25kr_v8
+2019-07-05,OPG MM_Arb Nat Gas_L_MK_PS_1.5kr
+2019-07-05,OPG MM_Arb Nat Gas_S_MK_PS_2kr
+2019-07-05,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-07-05,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-07-05,OPG MM_Syndicate Combo_L_QG_PS_1.5kr_v2
+2019-07-05,OPG MM_Earnings OE_L_ND_PS_1.5kr_2
+2019-07-05,OPG MM_Guidance_L_SK_PS_1kr_v2
+2019-07-05,OPG MM_Top Reco_L_MK_PS_1.5kr_v2
+2019-07-05,OPG MR_Ratings_L_QG_PS_1kr_v2
+2019-07-05,OPG MR_Initiation_S_ND_PS_1.25kr_v2
+2019-07-05,OPG MM_Earnings OE_S_ND_PS_1.5kr_v2
+2019-07-05,OPG MM_Insider Trade_L_MK_PS_1.5kr_v2
+2019-07-05,OPG MR_FDA Roll_S_SK_PS_0.25kr
+2019-07-05,OPG MM_Ratings Downgrade_S_SK_PS_1.5kr_v2
+2019-07-05,OPG MM_IPO Day1 Priced Above_L_MK_PS_3k_v2
+2019-07-02,OPG MM_IPO Day1 Priced Above_L_MK_PS_3k_v2
+2019-07-02,OPG MR_Initiation_S_ND_PS_1.25kr_v2
+2019-07-02,OPG MM_Ratings Downgrade_S_SK_PS_1.5kr_v2
+2019-07-02,OPG MM_Airline Numbers_S_ND_PS_0.5kr
+2019-07-02,OPG MM_Airline Numbers_L_ND_PS_0.5kr
+2019-07-02,OPG MM_Buyback_L_QG_PS_1.5kr_v3
+2019-07-02,OPG MM_Syndicate Combo_L_QG_PS_1.5kr_v2
+2019-07-02,OPG MR_OPEX Weekly_S_MK_PS_0.5kr
+2019-07-02,OPG MM_Arb Nat Gas_L_MK_PS_1.5kr
+2019-07-02,OPG MR_Ratings_S_QG_PS_1.25kr_v8
+2019-07-02,OPG MM_Arb Nat Gas_S_MK_PS_2kr
+2019-07-02,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-07-02,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-07-02,OPG MR_OPEX Weekly_L_MK_PS_0.5kr
+2019-07-02,OPG MM_Earnings OE_L_ND_PS_1.5kr_2
+2019-07-02,OPG MM_Guidance_L_SK_PS_1kr_v2
+2019-07-02,OPG MM_Top Reco_L_MK_PS_1.5kr_v2
+2019-07-02,OPG MR_Ratings_L_QG_PS_1kr_v2
+2019-07-02,OPG MM_Insider Trade_L_MK_PS_1.5kr_v2
+2019-07-02,OPG MM_Earnings OE_S_ND_PS_1.5kr_v2
+2019-07-01,OPG MM_Guidance_S_SK_PS_1kr_v2
+2019-07-01,OPG MR_Initiation_S_ND_PS_1.25kr_v2
+2019-07-01,OPG MM_Ratings Downgrade_S_SK_PS_1.5kr_v2
+2019-07-01,OPG MM_Airline Numbers_S_ND_PS_0.5kr
+2019-07-01,OPG MM_Airline Numbers_L_ND_PS_0.5kr
+2019-07-01,OPG MM_Buyback_L_QG_PS_1.5kr_v3
+2019-07-01,OPG MM_Arb Nat Gas_L_MK_PS_1.5kr
+2019-07-01,OPG MR_Ratings_S_QG_PS_1.25kr_v8
+2019-07-01,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-07-01,OPG MM_Arb Nat Gas_S_MK_PS_2kr
+2019-07-01,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-07-01,OPG MR_OPEX Weekly_S_MK_PS_0.5kr
+2019-07-01,OPG MR_OPEX Weekly_L_MK_PS_0.5kr
+2019-07-01,OPG MM_Syndicate Combo_L_QG_PS_1.5kr_v2
+2019-07-01,OPG MM_Earnings OE_L_ND_PS_1.5kr_2
+2019-07-01,OPG MM_Guidance_L_SK_PS_1kr_v2
+2019-07-01,OPG MM_Top Reco_L_MK_PS_1.5kr_v2
+2019-07-01,OPG MR_Ratings_L_QG_PS_1kr_v2
+2019-07-01,OPG MM_Earnings OE_S_ND_PS_1.5kr_v2
+2019-07-01,OPG MM_Insider Trade_L_MK_PS_1.5kr_v2
+2019-07-01,OPG MM_IPO Day1 Priced Above_L_MK_PS_3k_v2
+2019-07-01,OPG MM_Buyback_L_QG_PS_1.5kr_v3
+2019-07-01,OPG MR_OPEX Weekly_S_MK_PS_0.5kr
+2019-07-01,OPG MR_OPEX Weekly_L_MK_PS_0.5kr
+2019-07-01,OPG MM_Guidance_S_SK_PS_1kr_v2
+2019-07-01,OPG MM_Syndicate Combo_L_QG_PS_1.5kr_v2
+2019-07-01,OPG MR_Initiation_S_ND_PS_1.25kr_v2
+2019-07-01,OPG MM_Earnings OE_L_ND_PS_1.5kr_2
+2019-07-01,OPG MM_Ratings Downgrade_S_SK_PS_1.5kr_v2
+2019-07-01,OPG MM_Guidance_L_SK_PS_1kr_v2
+2019-07-01,OPG MR_Ratings_S_QG_PS_1.25kr_v8
+2019-07-01,OPG MM_Top Reco_L_MK_PS_1.5kr_v2
+2019-07-01,OPG MM_Arb Nat Gas_S_MK_PS_2kr
+2019-07-01,OPG MR_Ratings_L_QG_PS_1kr_v2
+2019-07-01,OPG MM_Earnings OE_S_ND_PS_1.5kr_v2
+2019-07-01,OPG MM_Insider Trade_L_MK_PS_1.5kr_v2
+2019-07-01,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-07-01,OPG MM_Arb Nat Gas_L_MK_PS_1.5kr
+2019-07-01,OPG MM_Airline Numbers_S_ND_PS_0.5kr
+2019-07-01,OPG MM_IPO Day1 Priced Above_L_MK_PS_3k_v2
+2019-07-01,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-07-01,OPG MM_Airline Numbers_L_ND_PS_0.5kr
+2019-06-28,OPG MR_OPEX Weekly_L_MK_PS_0.5kr
+2019-06-28,OPG MM_Syndicate Combo_L_QG_PS_1.5kr_v2
+2019-06-28,OPG MM_Earnings OE_L_ND_PS_1.5kr_2
+2019-06-28,OPG MM_Arb Nat Gas_L_MK_PS_1.5kr
+2019-06-28,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-06-28,OPG MM_Airline Numbers_L_ND_PS_0.5kr
+2019-06-28,OPG MM_IPO Day1 Priced Above_L_MK_PS_3k_v2
+2019-06-28,OPG MR_OPEX Weekly_S_MK_PS_0.5kr
+2019-06-28,OPG MR_Initiation_S_ND_PS_1.25kr_v2
+2019-06-28,OPG MM_Ratings Downgrade_S_SK_PS_1.5kr_v2
+2019-06-28,OPG MR_Ratings_S_QG_PS_1.25kr_v8
+2019-06-28,OPG MM_Arb Nat Gas_S_MK_PS_2kr
+2019-06-28,OPG MM_Earnings OE_S_ND_PS_1.5kr_v2
+2019-06-28,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-06-28,OPG MM_Airline Numbers_S_ND_PS_0.5kr
+2019-06-28,OPG MM_Guidance_L_SK_PS_1kr_v2
+2019-06-28,OPG MM_Top Reco_L_MK_PS_1.5kr_v2
+2019-06-28,OPG MR_Ratings_L_QG_PS_1kr_v2
+2019-06-28,OPG MM_Insider Trade_L_MK_PS_1.5kr_v2
+2019-06-28,OPG MM_Guidance_S_SK_PS_1kr_v2
+2019-06-27,OPG MM_IPO Day1 Priced Above_L_MK_PS_3k_v2
+2019-06-27,OPG MM_Earnings OE_L_ND_PS_1.5kr_2
+2019-06-27,OPG MM_Airline Numbers_L_ND_PS_0.5kr
+2019-06-27,OPG MM_Buyback_L_QG_PS_1.5kr_v2
+2019-06-27,OPG MM_Syndicate Combo_L_QG_PS_1.5kr_v2
+2019-06-27,OPG MM_Arb Nat Gas_L_MK_PS_1.5kr
+2019-06-27,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-06-27,OPG MR_OPEX Weekly_L_MK_PS_0.5kr_v2
+2019-06-27,OPG MM_Guidance_S_SK_PS_1kr_v2
+2019-06-27,OPG MR_Initiation_S_ND_PS_1.25kr_v2
+2019-06-27,OPG MM_Ratings Downgrade_S_SK_PS_1.5kr_v2
+2019-06-27,OPG MR_Ratings_S_QG_PS_1.25kr_v8
+2019-06-27,OPG MM_Arb Nat Gas_S_MK_PS_2kr
+2019-06-27,OPG MM_Earnings OE_S_ND_PS_1.5kr_v2
+2019-06-27,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-06-27,OPG MR_OPEX Weekly_S_MK_PS_0.5kr_v2
+2019-06-27,OPG MM_Airline Numbers_S_ND_PS_0.5kr
+2019-06-27,OPG MM_Guidance_L_SK_PS_1kr_v2
+2019-06-27,OPG MM_Top Reco_L_MK_PS_1.5kr_v2
+2019-06-27,OPG MR_Ratings_L_QG_PS_1kr_v2
+2019-06-27,OPG MM_Insider Trade_L_MK_PS_1.5kr_v2
+2019-06-26,OPG MM_IPO Day1 Priced Above_L_MK_PS_3k_v2
+2019-06-26,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v7
+2019-06-26,OPG MM_Airline Numbers_L_ND_PS_0.5kr
+2019-06-26,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr_v3
+2019-06-26,OPG MR_OPEX Weekly_L_MK_PS_0.5kr_v2
+2019-06-26,OPG MM_Buyback_L_QG_PS_1.5kr
+2019-06-26,OPG MM_Arb Nat Gas_L_MK_PS_1.5kr
+2019-06-26,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-06-26,OPG MR_OPEX Weekly_S_MK_PS_0.5kr_v2
+2019-06-26,OPG MM_Airline Numbers_S_ND_PS_0.5kr
+2019-06-26,OPG MM_Arb Nat Gas_S_MK_PS_2kr
+2019-06-26,OPG MM_Earnings OE_S_ND_PS_1.5kr_v2
+2019-06-26,OPG MM_Guidance_S_SK_PS_1kr
+2019-06-26,OPG MR_Initiation_S_ND_PS_1.25kr
+2019-06-26,OPG MM_Ratings Downgrade_S_SK_PS_1.5kr
+2019-06-26,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-06-26,OPG MR_Ratings_L_QG_PS_1kr
+2019-06-26,OPG MM_Top Reco_L_MK_PS_1.5kr
+2019-06-26,OPG MM_Earnings OE_L_ND_PS_1.5kr
+2019-06-26,OPG MR_Ratings_S_QG_PS_1.25kr_v7
+2019-06-26,OPG MM_Guidance_L_SK_PS_1kr
+2019-06-26,OPG MM_Insider Trade_L_MK_PS_1.5kr
+2019-06-26,OPG MM_MNA All Stock_S_MK_PS_1kr
+2019-06-25,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v6
+2019-06-25,OPG MM_Airline Numbers_L_ND_PS_0.5kr
+2019-06-25,OPG MR_OPEX Weekly_L_MK_PS_0.5kr_v2
+2019-06-25,OPG MM_Arb Nat Gas_L_MK_PS_1.5kr
+2019-06-25,OPG MM_Buyback_L_QG_PS_0.75kr_v5
+2019-06-25,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-06-25,OPG MR_OPEX Weekly_S_MK_PS_0.5kr_v2
+2019-06-25,OPG MM_Airline Numbers_S_ND_PS_0.5kr
+2019-06-25,OPG MM_Arb Nat Gas_S_MK_PS_2kr
+2019-06-25,OPG MM_Earnings OE_S_ND_PS_1.5kr_v2
+2019-06-25,OPG MR_Initiation_S_ND_PS_1.25kr
+2019-06-25,OPG MM_Ratings Downgrade_S_SK_PS_1.5kr
+2019-06-25,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-06-25,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-06-25,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr_v2
+2019-06-25,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-06-25,OPG MM_Syndicate Combo_L_QG_PS_0.25kr
+2019-06-25,OPG MM_Earnings OE_L_ND_PS_1.5kr
+2019-06-25,OPG MM_Guidance_L_SK_PS_1kr
+2019-06-25,OPG MM_Top Reco_L_MK_PS_0.5kr
+2019-06-25,OPG MM_Insider Trade_L_MK_PS_1.5kr
+2019-06-25,OPG MM_MNA All Stock_S_MK_PS_0.25kr
+2019-06-25,OPG MM_Guidance_S_SK_PS_1kr
+2019-06-25,OPG MM_IPO Day1 Priced Above_L_MK_PS_3k_v2
+2019-06-24,OPG MR_OPEX Weekly_L_MK_PS_0.5kr_v2
+2019-06-24,OPG MM_Airline Numbers_L_ND_PS_0.5kr
+2019-06-24,OPG MM_Arb Nat Gas_L_MK_PS_1.5kr
+2019-06-24,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr_v2
+2019-06-24,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v6
+2019-06-24,OPG MM_Buyback_L_QG_PS_0.75kr_v5
+2019-06-24,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-06-24,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-06-24,OPG MR_OPEX Weekly_S_MK_PS_0.5kr_v2
+2019-06-24,OPG MM_Airline Numbers_S_ND_PS_0.5kr
+2019-06-24,OPG MM_MNA All Stock_S_MK_PS_0.25kr
+2019-06-24,OPG MM_Arb Nat Gas_S_MK_PS_2kr
+2019-06-24,OPG MM_Guidance_S_SK_PS_1kr
+2019-06-24,OPG MR_Initiation_S_ND_PS_1.25kr
+2019-06-24,OPG MM_Ratings Downgrade_S_SK_PS_1.5kr
+2019-06-24,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-06-24,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-06-24,OPG MM_Syndicate Combo_L_QG_PS_0.25kr
+2019-06-24,OPG MM_Earnings OE_L_ND_PS_1.5kr
+2019-06-24,OPG MM_Guidance_L_SK_PS_1kr
+2019-06-24,OPG MM_Top Reco_L_MK_PS_0.5kr
+2019-06-24,OPG MM_Earnings OE_S_ND_PS_1.5kr_v2
+2019-06-24,OPG MM_Insider Trade_L_MK_PS_1.5kr
+2019-06-24,OPG MM_IPO Day1 Priced Above_L_MK_PS_3k_v2
+2019-06-21,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v6
+2019-06-21,OPG MM_Airline Numbers_S_ND_PS_0.5kr
+2019-06-21,OPG MM_Earnings OE_S_ND_PS_1.5kr_v2
+2019-06-21,OPG MM_Guidance_S_SK_PS_1kr
+2019-06-21,OPG MR_Initiation_S_ND_PS_1.25kr
+2019-06-21,OPG MM_Earnings OE_L_ND_PS_1.5kr
+2019-06-21,OPG MM_Ratings Downgrade_S_SK_PS_1.5kr
+2019-06-21,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr_v2
+2019-06-21,OPG MM_Arb Nat Gas_L_MK_PS_1.5kr
+2019-06-21,OPG MM_Buyback_L_QG_PS_0.75kr_v5
+2019-06-21,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-06-21,OPG MM_Arb Nat Gas_S_MK_PS_2kr
+2019-06-21,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-06-21,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-06-21,OPG MR_OPEX Weekly_L_MK_PS_0.5kr_v2
+2019-06-21,OPG MM_Airline Numbers_L_ND_PS_0.5kr
+2019-06-21,OPG MR_OPEX Weekly_S_MK_PS_0.5kr_v2
+2019-06-21,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-06-21,OPG MM_Syndicate Combo_L_QG_PS_0.25kr
+2019-06-21,OPG MM_Guidance_L_SK_PS_1kr
+2019-06-21,OPG MM_Top Reco_L_MK_PS_0.5kr
+2019-06-21,OPG MM_Insider Trade_L_MK_PS_1.5kr
+2019-06-21,OPG MM_MNA All Stock_S_MK_PS_0.25kr
+2019-06-21,OPG MM_IPO Day1 Priced Above_L_MK_PS_3k_v2
+2019-06-20,OPG MM_IPO Day1 Priced Above_L_MK_PS_2k_v2
+2019-06-20,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v6
+2019-06-20,OPG MM_Earnings OE_L_ND_PS_0.5kr
+2019-06-20,OPG MM_Earnings OE_S_ND_PS_0.5kr
+2019-06-20,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr_v2
+2019-06-20,OPG MM_Guidance_S_SK_PS_1kr_v5
+2019-06-20,OPG MM_Ratings Downgrade_S_SK_PS_1kr_v4
+2019-06-20,OPG MR_Initiation_S_ND_PS_0.5kr
+2019-06-20,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-06-20,OPG MM_Arb Nat Gas_L_MK_PS_1.375kr_v2
+2019-06-20,OPG MM_Insider Trade_L_MK_PS_0.5kr_v2
+2019-06-20,OPG MM_Buyback_L_QG_PS_0.75kr_v5
+2019-06-20,OPG MM_Arb Nat Gas_S_MK_PS_1.375kr_v2
+2019-06-20,OPG MM_Reco Fav Analysts_L_0.75kr_v4
+2019-06-20,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-06-20,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-06-20,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-06-20,OPG MM_Airline Numbers_L_ND_PS_0.5kr
+2019-06-20,OPG MR_OPEX Weekly_L_MK_PS_0.25kr
+2019-06-20,OPG MM_Airline Numbers_S_ND_PS_0.5kr
+2019-06-20,OPG MR_OPEX Weekly_S_MK_PS_0.25kr
+2019-06-19,OPG MM_IPO Day1 Priced Above_L_MK_PS_2k_v2
+2019-06-19,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v6
+2019-06-19,MM_FED BO GDX_S_SK_PS_1kr
+2019-06-19,MM_FED BO GLD_S_SK_PS_1kr
+2019-06-19,OPG MM_Airline Numbers_L_ND_PS_0.5kr
+2019-06-19,OPG MM_Airline Numbers_S_ND_PS_0.5kr
+2019-06-19,OPG MM_Earnings OE_L_ND_PS_0.5kr
+2019-06-19,OPG MM_Earnings OE_S_ND_PS_0.5kr
+2019-06-19,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr_v2
+2019-06-19,OPG MM_Guidance_S_SK_PS_1kr_v5
+2019-06-19,OPG MM_Ratings Downgrade_S_SK_PS_1kr_v4
+2019-06-19,OPG MR_Initiation_S_ND_PS_0.5kr
+2019-06-19,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-06-19,OPG MR_OPEX Weekly_L_MK_PS_0.25kr
+2019-06-19,OPG MM_Arb Nat Gas_L_MK_PS_1.375kr_v2
+2019-06-19,OPG MM_Insider Trade_L_MK_PS_0.5kr_v2
+2019-06-19,OPG MR_OPEX Weekly_S_MK_PS_0.25kr
+2019-06-19,OPG MM_Buyback_L_QG_PS_0.75kr_v5
+2019-06-19,OPG MM_Arb Nat Gas_S_MK_PS_1.375kr_v2
+2019-06-19,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-06-19,OPG MM_Reco Fav Analysts_L_0.75kr_v4
+2019-06-19,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-06-19,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-06-19,MM_FED Gold_L_MK_PS_1kr
+2019-06-18,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v6
+2019-06-18,OPG MM_Earnings OE_L_ND_PS_0.5kr
+2019-06-18,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr_v2
+2019-06-18,OPG MM_Earnings OE_S_ND_PS_0.5kr
+2019-06-18,OPG MM_Guidance_S_SK_PS_1kr_v5
+2019-06-18,OPG MM_Ratings Downgrade_S_SK_PS_1kr_v4
+2019-06-18,OPG MR_Initiation_S_ND_PS_0.5kr
+2019-06-18,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-06-18,OPG MM_Arb Nat Gas_L_MK_PS_1.375kr_v2
+2019-06-18,OPG MM_Insider Trade_L_MK_PS_0.5kr_v2
+2019-06-18,OPG MM_Buyback_L_QG_PS_0.75kr_v5
+2019-06-18,OPG MM_Reco Fav Analysts_L_0.75kr_v4
+2019-06-18,OPG MM_Arb Nat Gas_S_MK_PS_1.375kr_v2
+2019-06-18,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-06-18,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-06-18,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-06-18,OPG MM_Airline Numbers_L_ND_PS_0.5kr
+2019-06-18,OPG MR_OPEX Weekly_L_MK_PS_0.25kr
+2019-06-18,OPG MR_OPEX Weekly_S_MK_PS_0.25kr
+2019-06-18,OPG MM_Airline Numbers_S_ND_PS_0.5kr
+2019-06-18,OPG MM_IPO Day1 Priced Above_L_MK_PS_2k_v2
+2019-06-17,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v6
+2019-06-17,OPG MM_Airline Numbers_L_ND_PS_0.5kr
+2019-06-17,OPG MM_Airline Numbers_S_ND_PS_0.5kr
+2019-06-17,OPG MM_Guidance_S_SK_PS_1kr_v5
+2019-06-17,OPG MM_Ratings Downgrade_S_SK_PS_1kr_v4
+2019-06-17,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-06-17,OPG MR_Initiation_S_ND_PS_0.5kr
+2019-06-17,OPG MM_Arb Nat Gas_L_MK_PS_1.375kr_v2
+2019-06-17,OPG MM_Insider Trade_L_MK_PS_0.5kr_v2
+2019-06-17,OPG MM_Arb Nat Gas_S_MK_PS_1.375kr_v2
+2019-06-17,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-06-17,OPG MM_Buyback_L_QG_PS_0.75kr_v5
+2019-06-17,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-06-17,OPG MM_Reco Fav Analysts_L_0.75kr_v4
+2019-06-17,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-06-17,OPG MR_OPEX Weekly_L_MK_PS_0.25kr
+2019-06-17,OPG MR_OPEX Weekly_S_MK_PS_0.25kr
+2019-06-17,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr_v2
+2019-06-17,OPG MM_IPO Day1 Priced Above_L_MK_PS_2k_v2
+2019-06-17,OPG MM_Earnings OE_L_ND_PS_0.5kr
+2019-06-17,OPG MM_Earnings OE_S_ND_PS_0.5kr
+2019-06-14,OPG MM_IPO Day1 Priced Above_L_MK_PS_2k_v2
+2019-06-14,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v6
+2019-06-14,OPG MM_Airline Numbers_L_ND_PS_0.5kr
+2019-06-14,OPG MM_Earnings OE_L_ND_PS_0.5kr
+2019-06-14,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr_v2
+2019-06-14,OPG MM_Airline Numbers_S_ND_PS_0.5kr
+2019-06-14,OPG MM_Earnings OE_S_ND_PS_0.5kr
+2019-06-14,OPG MM_Ratings Downgrade_S_SK_PS_1kr_v4
+2019-06-14,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-06-14,OPG MR_Initiation_S_ND_PS_0.5kr
+2019-06-14,OPG MR_OPEX Weekly_L_MK_PS_0.25kr
+2019-06-14,OPG MM_Arb Nat Gas_L_MK_PS_1.375kr_v2
+2019-06-14,OPG MM_Insider Trade_L_MK_PS_0.5kr_v2
+2019-06-14,OPG MM_Buyback_L_QG_PS_0.75kr_v5
+2019-06-14,OPG MM_Reco Fav Analysts_L_0.75kr_v4
+2019-06-14,OPG MR_OPEX Weekly_S_MK_PS_0.25kr
+2019-06-14,OPG MM_Arb Nat Gas_S_MK_PS_1.375kr_v2
+2019-06-14,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-06-14,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-06-14,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-06-14,OPG MM_Guidance_S_SK_PS_1kr_v5
+2019-06-13,OPG MM_IPO Day1 Priced Above_L_MK_PS_2k
+2019-06-13,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v6
+2019-06-13,OPG MM_Airline Numbers_L_ND_PS_0.5kr
+2019-06-13,OPG MM_Earnings OE_L_ND_PS_0.5kr
+2019-06-13,OPG MM_Airline Numbers_S_ND_PS_0.5kr
+2019-06-13,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr_v2
+2019-06-13,OPG MM_Earnings OE_S_ND_PS_0.5kr
+2019-06-13,OPG MM_Ratings Downgrade_S_SK_PS_1kr_v4
+2019-06-13,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-06-13,OPG MR_Initiation_S_ND_PS_0.5kr
+2019-06-13,OPG MM_Arb Nat Gas_L_MK_PS_1.375kr_v2
+2019-06-13,OPG MM_Insider Trade_L_MK_PS_0.5kr_v2
+2019-06-13,OPG MM_Buyback_L_QG_PS_0.75kr_v5
+2019-06-13,OPG MM_Reco Fav Analysts_L_0.75kr_v4
+2019-06-13,OPG MM_Arb Nat Gas_S_MK_PS_1.375kr_v2
+2019-06-13,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-06-13,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-06-13,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-06-13,OPG MR_OPEX Weekly_L_MK_PS_0.25kr
+2019-06-13,OPG MR_OPEX Weekly_S_MK_PS_0.25kr
+2019-06-13,OPG MM_Guidance_S_SK_PS_1kr_v5
+2019-06-12,OPG MM_IPO Day1 Priced Above_L_MK_PS_2k
+2019-06-12,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v6
+2019-06-12,OPG MM_Airline Numbers_L_ND_PS_0.5kr
+2019-06-12,OPG MM_Earnings OE_L_ND_PS_0.5kr
+2019-06-12,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr_v2
+2019-06-12,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-06-12,OPG MM_Arb Nat Gas_L_MK_PS_1.375kr_v2
+2019-06-12,OPG MM_Insider Trade_L_MK_PS_0.5kr_v2
+2019-06-12,OPG MM_Buyback_L_QG_PS_0.75kr_v5
+2019-06-12,OPG MM_Reco Fav Analysts_L_0.75kr_v4
+2019-06-12,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-06-12,OPG MR_OPEX Weekly_L_MK_PS_0.25kr
+2019-06-11,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v6
+2019-06-11,OPG MM_Airline Numbers_L_ND_PS_0.5kr
+2019-06-11,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr_v2
+2019-06-11,OPG MM_Airline Numbers_S_ND_PS_0.5kr
+2019-06-11,OPG MM_Earnings OE_S_ND_PS_0.5kr
+2019-06-11,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-06-11,OPG MM_Guidance_S_SK_PS_1kr_v5
+2019-06-11,OPG MM_Ratings Downgrade_S_SK_PS_1kr_v4
+2019-06-11,OPG MR_Initiation_S_ND_PS_0.5kr
+2019-06-11,OPG MM_Arb Nat Gas_L_MK_PS_1.375kr_v2
+2019-06-11,OPG MM_Insider Trade_L_MK_PS_0.5kr_v2
+2019-06-11,OPG MM_Buyback_L_QG_PS_0.75kr_v5
+2019-06-11,OPG MM_Arb Nat Gas_S_MK_PS_1.375kr_v2
+2019-06-11,OPG MM_Reco Fav Analysts_L_0.75kr_v4
+2019-06-11,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-06-11,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-06-11,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-06-11,OPG MR_OPEX Weekly_S_MK_PS_0.25kr
+2019-06-11,OPG MR_OPEX Weekly_L_MK_PS_0.25kr
+2019-06-11,OPG MM_Earnings OE_L_ND_PS_0.5kr
+2019-06-11,OPG MM_IPO Day1 Priced Above_L_MK_PS_2k
+2019-06-10,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v6
+2019-06-10,OPG MM_Airline Numbers_L_ND_PS_0.5kr
+2019-06-10,OPG MM_Earnings OE_L_ND_PS_0.5kr
+2019-06-10,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr_v2
+2019-06-10,OPG MM_Airline Numbers_S_ND_PS_0.5kr
+2019-06-10,OPG MM_Earnings OE_S_ND_PS_0.5kr
+2019-06-10,OPG MM_Ratings Downgrade_S_SK_PS_1kr_v4
+2019-06-10,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-06-10,OPG MR_Initiation_S_ND_PS_0.5kr
+2019-06-10,OPG MR_OPEX Weekly_L_MK_PS_0.25kr
+2019-06-10,OPG MM_Arb Nat Gas_L_MK_PS_1.375kr_v2
+2019-06-10,OPG MM_Insider Trade_L_MK_PS_0.5kr_v2
+2019-06-10,OPG MM_Buyback_L_QG_PS_0.75kr_v5
+2019-06-10,OPG MM_Reco Fav Analysts_L_0.75kr_v4
+2019-06-10,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-06-10,OPG MR_OPEX Weekly_S_MK_PS_0.25kr
+2019-06-10,OPG MM_Arb Nat Gas_S_MK_PS_1.375kr_v2
+2019-06-10,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-06-10,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-06-10,OPG MM_Guidance_S_SK_PS_1kr_v5
+2019-06-10,OPG MM_IPO Day1 Priced Above_L_MK_PS_2k
+2019-06-07,OPG MM_IPO Day1 Priced Above_L_MK_PS_2k
+2019-06-07,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v6
+2019-06-07,OPG MM_Airline Numbers_L_ND_PS_0.5kr
+2019-06-07,OPG MM_Airline Numbers_S_ND_PS_0.5kr
+2019-06-07,OPG MM_Earnings OE_L_ND_PS_0.5kr
+2019-06-07,OPG MM_Earnings OE_S_ND_PS_0.5kr
+2019-06-07,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr_v2
+2019-06-07,OPG MM_Guidance_S_SK_PS_1kr_v5
+2019-06-07,OPG MM_Ratings Downgrade_S_SK_PS_1kr_v4
+2019-06-07,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-06-07,OPG MR_Initiation_S_ND_PS_0.5kr
+2019-06-07,OPG MR_OPEX Weekly_L_MK_PS_0.25kr
+2019-06-07,OPG MM_Arb Nat Gas_L_MK_PS_1.375kr_v2
+2019-06-07,OPG MR_OPEX Weekly_S_MK_PS_0.25kr
+2019-06-07,OPG MM_Insider Trade_L_MK_PS_0.5kr_v2
+2019-06-07,OPG MM_Arb Nat Gas_S_MK_PS_1.375kr_v2
+2019-06-07,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-06-07,OPG MM_Buyback_L_QG_PS_0.75kr_v5
+2019-06-07,OPG MM_Reco Fav Analysts_L_0.75kr_v4
+2019-06-07,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-06-07,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-06-06,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v6
+2019-06-06,OPG MM_Earnings OE_L_ND_PS_0.5kr
+2019-06-06,OPG MM_Earnings OE_S_ND_PS_0.5kr
+2019-06-06,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr_v2
+2019-06-06,OPG MM_Guidance_S_SK_PS_1kr_v5
+2019-06-06,OPG MM_Ratings Downgrade_S_SK_PS_1kr_v4
+2019-06-06,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-06-06,OPG MR_Initiation_S_ND_PS_0.5kr
+2019-06-06,OPG MM_Arb Nat Gas_L_MK_PS_1.375kr_v2
+2019-06-06,OPG MM_Insider Trade_L_MK_PS_0.5kr_v2
+2019-06-06,OPG MM_Buyback_L_QG_PS_0.75kr_v5
+2019-06-06,OPG MM_Arb Nat Gas_S_MK_PS_1.375kr_v2
+2019-06-06,OPG MM_Reco Fav Analysts_L_0.75kr_v4
+2019-06-06,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-06-06,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-06-06,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-06-06,OPG MR_OPEX Weekly_L_MK_PS_0.25kr
+2019-06-06,OPG MM_Airline Numbers_S_ND_PS_0.5kr
+2019-06-06,OPG MR_OPEX Weekly_S_MK_PS_0.25kr
+2019-06-06,OPG MM_Airline Numbers_L_ND_PS_0.5kr
+2019-06-06,OPG MM_IPO Day1 Priced Above_L_MK_PS_2k
+2019-06-06,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr_v2
+2019-06-06,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v6
+2019-06-06,OPG MM_Arb Nat Gas_L_MK_PS_1.375kr_v2
+2019-06-06,OPG MM_Insider Trade_L_MK_PS_0.5kr_v2
+2019-06-06,OPG MM_Buyback_L_QG_PS_0.75kr_v5
+2019-06-06,OPG MM_Reco Fav Analysts_L_0.75kr_v4
+2019-06-06,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-06-06,OPG MM_IPO Day1 Priced Above_L_MK_PS_2k
+2019-06-06,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-06-06,OPG MM_Airline Numbers_S_ND_PS_0.5kr
+2019-06-06,OPG MM_Earnings OE_S_ND_PS_0.5kr
+2019-06-06,OPG MR_OPEX Weekly_S_MK_PS_0.25kr
+2019-06-06,OPG MM_Guidance_S_SK_PS_1kr_v5
+2019-06-06,OPG MM_Ratings Downgrade_S_SK_PS_1kr_v4
+2019-06-06,OPG MM_Arb Nat Gas_S_MK_PS_1.375kr_v2
+2019-06-06,OPG MR_Initiation_S_ND_PS_0.5kr
+2019-06-06,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-06-06,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-06-05,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v6
+2019-06-05,OPG MM_Earnings OE_L_ND_PS_0.5kr
+2019-06-05,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr_v2
+2019-06-05,OPG MM_Earnings OE_S_ND_PS_0.5kr
+2019-06-05,OPG MM_Guidance_S_SK_PS_1kr_v5
+2019-06-05,OPG MM_Ratings Downgrade_S_SK_PS_1kr_v4
+2019-06-05,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-06-05,OPG MR_Initiation_S_ND_PS_0.5kr
+2019-06-05,OPG MM_Arb Nat Gas_L_MK_PS_1.375kr_v2
+2019-06-05,OPG MM_Insider Trade_L_MK_PS_0.5kr_v2
+2019-06-05,OPG MM_Arb Nat Gas_S_MK_PS_1.375kr_v2
+2019-06-05,OPG MM_Buyback_L_QG_PS_0.75kr_v5
+2019-06-05,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-06-05,OPG MM_Reco Fav Analysts_L_0.75kr_v4
+2019-06-05,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-06-05,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-06-05,OPG MR_OPEX Weekly_L_MK_PS_0.25kr
+2019-06-05,OPG MR_OPEX Weekly_S_MK_PS_0.25kr
+2019-06-05,OPG MM_IPO Day1 Priced Above_L_MK_PS_2k
+2019-06-04,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v6
+2019-06-04,OPG MM_Earnings OE_L_ND_PS_0.5kr
+2019-06-04,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr_v2
+2019-06-04,OPG MM_Earnings OE_S_ND_PS_0.5kr
+2019-06-04,OPG MM_Guidance_S_SK_PS_1kr_v5
+2019-06-04,OPG MM_Ratings Downgrade_S_SK_PS_1kr_v4
+2019-06-04,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-06-04,OPG MM_Arb Nat Gas_L_MK_PS_1.375kr_v2
+2019-06-04,OPG MM_Insider Trade_L_MK_PS_0.5kr_v2
+2019-06-04,OPG MM_Buyback_L_QG_PS_0.75kr_v5
+2019-06-04,OPG MM_Arb Nat Gas_S_MK_PS_1.375kr_v2
+2019-06-04,OPG MM_Reco Fav Analysts_L_0.75kr_v4
+2019-06-04,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-06-04,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-06-04,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-06-04,OPG MR_OPEX Weekly_S_MK_PS_0.25kr
+2019-06-04,OPG MR_OPEX Weekly_L_MK_PS_0.25kr
+2019-06-04,OPG MR_Initiation_S_ND_PS_0.5kr
+2019-06-04,OPG MM_IPO Day1 Priced Above_L_MK_PS_2k
+2019-06-03,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v6
+2019-06-03,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr_v2
+2019-06-03,OPG MM_Guidance_S_SK_PS_1kr_v5
+2019-06-03,OPG MM_Ratings Downgrade_S_SK_PS_1kr_v4
+2019-06-03,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-06-03,OPG MR_Initiation_S_ND_PS_0.5kr
+2019-06-03,OPG MM_Arb Nat Gas_L_MK_PS_1.375kr_v2
+2019-06-03,OPG MM_Insider Trade_L_MK_PS_0.5kr_v2
+2019-06-03,OPG MM_Buyback_L_QG_PS_0.75kr_v5
+2019-06-03,OPG MM_Arb Nat Gas_S_MK_PS_1.375kr_v2
+2019-06-03,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-06-03,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-06-03,OPG MM_Reco Fav Analysts_L_0.75kr_v4
+2019-06-03,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-06-03,OPG MR_OPEX Weekly_L_MK_PS_0.25kr
+2019-06-03,OPG MR_OPEX Weekly_S_MK_PS_0.25kr
+2019-06-03,OPG MM_Earnings OE_L_ND_PS_0.5kr
+2019-06-03,OPG MM_Earnings OE_S_ND_PS_0.5kr
+2019-06-03,OPG MM_IPO Day1 Priced Above_L_MK_PS_2k
+2019-05-31,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v6
+2019-05-31,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr_v2
+2019-05-31,OPG MM_Ratings Downgrade_S_SK_PS_1kr_v4
+2019-05-31,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-05-31,OPG MR_Initiation_S_ND_PS_0.5kr
+2019-05-31,OPG MM_Arb Nat Gas_L_MK_PS_1.375kr_v2
+2019-05-31,OPG MM_Insider Trade_L_MK_PS_0.5kr_v2
+2019-05-31,OPG MM_Buyback_L_QG_PS_0.75kr_v5
+2019-05-31,OPG MM_Reco Fav Analysts_L_0.75kr_v4
+2019-05-31,OPG MM_Arb Nat Gas_S_MK_PS_1.375kr_v2
+2019-05-31,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-05-31,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-05-31,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-05-31,OPG MR_OPEX Weekly_L_MK_PS_0.25kr
+2019-05-31,OPG MR_OPEX Weekly_S_MK_PS_0.25kr
+2019-05-31,OPG MM_Guidance_S_SK_PS_1kr_v5
+2019-05-31,OPG MM_IPO Day1 Priced Above_L_MK_PS_2k
+2019-05-30,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v6
+2019-05-30,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr_v2
+2019-05-30,OPG MM_Guidance_S_SK_PS_1kr_v5
+2019-05-30,OPG MM_Ratings Downgrade_S_SK_PS_1kr_v4
+2019-05-30,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-05-30,OPG MR_Initiation_S_ND_PS_0.5kr
+2019-05-30,OPG MM_Arb Nat Gas_L_MK_PS_1.375kr_v2
+2019-05-30,OPG MM_Insider Trade_L_MK_PS_0.5kr_v2
+2019-05-30,OPG MM_Arb Nat Gas_S_MK_PS_1.375kr_v2
+2019-05-30,OPG MM_Buyback_L_QG_PS_0.75kr_v5
+2019-05-30,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-05-30,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-05-30,OPG MM_Reco Fav Analysts_L_0.75kr_v4
+2019-05-30,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-05-30,OPG MM_IPO Day1 Priced Above_L_MK_PS_2k
+2019-05-30,OPG MR_OPEX Weekly_L_MK_PS_0.25kr
+2019-05-30,OPG MR_OPEX Weekly_S_MK_PS_0.25kr
+2019-05-29,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v6
+2019-05-29,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr_v2
+2019-05-29,OPG MM_Guidance_S_SK_PS_1kr_v5
+2019-05-29,OPG MM_Ratings Downgrade_S_SK_PS_1kr_v4
+2019-05-29,OPG MR_Initiation_S_ND_PS_0.5kr
+2019-05-29,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-05-29,OPG MM_Arb Nat Gas_L_MK_PS_1.375kr_v2
+2019-05-29,OPG MM_Insider Trade_L_MK_PS_0.5kr_v2
+2019-05-29,OPG MM_Buyback_L_QG_PS_0.75kr_v5
+2019-05-29,OPG MM_Reco Fav Analysts_L_0.75kr_v4
+2019-05-29,OPG MM_Arb Nat Gas_S_MK_PS_1.375kr_v2
+2019-05-29,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-05-29,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-05-29,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-05-29,OPG MR_OPEX Weekly_L_MK_PS_0.25kr
+2019-05-29,OPG MR_OPEX Weekly_S_MK_PS_0.25kr
+2019-05-29,OPG MM_IPO Day1 Priced Above_L_MK_PS_2k
+2019-05-28,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v6
+2019-05-28,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr_v2
+2019-05-28,OPG MM_Guidance_S_SK_PS_1kr_v5
+2019-05-28,OPG MM_Ratings Downgrade_S_SK_PS_1kr_v4
+2019-05-28,OPG MR_Initiation_S_ND_PS_0.5kr
+2019-05-28,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-05-28,OPG MM_Arb Nat Gas_L_MK_PS_1.375kr_v2
+2019-05-28,OPG MM_Insider Trade_L_MK_PS_0.5kr_v2
+2019-05-28,OPG MM_Arb Nat Gas_S_MK_PS_1.375kr_v2
+2019-05-28,OPG MM_Buyback_L_QG_PS_0.75kr_v5
+2019-05-28,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-05-28,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-05-28,OPG MM_Reco Fav Analysts_L_0.75kr_v4
+2019-05-28,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-05-28,OPG MR_OPEX Weekly_L_MK_PS_0.25kr
+2019-05-28,OPG MR_OPEX Weekly_S_MK_PS_0.25kr
+2019-05-28,OPG MM_IPO Day1 Priced Above_L_MK_PS_2k
+2019-05-24,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v6
+2019-05-24,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr_v2
+2019-05-24,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-05-24,OPG MR_OPEX Weekly_L_MK_PS_0.25kr
+2019-05-24,OPG MM_Arb Nat Gas_L_MK_PS_1.375kr_v2
+2019-05-24,OPG MM_Insider Trade_L_MK_PS_0.5kr_v2
+2019-05-24,OPG MM_Buyback_L_QG_PS_0.75kr_v5
+2019-05-24,OPG MM_Reco Fav Analysts_L_0.75kr_v4
+2019-05-24,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-05-24,OPG MR_OPEX Weekly_S_MK_PS_0.25kr
+2019-05-24,OPG MM_Ratings Downgrade_S_SK_PS_1kr_v4
+2019-05-24,OPG MM_Arb Nat Gas_S_MK_PS_1.375kr_v2
+2019-05-24,OPG MR_Initiation_S_ND_PS_0.5kr
+2019-05-24,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-05-24,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-05-24,OPG MM_Guidance_S_SK_PS_1kr_v5
+2019-05-24,OPG MM_IPO Day1 Priced Above_L_MK_PS_2k
+2019-05-23,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr_v2
+2019-05-23,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v6
+2019-05-23,OPG MM_Arb Nat Gas_L_MK_PS_1.375kr_v2
+2019-05-23,OPG MM_Insider Trade_L_MK_PS_0.5kr_v2
+2019-05-23,OPG MM_Buyback_L_QG_PS_0.75kr_v5
+2019-05-23,OPG MM_Reco Fav Analysts_L_0.75kr_v4
+2019-05-23,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-05-23,OPG MM_Ratings Downgrade_S_SK_PS_1kr_v4
+2019-05-23,OPG MM_IPO Day1 Priced Above_L_MK_PS_2k
+2019-05-23,OPG MM_Arb Nat Gas_S_MK_PS_1.375kr_v2
+2019-05-23,OPG MR_Initiation_S_ND_PS_0.5kr
+2019-05-23,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-05-23,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-05-23,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-05-23,OPG MM_Guidance_S_SK_PS_1kr_v5
+2019-05-22,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v5
+2019-05-22,OPG MR_Initiation_S_ND
+2019-05-22,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-05-22,OPG MM_Ratings Downgrade_S_SK_PS_1kr_v3
+2019-05-22,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr
+2019-05-22,OPG MM_Guidance_S_SK_PS_1kr_v4
+2019-05-22,OPG MM_Reco Fav Analysts_L_0.75kr_v3
+2019-05-22,OPG MM_Buyback_L_QG_PS_0.75kr_v4
+2019-05-22,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-05-22,OPG MM_Insider Trade_L_MK_PS_0.5kr
+2019-05-22,OPG MM_Arb Nat Gas_S_MK_PS_1.375kr
+2019-05-22,OPG MM_Arb Nat Gas_L_MK_PS_1.375kr
+2019-05-22,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-05-22,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-05-22,OPG MM_IPO Day1 Priced Above_L_MK_PS_2k
+2019-05-21,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v5
+2019-05-21,OPG MR_Initiation_S_ND
+2019-05-21,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-05-21,OPG MM_Ratings Downgrade_S_SK_PS_1kr_v3
+2019-05-21,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr
+2019-05-21,OPG MM_Guidance_S_SK_PS_1kr_v4
+2019-05-21,OPG MM_Reco Fav Analysts_L_0.75kr_v3
+2019-05-21,OPG MM_Buyback_L_QG_PS_0.75kr_v4
+2019-05-21,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-05-21,OPG MM_Insider Trade_L_MK_PS_0.5kr
+2019-05-21,OPG MM_Arb Nat Gas_S_MK_PS_1.375kr
+2019-05-21,OPG MM_Arb Nat Gas_L_MK_PS_1.375kr
+2019-05-21,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-05-21,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-05-21,OPG MM_IPO Day1 Priced Above_L_MK_PS_2k
+2019-05-20,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v5
+2019-05-20,OPG MR_Initiation_S_ND
+2019-05-20,OPG MM_Ratings Downgrade_S_SK_PS_1kr_v3
+2019-05-20,OPG MM_Guidance_S_SK_PS_1kr_v4
+2019-05-20,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-05-20,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr
+2019-05-20,OPG MM_Reco Fav Analysts_L_0.75kr_v3
+2019-05-20,OPG MM_Buyback_L_QG_PS_0.75kr_v4
+2019-05-20,OPG MM_Insider Trade_L_MK_PS_0.5kr
+2019-05-20,OPG MM_Arb Nat Gas_L_MK_PS_1.375kr
+2019-05-20,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-05-20,OPG MM_Arb Nat Gas_S_MK_PS_1.375kr
+2019-05-20,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-05-20,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-05-20,OPG MM_IPO Day1 Priced Above_L_MK_PS_2k
+2019-05-17,OPG MM_IPO Day1 Priced Above_L_MK_PS_2k
+2019-05-17,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v5
+2019-05-17,OPG MR_Earnings Gapping_L_QG_PS_0.75kr
+2019-05-17,OPG MM_Earnings_S_SK_PS_1.375kr_v2
+2019-05-17,OPG MM_Earnings Rollover_S_SK_PS_1.25kr
+2019-05-17,OPG MR_Earnings Gapping_S_SK_PS_1kr_v2
+2019-05-17,OPG MR_Initiation_S_ND
+2019-05-17,OPG MM_Ratings Downgrade_S_SK_PS_1kr_v3
+2019-05-17,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-05-17,OPG MM_Guidance_S_SK_PS_1kr_v4
+2019-05-17,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr
+2019-05-17,OPG MM_Earnings_L_ND_PS_1kr
+2019-05-17,OPG MM_Reco Fav Analysts_L_0.75kr_v3
+2019-05-17,OPG MM_Buyback_L_QG_PS_0.75kr_v4
+2019-05-17,OPG MM_Insider Trade_L_MK_PS_0.5kr
+2019-05-17,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-05-17,OPG MM_Arb Nat Gas_L_MK_PS_1.375kr
+2019-05-17,OPG MM_Arb Nat Gas_S_MK_PS_1.375kr
+2019-05-17,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-05-17,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-05-17,OPG MR_OPEX Weekly_L_MK_PS_0.25kr
+2019-05-17,OPG MR_OPEX Weekly_S_MK_PS_0.25kr
+2019-05-17,OPG MR_OPEX Weekly_S_MK_PS_0.25kr
+2019-05-17,OPG MM_Earnings_S_SK_PS_1.375kr_v2
+2019-05-17,OPG MR_OPEX Weekly_L_MK_PS_0.25kr
+2019-05-17,OPG MM_Earnings Rollover_S_SK_PS_1.25kr
+2019-05-17,OPG MM_Reco Fav Analysts_L_0.75kr_v3
+2019-05-17,OPG MR_Earnings Gapping_S_SK_PS_1kr_v2
+2019-05-17,OPG MM_Buyback_L_QG_PS_0.75kr_v4
+2019-05-17,OPG MR_Initiation_S_ND
+2019-05-17,OPG MM_Insider Trade_L_MK_PS_0.5kr
+2019-05-17,OPG MM_Ratings Downgrade_S_SK_PS_1kr_v3
+2019-05-17,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-05-17,OPG MM_Guidance_S_SK_PS_1kr_v4
+2019-05-17,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr
+2019-05-17,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-05-17,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v5
+2019-05-17,OPG MM_Arb Nat Gas_S_MK_PS_1.375kr
+2019-05-17,OPG MM_IPO Day1 Priced Above_L_MK_PS_2k
+2019-05-17,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-05-17,OPG MM_Arb Nat Gas_L_MK_PS_1.375kr
+2019-05-17,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-05-17,OPG MM_Earnings_L_ND_PS_1kr
+2019-05-17,OPG MR_Earnings Gapping_L_QG_PS_0.75kr
+2019-05-16,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v5
+2019-05-16,OPG MR_Earnings Gapping_L_QG_PS_0.75kr
+2019-05-16,OPG MM_Earnings_S_SK_PS_1.375kr_v2
+2019-05-16,OPG MM_Earnings Rollover_S_SK_PS_1.25kr
+2019-05-16,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-05-16,OPG MR_Earnings Gapping_S_SK_PS_1kr_v2
+2019-05-16,OPG MR_Initiation_S_ND
+2019-05-16,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr
+2019-05-16,OPG MM_Ratings Downgrade_S_SK_PS_1kr_v3
+2019-05-16,OPG MM_Earnings_L_ND_PS_1kr
+2019-05-16,OPG MM_Reco Fav Analysts_L_0.75kr_v3
+2019-05-16,OPG MM_Buyback_L_QG_PS_0.75kr_v4
+2019-05-16,OPG MM_Insider Trade_L_MK_PS_0.5kr
+2019-05-16,OPG MM_Arb Nat Gas_L_MK_PS_1.375kr
+2019-05-16,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-05-16,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-05-16,OPG MM_Arb Nat Gas_S_MK_PS_1.375kr
+2019-05-16,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-05-16,OPG MM_Guidance_S_SK_PS_1kr_v4
+2019-05-16,OPG MM_IPO Day1 Priced Above_L_MK_PS_2k
+2019-05-15,OPG MM_IPO Day1 Priced Above_L_MK_PS_2k
+2019-05-15,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v5
+2019-05-15,OPG MR_Earnings Gapping_L_QG_PS_0.75kr
+2019-05-15,OPG MM_Earnings_S_SK_PS_1.375kr_v2
+2019-05-15,OPG MM_Earnings Rollover_S_SK_PS_1.25kr
+2019-05-15,OPG MR_Earnings Gapping_S_SK_PS_1kr_v2
+2019-05-15,OPG MR_Initiation_S_ND
+2019-05-15,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-05-15,OPG MM_Ratings Downgrade_S_SK_PS_1kr_v3
+2019-05-15,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr
+2019-05-15,OPG MM_Guidance_S_SK_PS_1kr_v4
+2019-05-15,OPG MM_Earnings_L_ND_PS_1kr
+2019-05-15,OPG MM_Reco Fav Analysts_L_0.75kr_v3
+2019-05-15,OPG MM_Buyback_L_QG_PS_0.75kr_v4
+2019-05-15,OPG MM_Insider Trade_L_MK_PS_0.5kr
+2019-05-15,OPG MM_Arb Nat Gas_L_MK_PS_1.375kr
+2019-05-15,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-05-15,OPG MM_Arb Nat Gas_S_MK_PS_1.375kr
+2019-05-15,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-05-15,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-05-14,OPG MM_IPO Day1 Priced Above_L_MK_PS_2k
+2019-05-14,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v5
+2019-05-14,OPG MR_Earnings Gapping_L_QG_PS_0.75kr
+2019-05-14,OPG MR_Initiation_S_ND
+2019-05-14,OPG MR_Earnings Gapping_S_SK_PS_1kr_v2
+2019-05-14,OPG MM_Earnings Rollover_S_SK_PS_1.25kr
+2019-05-14,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-05-14,OPG MM_Earnings_S_SK_PS_1.375kr_v2
+2019-05-14,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr
+2019-05-14,OPG MM_Guidance_S_SK_PS_1kr_v4
+2019-05-14,OPG MM_Earnings_L_ND_PS_1kr
+2019-05-14,OPG MM_Ratings Downgrade_S_SK_PS_1kr_v3
+2019-05-14,OPG MM_Buyback_L_QG_PS_0.75kr_v3
+2019-05-14,OPG MM_Arb Nat Gas_L_MK_PS_1.375kr
+2019-05-14,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-05-14,OPG MM_Arb Nat Gas_S_MK_PS_1.375kr
+2019-05-14,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-05-14,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-05-14,OPG MR_OPEX Weekly_S_MK_PS_0.25kr
+2019-05-14,OPG MR_OPEX Weekly_L_MK_PS_0.25kr
+2019-05-13,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v5
+2019-05-13,OPG MR_Earnings Gapping_L_QG_PS_0.75kr
+2019-05-13,OPG MR_Initiation_S_ND
+2019-05-13,OPG MR_Earnings Gapping_S_SK_PS_1kr_v2
+2019-05-13,OPG MM_Earnings Rollover_S_SK_PS_1.25kr
+2019-05-13,OPG MM_Earnings_S_SK_PS_1.375kr_v2
+2019-05-13,OPG MM_Guidance_S_SK_PS_1kr_v4
+2019-05-13,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-05-13,OPG MM_Ratings Downgrade_S_SK_PS_1kr_v3
+2019-05-13,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr
+2019-05-13,OPG MM_Earnings_L_ND_PS_1kr
+2019-05-13,OPG MM_Buyback_L_QG_PS_0.75kr_v3
+2019-05-13,OPG MM_Arb Nat Gas_L_MK_PS_1.375kr
+2019-05-13,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-05-13,OPG MM_Arb Nat Gas_S_MK_PS_1.375kr
+2019-05-13,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-05-13,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-05-13,OPG MR_OPEX Weekly_L_MK_PS_0.25kr
+2019-05-13,OPG MR_OPEX Weekly_S_MK_PS_0.25kr
+2019-05-13,OPG MM_IPO Day1 Priced Above_L_MK_PS_2k
+2019-05-10,OPG MM_IPO Day1 Priced Above_L_MK_PS_2k
+2019-05-10,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v5
+2019-05-10,OPG MR_Earnings Gapping_L_QG_PS_0.75kr
+2019-05-10,OPG MR_Initiation_S_ND
+2019-05-10,OPG MR_Earnings Gapping_S_SK_PS_1kr_v2
+2019-05-10,OPG MM_Earnings Rollover_S_SK_PS_1.25kr
+2019-05-10,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-05-10,OPG MM_Earnings_S_SK_PS_1.375kr_v2
+2019-05-10,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr
+2019-05-10,OPG MM_Ratings Downgrade_S_SK_PS_1kr_v3
+2019-05-10,OPG MM_Earnings_L_ND_PS_1kr
+2019-05-10,OPG MR_OPEX Weekly_L_MK_PS_0.25kr
+2019-05-10,OPG MM_Buyback_L_QG_PS_0.75kr_v3
+2019-05-10,OPG MM_Arb Nat Gas_L_MK_PS_1.375kr
+2019-05-10,OPG MR_OPEX Weekly_S_MK_PS_0.25kr
+2019-05-10,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-05-10,OPG MM_Arb Nat Gas_S_MK_PS_1.375kr
+2019-05-10,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-05-10,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-05-10,OPG MM_Guidance_S_SK_PS_1kr_v4
+2019-05-09,OPG MM_IPO Day1 Priced Above_L_MK_PS_2k
+2019-05-09,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v5
+2019-05-09,OPG MR_Earnings Gapping_L_QG_PS_0.75kr
+2019-05-09,OPG MR_Initiation_S_ND
+2019-05-09,OPG MR_Earnings Gapping_S_SK_PS_1kr_v2
+2019-05-09,OPG MM_Earnings Rollover_S_SK_PS_1.25kr
+2019-05-09,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-05-09,OPG MM_Earnings_S_SK_PS_1.375kr_v2
+2019-05-09,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr
+2019-05-09,OPG MM_Guidance_S_SK_PS_1kr_v4
+2019-05-09,OPG MM_Earnings_L_ND_PS_1kr
+2019-05-09,OPG MM_Ratings Downgrade_S_SK_PS_1kr_v3
+2019-05-09,OPG MM_Buyback_L_QG_PS_0.75kr_v3
+2019-05-09,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-05-09,OPG MM_Arb Nat Gas_L_MK_PS_1.375kr
+2019-05-09,OPG MM_Arb Nat Gas_S_MK_PS_1.375kr
+2019-05-09,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-05-09,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-05-09,OPG MR_OPEX Weekly_L_MK_PS_0.25kr
+2019-05-09,OPG MR_OPEX Weekly_S_MK_PS_0.25kr
+2019-05-09,OPG MR_Initiation_S_ND_Test_Run
+2019-05-09,OPG MR_OPEX Weekly_S_MK_PS_0.25kr
+2019-05-09,OPG MR_Earnings Gapping_S_SK_PS_1kr_v2
+2019-05-09,OPG MM_Earnings Rollover_S_SK_PS_1.25kr
+2019-05-09,OPG MM_Earnings_S_SK_PS_1.375kr_v2
+2019-05-09,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-05-09,OPG MM_Guidance_S_SK_PS_1kr_v4
+2019-05-09,OPG MM_Ratings Downgrade_S_SK_PS_1kr_v3
+2019-05-09,OPG MM_Arb Nat Gas_S_MK_PS_1.375kr
+2019-05-09,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-05-08,OPG MM_IPO Day1 Priced Above_L_MK_PS_2k
+2019-05-08,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v5
+2019-05-08,OPG MR_Earnings Gapping_L_QG_PS_0.75kr
+2019-05-08,OPG MR_Initiation_S_ND_Test_Run
+2019-05-08,OPG MR_Earnings Gapping_S_SK_PS_1kr_v2
+2019-05-08,OPG MM_Earnings Rollover_S_SK_PS_1.25kr
+2019-05-08,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr
+2019-05-08,OPG MM_Earnings_S_SK_PS_1.375kr_v2
+2019-05-08,OPG MM_Earnings_L_ND_PS_1kr
+2019-05-08,OPG MR_OPEX Weekly_L_MK_PS_0.25kr
+2019-05-08,OPG MM_Buyback_L_QG_PS_0.75kr_v3
+2019-05-08,OPG MM_Arb Nat Gas_L_MK_PS_1.375kr
+2019-05-08,OPG MR_OPEX Weekly_S_MK_PS_0.25kr
+2019-05-08,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-05-08,OPG MM_Arb Nat Gas_S_MK_PS_1.375kr
+2019-05-08,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-05-08,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-05-08,OPG MM_Guidance_S_SK_PS_1kr_v4
+2019-05-08,OPG MM_Ratings Downgrade_S_SK_PS_1kr_v3
+2019-05-08,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-05-07,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v5
+2019-05-07,OPG MR_Earnings Gapping_L_QG_PS_0.75kr
+2019-05-07,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-05-07,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr
+2019-05-07,OPG MM_Earnings_L_ND_PS_1kr
+2019-05-07,OPG MM_Buyback_L_QG_PS_0.75kr_v3
+2019-05-07,OPG MM_Arb Nat Gas_L_MK_PS_1.375kr
+2019-05-07,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-05-07,OPG MR_Initiation_S_ND_Test_Run
+2019-05-07,OPG MR_Earnings Gapping_S_SK_PS_1kr_v2
+2019-05-07,OPG MM_Earnings Rollover_S_SK_PS_1.25kr
+2019-05-07,OPG MM_Earnings_S_SK_PS_1.375kr_v2
+2019-05-07,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-05-07,OPG MM_Ratings Downgrade_S_SK_PS_1kr_v3
+2019-05-07,OPG MM_Arb Nat Gas_S_MK_PS_1.375kr
+2019-05-07,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-05-07,OPG MR_OPEX Weekly_S_MK_PS_0.25kr
+2019-05-07,OPG MM_Guidance_S_SK_PS_1kr_v4
+2019-05-07,OPG MR_OPEX Weekly_L_MK_PS_0.25kr
+2019-05-07,OPG MM_IPO Day1 Priced Above_L_MK_PS_2k
+2019-05-06,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v5
+2019-05-06,OPG MR_Earnings Gapping_L_QG_PS_0.75kr
+2019-05-06,OPG MR_Earnings Gapping_S_SK_PS_1kr_v2
+2019-05-06,OPG MM_Earnings Rollover_S_SK_PS_1.25kr
+2019-05-06,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-05-06,OPG MM_Earnings_S_SK_PS_1.375kr_v2
+2019-05-06,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr
+2019-05-06,OPG MM_Guidance_S_SK_PS_1kr_v4
+2019-05-06,OPG MM_Earnings_L_ND_PS_1kr
+2019-05-06,OPG MM_Ratings Downgrade_S_SK_PS_1kr_v3
+2019-05-06,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-05-06,OPG MM_Buyback_L_QG_PS_0.75kr_v3
+2019-05-06,OPG MM_Arb Nat Gas_S_MK_PS_1.375kr
+2019-05-06,OPG MM_Arb Nat Gas_L_MK_PS_1.375kr
+2019-05-06,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-05-06,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-05-06,OPG MR_OPEX Weekly_S_MK_PS_0.25kr
+2019-05-06,OPG MR_OPEX Weekly_L_MK_PS_0.25kr
+2019-05-06,OPG MM_IPO Day1 Priced Above_L_MK_PS_2k
+2019-05-03,OPG MM_IPO Day1 Priced Above_L_MK_PS_2k
+2019-05-03,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v5
+2019-05-03,OPG MR_Earnings Gapping_L_QG_PS_0.75kr
+2019-05-03,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
+2019-05-03,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr
+2019-05-03,OPG MR_Earnings Gapping_S_SK_PS_1kr_v2
+2019-05-03,OPG MM_Earnings Rollover_S_SK_PS_1.25kr
+2019-05-03,OPG MM_Earnings_L_ND_PS_1kr
+2019-05-03,OPG MM_Earnings_S_SK_PS_1.375kr_v2
+2019-05-03,OPG MR_OPEX Weekly_L_MK_PS_0.25kr
+2019-05-03,OPG MM_Buyback_L_QG_PS_0.75kr_v3
+2019-05-03,OPG MM_Arb Nat Gas_L_MK_PS_1.375kr
+2019-05-03,OPG MR_OPEX Weekly_S_MK_PS_0.25kr
+2019-05-03,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-05-03,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-05-03,OPG MM_Arb Nat Gas_S_MK_PS_1.375kr
+2019-05-03,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-05-03,OPG MM_Guidance_S_SK_PS_1kr_v4
+2019-05-03,OPG MM_Ratings Downgrade_S_SK_PS_1kr_v3
+2019-05-02,OPG MM_Secondary Priced v2_L_RG_PS_1.5kr_v5
+2019-05-02,OPG MR_Earnings Gapping_L_QG_PS_0.75kr
+2019-05-02,OPG MM_Airline Numbers_S_ND_PS_0.5kr
+2019-05-02,OPG MR_Earnings Gapping_S_SK_PS_1kr_v2
+2019-05-02,OPG MM_Airline Numbers_L_ND_PS_0.5kr
+2019-05-02,OPG MM_Earnings Rollover_S_SK_PS_1.25kr
+2019-05-02,OPG MM_Secondary Priced BC_L_SK_PS_1.5kr
+2019-05-02,OPG MM_Earnings_S_SK_PS_1.375kr_v2
+2019-05-02,OPG MM_Earnings_L_ND_PS_1kr
+2019-05-02,OPG MM_Guidance_S_SK_PS_1kr_v4
+2019-05-02,OPG MR_OPEX Weekly_L_MK_PS_0.25kr
+2019-05-02,OPG MM_Buyback_L_QG_PS_0.75kr_v3
+2019-05-02,OPG MR_OPEX Weekly_S_MK_PS_0.25kr
+2019-05-02,OPG MM_Arb Nat Gas_L_MK_PS_1.375kr
+2019-05-02,OPG MR_Ratings_S_QG_PS_1kr_v6
+2019-05-02,OPG MM_Arb Nat Gas_S_MK_PS_1.375kr
+2019-05-02,OPG MR_Clear Price_S_MK_PS_0.25kr
+2019-05-02,OPG MR_Clear Price_L_MK_PS_0.25kr
+2019-05-02,OPG MM_Ratings Downgrade_S_SK_PS_1kr_v3
+2019-05-02,OPG MR_Ratings_L_QG_PS_0.75kr_v1.1
